@@ -9,15 +9,16 @@ jobs:
   stable:
     runs-on: ubuntu-latest
     steps:
-      - env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
       - name: Setup Python env
         uses: actions/setup-python@v1
         with:
           python-version: 3.9
 
       - uses: actions/checkout@v2
+
       - name: Fetch free subscriptions
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
         run: |
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
