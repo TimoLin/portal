@@ -17,10 +17,14 @@ def main():
         fetchContent = urlopen(subLink).read()
         fetchLinks = base64.b64decode(fetchContent).decode('utf-8')
         nodeLinks += fetchLinks
-    content = str2Bas64(nodeLinks)
 
+    content = str2Bas64(nodeLinks)
+    
     with open("index.html",'w') as f:
         f.write(content)
+
+    # Return node numbers
+    print (len(nodeLinks.splitlines()))
 
 if __name__ == "__main__":
     main()
