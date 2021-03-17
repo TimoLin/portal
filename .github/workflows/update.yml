@@ -8,8 +8,6 @@ on:
 jobs:
   stable:
     runs-on: ubuntu-latest
-    env:
-      nodeNumber: 0
     steps:
       - name: Setup Python env
         uses: actions/setup-python@v1
@@ -20,13 +18,12 @@ jobs:
       - name: Fetch free subscriptions
         run: |
           return=$((python ./parser.py) 2>&1)
-          echo "::set-env env.nodeNumber=${return}"
-          echo $env.nodeNumber
+          echo "::set-env nodeNumber=$return"
 
       - name: Push to github and triger netlify to publish
         run: |
-          echo $env.nodeNumber
+          cat log > $nodeNumber
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update with ${env.nodeNumber} nodes"
+          git commit --allow-empty -am "Automated update ${{ steps.nodeNumber }} nodes"
           git push
