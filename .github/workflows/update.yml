@@ -9,6 +9,8 @@ jobs:
   stable:
     runs-on: ubuntu-latest
     steps:
+      - env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
       - name: Setup Python env
         uses: actions/setup-python@v1
         with:
