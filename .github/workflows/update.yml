@@ -22,7 +22,6 @@ jobs:
 
       - name: Push to github and triger netlify to publish
         run: |
-          cat log > $nodeNumber
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
           git commit --allow-empty -am "Automated update ${{ steps.vars.nodeNumber }} nodes"
