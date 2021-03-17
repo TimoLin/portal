@@ -21,11 +21,12 @@ jobs:
         run: |
           return=$((python ./parser.py) 2>&1)
           echo "::set-env env.nodeNumber=${return}"
+          echo $env.nodeNumber
 
       - name: Push to github and triger netlify to publish
         run: |
-          echo $nodeNumber
+          echo $env.nodeNumber
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update with ${{env.nodeNumber}} nodes"
+          git commit --allow-empty -am "Automated update with ${env.nodeNumber} nodes"
           git push
