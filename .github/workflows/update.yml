@@ -28,5 +28,5 @@ jobs:
           echo $nodeNumber
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update ${{ steps.vars.nodeNumber }} nodes"
+          git commit --allow-empty -am "Automated update $nodeNumber nodes"
           git push
