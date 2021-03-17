@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Fetch free subscriptions
         run: |
-          nodeNumber=$((python ./parser.py) 2>&1)
+          env.nodeNumber=$((python ./parser.py) 2>&1)
           echo $nodeNumber
 
       - name: Push to github and triger netlify to publish
@@ -27,5 +27,5 @@ jobs:
           echo $nodeNumber
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update with ${nodeNumber} nodes"
+          git commit --allow-empty -am "Automated update with ${{env.nodeNumber}} nodes"
           git push
