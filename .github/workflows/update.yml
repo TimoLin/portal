@@ -18,7 +18,7 @@ jobs:
       - name: Fetch free subscriptions
         run: |
           return=$((python ./parser.py) 2>&1)
-          echo "::set-env nodeNumber=$return"
+          echo "::set-env name=nodeNumber::$return"
 
       - name: Push to github and triger netlify to publish
         run: |
