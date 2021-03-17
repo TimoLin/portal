@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Fetch free subscriptions
         run: |
-          return = $((python ./parser.py) 2>&1)
+          return=$((python ./parser.py) 2>&1)
           echo "::set-env nodeNumber=${return}"
 
       - name: Push to github and triger netlify to publish
