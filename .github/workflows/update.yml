@@ -8,6 +8,8 @@ on:
 jobs:
   stable:
     runs-on: ubuntu-latest
+    env:
+      nodeNumber: 0
     steps:
       - name: Setup Python env
         uses: actions/setup-python@v1
