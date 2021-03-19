@@ -1,0 +1,32 @@
+name : "Update Proxies for V2RayN"
+
+on:
+  push:
+  schedule:
+  - cron: "*/5 * * * *"
+
+jobs:
+  stable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python env
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - uses: actions/checkout@v2
+        with: { ref: master }
+
+      - name: Fetch free subscriptions
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
+        run: |
+          return=$((python ./parser.py) 2>&1)
+          echo "::set-env name=nodeNumber::$return"
+
+      - name: Push to github and triger netlify to publish
+        run: |
+          git config --global user.name 'Timo'
+          git config --global user.email 'Timo@netlify.com'
+          git commit --allow-empty -am "Automated update $nodeNumber nodes"
+          git push
