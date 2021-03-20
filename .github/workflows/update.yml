@@ -3,7 +3,7 @@ name : "Update Proxies for V2RayN"
 on:
   push:
   schedule:
-  - cron: "* 20 * * *"
+  - cron: "0 20 * * *"
 
 jobs:
   stable:
