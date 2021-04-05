@@ -4,7 +4,8 @@ from urllib.request import urlopen
 
 
 subs = [
-        "https://iwxf.netlify.app",
+        #"https://iwxf.netlify.app",
+        "https://raw.githubusercontent.com/freefq/free/master/v2",
         "https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray"
         ]
 
