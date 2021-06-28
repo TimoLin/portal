@@ -21,7 +21,6 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
         run: |
-          python ./parser.py
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
 
