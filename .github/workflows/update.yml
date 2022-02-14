@@ -35,7 +35,7 @@ jobs:
       - name: Run test
         run: |
           cd ./SSRSpeedN-Mod-Linux
-          pip install -r requirements
+          pip install -r requirements.txt
           python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
           cp result/*.png ../test.png
 
