@@ -24,12 +24,12 @@ jobs:
           git pull
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
+          cd $HOME
 
       - name: Pull netflix test module
         uses: actions/checkout@v2
         with:
           repository: Jonathon52306/SSRSpeedN-Mod-Linux
-          path: $HOME
 
       - name: Run test
         run: |
