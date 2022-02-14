@@ -24,7 +24,6 @@ jobs:
           git pull
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
-          cd $HOME
 
       - name: Pull netflix test module
         uses: actions/checkout@v2
@@ -33,10 +32,10 @@ jobs:
 
       - name: Run test
         run: |
-          cd $HOME/SSRSpeedN-Mod-Linux
+          cd SSRSpeedN-Mod-Linux
           pip install -r requirements
           python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
-          cp result/*.png $HOME/portal/test.png
+          cp result/*.png ../test.png
 
       - name: Push to github and triger netlify to publish
         run: |
