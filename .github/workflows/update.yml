@@ -30,10 +30,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Jonathon52306/SSRSpeedN-Mod-Linux
+          path: /home/runner/work/portal
 
       - name: Run test
         run: |
-          pwd
+          cd /home/runner/work/portal/SSRSpeedN-Mod-Linux
           pip install -r requirements
           python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
           cp result/*.png ../test.png
