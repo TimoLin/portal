@@ -37,7 +37,7 @@ jobs:
           cd ./SSRSpeedN-Mod-Linux
           pip install -r requirements.txt
           python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
-          cp result/*.png ../test.png
+          cp results/*.png ../test.png
 
       - name: Push to github and triger netlify to publish
         run: |
