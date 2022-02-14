@@ -24,6 +24,7 @@ jobs:
           git pull
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
+          pwd
 
       - name: Pull netflix test module
         uses: actions/checkout@v2
@@ -32,7 +33,7 @@ jobs:
 
       - name: Run test
         run: |
-          cd SSRSpeedN-Mod-Linux
+          pwd
           pip install -r requirements
           python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
           cp result/*.png ../test.png
