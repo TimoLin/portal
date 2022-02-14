@@ -25,9 +25,22 @@ jobs:
           return=$((python ./parser.py) 2>&1)
           echo "::set-env name=nodeNumber::$return"
 
+      - name: Netflix Test
+        uses: actions/checkout@v2
+        with:
+          repository: Jonathon52306/SSRSpeedN-Mod-Linux
+        run: |
+          cd SSRSpeedN-Mod-Linux
+          pip install -r requirements
+          python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
+          cp result/*.png ../portal/test.png
+
       - name: Push to github and triger netlify to publish
         run: |
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
           git commit --allow-empty -am "Automated update $nodeNumber nodes"
           git push --force
+          cd ../
+
+
