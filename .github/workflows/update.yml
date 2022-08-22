@@ -26,19 +26,6 @@ jobs:
           echo "::set-env name=nodeNumber::$return"
           pwd
 
-      - name: Pull netflix test module
-        uses: actions/checkout@v2
-        with:
-          repository: Jonathon52306/SSRSpeedN-Mod-Linux
-          path: ./SSRSpeedN-Mod-Linux
-
-      - name: Run test
-        run: |
-          cd ./SSRSpeedN-Mod-Linux
-          pip install -r requirements.txt
-          python main.py -u https://raw.githubusercontent.com/freefq/free/master/v2
-          cp results/*.png ../test.png
-
       - name: Push to github and triger netlify to publish
         run: |
           git config --global user.name 'Timo'
