@@ -26,6 +26,11 @@ jobs:
           echo "::set-env name=nodeNumber::$return"
           pwd
 
+      - name: Check Stream Media Unlock
+        run: |
+          curl https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml --output proxies.yaml
+          ./tools/StairUnlocker-Go
+
       - name: Push to github and triger netlify to publish
         run: |
           git config --global user.name 'Timo'
