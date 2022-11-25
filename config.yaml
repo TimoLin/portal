@@ -1,0 +1,29 @@
+# info / warning / error / debug / silent
+log-level: info
+
+# subconverter 服务器地址
+converterAPI: https://sub.v1.mk/
+
+# 订阅地址
+subURL:
+
+# true：使用本地proxies.yaml文件，导出结果到netflix.yaml
+# false：上传到gist
+localFile: true
+
+# github token, localFile 为 true 时设置
+token:
+
+# 最大同时测试数
+maxConn: 32
+
+# Daemon mode 检测周期
+internal: 3600
+
+# 启用telegramBot
+enableTelegram: false
+telegram:
+  # bot的token
+  telegramToken:
+  # telegram用户id
+  chatID:
