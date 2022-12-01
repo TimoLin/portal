@@ -1,57 +1,77 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_0@20"
-      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-      port: 443
-      server: 138.2.113.84
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_0@1"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: 129.146.242.130
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_5@45"
-      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-      port: 443
-      server: 146.56.189.146
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_2@24"
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_5@24"
       password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
       port: 443
       server: 144.24.72.126
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_3_0@23"
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_1@10"
       password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
       port: 443
       server: 168.138.43.89
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_6@29"
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国_8@45"
+      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+      port: 443
+      server: 146.56.189.146
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5_3@20"
+      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+      port: 443
+      server: 138.2.113.84
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_2_4@13"
+      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+      port: 443
+      server: 168.138.44.176
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1_0@15"
+      network: ws
+      port: 443
+      server: myjp.brucean.cn
+      tls: true
+      type: vmess
+      uuid: e093b2a2-a8f3-4fca-bfe9-00583387e767
+      ws-opts:
+        headers:
+            host: myjp.brucean.cn
+        path: /
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1EF\U0001F1F5_JP_日本_1@2"
+      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+      port: 443
+      server: jgwdb3.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_3@1"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+      port: 443
+      server: 129.146.242.130
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_9@29"
       password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
       port: 443
       server: fhcarm1.gaox.ml
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_1@4"
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_4@4"
       password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
       port: 443
       server: jgwdb4.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_2_1@13"
-      password: 8d2d5953-d649-4034-94f2-72f2df2623da
-      port: 443
-      server: 168.138.44.176
       skip-cert-verify: true
       type: trojan
       udp: true
