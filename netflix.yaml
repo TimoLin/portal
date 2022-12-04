@@ -1,22 +1,8 @@
 proxies:
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_5@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国_2@8"
+      password: ddeb5b2c-5a1e-41d4-bb3a-08babe54f1a1
       port: 443
-      server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_2@48"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: jgwcc2.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2_1@24"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: 138.2.113.248
+      server: kr1.api-aws.com
       skip-cert-verify: true
       type: trojan
       udp: true
@@ -25,37 +11,65 @@ proxies:
       http-opts:
         path:
             - /
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_0@9"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_1@9"
       network: http
       port: 44631
       server: 152.70.89.67
       type: vmess
       uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_9@29"
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_6@24"
+      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+      port: 443
+      server: 144.24.72.126
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_4@1"
       password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
       port: 443
-      server: fhcarm1.gaox.ml
+      server: 129.146.242.130
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_8@45"
-      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2_2@24"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
-      server: 146.56.189.146
+      server: 138.2.113.248
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_3_16@11"
-      password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-      port: 443
-      server: kr05.wangxd.life
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_3@20"
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5_4@20"
       password: b291d129-ee55-4801-a9b8-b5316e5c37b7
       port: 443
       server: 138.2.113.84
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_3@48"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
+      port: 443
+      server: jgwcc2.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_5@4"
+      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+      port: 443
+      server: jgwdb4.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_2@10"
+      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+      port: 443
+      server: 168.138.43.89
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_10@29"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+      port: 443
+      server: fhcarm1.gaox.ml
       skip-cert-verify: true
       type: trojan
       udp: true
