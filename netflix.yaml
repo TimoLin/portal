@@ -1,59 +1,47 @@
 proxies:
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_3@48"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    - name: "\U0001F1FA\U0001F1F8_US_美国_3_4@8"
+      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
       port: 443
-      server: jgwcc2.gaox.ml
+      server: 129.146.190.42
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_22@2"
-      network: ws
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_10@29"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
       port: 443
-      server: kr1.sanfen001.pics
-      tls: true
-      type: vmess
-      uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
-      ws-opts:
-        headers:
-            host: kr1.sanfen001.pics
-        path: /zh-cn
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2_2@24"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: 138.2.113.248
+      server: fhcarm1.gaox.ml
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_2_5@13"
-      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_6@24"
+      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
       port: 443
-      server: 168.138.44.176
+      server: 144.24.72.126
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1EF\U0001F1F5_JP_日本_2@2"
-      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_2@10"
+      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
       port: 443
-      server: jgwdb3.gaox.ml
+      server: 168.138.43.89
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 美国(v2rayshare.com每日节点更新) 27_25@62"
-      network: ws
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_12@5"
+      obfs: tls1.2_ticket_auth
+      password: dongtaiwang.com
+      port: 11444
+      protocol: auth_chain_a
+      server: ssr3.ssrfree7.xyz
+      type: ssr
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_3@32"
+      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
       port: 443
-      server: 198.41.203.6
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-      ws-opts:
-        headers:
-            Host: fr1.trump2023.org
-        path: /9JZFDTKE
+      server: fhcamd2.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - name: "\U0001F1FA\U0001F1F8_US_美国_5_4@20"
       password: b291d129-ee55-4801-a9b8-b5316e5c37b7
       port: 443
@@ -68,6 +56,13 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_5@4"
+      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+      port: 443
+      server: jgwdb4.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - name: "\U0001F1FA\U0001F1F8_US_美国_7_4@29"
       password: f39bd244-f5fe-415c-8b98-a1e5250bf178
       port: 443
@@ -75,34 +70,3 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_22@1"
-      network: ws
-      port: 443
-      server: sg1.sanfen001.pics
-      tls: true
-      type: vmess
-      uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
-      ws-opts:
-        headers:
-            host: sg1.sanfen001.pics
-        path: /zh-cn
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_6@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-      port: 443
-      server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_1@9"
-      network: http
-      port: 44631
-      server: 152.70.89.67
-      type: vmess
-      uuid: 198d8957-377e-4a06-d9ea-414cc0067de4
