@@ -5,9 +5,10 @@ from urllib.request import urlopen
 
 subs = [
         #"https://iwxf.netlify.app",
-        "https://raw.githubusercontent.com/freefq/free/master/v2",
-        "https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
+        #"https://raw.githubusercontent.com/freefq/free/master/v2",
+        #"https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
+        "https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
         ]
 
 def str2Bas64(link):
