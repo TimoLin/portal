@@ -1,18 +1,4 @@
 proxies:
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_8@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-      port: 443
-      server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_12@29"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: fhcarm1.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - name: "\U0001F1EE\U0001F1F9_IT_意大利_5@48"
       password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
@@ -20,10 +6,17 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2_4@24"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_8@24"
+      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
       port: 443
-      server: 138.2.113.248
+      server: 144.24.72.126
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国_4@8"
+      password: ddeb5b2c-5a1e-41d4-bb3a-08babe54f1a1
+      port: 443
+      server: kr1.api-aws.com
       skip-cert-verify: true
       type: trojan
       udp: true
@@ -38,13 +31,6 @@ proxies:
       password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
       port: 443
       server: jgwdb4.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_7_6@29"
-      password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-      port: 443
-      server: 129.146.255.158
       skip-cert-verify: true
       type: trojan
       udp: true
