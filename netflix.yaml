@@ -1,14 +1,56 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8_US_美国_7_6@29"
-      password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1EF\U0001F1F5_JP_日本_7@2"
+      password: 8d2d5953-d649-4034-94f2-72f2df2623da
       port: 443
-      server: 129.146.255.158
+      server: jgwdb3.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_7@10"
+      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+      port: 443
+      server: 168.138.43.89
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_9@1"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+      port: 443
+      server: 129.146.242.130
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5_9@20"
+      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+      port: 443
+      server: 138.2.113.84
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_2_10@13"
+      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+      port: 443
+      server: 168.138.44.176
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2_7@24"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
+      port: 443
+      server: 138.2.113.248
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_11@24"
+      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+      port: 443
+      server: 144.24.72.126
       skip-cert-verify: true
       type: trojan
       udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F2\U0001F1F4_MO_澳门->\U0001F1E9\U0001F1EA_DE_德国_8@11"
+      name: "\U0001F1F2\U0001F1F4_MO_澳门->\U0001F1E9\U0001F1EA_DE_德国_11@11"
       network: ws
       port: 443
       server: 45.64.22.6
@@ -19,33 +61,21 @@ proxies:
         headers:
             host: h1.800876.xyz
         path: /
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_8@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_8@48"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
-      server: 144.24.72.126
+      server: jgwcc2.gaox.ml
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: default_name_19@10
-      network: ws
-      port: 2086
-      server: Shopify.com
-      type: vmess
-      uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-      ws-opts:
-        headers:
-            host: scw.cloudflare.quest
-        path: /aries
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_4@10"
-      password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    - name: "\U0001F1FA\U0001F1F8_US_美国_3_22@11"
+      password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
       port: 443
-      server: 168.138.43.89
+      server: kr05.wangxd.life
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_7@4"
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利->\U0001F1EF\U0001F1F5_JP_日本_10@4"
       password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
       port: 443
       server: jgwdb4.gaox.ml
