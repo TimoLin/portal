@@ -1,8 +1,39 @@
 proxies:
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
+      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+      port: 443
+      server: 138.2.113.84
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - name: "\U0001F1FA\U0001F1F8_US_美国_3_15@8"
       password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
       port: 443
       server: 129.146.190.42
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 5_25@48"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: dongtaiwang.com
+      port: 10007
+      protocol: auth_chain_a
+      protocol-param: ""
+      server: ssrfree.zhujicn2.net
+      type: ssr
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_14@32"
+      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+      port: 443
+      server: fhcamd2.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_15@1"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+      port: 443
+      server: 129.146.242.130
       skip-cert-verify: true
       type: trojan
       udp: true
@@ -13,17 +44,10 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1E9\U0001F1EA_DE_德国_14@32"
-      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+    - name: "\U0001F1FA\U0001F1F8_US_美国_7_15@29"
+      password: f39bd244-f5fe-415c-8b98-a1e5250bf178
       port: 443
-      server: fhcamd2.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
-      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-      port: 443
-      server: 138.2.113.84
+      server: 129.146.255.158
       skip-cert-verify: true
       type: trojan
       udp: true
@@ -38,20 +62,6 @@ proxies:
       password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
       port: 443
       server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_15@1"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: 129.146.242.130
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2_13@24"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: 138.2.113.248
       skip-cert-verify: true
       type: trojan
       udp: true
