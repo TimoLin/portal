@@ -1,29 +1,30 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: default_name_2_23@10
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_24@2"
       network: ws
       port: 443
-      server: sl2.mayaa.eu.org
+      server: jp1.mayaa.cf
       tls: true
       type: vmess
-      uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
+      uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
       ws-opts:
-        path: /dsadsa144113s
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_20@45"
-      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+        path: /hfhqqweqwxxx
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港_25@46"
+      network: ws
       port: 443
-      server: 146.56.189.146
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_15@1"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: 129.146.242.130
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+      server: vfly6.xyz
+      servername: vfly6.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
+      ws-opts:
+        headers:
+            Host: vfly6.xyz
+        path: /myblog
     - name: "\U0001F1EE\U0001F1F9_IT_意大利_14@48"
       password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
@@ -31,6 +32,35 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_12@21"
+      password: d7bee830-09aa-43b2-8945-3b341b8787db
+      port: 23106
+      server: p1.bxy-fun3.com
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_15@1"
+      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+      port: 443
+      server: 129.146.242.130
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EC\U0001F1E7_GB_英国_12@26"
+      password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2
+      port: 20002
+      server: 20002.purefast2.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_12@5"
+      network: tcp
+      port: 53900
+      server: jpgithub.edgehelper.com
+      tls: true
+      type: vmess
+      uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
     - name: "\U0001F1FA\U0001F1F8_US_美国_2_13@24"
       password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
@@ -38,6 +68,38 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
+      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+      port: 443
+      server: 138.2.113.84
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港_2_12@23"
+      network: ws
+      port: 20224
+      server: imgU140111366548.hk.huawei-cacahe.com
+      type: vmess
+      uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
+      ws-opts:
+        headers:
+            host: imgU140111366548.hk.huawei-cacahe.com
+        path: /
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1ED\U0001F1F0_HK_香港_3@21"
+      network: ws
+      port: 443
+      server: 172.67.198.165
+      tls: true
+      type: vmess
+      uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
+      ws-opts:
+        headers:
+            host: vfly6.xyz
+        path: /myblog
     - name: "\U0001F1EE\U0001F1F9_IT_意大利_21@29"
       password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
       port: 443
@@ -52,21 +114,23 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
-      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-      port: 443
-      server: 138.2.113.84
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_24@2"
+      name: default_name_2_23@10
       network: ws
       port: 443
-      server: jp1.mayaa.cf
+      server: sl2.mayaa.eu.org
       tls: true
       type: vmess
-      uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
+      uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
       ws-opts:
-        path: /hfhqqweqwxxx
+        path: /dsadsa144113s
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3 _TW_台湾 2_25@45"
+      port: 224
+      server: hinet1261.gfwisbest.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
