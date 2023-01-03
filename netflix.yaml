@@ -1,87 +1,8 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
-      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+    - name: "\U0001F1EE\U0001F1F9_IT_意大利_14@48"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
       port: 443
-      server: 138.2.113.84
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA_DE_德国_14@32"
-      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-      port: 443
-      server: fhcamd2.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_17@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-      port: 443
-      server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_24@2"
-      network: ws
-      port: 443
-      server: jp1.mayaa.cf
-      tls: true
-      type: vmess
-      uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
-      ws-opts:
-        path: /hfhqqweqwxxx
-    - alterId: 0
-      cipher: auto
-      name: default_name_2_23@10
-      network: ws
-      port: 443
-      server: sl2.mayaa.eu.org
-      tls: true
-      type: vmess
-      uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
-      ws-opts:
-        path: /dsadsa144113s
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港_25@46"
-      network: ws
-      port: 443
-      server: vfly6.xyz
-      servername: vfly6.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
-      ws-opts:
-        headers:
-            Host: vfly6.xyz
-        path: /myblog
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_21@29"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: fhcarm1.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_15@1"
-      password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-      port: 443
-      server: 129.146.242.130
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_3_15@8"
-      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-      port: 443
-      server: 129.146.190.42
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_20@45"
-      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-      port: 443
-      server: 146.56.189.146
+      server: jgwcc2.gaox.ml
       skip-cert-verify: true
       type: trojan
       udp: true
@@ -98,3 +19,64 @@ proxies:
         headers:
             host: vfly6.xyz
         path: /myblog
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港_25@46"
+      network: ws
+      port: 443
+      server: vfly6.xyz
+      servername: vfly6.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
+      ws-opts:
+        headers:
+            Host: vfly6.xyz
+        path: /myblog
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_17@24"
+      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+      port: 443
+      server: 144.24.72.126
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: default_name_2_23@10
+      network: ws
+      port: 443
+      server: sl2.mayaa.eu.org
+      tls: true
+      type: vmess
+      uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
+      ws-opts:
+        path: /dsadsa144113s
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_14@32"
+      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+      port: 443
+      server: fhcamd2.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_3_15@8"
+      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+      port: 443
+      server: 129.146.190.42
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_7_15@29"
+      password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+      port: 443
+      server: 129.146.255.158
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2_13@24"
+      password: 9c822f05-cfdc-479a-9534-60f3d4127435
+      port: 443
+      server: 138.2.113.248
+      skip-cert-verify: true
+      type: trojan
+      udp: true
