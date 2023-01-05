@@ -8,24 +8,6 @@ proxies:
       udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_24@2"
-      network: ws
-      port: 443
-      server: jp1.mayaa.cf
-      tls: true
-      type: vmess
-      uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
-      ws-opts:
-        path: /hfhqqweqwxxx
-    - name: "\U0001F1EE\U0001F1F9_IT_意大利_14@48"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: jgwcc2.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
       name: default_name_2_23@10
       network: ws
       port: 443
@@ -35,62 +17,3 @@ proxies:
       uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
       ws-opts:
         path: /dsadsa144113s
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3 _TW_台湾 2_25@45"
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - name: "\U0001F1FA\U0001F1F8_US_美国_5_15@20"
-      password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-      port: 443
-      server: 138.2.113.84
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2_13@24"
-      password: 9c822f05-cfdc-479a-9534-60f3d4127435
-      port: 443
-      server: 138.2.113.248
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@31"
-      network: ws
-      port: 443
-      server: vfly3.win
-      tls: true
-      type: vmess
-      uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
-      ws-opts:
-        path: /myblog
-    - name: "\U0001F1E9\U0001F1EA_DE_德国_14@32"
-      password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-      port: 443
-      server: fhcamd2.gaox.ml
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_10@6"
-      network: ws
-      port: 443
-      server: vjp1.0bad.com
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - name: "\U0001F1EC\U0001F1E7_GB_英国_17@24"
-      password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-      port: 443
-      server: 144.24.72.126
-      skip-cert-verify: true
-      type: trojan
-      udp: true
