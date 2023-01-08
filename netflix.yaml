@@ -1,19 +1,12 @@
 proxies:
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_20@45"
-      password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-      port: 443
-      server: 146.56.189.146
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
+    - alterId: "0"
       cipher: auto
-      name: default_name_2_23@10
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@31"
       network: ws
       port: 443
-      server: sl2.mayaa.eu.org
+      server: vfly3.win
       tls: true
       type: vmess
-      uuid: d5d8c6c4-d39c-4a0d-909e-bde51e8145ab
+      uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
       ws-opts:
-        path: /dsadsa144113s
+        path: /myblog
