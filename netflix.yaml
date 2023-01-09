@@ -10,3 +10,10 @@ proxies:
       uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
       ws-opts:
         path: /myblog
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1EF\U0001F1F5_JP_日本_13@2"
+      password: 8d2d5953-d649-4034-94f2-72f2df2623da
+      port: 443
+      server: jgwdb3.gaox.ml
+      skip-cert-verify: true
+      type: trojan
+      udp: true
