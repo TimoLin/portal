@@ -1,19 +1,29 @@
 proxies:
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@31"
-      network: ws
-      port: 443
-      server: vfly3.win
-      tls: true
+      name: "\U0001F1ED\U0001F1F0_HK_香港_2_0@30"
+      network: tcp
+      port: 18001
+      server: v1-hk.xtspeeder001.xyz
       type: vmess
-      uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
-      ws-opts:
-        path: /myblog
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1EF\U0001F1F5_JP_日本_13@2"
-      password: 8d2d5953-d649-4034-94f2-72f2df2623da
-      port: 443
-      server: jgwdb3.gaox.ml
+      uuid: 7affa329-5e15-369e-8929-b6452cdf2616
+    - name: "\U0001F1EB\U0001F1F7_FR_法国_7@36"
+      network: tcp
+      password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+      port: 1145
+      server: 141.95.61.209
       skip-cert-verify: true
       type: trojan
       udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_5@28"
+      network: ws
+      port: 80
+      server: 152.69.230.170
+      type: vmess
+      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+      ws-opts:
+        headers:
+            host: 152.69.230.170
+        path: /
