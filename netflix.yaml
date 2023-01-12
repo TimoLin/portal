@@ -7,14 +7,6 @@ proxies:
       server: v1-hk.xtspeeder001.xyz
       type: vmess
       uuid: 7affa329-5e15-369e-8929-b6452cdf2616
-    - name: "\U0001F1EB\U0001F1F7_FR_法国_7@36"
-      network: tcp
-      password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-      port: 1145
-      server: 141.95.61.209
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: "0"
       cipher: auto
       name: "\U0001F1F0\U0001F1F7_KR_韩国_2_5@28"
