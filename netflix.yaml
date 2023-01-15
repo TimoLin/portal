@@ -1,45 +1,4 @@
 proxies:
-    - name: "\U0001F1EB\U0001F1F7_FR_法国_9@36"
-      network: tcp
-      password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-      port: 1145
-      server: 141.95.61.209
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_4_1@6"
-      network: http
-      port: 57070
-      server: 8.210.126.138
-      type: vmess
-      uuid: 3727c689-134d-4b70-8962-9428225a79aa
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_3_1@5"
-      network: http
-      port: 48577
-      server: 8.210.153.242
-      type: vmess
-      uuid: dd3c5ce4-6741-4cdb-a54d-bf43475969e5
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_16_1@39"
-      network: http
-      port: 54148
-      server: 8.210.70.156
-      type: vmess
-      uuid: 1346261e-3201-4932-bfba-df869ab48116
     - alterId: "0"
       cipher: auto
       http-opts:
@@ -53,14 +12,6 @@ proxies:
       uuid: ef97abb8-c32a-4c36-8ffd-40dfffb8dd30
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_2_2@30"
-      network: tcp
-      port: 18001
-      server: v1-hk.xtspeeder001.xyz
-      type: vmess
-      uuid: 7affa329-5e15-369e-8929-b6452cdf2616
-    - alterId: "0"
-      cipher: auto
       name: "\U0001F1F0\U0001F1F7_KR_韩国_1@40"
       network: ws
       port: 80
@@ -69,3 +20,29 @@ proxies:
       uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
       ws-opts:
         path: /
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_0@32"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
+      type: vmess
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_1@23"
+      network: ws
+      port: 80
+      server: 103.56.160.184
+      type: vmess
+      uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+      ws-opts:
+        path: /tandung288.click
+    - name: "\U0001F1EB\U0001F1F7_FR_法国_9@36"
+      network: tcp
+      password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+      port: 1145
+      server: 141.95.61.209
+      skip-cert-verify: true
+      type: trojan
+      udp: true
