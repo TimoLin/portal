@@ -1,10 +1,23 @@
 proxies:
     - alterId: "0"
       cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F5\U0001F1F1_PL_波兰_0@24"
+      network: ws
+      port: 443
+      server: speed.cloudflare.com
+      tls: true
+      type: vmess
+      uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+      ws-opts:
+        headers:
+            host: v2.chigua.tk
+        path: /vmess
+    - alterId: "0"
+      cipher: auto
       http-opts:
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_2_1@4"
+      name: "\U0001F1ED\U0001F1F0_HK_香港_2_4@4"
       network: http
       port: 24447
       server: 8.210.140.81
@@ -12,25 +25,7 @@ proxies:
       uuid: ef97abb8-c32a-4c36-8ffd-40dfffb8dd30
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_1@40"
-      network: ws
-      port: 80
-      server: 152.69.230.170
-      type: vmess
-      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-      ws-opts:
-        path: /
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_0@32"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_1_1@23"
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_4@23"
       network: ws
       port: 80
       server: 103.56.160.184
@@ -38,7 +33,40 @@ proxies:
       uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
       ws-opts:
         path: /tandung288.click
-    - name: "\U0001F1EB\U0001F1F7_FR_法国_9@36"
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0_HK_香港_5_2@33"
+      network: http
+      port: 42783
+      server: 8.210.88.29
+      type: vmess
+      uuid: 1e5a4ea1-53bb-4af5-ace5-630351def1c8
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0_HK_香港_4_0@16"
+      network: http
+      port: 57070
+      server: 8.210.126.138
+      type: vmess
+      uuid: 3727c689-134d-4b70-8962-9428225a79aa
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_3_4@25"
+      network: ws
+      port: 443
+      server: vn2.hello4g.pw
+      tls: true
+      type: vmess
+      uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
+      ws-opts:
+        path: /
+    - name: "\U0001F1EB\U0001F1F7_FR_法国_12@36"
       network: tcp
       password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
       port: 1145
@@ -46,3 +74,28 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_8@19"
+      network: ws
+      port: 443
+      server: 141.101.114.32
+      tls: true
+      type: vmess
+      uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+      ws-opts:
+        headers:
+            host: lg10.cfcdn1.xyz
+        path: /A2DJOPFT
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3 _VN_越南_25@1"
+      network: ws
+      port: 80
+      server: 103.166.183.226
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+      ws-opts:
+        path: /tandung288.click
