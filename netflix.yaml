@@ -4,38 +4,12 @@ proxies:
       http-opts:
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_5_2@33"
+      name: "\U0001F1ED\U0001F1F0_HK_香港_4_0@16"
       network: http
-      port: 42783
-      server: 8.210.88.29
+      port: 57070
+      server: 8.210.126.138
       type: vmess
-      uuid: 1e5a4ea1-53bb-4af5-ace5-630351def1c8
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 2_25@4"
-      network: ws
-      port: 443
-      server: vus2.0bad.com
-      servername: vus2.0bad.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        headers:
-            Host: vus2.0bad.com
-        path: /chat
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0_HK_香港_6_4@8"
-      network: http
-      port: 26812
-      server: 8.210.48.219
-      type: vmess
-      uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008
+      uuid: 3727c689-134d-4b70-8962-9428225a79aa
     - alterId: "0"
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_16_3@42"
@@ -56,3 +30,26 @@ proxies:
       uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
       ws-opts:
         path: /abc
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0_HK_香港_5_2@33"
+      network: http
+      port: 42783
+      server: 8.210.88.29
+      type: vmess
+      uuid: 1e5a4ea1-53bb-4af5-ace5-630351def1c8
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F8\U0001F1EC_SG_新加坡_1_23@9"
+      network: ws
+      port: 80
+      server: ads.phonepe.com
+      type: vmess
+      uuid: 11288503-4f79-4659-a033-bf538ab14499
+      ws-opts:
+        headers:
+            host: lg.iwafa.tk
+        path: /wafa/
