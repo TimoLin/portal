@@ -1,25 +1,6 @@
 proxies:
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1F9\U0001F1ED_TH_泰国_3@29"
-      network: tcp
-      port: 23956
-      server: 45.91.135.234
-      type: vmess
-      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EE\U0001F1F3_IN_印度_3@27"
-      network: ws
-      port: 443
-      server: vin1.0bad.com
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - alterId: "0"
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_15_14@40"
       network: ws
       port: 43815
@@ -28,6 +9,14 @@ proxies:
       uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
       ws-opts:
         path: /abc
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1ED_TH_泰国_3@29"
+      network: tcp
+      port: 23956
+      server: 45.91.135.234
+      type: vmess
+      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
     - alterId: "0"
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_16_14@42"
@@ -39,18 +28,39 @@ proxies:
       ws-opts:
         path: /abc
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8_US_美国_6_6@31"
+      name: "\U0001F1EF\U0001F1F5_JP_日本_6_5@31"
       obfs: tls1.2_ticket_auth
-      password: dongtaiwang.com
-      port: 10002
-      protocol: auth_chain_a
-      server: 104.149.139.189
+      password: eAokbaDN6
+      port: 8081
+      protocol: origin
+      server: jp-am48-6.eqnode.net
       type: ssr
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1FA\U0001F1E6_UA_乌克兰_2@33"
-      network: tcp
-      port: 39078
-      server: 91.238.104.159
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_2@5"
+      network: ws
+      port: 80
+      server: 42.96.3.193
       type: vmess
-      uuid: 636fd9e4-6854-409c-9214-07ab36f63c75
+      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+      ws-opts:
+        path: /
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_2@45"
+      network: ws
+      port: 443
+      server: vsg1.0bad.com
+      tls: true
+      type: vmess
+      uuid: 927094d3-d678-4763-8591-e240d0bcae87
+      ws-opts:
+        path: /chat
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_8@28"
+      network: tcp
+      port: 33421
+      server: www.kuromi.eu.org
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
