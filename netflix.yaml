@@ -1,25 +1,61 @@
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_4_1@11"
+      password: "123123123"
+      port: 18022
+      server: 154.37.152.33
+      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1ED_TH_泰国_3@14"
-      network: tcp
-      port: 23956
-      server: 45.91.135.234
+      http-opts: {}
+      name: "\U0001F1F9\U0001F1F7_TR_土耳其_1@35"
+      network: http
+      port: 8080
+      server: 80.253.246.179
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
-    - alterId: 0
+      uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
+    - alterId: "0"
       cipher: auto
-      name: "\U0001F1EE\U0001F1E9_ID_印度尼西亚_2@14"
-      network: tcp
-      port: 21936
-      server: 122.248.32.86
-      servername: wx.qq.com
-      skip-cert-verify: true
-      tls: false
+      name: "\U0001F1EF\U0001F1F5_JP_日本_10_0@41"
+      network: ws
+      port: 80
+      server: 138.2.39.67
       type: vmess
-      uuid: 3c719275-2e14-4909-8b0b-05c2e12c5e75
+      uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+      ws-opts:
+        path: /
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_12_0@46"
+      network: tcp
+      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+      port: 44301
+      server: 138.2.45.89
+      skip-cert-verify: true
+      sni: osav101.jd0001.top
+      type: trojan
+      udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@6"
+      network: ws
+      port: 443
+      server: ming2.kiwireich.com
+      tls: true
+      type: vmess
+      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+      ws-opts:
+        path: /ray
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_15_19@40"
+      network: ws
+      port: 43815
+      server: blog.voewl.com
+      type: vmess
+      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+      ws-opts:
+        path: /abc
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_1_3@15"
@@ -34,40 +70,15 @@ proxies:
         path: /bb
     - alterId: "0"
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_3_9@44"
-      network: none
-      port: 16122
-      server: 117.164.185.221
+      http-opts:
+        path:
+            - /
+      name: "\U0001F1F9\U0001F1F7_TR_土耳其_16@19"
+      network: http
+      port: 8080
+      server: ns2.servero.online
       type: vmess
-      uuid: e62c703f-6910-3858-9228-da30a3e51225
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_15_19@40"
-      network: ws
-      port: 43815
-      server: blog.voewl.com
-      type: vmess
-      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-      ws-opts:
-        path: /abc
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_1@33"
-      network: ws
-      port: 443
-      server: 172.105.220.10
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_1@11"
-      password: "123123123"
-      port: 18022
-      server: 154.37.152.33
-      type: ss
+      uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
     - alterId: "0"
       cipher: auto
       name: "\U0001F1F9\U0001F1FC_TW_台湾_7@23"
@@ -76,72 +87,60 @@ proxies:
       server: hinet1261.gfwisbest.xyz
       type: vmess
       uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_9@1"
-      network: ws
-      port: 443
-      server: vjp3.0bad.com
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_10_0@41"
-      network: ws
-      port: 80
-      server: 138.2.39.67
-      type: vmess
-      uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
-      ws-opts:
-        path: /
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EE\U0001F1F3_IN_印度_8@27"
-      network: ws
-      port: 443
-      server: vin1.0bad.com
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@6"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        path: /ray
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6_2@15"
-      network: ws
-      port: 51093
-      server: 77.83.254.18
+      name: "\U0001F1ED\U0001F1F0_HK_香港_1_2@32"
+      network: tcp
+      port: 18001
+      server: v1-hk.xtspeeder001.xyz
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 16fbd33a-117d-486b-b0df-11a2759f3b14
+      uuid: 26fe3b2c-1005-362b-9700-426961cbd50b
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_16_19@42"
+      network: ws
+      port: 43815
+      server: 152.67.254.16
+      type: vmess
+      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
       ws-opts:
-        path: /
+        path: /abc
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_3@8"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_14@27"
       network: ws
       port: 443
-      server: hkbn03.tizi1.net
+      server: surongwei.eu.org
       skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+      ws-opts:
+        headers:
+            host: surongwei.eu.org
+        path: /reffs7y26g0ua
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7_GB_英国_10@27"
+      network: ws
+      port: 64443
+      server: gb-ls03.nb1.fr
       tls: true
       type: vmess
       uuid: cb7001c7-e495-41ac-b942-f25f60523414
       ws-opts:
         headers:
-            host: hkbn03.tizi1.net
+            host: gb-ls03.nb1.fr
         path: /clientarea
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1ED_TH_泰国_3@14"
+      network: tcp
+      port: 23956
+      server: 45.91.135.234
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
