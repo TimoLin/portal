@@ -1,64 +1,44 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_1@11"
-      password: "123123123"
-      port: 18022
-      server: 154.37.152.33
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2_4@6"
+      password: G!yBwPWH3Vao
+      port: 800
+      server: 72.140.224.195
       type: ss
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_10@23"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
+      type: vmess
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     - alterId: 0
       cipher: auto
-      http-opts: {}
-      name: "\U0001F1F9\U0001F1F7_TR_土耳其_1@35"
-      network: http
-      port: 8080
-      server: 80.253.246.179
+      name: "\U0001F1FA\U0001F1F8_US_美国_10_1@26"
+      network: ws
+      port: 80
+      server: us80-3.sanfen001.pics
+      servername: www.baidu.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_10_0@41"
-      network: ws
-      port: 80
-      server: 138.2.39.67
-      type: vmess
-      uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+      uuid: ed1e7cc5-e0cf-424a-8e28-70ca305f26d3
       ws-opts:
-        path: /
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_12_0@46"
-      network: tcp
-      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-      port: 44301
-      server: 138.2.45.89
-      skip-cert-verify: true
-      sni: osav101.jd0001.top
-      type: trojan
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@6"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        path: /ray
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_15_19@40"
-      network: ws
-      port: 43815
-      server: blog.voewl.com
-      type: vmess
-      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-      ws-opts:
-        path: /abc
+        path: /zh-cn/
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_3@15"
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_0@15"
+      network: tcp
+      port: 33421
+      server: www.kuromi.eu.org
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_6@15"
       network: ws
       port: 12345
       server: 152.69.197.74
@@ -70,46 +50,18 @@ proxies:
         path: /bb
     - alterId: "0"
       cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1F9\U0001F1F7_TR_土耳其_16@19"
-      network: http
-      port: 8080
-      server: ns2.servero.online
-      type: vmess
-      uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_7@23"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_2@32"
-      network: tcp
-      port: 18001
-      server: v1-hk.xtspeeder001.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 26fe3b2c-1005-362b-9700-426961cbd50b
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_16_19@42"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_3@6"
       network: ws
-      port: 43815
-      server: 152.67.254.16
+      port: 443
+      server: ming2.kiwireich.com
+      tls: true
       type: vmess
-      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
       ws-opts:
-        path: /abc
+        path: /ray
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_14@27"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_17@27"
       network: ws
       port: 443
       server: surongwei.eu.org
@@ -121,22 +73,84 @@ proxies:
         headers:
             host: surongwei.eu.org
         path: /reffs7y26g0ua
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7_GB_英国_10@27"
-      network: ws
-      port: 64443
-      server: gb-ls03.nb1.fr
-      tls: true
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-      ws-opts:
-        headers:
-            host: gb-ls03.nb1.fr
-        path: /clientarea
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1ED_TH_泰国_3@14"
+      name: "\U0001F1FA\U0001F1F8_US_美国_9_6@33"
+      network: ws
+      port: 16123
+      server: 77.83.254.18
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: b44fd079-ab6d-4c0d-c05b-c536028af33b
+      ws-opts:
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_6_4@16"
+      password: G!yBwPWH3Vao
+      port: 812
+      server: 72.140.224.195
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA_DE_德国_1_1@28"
+      port: 42785
+      server: 130.61.24.83
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 97aaa5dc-e8fb-485a-ed6c-89ac9ed927d3
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_3_4@7"
+      password: G!yBwPWH3Vao
+      port: 803
+      server: 72.140.224.195
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港_1_5@32"
+      network: tcp
+      port: 18001
+      server: v1-hk.xtspeeder001.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 26fe3b2c-1005-362b-9700-426961cbd50b
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_0@17"
+      network: ws
+      port: 80
+      server: 138.2.39.67
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+      ws-opts: {}
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_4_4@14"
+      password: G!yBwPWH3Vao
+      port: 809
+      server: 72.140.224.195
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8_US_美国_3_0@21"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: 129.146.175.86
+      skip-cert-verify: true
+      sni: phxv001.jd0001.top
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_4_4@11"
+      password: "123123123"
+      port: 18022
+      server: 154.37.152.33
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1ED_TH_泰国_6@14"
       network: tcp
       port: 23956
       server: 45.91.135.234
@@ -144,3 +158,44 @@ proxies:
       tls: false
       type: vmess
       uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1_4@5"
+      password: G!yBwPWH3Vao
+      port: 810
+      server: 72.140.224.195
+      type: ss
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_16_22@42"
+      network: ws
+      port: 43815
+      server: 152.67.254.16
+      type: vmess
+      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+      ws-opts:
+        path: /abc
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_5_4@15"
+      password: G!yBwPWH3Vao
+      port: 806
+      server: 72.140.224.195
+      type: ss
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_15_22@40"
+      network: ws
+      port: 43815
+      server: blog.voewl.com
+      type: vmess
+      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+      ws-opts:
+        path: /abc
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_12_3@46"
+      network: tcp
+      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+      port: 44301
+      server: 138.2.45.89
+      skip-cert-verify: true
+      sni: osav101.jd0001.top
+      type: trojan
+      udp: true
