@@ -10,20 +10,16 @@ proxies:
       uuid: 97aaa5dc-e8fb-485a-ed6c-89ac9ed927d3
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1ED_TH_泰国_1@24"
-      network: tcp
-      port: 23956
-      server: 45.91.135.234
+      name: "\U0001F1FA\U0001F1F8_US_美国_14_2@27"
+      network: ws
+      port: 443
+      server: vde1.0bad.com
       skip-cert-verify: true
-      tls: false
+      tls: true
       type: vmess
-      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_7@11"
-      password: "123123123"
-      port: 18022
-      server: 154.37.152.33
-      type: ss
+      uuid: 927094d3-d678-4763-8591-e240d0bcae87
+      ws-opts:
+        path: /chat
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_2_3@15"
@@ -36,41 +32,22 @@ proxies:
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_0@23"
+      name: "\U0001F1FA\U0001F1F8_US_美国_9_9@33"
       network: ws
-      port: 443
-      server: cooing-luxuriant-blue.glitch.me
+      port: 16123
+      server: 77.83.254.18
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+      uuid: b44fd079-ab6d-4c0d-c05b-c536028af33b
       ws-opts:
-        path: /api
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7_GB_英国_1_6@10"
-      network: ws
-      port: 443
-      server: vuk1.0bad.com
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        headers:
-            host: vuk1.0bad.com
-        path: /chat
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_14_2@27"
-      network: ws
-      port: 443
-      server: vde1.0bad.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2_7@6"
+      password: G!yBwPWH3Vao
+      port: 800
+      server: 72.140.224.195
+      type: ss
     - name: "\U0001F1EF\U0001F1F5_JP_日本_12_6@46"
       network: tcp
       password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
@@ -80,16 +57,45 @@ proxies:
       sni: osav101.jd0001.top
       type: trojan
       udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_4_7@11"
+      password: "123123123"
+      port: 18022
+      server: 154.37.152.33
+      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_0@1"
+      name: "\U0001F1EE\U0001F1E9_ID_印度尼西亚_8@14"
       network: tcp
-      port: 10001
-      server: 103.45.78.185
+      port: 21936
+      server: 122.248.32.86
+      servername: wx.qq.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+      uuid: 3c719275-2e14-4909-8b0b-05c2e12c5e75
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_6_7@16"
+      password: G!yBwPWH3Vao
+      port: 812
+      server: 72.140.224.195
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1ED_TH_泰国_1@24"
+      network: tcp
+      port: 23956
+      server: 45.91.135.234
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1_7@5"
+      password: G!yBwPWH3Vao
+      port: 810
+      server: 72.140.224.195
+      type: ss
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_1_3@7"
@@ -102,68 +108,11 @@ proxies:
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - alterId: 0
       cipher: auto
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_0@2"
-      network: http
-      port: 54570
-      server: 8.210.248.210
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aa1d02a4-60e6-4671-8107-4d5e6bacd265
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_20@27"
-      network: ws
-      port: 443
-      server: surongwei.eu.org
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-      ws-opts:
-        headers:
-            host: surongwei.eu.org
-        path: /reffs7y26g0ua
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_15_4@35"
-      network: ws
-      port: 51093
-      server: 77.83.254.18
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 16fbd33a-117d-486b-b0df-11a2759f3b14
-      ws-opts: {}
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EE\U0001F1E9_ID_印度尼西亚_8@14"
+      name: "\U0001F1FB\U0001F1F3_VN_越南_2_1@33"
       network: tcp
-      port: 21936
-      server: 122.248.32.86
-      servername: wx.qq.com
+      port: 41785
+      server: 103.178.234.201
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 3c719275-2e14-4909-8b0b-05c2e12c5e75
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_8@32"
-      network: tcp
-      port: 18001
-      server: v1-hk.xtspeeder001.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 26fe3b2c-1005-362b-9700-426961cbd50b
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_1_13@5"
-      network: ws
-      port: 80
-      server: 42.96.3.193
-      type: vmess
-      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-      ws-opts:
-        path: /
+      uuid: ce6e804e-3258-4cc1-a922-1c87a3886611
