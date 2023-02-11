@@ -1,21 +1,4 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_10@11"
-      password: "123123123"
-      port: 18022
-      server: 154.37.152.33
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EE\U0001F1E9_ID_印度尼西亚_11@14"
-      network: tcp
-      port: 21936
-      server: 122.248.32.86
-      servername: wx.qq.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 3c719275-2e14-4909-8b0b-05c2e12c5e75
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_3_1@23"
@@ -30,6 +13,37 @@ proxies:
         path: /roewesu
     - alterId: 0
       cipher: auto
+      name: "\U0001F1EE\U0001F1E9_ID_印度尼西亚_11@14"
+      network: tcp
+      port: 21936
+      server: 122.248.32.86
+      servername: wx.qq.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3c719275-2e14-4909-8b0b-05c2e12c5e75
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_12_9@46"
+      network: tcp
+      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+      port: 44301
+      server: 138.2.45.89
+      skip-cert-verify: true
+      sni: osav101.jd0001.top
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港_1_0@1"
+      network: http
+      port: 61228
+      server: 8.210.236.45
+      servername: 8.210.236.45
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7e0ee5c7-46ff-42f8-ab7c-06d8227da454
+    - alterId: 0
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_9_12@33"
       network: ws
       port: 16123
@@ -40,34 +54,40 @@ proxies:
       uuid: b44fd079-ab6d-4c0d-c05b-c536028af33b
       ws-opts:
         path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_6@15"
-      network: tcp
-      port: 33421
-      server: www.kuromi.eu.org
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_1@31"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_3_2@34"
+      obfs: tls1.2_ticket_auth
+      password: 3g0dHlKME
+      port: 32001
       protocol: origin
-      server: z0117.security-cloudfront-cdn.com
+      server: sg-am3.eqsunshine.com
       type: ssr
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_2_0@20"
-      network: http
-      port: 43863
-      server: 138.2.83.217
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_21@39"
+      network: ws
+      port: 80
+      server: 103.231.248.222
+      servername: dl.ops.kgvn.garenanow.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: ca984457-b017-46e5-d973-42a3c3fdc292
+      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_2_21@40"
+      network: ws
+      port: 80
+      server: hcm2.safepn.net
+      servername: dl.ops.kgvn.garenanow.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+      ws-opts:
+        path: /
     - alterId: 0
       cipher: auto
       name: "\U0001F1FB\U0001F1F3_VN_越南_2_4@33"
@@ -78,15 +98,23 @@ proxies:
       tls: false
       type: vmess
       uuid: ce6e804e-3258-4cc1-a922-1c87a3886611
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_12_9@46"
-      network: tcp
-      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-      port: 44301
-      server: 138.2.45.89
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_4_10@11"
+      password: "123123123"
+      port: 18022
+      server: 154.37.152.33
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港_2_0@2"
+      network: http
+      port: 48236
+      server: 8.210.166.114
+      servername: 8.210.166.114
       skip-cert-verify: true
-      sni: osav101.jd0001.top
-      type: trojan
-      udp: true
+      tls: false
+      type: vmess
+      uuid: 9a3ab916-0662-45ae-8844-8efa29365f84
     - name: "\U0001F1FA\U0001F1F8_US_美国_3_6@21"
       network: tcp
       password: 4d111af8-5078-37e0-a583-34155f60b32c
@@ -96,13 +124,3 @@ proxies:
       sni: phxv001.jd0001.top
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_6@7"
-      network: tcp
-      port: 33421
-      server: 168.138.194.243
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
