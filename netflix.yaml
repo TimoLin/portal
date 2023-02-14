@@ -1,50 +1,4 @@
 proxies:
-    - name: "\U0001F1ED\U0001F1F0_HK_香港_2_2@9"
-      network: tcp
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      port: 443
-      server: 103.135.103.229
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_7@5"
-      network: ws
-      port: 64443
-      server: se-ls03.nb1.fr
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-      ws-opts:
-        path: /clientarea
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_8@7"
-      network: tcp
-      port: 33421
-      server: 168.138.194.243
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_0@28"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0117.security-cloudfront-cdn.com
-      type: ssr
-    - name: "\U0001F1FA\U0001F1F8_US_美国_12_1@37"
-      network: tcp
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      port: 443
-      server: 23.145.24.30
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_3_0@27"
@@ -55,30 +9,26 @@ proxies:
       tls: false
       type: vmess
       uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_4_3@24"
+      obfs: http_simple
+      password: YpX2opBbrfqJzzMs
+      port: 42833
+      protocol: origin
+      server: z0115.security-cloudfront-cdn.com
+      type: ssr
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2_8@16"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_1@33"
       network: ws
-      port: 443
-      server: vde1.0bad.com
-      servername: vde1.0bad.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_15_9@35"
-      network: ws
-      port: 51093
-      server: 77.83.254.18
+      port: 80
+      server: 152.69.230.170
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 16fbd33a-117d-486b-b0df-11a2759f3b14
-      ws-opts: {}
+      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+      ws-opts:
+        path: /
     - name: "\U0001F1ED\U0001F1F0_HK_香港_3_2@10"
       network: tcp
       password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
@@ -90,22 +40,40 @@ proxies:
       udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_9_14@33"
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_4@23"
       network: ws
-      port: 16123
-      server: 77.83.254.18
+      port: 443
+      server: suzhihan.eu.org
       skip-cert-verify: true
-      tls: false
+      tls: true
       type: vmess
-      uuid: b44fd079-ab6d-4c0d-c05b-c536028af33b
+      uuid: 0b873cff-11ab-4716-c41a-04f886135091
       ws-opts:
-        path: /
+        path: /roewesu
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_2_8@15"
       network: tcp
       port: 33421
       server: www.kuromi.eu.org
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+    - name: "\U0001F1ED\U0001F1F0_HK_香港_2_2@9"
+      network: tcp
+      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+      port: 443
+      server: 103.135.103.229
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_8@7"
+      network: tcp
+      port: 33421
+      server: 168.138.194.243
       skip-cert-verify: true
       tls: false
       type: vmess
