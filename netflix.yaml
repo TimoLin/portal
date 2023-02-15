@@ -1,6 +1,20 @@
 proxies:
     - alterId: 0
       cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3_2@22"
+      network: ws
+      port: 443
+      server: khvwycch.cymlr.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: db39ef95-4245-418a-84c0-14c202f29bc6
+      ws-opts:
+        headers:
+            host: khvwycch.cymlr.xyz
+        path: /videnset
+    - alterId: 0
+      cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_3_0@27"
       network: tcp
       port: 26369
@@ -9,35 +23,6 @@ proxies:
       tls: false
       type: vmess
       uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6_CA_加拿大_4_3@24"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0115.security-cloudfront-cdn.com
-      type: ssr
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_1@33"
-      network: ws
-      port: 80
-      server: 152.69.230.170
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-      ws-opts:
-        path: /
-    - name: "\U0001F1ED\U0001F1F0_HK_香港_3_2@10"
-      network: tcp
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      port: 443
-      server: kaizen-hk-8.mielink-dns2.com
-      skip-cert-verify: true
-      sni: paydiu.com
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_3_4@23"
@@ -52,29 +37,22 @@ proxies:
         path: /roewesu
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_8@15"
-      network: tcp
-      port: 33421
-      server: www.kuromi.eu.org
+      name: "\U0001F1EF\U0001F1F5_JP_日本_7@31"
+      network: ws
+      port: 12345
+      server: 152.69.197.74
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - name: "\U0001F1ED\U0001F1F0_HK_香港_2_2@9"
+      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+      ws-opts:
+        path: /bb
+    - name: "\U0001F1ED\U0001F1F0_HK_香港_3_2@10"
       network: tcp
       password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
       port: 443
-      server: 103.135.103.229
+      server: kaizen-hk-8.mielink-dns2.com
       skip-cert-verify: true
+      sni: paydiu.com
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_8@7"
-      network: tcp
-      port: 33421
-      server: 168.138.194.243
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
