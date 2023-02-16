@@ -1,7 +1,86 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3_2@22"
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_2_6@12"
+      network: tcp
+      port: 10001
+      server: 103.45.78.185
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_10@10"
+      network: ws
+      port: 80
+      server: 103.167.196.8
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 56716a96-a265-448c-8969-03e626889580
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_15_12@35"
+      network: ws
+      port: 51093
+      server: 77.83.254.18
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 16fbd33a-117d-486b-b0df-11a2759f3b14
+      ws-opts: {}
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_1@39"
+      network: ws
+      port: 64443
+      server: us-ls03.nb1.fr
+      servername: us-ls03.nb1.fr
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+      ws-opts:
+        path: /clientarea
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_1_0@32"
+      network: tcp
+      port: 3230
+      server: 103.45.78.187
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_2_0@42"
+      network: tcp
+      port: 10004
+      server: 103.45.78.241
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_1@32"
+      network: ws
+      port: 64443
+      server: sea21.nb1.fr
+      servername: sea21.nb1.fr
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+      ws-opts:
+        path: /clientarea
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_2@12"
       network: ws
       port: 443
       server: khvwycch.cymlr.xyz
@@ -15,7 +94,53 @@ proxies:
         path: /videnset
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_0@27"
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_2@11"
+      network: ws
+      port: 25932
+      server: xjp2.wangjiaxin.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 33a47ce6-5ea9-4d21-d3db-ce38421d2558
+      ws-opts:
+        headers:
+            host: xjp2.wangjiaxin.xyz
+        path: /23423
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_4@33"
+      network: ws
+      port: 80
+      server: 152.69.230.170
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+      ws-opts:
+        path: /
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_0@0"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: phxv001.jd0001.top
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_9_17@33"
+      network: ws
+      port: 16123
+      server: 77.83.254.18
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: b44fd079-ab6d-4c0d-c05b-c536028af33b
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_3@27"
       network: tcp
       port: 26369
       server: 132.226.5.189
@@ -23,36 +148,11 @@ proxies:
       tls: false
       type: vmess
       uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_4@23"
-      network: ws
-      port: 443
-      server: suzhihan.eu.org
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 0b873cff-11ab-4716-c41a-04f886135091
-      ws-opts:
-        path: /roewesu
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_7@31"
-      network: ws
-      port: 12345
-      server: 152.69.197.74
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-      ws-opts:
-        path: /bb
-    - name: "\U0001F1ED\U0001F1F0_HK_香港_3_2@10"
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2_8@8"
       network: tcp
-      password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-      port: 443
-      server: kaizen-hk-8.mielink-dns2.com
+      password: shenmegui
+      port: 8448
+      server: us.swiftfalcon.app
       skip-cert-verify: true
-      sni: paydiu.com
       type: trojan
       udp: true
