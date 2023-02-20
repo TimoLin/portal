@@ -1,4 +1,46 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@7"
+      network: ws
+      port: 443
+      server: ming2.kiwireich.com
+      servername: ming2.kiwireich.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+      ws-opts:
+        path: /ray
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_6@27"
+      network: tcp
+      port: 26369
+      server: 132.226.5.189
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_0@14"
+      network: tcp
+      port: 33421
+      server: 168.138.194.243
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+    - name: "\U0001F1EF\U0001F1F5_JP_日本_3_1@28"
+      network: tcp
+      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+      port: 44301
+      server: 138.2.45.89
+      skip-cert-verify: true
+      sni: osav101.jd0001.top
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
       name: "\U0001F1F8\U0001F1EA_SE_瑞典_1@31"
       obfs: http_simple
@@ -7,6 +49,26 @@ proxies:
       protocol: origin
       server: z0117.security-cloudfront-cdn.com
       type: ssr
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_8@49"
+      network: ws
+      port: 4430
+      server: 138.2.45.89
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6abfad5a-24be-3657-85da-ceac782b7e19
+      ws-opts:
+        path: /osav101
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: phxv001.jd0001.top
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_6_10@34"
@@ -21,86 +83,6 @@ proxies:
         path: /api
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_2_1@20"
-      network: tcp
-      port: 10001
-      server: shcu01.xc188.net
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_4@32"
-      network: ws
-      port: 64443
-      server: sea21.nb1.fr
-      servername: sea21.nb1.fr
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-      ws-opts:
-        path: /clientarea
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@7"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      servername: ming2.kiwireich.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        path: /ray
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: phxv001.jd0001.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_0@13"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_1_3@32"
-      network: tcp
-      port: 3230
-      server: 103.45.78.187
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_2@2"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: 152.70.143.228
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_3@21"
-      obfs: tls1.2_ticket_auth
-      password: eAokbaDN6
-      port: 8081
-      protocol: origin
-      server: jp-am48-6.eqnode.net
-      type: ssr
-    - alterId: 0
-      cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_5@11"
       network: ws
       port: 25932
@@ -113,15 +95,23 @@ proxies:
         headers:
             host: xjp2.wangjiaxin.xyz
         path: /23423
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_2@2"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: 152.70.143.228
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_1_13@10"
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_0@45"
       network: ws
-      port: 80
-      server: 103.167.196.8
+      port: 12345
+      server: 152.69.197.74
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 56716a96-a265-448c-8969-03e626889580
+      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
       ws-opts:
-        path: /
+        path: /bb
