@@ -1,17 +1,36 @@
 proxies:
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_2@2"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: 152.70.143.228
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@7"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_7@33"
       network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      servername: ming2.kiwireich.com
+      port: 80
+      server: 152.69.230.170
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
       ws-opts:
-        path: /ray
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_0@45"
+      network: ws
+      port: 12345
+      server: 152.69.197.74
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+      ws-opts:
+        path: /bb
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_3_6@27"
@@ -32,55 +51,6 @@ proxies:
       tls: false
       type: vmess
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_3_1@28"
-      network: tcp
-      password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-      port: 44301
-      server: 138.2.45.89
-      skip-cert-verify: true
-      sni: osav101.jd0001.top
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_1@31"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0117.security-cloudfront-cdn.com
-      type: ssr
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_8@49"
-      network: ws
-      port: 4430
-      server: 138.2.45.89
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6abfad5a-24be-3657-85da-ceac782b7e19
-      ws-opts:
-        path: /osav101
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: phxv001.jd0001.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6_10@34"
-      network: ws
-      port: 443
-      server: cooing-luxuriant-blue.glitch.me
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
-      ws-opts:
-        path: /api
     - alterId: 0
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_5@11"
@@ -95,23 +65,25 @@ proxies:
         headers:
             host: xjp2.wangjiaxin.xyz
         path: /23423
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_2@2"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: 152.70.143.228
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_4_0@45"
+      name: "\U0001F1FF\U0001F1E6_ZA_南非_5@16"
       network: ws
-      port: 12345
-      server: 152.69.197.74
+      port: 55600
+      server: 129.151.164.152
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+      uuid: e30f8588-2555-48b8-c354-c8e63f57232d
       ws-opts:
-        path: /bb
+        headers:
+            host: 129.151.164.152
+        path: /
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
+      network: tcp
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: phxv001.jd0001.top
+      skip-cert-verify: true
+      type: trojan
+      udp: true
