@@ -1,14 +1,52 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_1@5"
-      network: http
-      port: 31357
-      server: 8.210.131.2
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_3@13"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_2_0@15"
+      network: ws
+      port: 443
+      server: 202.79.172.53
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 30216206-14b7-40e7-995d-61c1219ba584
+      ws-opts:
+        path: /path/220128071100
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_1@3"
+      network: ws
+      port: 3331
+      server: f1f3227.u1.glados-config.net
+      servername: f1f3227.u1.glados-config.net
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+      ws-opts:
+        path: /s/f1f3227.fm.apple.com:111548
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_7@32"
+      network: ws
+      port: 64443
+      server: sea21.nb1.fr
+      servername: sea21.nb1.fr
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+      ws-opts:
+        path: /clientarea
     - cipher: aes-256-cfb
       name: "\U0001F1EB\U0001F1F7_FR_法国_2@2"
       obfs: http_simple
@@ -17,26 +55,6 @@ proxies:
       protocol: origin
       server: z0111.security-cloudfront-cdn.com
       type: ssr
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国_1_1@19"
-      network: tcp
-      port: 10005
-      server: shcu01.xc188.net
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_9@27"
-      network: tcp
-      port: 26369
-      server: 132.226.5.189
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
     - alterId: 0
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_8@11"
@@ -51,48 +69,6 @@ proxies:
         headers:
             host: xjp2.wangjiaxin.xyz
         path: /23423
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_7@32"
-      network: ws
-      port: 64443
-      server: sea21.nb1.fr
-      servername: sea21.nb1.fr
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-      ws-opts:
-        path: /clientarea
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2_1@3"
-      network: ws
-      port: 3331
-      server: f1f3227.u1.glados-config.net
-      servername: f1f3227.u1.glados-config.net
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-      ws-opts:
-        path: /s/f1f3227.fm.apple.com:111548
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_5@2"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: 152.70.143.228
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_6@21"
-      obfs: tls1.2_ticket_auth
-      password: eAokbaDN6
-      port: 8081
-      protocol: origin
-      server: jp-am48-6.eqnode.net
-      type: ssr
     - name: "\U0001F1FA\U0001F1F8_US_美国_1_6@0"
       network: tcp
       password: 4d111af8-5078-37e0-a583-34155f60b32c
@@ -101,25 +77,6 @@ proxies:
       skip-cert-verify: true
       type: trojan
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_1@9"
-      network: ws
-      port: 80
-      server: 42.96.3.193
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_1@2"
-      obfs: http_simple
-      obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z3002.security-cloudfront-cdn.com
-      type: ssr
     - alterId: 0
       cipher: auto
       name: "\U0001F1FF\U0001F1E6_ZA_南非_8@16"
@@ -134,39 +91,11 @@ proxies:
         headers:
             host: 129.151.164.152
         path: /
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F9\U0001F1FC_TW_台湾_1_0@14"
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1_5@2"
       network: tcp
-      port: 3230
-      server: 103.45.78.187
+      password: 4d111af8-5078-37e0-a583-34155f60b32c
+      port: 44302
+      server: 152.70.143.228
       skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_1@25"
-      network: ws
-      port: 8880
-      server: us-1.free.yuji2022.gq
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 4b5e4565-322f-4223-a891-78a84f189726
-      ws-opts:
-        headers:
-            host: us-1.free.yuji2022.gq
-        path: /vAambj4DgXrs5sfCFptMk
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_2_0@15"
-      network: ws
-      port: 443
-      server: 202.79.172.53
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 30216206-14b7-40e7-995d-61c1219ba584
-      ws-opts:
-        path: /path/220128071100
+      type: trojan
+      udp: true
