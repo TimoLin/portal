@@ -1,84 +1,6 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_2_15@12"
-      network: tcp
-      port: 10001
-      server: 103.45.78.185
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F5\U0001F1F1_PL_波兰_0@21"
-      network: ws
-      port: 2053
-      server: foxpol2.fovi.tk
-      servername: foxpol2.fovi.tk
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-      ws-opts:
-        path: /eisasqa
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EA_DE_德国_0@7"
-      obfs: http_simple
-      obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0110.security-cloudfront-cdn.com
-      type: ssr
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_1_13@33"
-      network: ws
-      port: 80
-      server: 152.69.230.170
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_4@7"
-      network: ws
-      port: 64443
-      server: se-ls03.nb1.fr
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: cb7001c7-e495-41ac-b942-f25f60523414
-      ws-opts:
-        path: /clientarea
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_0@36"
-      network: ws
-      port: 443
-      server: cooing-luxuriant-blue.glitch.me
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
-      ws-opts:
-        headers:
-            host: cooing-luxuriant-blue.glitch.me
-        path: /api
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7_FR_法国_1_0@6"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0111.security-cloudfront-cdn.com
-      type: ssr
-    - alterId: 0
-      cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_2_2@29"
       network: tcp
       port: 33421
@@ -90,36 +12,28 @@ proxies:
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_12@27"
-      network: tcp
-      port: 26369
-      server: 132.226.5.189
+      name: "\U0001F1FB\U0001F1F3_VN_越南_1_19@10"
+      network: ws
+      port: 80
+      server: 103.167.196.8
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
+      uuid: 56716a96-a265-448c-8969-03e626889580
+      ws-opts:
+        path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_1@6"
-      network: tcp
-      port: 49840
-      server: 140.83.57.80
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_6@45"
+      network: ws
+      port: 12345
+      server: 152.69.197.74
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 2969ad1b-9787-4927-94e6-22f597618de0
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_0@4"
-      network: ws
-      port: 443
-      server: 27.124.8.141
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6
+      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
       ws-opts:
-        path: /path/220128071100
+        path: /bb
     - alterId: 0
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_11@11"
@@ -136,6 +50,26 @@ proxies:
         path: /23423
     - alterId: 0
       cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_1@6"
+      network: tcp
+      port: 49840
+      server: 140.83.57.80
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 2969ad1b-9787-4927-94e6-22f597618de0
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_12@27"
+      network: tcp
+      port: 26369
+      server: 132.226.5.189
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
+    - alterId: 0
+      cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_2_1@22"
       network: ws
       port: 443
@@ -146,66 +80,110 @@ proxies:
       uuid: 0b873cff-11ab-4716-c41a-04f886135091
       ws-opts:
         path: /roewesu
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_0@4"
+      network: ws
+      port: 443
+      server: 27.124.8.141
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6
+      ws-opts:
+        path: /path/220128071100
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_7@8"
+      name: "\U0001F1FA\U0001F1F8_US_美国_8_0@36"
       network: ws
-      port: 80
-      server: hn1.safepn.net
-      servername: hn1.safepn.net
+      port: 443
+      server: cooing-luxuriant-blue.glitch.me
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+      ws-opts:
+        headers:
+            host: cooing-luxuriant-blue.glitch.me
+        path: /api
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_10@32"
+      network: ws
+      port: 64443
+      server: sea21.nb1.fr
+      servername: sea21.nb1.fr
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+      ws-opts:
+        path: /clientarea
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_2@37"
+      network: ws
+      port: 443
+      server: www.wyca.ga
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: d394b3e5-abc2-444f-8f2c-74eb8e4dc6ec
+      ws-opts:
+        headers:
+            host: www.wyca.ga
+        path: /giuivws
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EF\U0001F1F5_JP_日本_2_15@12"
+      network: tcp
+      port: 10001
+      server: 103.45.78.185
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EA_SE_瑞典_0@5"
+      obfs: http_simple
+      password: YpX2opBbrfqJzzMs
+      port: 42833
+      protocol: origin
+      server: z0117.security-cloudfront-cdn.com
+      type: ssr
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_6@14"
+      network: tcp
+      port: 33421
+      server: 168.138.194.243
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_12_0@47"
+      network: ws
+      port: 443
+      server: 172.67.185.133
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6
       ws-opts:
+        headers:
+            host: us1.wanwusheng.me
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6_5@18"
+      name: "\U0001F1F8\U0001F1EA_SE_瑞典_4@7"
       network: ws
-      port: 443
-      server: hax-us4.sudoxin.tk
+      port: 64443
+      server: se-ls03.nb1.fr
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6
+      uuid: cb7001c7-e495-41ac-b942-f25f60523414
       ws-opts:
-        path: /c8e0f808-25d6-4911-833e-50b9f5050ba6
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_9@0"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: phxv001.jd0001.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_7_5@22"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        path: /ray
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1_8@2"
-      network: tcp
-      password: 4d111af8-5078-37e0-a583-34155f60b32c
-      port: 44302
-      server: 152.70.143.228
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_6@13"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+        path: /clientarea
