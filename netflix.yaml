@@ -1,50 +1,65 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_0@8"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F5\U0001F1F1_PL_波兰_10@21"
       network: ws
-      port: 80
-      server: jp80.af49c4e4c2ef.sanfen001.pics
-      servername: www.baidu.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57
-      ws-opts:
-        path: /zh-cn
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_4_16@45"
-      network: ws
-      port: 12345
-      server: 152.69.197.74
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-      ws-opts:
-        path: /bb
-    - name: "\U0001F1F0\U0001F1F7_KR_韩国_2_12@21"
-      network: tcp
-      password: cd27884b-c5af-34ec-b75f-8248077818fe
-      port: 8443
-      server: 144.24.76.54
-      skip-cert-verify: true
-      sni: 2.hg.kr.cat77.cloud
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_4_17@29"
-      network: ws
-      port: 443
-      server: vjp3.0bad.com
+      port: 2053
+      server: foxpol2.fovi.tk
+      servername: foxpol2.fovi.tk
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
+      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
       ws-opts:
-        path: /chat
+        path: /eisasqa
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4_8@31"
+      network: ws
+      port: 43815
+      server: 152.67.254.16
+      servername: 152.67.254.16
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+      ws-opts:
+        path: /abc
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_9@35"
+      network: ws
+      port: 1234
+      server: 140.83.84.209
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
+      ws-opts:
+        path: /1234
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_3_22@27"
+      network: tcp
+      port: 26369
+      server: 132.226.5.189
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_9@21"
+      network: ws
+      port: 443
+      server: new6.hucloud-dns.xyz
+      servername: new6.hucloud-dns.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
+      ws-opts:
+        path: /
     - alterId: 0
       cipher: auto
       name: "\U0001F1ED\U0001F1F0_HK_香港_1@15"
@@ -68,69 +83,6 @@ proxies:
       uuid: 2969ad1b-9787-4927-94e6-22f597618de0
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4_8@31"
-      network: ws
-      port: 43815
-      server: 152.67.254.16
-      servername: 152.67.254.16
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-      ws-opts:
-        path: /abc
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_10@3"
-      network: ws
-      port: 443
-      server: 202.79.172.53
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 30216206-14b7-40e7-995d-61c1219ba584
-      ws-opts:
-        path: /path/220128071100
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_5@41"
-      network: ws
-      port: 443
-      server: 27.124.2.38
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/031730091420
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F5\U0001F1F1_PL_波兰_10@21"
-      network: ws
-      port: 2053
-      server: foxpol2.fovi.tk
-      servername: foxpol2.fovi.tk
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-      ws-opts:
-        path: /eisasqa
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2_9@21"
-      network: ws
-      port: 443
-      server: new6.hucloud-dns.xyz
-      servername: new6.hucloud-dns.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_7_15@22"
       network: ws
       port: 443
@@ -141,6 +93,32 @@ proxies:
       uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
       ws-opts:
         path: /ray
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_16@45"
+      network: ws
+      port: 12345
+      server: 152.69.197.74
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+      ws-opts:
+        path: /bb
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_8_10@36"
+      network: ws
+      port: 443
+      server: cooing-luxuriant-blue.glitch.me
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+      ws-opts:
+        headers:
+            host: cooing-luxuriant-blue.glitch.me
+        path: /api
     - name: "\U0001F1FA\U0001F1F8_US_美国_3_9@33"
       network: tcp
       password: cd27884b-c5af-34ec-b75f-8248077818fe
@@ -163,23 +141,3 @@ proxies:
         headers:
             host: xjp2.wangjiaxin.xyz
         path: /23423
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_9@35"
-      network: ws
-      port: 1234
-      server: 140.83.84.209
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
-      ws-opts:
-        path: /1234
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_2@4"
-      obfs: tls1.2_ticket_auth
-      password: eAokbaDN6
-      port: 8081
-      protocol: origin
-      server: jp-am48-6.eqnode.net
-      type: ssr
