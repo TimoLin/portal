@@ -1,54 +1,30 @@
 proxies:
     - alterId: 64
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_2_6@4"
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_13@3"
       network: ws
-      port: 50028
-      server: 43.155.102.33
+      port: 443
+      server: 202.79.172.53
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 4592247e-1528-4943-8bf3-cd9bb58b31c0
+      uuid: 30216206-14b7-40e7-995d-61c1219ba584
       ws-opts:
-        path: /hk6/getData
+        path: /path/220128071100
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_12@35"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_0@28"
       network: ws
-      port: 1234
-      server: 140.83.84.209
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
-      ws-opts:
-        path: /1234
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_3@20"
-      password: amazonskr05
       port: 443
-      server: 54.203.94.5
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_19@13"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
+      server: ming2.kiwireich.com
       skip-cert-verify: true
-      tls: false
+      tls: true
       type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_14@6"
-      network: tcp
-      port: 49840
-      server: 140.83.57.80
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2969ad1b-9787-4927-94e6-22f597618de0
+      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+      ws-opts:
+        headers:
+            host: ming2.kiwireich.com
+        path: /ray
     - alterId: 0
       cipher: auto
       name: "\U0001F1F9\U0001F1FC_TW_台湾_1_0@15"
@@ -72,27 +48,12 @@ proxies:
       uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6
       ws-opts:
         path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_15@29"
-      network: tcp
-      port: 33421
-      server: www.kuromi.eu.org
-      servername: www.kuromi.eu.org
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_5_6@13"
-      network: ws
-      port: 18730
-      server: 20.205.214.65
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b8ec1401-e5c1-4299-b315-9694cca0c2f8
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8_US_美国_8_3@20"
+      password: amazonskr05
+      port: 443
+      server: 54.203.94.5
+      type: ss
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_2_19@14"
@@ -103,18 +64,6 @@ proxies:
       tls: false
       type: vmess
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_8@41"
-      network: ws
-      port: 443
-      server: 27.124.2.38
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/031730091420
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_4_19@45"
@@ -129,6 +78,19 @@ proxies:
         path: /bb
     - alterId: 0
       cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_12@21"
+      network: ws
+      port: 443
+      server: new6.hucloud-dns.xyz
+      servername: new6.hucloud-dns.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_5_10@16"
       network: ws
       port: 443
@@ -141,31 +103,40 @@ proxies:
         headers:
             host: us1.wanwusheng.me
         path: /
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_6_6@36"
-      network: ws
-      port: 51790
-      server: 43.154.148.54
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: b74f0019-b839-421f-add8-ffaf94fc3139
-      ws-opts:
-        path: /hk7/getData
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_2@38"
+      name: "\U0001F1FA\U0001F1F8_US_美国_12_13@47"
       network: ws
       port: 443
-      server: america2.yj2022.ga
-      servername: america2.yj2022.ga
+      server: 172.67.185.133
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 4b5e4565-322f-4223-a891-78a84f189726
+      uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6
       ws-opts:
-        path: /SRhXKZqggNrPMELA525Kw
+        headers:
+            host: us1.wanwusheng.me
+        path: /
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2_0@21"
+      network: tcp
+      password: 626351FA-3CA6-8118-FADF-CCDBCD620871
+      port: 20048
+      server: oss-cn-shanghai.westdatacloud.top
+      skip-cert-verify: true
+      sni: oss-cn-shanghai.westdatacloud.top
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_15@29"
+      network: tcp
+      port: 33421
+      server: www.kuromi.eu.org
+      servername: www.kuromi.eu.org
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - alterId: 0
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_24@11"
@@ -182,14 +153,24 @@ proxies:
         path: /23423
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2_12@21"
+      name: "\U0001F1FA\U0001F1F8_US_美国_8_2@38"
       network: ws
       port: 443
-      server: new6.hucloud-dns.xyz
-      servername: new6.hucloud-dns.xyz
+      server: america2.yj2022.ga
+      servername: america2.yj2022.ga
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
+      uuid: 4b5e4565-322f-4223-a891-78a84f189726
       ws-opts:
-        path: /
+        path: /SRhXKZqggNrPMELA525Kw
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_14@6"
+      network: tcp
+      port: 49840
+      server: 140.83.57.80
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 2969ad1b-9787-4927-94e6-22f597618de0
