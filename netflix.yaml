@@ -1,84 +1,7 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_5@22"
-      network: ws
-      port: 443
-      server: 172.67.137.72
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: db39ef95-4245-418a-84c0-14c202f29bc6
-      ws-opts:
-        headers:
-            host: khvwycch.cymlr.xyz
-        path: /videnset
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3_2@4"
-      network: ws
-      port: 443
-      server: khvwycch.cymlr.xyz
-      servername: khvwycch.cymlr.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: db39ef95-4245-418a-84c0-14c202f29bc6
-      ws-opts:
-        path: /videnset
-    - alterId: 0
-      cipher: none
-      name: "\U0001F1FA\U0001F1F8_US_美国_5_8@11"
-      network: ws
-      port: 443
-      server: lv1.sharecentrepro.org
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-      ws-opts:
-        headers:
-            host: lv1.sharecentrepro.org
-        path: /shirker
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_12_3@24"
-      network: ws
-      port: 443
-      server: cf-lt.sharecentre.online
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-      ws-opts:
-        headers:
-            host: lv2.sharecentrepro.org
-        path: /shirker
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_20@6"
-      network: tcp
-      port: 49840
-      server: 140.83.57.80
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2969ad1b-9787-4927-94e6-22f597618de0
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3_0@9"
-      network: ws
-      port: 443
-      server: vin1.0bad.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_18@18"
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_21@18"
       network: ws
       port: 443
       server: surongwei.eu.org
@@ -91,7 +14,133 @@ proxies:
         path: /reffs7y26g0ua
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_6@28"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F5\U0001F1F1_PL_波兰_22@21"
+      network: ws
+      port: 2053
+      server: foxpol2.fovi.tk
+      servername: foxpol2.fovi.tk
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+      ws-opts:
+        path: /eisasqa
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_2@11"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_8@0"
+      network: ws
+      port: 2096
+      server: 4bb4ced4.ikunxiao.top
+      servername: 4bb4ced4.ikunxiao.top
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
+      ws-opts:
+        path: /index
+    - alterId: 0
+      cipher: none
+      name: "\U0001F1FA\U0001F1F8_US_美国_5_11@11"
+      network: ws
+      port: 443
+      server: lv1.sharecentrepro.org
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+      ws-opts:
+        headers:
+            host: lv1.sharecentrepro.org
+        path: /shirker
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8_US_美国_11_1@33"
+      password: amazonskr05
+      port: 443
+      server: 54.203.94.5
+      type: ss
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_1_22@3"
+      network: ws
+      port: 443
+      server: 202.79.172.53
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 30216206-14b7-40e7-995d-61c1219ba584
+      ws-opts:
+        path: /path/220128071100
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3_5@4"
+      network: ws
+      port: 443
+      server: khvwycch.cymlr.xyz
+      servername: khvwycch.cymlr.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: db39ef95-4245-418a-84c0-14c202f29bc6
+      ws-opts:
+        path: /videnset
+    - name: "\U0001F1FA\U0001F1F8_US_美国_6_8@15"
+      network: tcp
+      password: f62b7fbe09
+      port: 2096
+      server: us-sjc.okman.cf
+      skip-cert-verify: true
+      sni: us-sjc.okman.cf
+      type: trojan
+      udp: true
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_17@41"
+      network: ws
+      port: 443
+      server: 27.124.2.38
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/031730091420
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_9@15"
+      network: http
+      port: 20715
+      server: 45.121.51.103
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f6406b6d-5487-46da-f793-46611269a306
+    - alterId: 0
+      cipher: none
+      name: "\U0001F1FA\U0001F1F8_US_美国_8_0@19"
+      network: ws
+      port: 443
+      server: lv2.sharecentrepro.org
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+      ws-opts:
+        headers:
+            host: lv2.sharecentrepro.org
+        path: /shirker
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_9@28"
       network: ws
       port: 443
       server: ming2.kiwireich.com
@@ -103,43 +152,3 @@ proxies:
         headers:
             host: ming2.kiwireich.com
         path: /ray
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_0@30"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_9_9@21"
-      network: ws
-      port: 443
-      server: lv2.sharecentrepro.org
-      servername: lv2.sharecentrepro.org
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-      ws-opts:
-        path: /shirker
-    - name: "\U0001F1EF\U0001F1F5_JP_日本_1_1@8"
-      network: tcp
-      password: 6fab5b8e-2b5a-4ecd-82cb-fa3d1afb9ca7
-      port: 8443
-      server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_6_5@15"
-      network: tcp
-      password: f62b7fbe09
-      port: 2096
-      server: us-sjc.okman.cf
-      skip-cert-verify: true
-      sni: us-sjc.okman.cf
-      type: trojan
-      udp: true
