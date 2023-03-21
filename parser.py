@@ -9,7 +9,8 @@ subs = [
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
         #"https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity"
+        #"https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity"
+        "https://ghproxy.com//raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01"
         ]
 
 def str2Bas64(link):
