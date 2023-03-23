@@ -1,4 +1,31 @@
 proxies:
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港_1_4@21"
+      network: ws
+      port: 50744
+      server: 43.154.190.26
+      servername: hk8.linkeden.co
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: ce387c33-6d75-4722-95dd-b265657f2802
+      ws-opts:
+        path: /hk8/getData
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
+      network: ws
+      port: 80
+      server: sc.scyu.app
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 43930e8c-8347-4929-8e2c-9197e7c71423
+      ws-opts:
+        headers:
+            host: hax.scyu.app
+        path: /
     - alterId: 0
       cipher: auto
       name: "\U0001F1ED\U0001F1F0_HK_香港_2_1@30"
@@ -12,16 +39,14 @@ proxies:
       uuid: 63947df8-2609-4770-ac20-800bcffed655
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_5_23@30"
-      network: ws
-      port: 443
-      server: suzhihan.eu.org
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_12@15"
+      network: http
+      port: 20715
+      server: 45.121.51.103
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 0b873cff-11ab-4716-c41a-04f886135091
-      ws-opts:
-        path: /roewesu
+      uuid: f6406b6d-5487-46da-f793-46611269a306
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_1_0@4"
@@ -38,18 +63,14 @@ proxies:
         path: /123
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1E6_UA_乌克兰->\U0001F1EF\U0001F1F5_JP_日本_6@2"
-      network: ws
-      port: 443
-      server: 45.80.111.53
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_5@11"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 0b873cff-11ab-4716-c41a-04f886135091
-      ws-opts:
-        headers:
-            host: 200.aquabazi.site
-        path: /suzhihan.eu.org/roewesu
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     - alterId: 0
       cipher: auto
       name: "\U0001F1ED\U0001F1F0_HK_香港_3_1@31"
@@ -61,62 +82,18 @@ proxies:
       tls: false
       type: vmess
       uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1
-    - alterId: 0
+    - alterId: 64
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_3_24@35"
+      name: "\U0001F1ED\U0001F1F0_HK_香港_6_18@36"
       network: ws
-      port: 1234
-      server: 140.83.84.209
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
-      ws-opts:
-        path: /1234
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_12_1@22"
-      network: ws
-      port: 443
-      server: 52.206.180.173
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6dd096d-a22b-45b9-b39b-0552d956d920
-      ws-opts:
-        path: /
-    - name: "\U0001F1FA\U0001F1F8_US_美国_6_11@15"
-      network: tcp
-      password: f62b7fbe09
-      port: 2096
-      server: us-sjc.okman.cf
-      skip-cert-verify: true
-      sni: us-sjc.okman.cf
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_24@18"
-      network: ws
-      port: 443
-      server: surongwei.eu.org
-      servername: surongwei.eu.org
+      port: 51790
+      server: 43.154.148.54
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+      uuid: b74f0019-b839-421f-add8-ffaf94fc3139
       ws-opts:
-        path: /reffs7y26g0ua
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_12@15"
-      network: http
-      port: 20715
-      server: 45.121.51.103
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6406b6d-5487-46da-f793-46611269a306
+        path: /hk7/getData
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_12@28"
@@ -131,3 +108,15 @@ proxies:
         headers:
             host: ming2.kiwireich.com
         path: /ray
+    - alterId: 64
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_20@41"
+      network: ws
+      port: 443
+      server: 27.124.2.38
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/031730091420
