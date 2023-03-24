@@ -1,4 +1,17 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7_KR_韩国_2_24@18"
+      network: ws
+      port: 443
+      server: surongwei.eu.org
+      servername: surongwei.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+      ws-opts:
+        path: /reffs7y26g0ua
     - alterId: 64
       cipher: auto
       name: "\U0001F1ED\U0001F1F0_HK_香港_1_4@21"
@@ -12,41 +25,6 @@ proxies:
       uuid: ce387c33-6d75-4722-95dd-b265657f2802
       ws-opts:
         path: /hk8/getData
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_3@0"
-      network: ws
-      port: 80
-      server: sc.scyu.app
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 43930e8c-8347-4929-8e2c-9197e7c71423
-      ws-opts:
-        headers:
-            host: hax.scyu.app
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_2_1@30"
-      network: http
-      port: 31578
-      server: 8.218.228.49
-      servername: 8.218.228.49
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 63947df8-2609-4770-ac20-800bcffed655
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_12@15"
-      network: http
-      port: 20715
-      server: 45.121.51.103
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6406b6d-5487-46da-f793-46611269a306
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_1_0@4"
@@ -63,51 +41,14 @@ proxies:
         path: /123
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_5@11"
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_1@10"
       network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
+      port: 23234
+      server: jp6.lianpi.xyz
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_3_1@31"
-      network: http
-      port: 60148
-      server: 8.218.206.118
-      servername: 8.218.206.118
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: c33f0e11-3ac7-4225-a03a-f0f33603a3c1
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_6_18@36"
-      network: ws
-      port: 51790
-      server: 43.154.148.54
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: b74f0019-b839-421f-add8-ffaf94fc3139
-      ws-opts:
-        path: /hk7/getData
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_12@28"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        headers:
-            host: ming2.kiwireich.com
-        path: /ray
+      uuid: 93d94f53-e7d1-41f5-bd65-b2fcd99928e3
     - alterId: 64
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_20@41"
@@ -120,3 +61,23 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/031730091420
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_12_1@22"
+      network: ws
+      port: 443
+      server: 52.206.180.173
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f6dd096d-a22b-45b9-b39b-0552d956d920
+      ws-opts:
+        path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_2@11"
+      obfs: tls1.2_ticket_auth
+      password: eAokbaDN6
+      port: 8081
+      protocol: origin
+      server: jp-am48-6.eqnode.net
+      type: ssr
