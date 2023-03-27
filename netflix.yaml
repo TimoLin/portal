@@ -1,49 +1,4 @@
 proxies:
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0_HK_香港_1_7@21"
-      network: ws
-      port: 50744
-      server: 43.154.190.26
-      servername: hk8.linkeden.co
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: ce387c33-6d75-4722-95dd-b265657f2802
-      ws-opts:
-        path: /hk8/getData
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_23@41"
-      network: ws
-      port: 443
-      server: 27.124.2.38
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/031730091420
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_7@35"
-      network: ws
-      port: 80
-      server: hcm2.safepn.net
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_15@15"
-      network: http
-      port: 20715
-      server: 45.121.51.103
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6406b6d-5487-46da-f793-46611269a306
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F0\U0001F1F7_KR_韩国_0@25"
@@ -73,15 +28,26 @@ proxies:
         path: /shirker
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_15@28"
+      name: "\U0001F1FB\U0001F1F3_VN_越南_2_9@23"
       network: ws
-      port: 443
-      server: ming2.kiwireich.com
+      port: 80
+      server: 103.101.162.131
+      servername: dl.kgvn.garenanow.com
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+      uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
       ws-opts:
-        headers:
-            host: ming2.kiwireich.com
-        path: /ray
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_2@45"
+      network: ws
+      port: 80
+      server: vietnam8.azzphuc.pro
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+      ws-opts:
+        path: /hahuutung
