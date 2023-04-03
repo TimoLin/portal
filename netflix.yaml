@@ -1,16 +1,14 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FB\U0001F1F3_VN_越南_2@45"
-      network: ws
-      port: 80
-      server: vietnam8.azzphuc.pro
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_8@11"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
-      ws-opts:
-        path: /hahuutung
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_4_7@28"
@@ -21,16 +19,6 @@ proxies:
       tls: false
       type: vmess
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_15@15"
-      network: http
-      port: 20715
-      server: 45.121.51.103
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f6406b6d-5487-46da-f793-46611269a306
     - alterId: 64
       cipher: auto
       name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_23@41"
@@ -43,6 +31,18 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/031730091420
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FB\U0001F1F3_VN_越南_2@45"
+      network: ws
+      port: 80
+      server: vietnam8.azzphuc.pro
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+      ws-opts:
+        path: /hahuutung
     - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2_0@41"
       network: tcp
       password: 626351FA-3CA6-8118-FADF-CCDBCD620871
@@ -52,3 +52,13 @@ proxies:
       sni: oss-cn-shanghai.westdatacloud.top
       type: trojan
       udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_1_15@15"
+      network: http
+      port: 20715
+      server: 45.121.51.103
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f6406b6d-5487-46da-f793-46611269a306
