@@ -1,16 +1,24 @@
 proxies:
-    - alterId: 64
+    - alterId: 0
       cipher: auto
-      name: "\U0001F1F8\U0001F1EC_SG_新加坡_4_23@41"
-      network: ws
-      port: 443
-      server: 27.124.2.38
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_7@28"
+      network: tcp
+      port: 33421
+      server: www.kuromi.eu.org
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/031730091420
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC_TW_台湾_8@11"
+      network: tcp
+      port: 224
+      server: hinet1261.gfwisbest.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     - alterId: 0
       cipher: auto
       name: "\U0001F1FB\U0001F1F3_VN_越南_2@45"
@@ -23,67 +31,3 @@ proxies:
       uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
       ws-opts:
         path: /hahuutung
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_14@0"
-      network: ws
-      port: 2096
-      server: 4bb4ced4.ikunxiao.top
-      servername: 4bb4ced4.ikunxiao.top
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-      ws-opts:
-        path: /index
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_15@28"
-      network: ws
-      port: 443
-      server: ming2.kiwireich.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-      ws-opts:
-        headers:
-            host: ming2.kiwireich.com
-        path: /ray
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_4_7@28"
-      network: tcp
-      port: 33421
-      server: www.kuromi.eu.org
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - name: "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1FA\U0001F1F8_US_美国_3_2@35"
-      network: tcp
-      password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-      port: 20791
-      server: azgy001.xibai6.top
-      skip-cert-verify: true
-      sni: ssl.ssl12.xyz
-      type: trojan
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1FA\U0001F1F8_US_美国_1_0@1"
-      network: tcp
-      password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-      port: 20785
-      server: azgy001.xibai6.top
-      skip-cert-verify: true
-      sni: ssl.ssl12.xyz
-      type: trojan
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1FA\U0001F1F8_US_美国_2_0@10"
-      network: tcp
-      password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf
-      port: 20790
-      server: azgy001.xibai6.top
-      skip-cert-verify: true
-      sni: ssl.ssl12.xyz
-      type: trojan
-      udp: true
