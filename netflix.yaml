@@ -1,31 +1,14 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5_19@29"
-      network: ws
-      port: 2053
-      server: cf.fovi.tk
+      name: "\U0001F1EF\U0001F1F5_JP_日本_4_7@28"
+      network: tcp
+      port: 33421
+      server: www.kuromi.eu.org
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-      ws-opts:
-        headers:
-            host: foxpol.fovi.tk
-        path: /eisasqa
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_14@0"
-      network: ws
-      port: 2096
-      server: 4bb4ced4.ikunxiao.top
-      servername: 4bb4ced4.ikunxiao.top
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-      ws-opts:
-        path: /index
+      uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
     - alterId: 0
       cipher: auto
       name: "\U0001F1FB\U0001F1F3_VN_越南_2@45"
@@ -38,3 +21,17 @@ proxies:
       uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
       ws-opts:
         path: /hahuutung
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5_19@29"
+      network: ws
+      port: 2053
+      server: cf.fovi.tk
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+      ws-opts:
+        headers:
+            host: foxpol.fovi.tk
+        path: /eisasqa
