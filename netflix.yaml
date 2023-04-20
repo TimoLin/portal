@@ -1,4 +1,25 @@
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_17_6@34"
+      password: RexnBgU7EV5ADxG
+      port: 7001
+      server: 167.88.63.44
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_11@9"
+      port: 41545
+      server: 141.147.153.244
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_10_7@32"
+      password: cdBIDV42DCwnfIN
+      port: 8119
+      server: 167.88.63.44
+      type: ss
     - alterId: 0
       cipher: auto
       name: "\U0001F1EF\U0001F1F5_JP_日本_4_7@28"
@@ -9,19 +30,12 @@ proxies:
       tls: false
       type: vmess
       uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1_14@0"
-      network: ws
-      port: 2096
-      server: 4bb4ced4.ikunxiao.top
-      servername: 4bb4ced4.ikunxiao.top
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-      ws-opts:
-        path: /index
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_5_13@10"
+      password: faBAoD54k87UJG7
+      port: 2375
+      server: 167.88.63.44
+      type: ss
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F0\U0001F1F7_KR_韩国_0@25"
@@ -36,13 +50,9 @@ proxies:
         headers:
             host: surongwei.eu.org
         path: /reffs7y26g0ua
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC_TW_台湾_8@11"
-      network: tcp
-      port: 224
-      server: hinet1261.gfwisbest.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_18_6@35"
+      password: PCnnH6SQSnfoS27
+      port: 8091
+      server: 167.88.63.44
+      type: ss
