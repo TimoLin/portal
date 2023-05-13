@@ -1,28 +1,25 @@
 proxies:
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_10_7@32"
-      password: cdBIDV42DCwnfIN
-      port: 8119
-      server: 167.88.63.44
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_5_13@10"
-      password: faBAoD54k87UJG7
-      port: 2375
-      server: 167.88.63.44
-      type: ss
-    - cipher: aes-256-gcm
       name: "\U0001F1FA\U0001F1F8_US_美国_17_6@34"
       password: RexnBgU7EV5ADxG
       port: 7001
       server: 167.88.63.44
       type: ss
     - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_18_6@35"
-      password: PCnnH6SQSnfoS27
-      port: 8091
+      name: "\U0001F1FA\U0001F1F8_US_美国_10_7@32"
+      password: cdBIDV42DCwnfIN
+      port: 8119
       server: 167.88.63.44
       type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5_JP_日本_2_11@9"
+      port: 41545
+      server: 141.147.153.244
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: d47d7135-0954-46ab-a190-17b6c8630a85
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本_15@28"
@@ -37,12 +34,9 @@ proxies:
         headers:
             host: ming2.kiwireich.com
         path: /ray
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5_JP_日本_2_11@9"
-      port: 41545
-      server: 141.147.153.244
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_5_13@10"
+      password: faBAoD54k87UJG7
+      port: 2375
+      server: 167.88.63.44
+      type: ss
