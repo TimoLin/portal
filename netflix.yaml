@@ -1,13 +1,15 @@
 proxies:
-    - alterId: 0
+    - alterId: 2
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5_0@27"
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1_4@14"
       network: ws
-      port: 443
-      server: vus5.0bad.com
+      port: 23625
+      server: 25.v2-ray.cyou
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
+      uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
       ws-opts:
-        path: /chat
+        headers:
+            host: 25.v2-ray.cyou
+        path: /
