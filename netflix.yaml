@@ -1,9 +1,7 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EA_SE_瑞典_20@10"
-      obfs: http_simple
-      password: YpX2opBbrfqJzzMs
-      port: 42833
-      protocol: origin
-      server: z0117.security-cloudfront-cdn.com
-      type: ssr
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_2_5@5"
+      password: kDWvXYZoTBcGkC4
+      port: 8882
+      server: 38.114.114.19
+      type: ss
