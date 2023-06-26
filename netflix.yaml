@@ -1,14 +1,9 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8_2@38"
-      network: ws
-      port: 443
-      server: vus2.0bad.com
-      servername: vus2.0bad.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        path: /chat
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5_JP_日本_1_5@11"
+      obfs: tls1.2_ticket_auth
+      password: eAokbaDN6
+      port: 8081
+      protocol: origin
+      server: jp-am48-6.eqnode.net
+      type: ssr
