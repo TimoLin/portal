@@ -1,9 +1,9 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5_JP_日本_1_5@11"
+      name: "\U0001F1F8\U0001F1EC_SG_新加坡_2_12@8"
       obfs: tls1.2_ticket_auth
-      password: eAokbaDN6
-      port: 8081
+      password: 3g0dHlKME
+      port: 32001
       protocol: origin
-      server: jp-am48-6.eqnode.net
+      server: sg-am3.eqsunshine.com
       type: ssr
