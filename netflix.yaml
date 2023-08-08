@@ -1,10 +1,11 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5_0@27"
+      name: "\U0001F1FA\U0001F1F8_US_美国_7_2@37"
       network: ws
       port: 443
-      server: vus5.0bad.com
+      server: vus3.0bad.com
+      servername: vus3.0bad.com
       skip-cert-verify: true
       tls: true
       type: vmess
