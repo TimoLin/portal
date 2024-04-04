@@ -8,7 +8,8 @@ subs = [
         #"https://raw.githubusercontent.com/freefq/free/master/v2",
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
-        "https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
+        #"https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
+        https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
         ]
 
 def str2Bas64(link):
