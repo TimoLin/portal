@@ -9,7 +9,8 @@ subs = [
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
         #"https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
         #"https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
-        https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+        #https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+        "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
         ]
 
 def str2Bas64(link):
@@ -17,14 +18,18 @@ def str2Bas64(link):
 
 def main():
     nodeLinks = ''
+    '''
     for subLink in subs:
         fetchContent = urlopen(subLink).read()
         fetchLinks = base64.b64decode(fetchContent).decode('utf-8')
         nodeLinks += fetchLinks
-
-    content = str2Bas64(nodeLinks)
+    '''
+    for subLink in subs:
+        content = urlopen(subLink).read()
+    print(content)   
+    #content = str2Bas64(nodeLinks)
     
-    with open("index.html",'w') as f:
+    with open("index.html",'wb') as f:
         f.write(content)
 
     # Return node numbers
