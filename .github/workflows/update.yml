@@ -21,7 +21,7 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
         run: |
-          pip install yaml
+          pip install pyyaml
           python ./parser.py
 
       - name: Push to github and triger netlify to publish
