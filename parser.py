@@ -1,39 +1,55 @@
 import json
 import base64
 from urllib.request import urlopen
+import yaml
+import sys
+import os
 
+def readSubs():
+    '''
+    Read the links from the subs.list file
+    '''
+    with open('sub.list') as f:
+        subs = f.read().splitlines()
+    return subs[0]
 
-subs = [
-        #"https://iwxf.netlify.app",
-        #"https://raw.githubusercontent.com/freefq/free/master/v2",
-        #"https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub"
-        #"https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
-        #"https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity"
-        #https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
-        "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-        ]
+def filterOutVless(content,orig_file):
+    '''
+    Filter out the VLESS nodes
+    '''
+    vlessNode = []
+    for node in content['proxies']:
+        if node['type'] == 'vless':
+            content['proxies'].remove(node)
+            vlessNode.append(node['name'])
 
-def str2Bas64(link):
-    return base64.urlsafe_b64encode(link.encode('utf-8')).decode()
+    with open(orig_file) as f:
+        lines = f.readlines()
+        for line in lines:
+            for node in vlessNode:
+                if node in line:
+                    lines.remove(line)
+    with open('filtered.yml', 'w') as f:
+        f.writelines(lines)
+
+    return ( len(content['proxies'])-len(vlessNode) )
 
 def main():
     nodeLinks = ''
-    '''
-    for subLink in subs:
-        fetchContent = urlopen(subLink).read()
-        fetchLinks = base64.b64decode(fetchContent).decode('utf-8')
-        nodeLinks += fetchLinks
-    '''
-    for subLink in subs:
-        content = urlopen(subLink).read()
-    print(content)   
-    #content = str2Bas64(nodeLinks)
-    
-    with open("index.html",'wb') as f:
-        f.write(content)
 
-    # Return node numbers
-    print (len(nodeLinks.splitlines()))
+    subLink = readSubs()
+    
+    # Use wget in python to download the yml and save it to a file
+    #os.system(f'wget -O orig.yml {subLink}')
+    
+    # Use yaml to read the file
+    with open('orig.yml') as stream:
+        content = yaml.safe_load(stream)
+
+    # Filter out the VLESS nodes
+    n_nodes = filterOutVless(content, 'orig.yml')
+
+    print(n_nodes)
 
 if __name__ == "__main__":
     main()
