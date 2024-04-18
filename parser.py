@@ -20,17 +20,22 @@ def filterOutVless(content,orig_file):
     vlessNode = []
     for node in content['proxies']:
         if node['type'] == 'vless':
-            content['proxies'].remove(node)
             vlessNode.append(node['name'])
-
+    newLines = []
+    nVless = []
     with open(orig_file) as f:
         lines = f.readlines()
-        for line in lines:
+        for n, line in enumerate(lines):
             for node in vlessNode:
                 if node in line:
-                    lines.remove(line)
+                    nVless.append(n)
+
+    for n, line in enumerate(lines):
+        if n not in nVless:
+            newLines.append(line)
+
     with open('filtered.yml', 'w') as f:
-        f.writelines(lines)
+        f.writelines(newLines)
 
     return ( len(content['proxies'])-len(vlessNode) )
 
