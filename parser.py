@@ -49,7 +49,8 @@ def main():
     # Filter out the VLESS nodes
     n_nodes = filterOutVless(content, 'orig.yml')
 
-    print(n_nodes)
+    print("Original sub has {0} nodes", len(content['proxies'])
+    print("Filter sub has {1} nodes",n_nodes)
 
 if __name__ == "__main__":
     main()

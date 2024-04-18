@@ -20,12 +20,12 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
         run: |
-          return=$((python ./parser.py) 2>&1)
-          echo "::set-env name=nodeNumber::$return"
+          pip install yaml
+          python ./parser.py
 
       - name: Push to github and triger netlify to publish
         run: |
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update $nodeNumber nodes"
+          git commit --allow-empty -am "Automated update nodes"
           git push
