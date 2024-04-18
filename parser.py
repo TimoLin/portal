@@ -40,7 +40,7 @@ def main():
     subLink = readSubs()
     
     # Use wget in python to download the yml and save it to a file
-    #os.system(f'wget -O orig.yml {subLink}')
+    os.system(f'wget -O orig.yml {subLink}')
     
     # Use yaml to read the file
     with open('orig.yml') as stream:
@@ -49,8 +49,8 @@ def main():
     # Filter out the VLESS nodes
     n_nodes = filterOutVless(content, 'orig.yml')
 
-    print("Original sub has {0} nodes", len(content['proxies'])
-    print("Filter sub has {1} nodes",n_nodes)
+    print("Original sub has {0} nodes".format(len(content['proxies'])))
+    print("Filter sub has {0} nodes".format(n_nodes))
 
 if __name__ == "__main__":
     main()
