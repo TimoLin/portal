@@ -10,30 +10,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python env
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 'pypy3.9'
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with: { ref: master }
 
       - name: Fetch free subscriptions
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'      
         run: |
-          git pull
-          return=$((python ./parser.py) 2>&1)
-          echo "::set-env name=nodeNumber::$return"
-          pwd
-
-      - name: Check Stream Media Unlock
-        run: |
-          curl https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml --output proxies.yaml
-          ./tools/StairUnlocker-Go
+          pip install pyyaml
+          python ./parser.py
 
       - name: Push to github and triger netlify to publish
         run: |
           git config --global user.name 'Timo'
           git config --global user.email 'Timo@netlify.com'
-          git commit --allow-empty -am "Automated update $nodeNumber nodes"
-          git push --force
+          git commit --allow-empty -am "Automated update nodes"
+          git push
