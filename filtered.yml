@@ -2,40 +2,44 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CA_speednode_0001, server: 158.51.123.111, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, delay: 983}
-  - {name: CA_speednode_0002, server: 23.162.200.227, port: 443, type: vmess, alterId: 0, cipher: auto, country: 🇨🇦CA, delay: 1733, h2-opts: {}, http-opts: {}, network: ws, servername: 23.162.200.227, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {headers: {HOST: 23.162.200.227}, path: /linkvws}}
-  - {name: CA_speednode_0003, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 158.51.121.36, network: ws, ws-opts: {path: /linkvws}, delay: 1322}
-  - {name: CN_speednode_0004, server: 120.232.240.1, port: 11420, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0005, server: 120.232.240.1, port: 11422, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0006, server: 183.240.220.84, port: 11851, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0007, server: 183.240.220.84, port: 11806, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0008, server: 183.236.51.59, port: 54100, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: false, tfo: false, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0009, server: 183.240.220.84, port: 11845, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0010, server: 120.232.240.1, port: 11424, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0011, server: 120.232.240.1, port: 11501, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0012, server: 183.240.220.84, port: 11803, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: CN_speednode_0013, server: vip.basicnode.host, port: 11803, type: ssr, cipher: chacha20-ietf, country: 🇨🇳CN, obfs: tls1.2_ticket_auth, obfs-param: 880e226272.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 26272:09kp3qPzKiKRsAqm}
-  - {name: CN_speednode_0014, server: 183.240.220.84, port: 11804, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
-  - {name: DE_speednode_0015, server: 23.158.56.50, port: 443, type: vmess, alterId: 0, cipher: auto, country: 🇩🇪DE, h2-opts: {}, http-opts: {}, network: ws, servername: 23.158.56.50, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {headers: {HOST: 23.158.56.50}, path: /linkvws}}
-  - {name: DE_speednode_0016, server: 23.158.56.50, port: 443, type: vmess, alterId: 0, cipher: auto, country: DE, h2-opts: {}, http-opts: {}, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}}
-  - {name: DE_speednode_0017, server: 23.158.56.50, port: 443, type: vmess, 39: None, 47|🇪DE-23.158.56.50-443: None, alterId: 0, cipher: auto, country: DE, h2-opts: {}, http-opts: {}, network: ws, servername: "", skip-cert-verify: true, tls: true, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}}
-  - {name: DE_speednode_0018, server: 23.158.56.60, port: 443, type: vmess, alterId: 0, cipher: auto, country: 🇩🇪DE, delay: 1179, h2-opts: {}, http-opts: {}, network: ws, servername: 23.158.56.60, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {headers: {HOST: 23.158.56.60}, path: /linkvws}}
-  - {name: DE_speednode_0019, server: 23.158.56.229, port: 443, type: vmess, alterId: 0, cipher: auto, country: 🇩🇪DE, delay: 1376, h2-opts: {}, http-opts: {}, network: ws, servername: 23.158.56.229, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {headers: {HOST: 23.158.56.229}, path: /linkvws}}
-  - {name: DE_speednode_0020, server: 23.158.56.229, port: 443, type: vmess, alterId: 0, cipher: auto, country: DE, h2-opts: {}, http-opts: {}, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}}
-  - {name: DE_speednode_0021, server: 95.164.68.116, port: 2053, type: trojan, password: f37a931d-7092-48fe-b82f-a98da3040eb2, sni: ftp.debian.org, skip-cert-verify: true, udp: true, delay: 1088}
-  - {name: FR_speednode_0022, server: 45.95.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: OJsrJeygSwX4}
-  - {name: LV_speednode_0031, server: 46.183.217.232, port: 989, type: ss, 47|LV-46.183.217.232-989: None, cipher: aes-256-cfb, country: 🇧🇿BZ, delay: 1200, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0039, server: 23.154.136.2, port: 443, type: vmess, alterId: 0, cipher: auto, country: US, h2-opts: {}, http-opts: {}, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}}
-  - {name: US_speednode_0040, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 23.154.136.2, network: ws, ws-opts: {path: /linkvws}, delay: 1776}
+  - {name: AT_speednode_0001, server: 95.164.9.196, port: 2053, type: trojan, cipher: auto, alterId: 0, tls: true, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, sni: ftp.debian.org, skip-cert-verify: true, udp: true, delay: 1356}
+  - {name: CA_speednode_0002, server: 158.51.123.111, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, servername: 158.51.123.111, skip-cert-verify: true, tls: true, udp: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}}
+  - {name: CA_speednode_0003, server: 158.51.123.111, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, delay: 2554}
+  - {name: CA_speednode_0004, server: 158.51.121.36, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 158.51.121.36, network: ws, ws-opts: {path: /linkvws}, delay: 1322}
+  - {name: CN_speednode_0005, server: 120.238.122.243, port: 35601, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0006, server: zs-gzhk.feiba.xyz, port: 51133, type: ss, country: 🇨🇳CN, password: e821cf1f-d8c0-44d5-8abb-1986a4d62708, cipher: chacha20-ietf-poly1305, delay: 471}
+  - {name: CN_speednode_0007, server: 231103level1.unclemanco.com, port: 9047, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {host: 47ed892290.download.windowsupdate.com, mode: http, skip-cert-verify: true, tls: true}, udp: true}
+  - {name: CN_speednode_0008, server: dotu-sgv1.03ezhg0qsa.download, port: 11035, type: vmess, cipher: auto, uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6, alterId: 0, tls: false, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0009, server: dotu-sgv1.03ezhg0qsa.download, port: 11037, type: vmess, cipher: auto, uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6, alterId: 0, tls: false, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0010, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0011, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0012, server: vip.basicnode.host, port: 11803, type: ssr, LLC - 15: None, cipher: chacha20-ietf, country: 🇨🇳CN, obfs: tls1.2_ticket_auth, obfs-param: 880e226272.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 26272:09kp3qPzKiKRsAqm, delay: 1967}
+  - {name: CN_speednode_0013, server: dotu-krv1.03ezhg0qsa.download, port: 11046, type: vmess, cipher: auto, uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6, alterId: 0, tls: false, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0014, server: 17.v2-ray.cyou, port: 23617, type: vmess, alterId: 2, cipher: auto, network: ws, skip-cert-vertify: true, tls: false, udp: true, uuid: 3b2e3e4c-77e5-30b3-bb34-ff312517ab35, ws-opts: {headers: {host: 17.v2-ray.cyou}, path: /}}
+  - {name: CN_speednode_0015, server: 231103level1.unclemanco.com, port: 9044, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {host: 47ed892290.download.windowsupdate.com, mode: http, skip-cert-verify: true, tls: true}, udp: true}
+  - {name: CN_speednode_0016, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0017, server: usa1.iepl.cooc.icu, port: 31881, type: ss, cipher: aes-256-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0018, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0019, server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 3b2e3e4c-77e5-30b3-bb34-ff312517ab35, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /, headers: {host: 15.v2-ray.cyou}}, udp: true}
+  - {name: CN_speednode_0020, server: 231103level1.unclemanco.com, port: 2688, type: ss, cipher: aes-128-gcm, password: fs23l/, plugin: obfs, plugin-opts: {host: 47ed892290.download.windowsupdate.com, mode: http, skip-cert-verify: true, tls: true}, udp: true}
+  - {name: CN_speednode_0021, server: 231103level2.unclemanco.com, port: 2201, type: ss, cipher: aes-128-gcm, password: "dajsdkdkjda&dja*/?", plugin: obfs, plugin-opts: {host: 47ed892290.download.windowsupdate.com, mode: http, skip-cert-verify: true, tls: true}, udp: true}
+  - {name: CN_speednode_0022, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0024, server: ru.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0025, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: CN_speednode_0026, server: 231103level2.unclemanco.com, port: 37865, type: ss, cipher: aes-128-gcm, password: "dajkdkjdsa&dja*/?", plugin: obfs, plugin-opts: {host: 47ed892290.download.windowsupdate.com, mode: http, skip-cert-verify: true, tls: true}, udp: true}
+  - {name: CN_speednode_0027, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: afcc9a16-3cb4-4ef9-b89d-d58ac52e4e15}
+  - {name: DE_speednode_0029, server: 23.158.56.229, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws, headers: {Host: 23.158.56.229}}}
+  - {name: NL_speednode_0120, server: 103.214.68.57, port: 10001, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, udp: true, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c}
+  - {name: NL_speednode_0121, server: 103.214.68.57, port: 10003, type: trojan, country: 🇳🇱NL, password: 6x8HcghsjS, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CA_speednode_0001
+  - AT_speednode_0001
   - CA_speednode_0002
   - CA_speednode_0003
-  - CN_speednode_0004
+  - CA_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
   - CN_speednode_0007
@@ -46,24 +50,28 @@ proxy-groups:
   - CN_speednode_0012
   - CN_speednode_0013
   - CN_speednode_0014
-  - DE_speednode_0015
-  - DE_speednode_0016
-  - DE_speednode_0017
-  - DE_speednode_0018
-  - DE_speednode_0019
-  - DE_speednode_0020
-  - DE_speednode_0021
-  - FR_speednode_0022
-  - LV_speednode_0031
-  - US_speednode_0039
-  - US_speednode_0040
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - DE_speednode_0029
+  - NL_speednode_0120
+  - NL_speednode_0121
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CA_speednode_0001
+  - AT_speednode_0001
   - CA_speednode_0002
   - CA_speednode_0003
-  - CN_speednode_0004
+  - CA_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
   - CN_speednode_0007
@@ -74,17 +82,21 @@ proxy-groups:
   - CN_speednode_0012
   - CN_speednode_0013
   - CN_speednode_0014
-  - DE_speednode_0015
-  - DE_speednode_0016
-  - DE_speednode_0017
-  - DE_speednode_0018
-  - DE_speednode_0019
-  - DE_speednode_0020
-  - DE_speednode_0021
-  - FR_speednode_0022
-  - LV_speednode_0031
-  - US_speednode_0039
-  - US_speednode_0040
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - DE_speednode_0029
+  - NL_speednode_0120
+  - NL_speednode_0121
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
