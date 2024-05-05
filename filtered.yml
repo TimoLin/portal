@@ -2,107 +2,308 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CA_speednode_0004, server: 216.39.250.113, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_speednode_0006, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: CN_speednode_0009, server: 39.106.226.41, port: 35467, type: ss, cipher: aes-256-gcm, password: too_young_too_simple, udp: true}
-  - {name: CN_speednode_0010, server: 120.232.242.117, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0012, server: 120.238.122.249, port: 50582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0013, server: 183.236.51.59, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0014, server: 120.238.122.249, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0018, server: free.6vczxw.xyz, port: 30874, type: vmess, uuid: 6f5e7047-13a6-3ef0-b749-6abb41280331, alterId: 0, cipher: auto, tls: true, servername: vn01.tomoony.xyz}
-  - {name: CN_speednode_0019, server: m.cnmjin.net, port: 16632, type: vmess, 6|香港|@ripaojiedian: None, alterId: 0, cipher: auto, network: ws, servername: "", skip-cert-verify: false, tfo: false, tls: false, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, client-fingerprint: chrome}
-  - {name: CN_speednode_0020, server: 183.240.220.199, port: 42414, type: ss, country: 🇨🇳CN, password: ef2453c4-a7b4-4bd8-8bbf-ab252b1c4bf7, cipher: chacha20-ietf-poly1305, delay: 1080}
-  - {name: CN_speednode_0021, server: 120.238.122.243, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: DE_speednode_0022, server: 23.158.56.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: DE_speednode_0023, server: 23.158.56.196, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: GB_speednode_0032, server: 142.202.51.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_speednode_0033, server: 172.99.190.198, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HK_speednode_0063, server: 118.107.245.17, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, udp: true, ws-opts: {path: /path/173403330828, headers: {Host: www.33738380.xyz}}}
-  - {name: JP_speednode_0064, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)34b5fbc:109157}}
-  - {name: JP_speednode_0066, server: 103.72.5.19, port: 48000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, udp: true, ws-opts: {path: /path/173403330828, headers: {Host: www.17438016.xyz}}}
-  - {name: SE_speednode_0173, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, network: ws, sni: sourceforge.net, skip-cert-verify: true, ws-opts: {path: /websocket, headers: {Host: se1.trojanvpn.de}}}
-  - {name: SG_speednode_0191, server: 103.172.116.79, port: 9088, type: ssr, cipher: aes-256-cfb, country: SG, obfs: plain, obfs-param: Tm9uZQ%3D%3D, password: f8npKgNzdkss2ytn, protocol: origin, protocol-param: Tm9uZQ%3D%3D}
-  - {name: SG_speednode_0192, server: 103.172.116.79, port: 9088, type: ss, country: 🇸🇬SG, password: f8npKgNzdkss2ytn, cipher: aes-256-cfb, delay: 1119}
-  - {name: US_speednode_0223, server: 107.182.190.12, port: 11309, type: ss, cipher: aes-256-gcm, password: cYDTSxfpprFQBNn5, udp: true}
-  - {name: US_speednode_0224, server: 144.34.172.112, port: 11309, type: ss, cipher: aes-256-gcm, password: cYDTSxfpprFQBNn5, udp: true}
-  - {name: US_speednode_0225, server: us01.victoriousmelvina.online, port: 80, type: vmess, LLC ...: None, udp: true, uuid: e5e2206d-8650-4dfb-9731-fe2ee99b944e, alterId: 0, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, skip-cert-verify: true, ws-opts: {path: /, headers: {Host: us01.victoriousmelvina.online}}, delay: 2897}
-  - {name: US_speednode_0227, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, delay: 657, alterId: -1, country: US}
-  - {name: US_speednode_0230, server: 69.50.93.111, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_speednode_0231, server: 69.50.92.116, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_speednode_0253, server: de2-full.privateip.net, port: 443, type: trojan, udp: true, password: dcf0fcec-3800-4f42-9b78-1323f6a4a004, skip-cert-verify: true, network: tcp}
-  - {name: US_speednode_0260, server: 23.225.41.74, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, udp: true, ws-opts: {path: /path/311227222808, headers: {Host: www.98725996.xyz}}}
-  - {name: US_speednode_0262, server: 172.64.96.151, port: 2052, type: vmess, uuid: bbc0f282-36d4-4a10-83e1-19c7efff7f4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true, ws-opts: {path: bbc0f282, headers: {Host: sleeve-cialis-ranges-xml.trycloudflare.com}}}
-  - {name: US_speednode_0265, server: de2-full.privateip.net, port: 443, type: vmess, country: 🇬🇮GI, uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f, alterId: 0, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, tls: true, skip-cert-verify: true, ws-opts: {path: /RACEVPN}, delay: 1919}
+  - {name: CN_speednode_0004, server: 120.232.242.117, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0008, server: 183.240.220.84, port: 11851, type: ssr, cipher: chacha20-ietf, obfs: tls1.2_ticket_auth, obfs-param: 6f41b24.microsoft.com, password: Fhbe0z, protocol: auth_aes128_sha1, protocol-param: 24:SpYUtPeJYhRk4FWC, udp: true}
+  - {name: CN_speednode_0009, server: 183.236.51.59, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0011, server: 120.241.46.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: CN_speednode_0012, server: 120.241.47.15, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: CN_speednode_0013, server: 120.241.47.16, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: CN_speednode_0014, server: 120.241.47.20, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: CN_speednode_0015, server: 120.241.47.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: CN_speednode_0016, server: 120.241.47.8, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: HK_speednode_0027, server: sg.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0028, server: usa.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0029, server: jp.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0030, server: uk.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0031, server: usajs.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0032, server: aujs.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0033, server: cajs.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0034, server: dejs.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0035, server: chjs.lydurlclub.top, port: 443, type: trojan, password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f, skip-cert-verify: true}
+  - {name: HK_speednode_0036, server: 194.104.146.113, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0037, server: 103.152.221.89, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0038, server: 103.152.221.90, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0039, server: 45.11.104.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0040, server: 45.11.104.94, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0041, server: 45.11.104.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0042, server: 45.11.104.79, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: HK_speednode_0043, server: 45.11.104.113, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: JP_speednode_0047, server: 103.29.68.226, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: JP_speednode_0048, server: 139.162.79.8, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: JP_speednode_0049, server: 172.104.117.248, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: JP_speednode_0050, server: 103.29.70.9, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0051, server: 139.162.102.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0052, server: 139.162.108.118, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0053, server: 172.105.205.214, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0054, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0055, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0056, server: 52.199.164.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0057, server: 54.249.220.208, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0058, server: 54.250.34.221, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0059, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0060, server: 18.183.87.73, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0061, server: 54.178.71.192, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0062, server: 172.105.220.7, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0063, server: 54.178.26.105, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
+  - {name: JP_speednode_0064, server: 13.114.31.41, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
+  - {name: JP_speednode_0065, server: 13.230.213.154, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
+  - {name: JP_speednode_0066, server: 35.72.184.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
+  - {name: JP_speednode_0067, server: 13.231.105.239, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
+  - {name: NL_speednode_0104, server: nl2-full.privateip.net, port: 443, type: trojan, udp: true, password: 6e28f704-29a0-4c86-b25b-dd090603c741, skip-cert-verify: true, network: tcp, client-fingerprint: chrome, alterId: -1, customName: 🇳🇱_NL_荷兰_1}
+  - {name: NL_speednode_0105, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: SG_speednode_0107, server: 103.172.116.16, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0108, server: 103.172.116.113, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0109, server: 103.172.116.190, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0110, server: 103.172.116.220, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0111, server: 103.172.116.221, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0112, server: 103.172.116.251, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0113, server: 103.172.116.252, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0114, server: 5.44.249.50, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0115, server: 5.44.249.51, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0116, server: 5.44.249.52, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: SG_speednode_0117, server: 5.44.249.53, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0122, server: 118.163.179.161, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0123, server: 118.163.179.162, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0124, server: 125.227.83.21, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0125, server: 125.227.83.22, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0126, server: 125.227.83.24, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0127, server: 125.227.83.25, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0128, server: 125.227.83.26, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0129, server: 211.72.35.152, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0130, server: 211.72.35.154, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0131, server: 211.72.35.155, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0132, server: 211.72.35.157, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0133, server: 211.72.35.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0134, server: 60.248.114.183, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0135, server: 60.248.114.184, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0136, server: 60.248.114.185, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0137, server: 60.248.114.186, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0138, server: 60.248.114.187, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: TW_speednode_0139, server: 118.163.179.137, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: TW_speednode_0140, server: 118.163.179.138, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: US_speednode_0142, server: 195.123.242.216, port: 10000, type: vmess, udp: true, uuid: 63ddf3cc-059e-11ef-8a2e-52ac0051152b, alterId: 0, cipher: auto, network: ws, http-opts: {}, h2-opts: {}, skip-cert-verify: true, ws-opts: {path: /vpnjantit}, delay: 912}
+  - {name: US_speednode_0150, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: US_speednode_0151, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: US_speednode_0152, server: 23.247.137.67, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0153, server: 23.247.137.164, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0154, server: 23.247.137.166, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0155, server: 23.247.137.167, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0156, server: 95.174.71.27, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0157, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0158, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0159, server: 95.174.71.30, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0160, server: 95.174.71.96, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0161, server: 95.174.71.98, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0162, server: 95.174.71.99, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0163, server: 95.174.71.101, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0164, server: 134.195.101.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0165, server: 134.195.101.50, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)feec8af:29306}}
+  - {name: US_speednode_0166, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: US_speednode_0167, server: 134.195.101.33, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)a83679f:53325}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CA_speednode_0004
-  - CA_speednode_0006
+  - CN_speednode_0004
+  - CN_speednode_0008
   - CN_speednode_0009
-  - CN_speednode_0010
+  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
   - CN_speednode_0014
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - DE_speednode_0022
-  - DE_speednode_0023
-  - GB_speednode_0032
-  - GB_speednode_0033
-  - HK_speednode_0063
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - HK_speednode_0027
+  - HK_speednode_0028
+  - HK_speednode_0029
+  - HK_speednode_0030
+  - HK_speednode_0031
+  - HK_speednode_0032
+  - HK_speednode_0033
+  - HK_speednode_0034
+  - HK_speednode_0035
+  - HK_speednode_0036
+  - HK_speednode_0037
+  - HK_speednode_0038
+  - HK_speednode_0039
+  - HK_speednode_0040
+  - HK_speednode_0041
+  - HK_speednode_0042
+  - HK_speednode_0043
+  - JP_speednode_0047
+  - JP_speednode_0048
+  - JP_speednode_0049
+  - JP_speednode_0050
+  - JP_speednode_0051
+  - JP_speednode_0052
+  - JP_speednode_0053
+  - JP_speednode_0054
+  - JP_speednode_0055
+  - JP_speednode_0056
+  - JP_speednode_0057
+  - JP_speednode_0058
+  - JP_speednode_0059
+  - JP_speednode_0060
+  - JP_speednode_0061
+  - JP_speednode_0062
+  - JP_speednode_0063
   - JP_speednode_0064
+  - JP_speednode_0065
   - JP_speednode_0066
-  - SE_speednode_0173
-  - SG_speednode_0191
-  - SG_speednode_0192
-  - US_speednode_0223
-  - US_speednode_0224
-  - US_speednode_0225
-  - US_speednode_0227
-  - US_speednode_0230
-  - US_speednode_0231
-  - US_speednode_0253
-  - US_speednode_0260
-  - US_speednode_0262
-  - US_speednode_0265
+  - JP_speednode_0067
+  - NL_speednode_0104
+  - NL_speednode_0105
+  - SG_speednode_0107
+  - SG_speednode_0108
+  - SG_speednode_0109
+  - SG_speednode_0110
+  - SG_speednode_0111
+  - SG_speednode_0112
+  - SG_speednode_0113
+  - SG_speednode_0114
+  - SG_speednode_0115
+  - SG_speednode_0116
+  - SG_speednode_0117
+  - TW_speednode_0122
+  - TW_speednode_0123
+  - TW_speednode_0124
+  - TW_speednode_0125
+  - TW_speednode_0126
+  - TW_speednode_0127
+  - TW_speednode_0128
+  - TW_speednode_0129
+  - TW_speednode_0130
+  - TW_speednode_0131
+  - TW_speednode_0132
+  - TW_speednode_0133
+  - TW_speednode_0134
+  - TW_speednode_0135
+  - TW_speednode_0136
+  - TW_speednode_0137
+  - TW_speednode_0138
+  - TW_speednode_0139
+  - TW_speednode_0140
+  - US_speednode_0142
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0152
+  - US_speednode_0153
+  - US_speednode_0154
+  - US_speednode_0155
+  - US_speednode_0156
+  - US_speednode_0157
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CA_speednode_0004
-  - CA_speednode_0006
+  - CN_speednode_0004
+  - CN_speednode_0008
   - CN_speednode_0009
-  - CN_speednode_0010
+  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
   - CN_speednode_0014
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - DE_speednode_0022
-  - DE_speednode_0023
-  - GB_speednode_0032
-  - GB_speednode_0033
-  - HK_speednode_0063
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - HK_speednode_0027
+  - HK_speednode_0028
+  - HK_speednode_0029
+  - HK_speednode_0030
+  - HK_speednode_0031
+  - HK_speednode_0032
+  - HK_speednode_0033
+  - HK_speednode_0034
+  - HK_speednode_0035
+  - HK_speednode_0036
+  - HK_speednode_0037
+  - HK_speednode_0038
+  - HK_speednode_0039
+  - HK_speednode_0040
+  - HK_speednode_0041
+  - HK_speednode_0042
+  - HK_speednode_0043
+  - JP_speednode_0047
+  - JP_speednode_0048
+  - JP_speednode_0049
+  - JP_speednode_0050
+  - JP_speednode_0051
+  - JP_speednode_0052
+  - JP_speednode_0053
+  - JP_speednode_0054
+  - JP_speednode_0055
+  - JP_speednode_0056
+  - JP_speednode_0057
+  - JP_speednode_0058
+  - JP_speednode_0059
+  - JP_speednode_0060
+  - JP_speednode_0061
+  - JP_speednode_0062
+  - JP_speednode_0063
   - JP_speednode_0064
+  - JP_speednode_0065
   - JP_speednode_0066
-  - SE_speednode_0173
-  - SG_speednode_0191
-  - SG_speednode_0192
-  - US_speednode_0223
-  - US_speednode_0224
-  - US_speednode_0225
-  - US_speednode_0227
-  - US_speednode_0230
-  - US_speednode_0231
-  - US_speednode_0253
-  - US_speednode_0260
-  - US_speednode_0262
-  - US_speednode_0265
+  - JP_speednode_0067
+  - NL_speednode_0104
+  - NL_speednode_0105
+  - SG_speednode_0107
+  - SG_speednode_0108
+  - SG_speednode_0109
+  - SG_speednode_0110
+  - SG_speednode_0111
+  - SG_speednode_0112
+  - SG_speednode_0113
+  - SG_speednode_0114
+  - SG_speednode_0115
+  - SG_speednode_0116
+  - SG_speednode_0117
+  - TW_speednode_0122
+  - TW_speednode_0123
+  - TW_speednode_0124
+  - TW_speednode_0125
+  - TW_speednode_0126
+  - TW_speednode_0127
+  - TW_speednode_0128
+  - TW_speednode_0129
+  - TW_speednode_0130
+  - TW_speednode_0131
+  - TW_speednode_0132
+  - TW_speednode_0133
+  - TW_speednode_0134
+  - TW_speednode_0135
+  - TW_speednode_0136
+  - TW_speednode_0137
+  - TW_speednode_0138
+  - TW_speednode_0139
+  - TW_speednode_0140
+  - US_speednode_0142
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0152
+  - US_speednode_0153
+  - US_speednode_0154
+  - US_speednode_0155
+  - US_speednode_0156
+  - US_speednode_0157
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
