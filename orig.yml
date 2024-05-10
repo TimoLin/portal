@@ -2,209 +2,263 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: AU_speednode_0001, server: 3.107.40.57, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: AU_speednode_0002, server: 192.9.165.253, port: 47580, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: CA_speednode_0003, server: 23.94.61.36, port: 3334, type: vless, Inc. - 1...: None, udp: true, uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904, network: ws, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: TG.CMLiussss.elementfx.com, ws-opts: {path: /proxyIP=proxyip.us.fxxk.dedyn.io, headers: {Host: TG.CMLiussss.elementfx.com}}, delay: 1889}
-  - {name: CA_speednode_0004, server: 23.162.200.227, port: 443, type: vmess, cipher: auto, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, delay: 1407, servername: "", h2-opts: {}, http-opts: {}, udp: true, customName: 🇨🇦_CA_加拿大}
-  - {name: CA_speednode_0005, server: 168.138.70.29, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, network: ws, tls: true, client-fingerprint: random, servername: edgood.889876.xyz, ws-opts: {path: "%2f%3fed%3d2048", headers: {host: edgood.889876.xyz}}, delay: 2094}
-  - {name: CA_speednode_0006, server: 178.128.225.209, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: CA_speednode_0007, server: 45.58.37.185, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: ES_speednode_0008, server: 45.86.229.176, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: FI_speednode_0009, server: 35.217.24.30, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: FR_speednode_0010, server: 46.105.170.124, port: 2053, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, servername: cfed.tgzdyz2.top, security: tls, sni: cfed.tgzdyz2.top, fp: random, client-fingerprint: random, network: ws, ws-opts: {path: TG%40ZDYZ2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false}
-  - {name: FR_speednode_0011, server: 51.38.86.3, port: 2053, type: vless, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: Twitterfreecodes, headers: {host: mositr.freenods.sbs}}}
-  - {name: FR_speednode_0012, server: 178.33.196.127, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: FR_speednode_0013, server: 46.105.170.124, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: GB_speednode_0014, server: 95.164.88.214, port: 23352, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: GB_speednode_0015, server: 51.38.69.149, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: HK_speednode_0016, server: 152.32.252.175, port: 8969, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, servername: cfed.tgzdyz2.top, security: tls, sni: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false, delay: 356}
-  - {name: JP_speednode_0017, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
-  - {name: KR_speednode_0018, server: 146.56.145.38, port: 50001, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, security: tls, servername: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false, sni: cfed.tgzdyz2.top}
-  - {name: KR_speednode_0019, server: 132.226.235.126, port: 59408, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, network: ws, tls: true, client-fingerprint: random, servername: cfed.tgzdyz2.top, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, delay: 861, security: tls, skip-cert-verify: false, tfo: false}
-  - {name: KR_speednode_0020, server: 146.56.151.32, port: 19, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, security: tls, servername: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false, delay: 1862}
-  - {name: KR_speednode_0021, server: 146.56.171.182, port: 11659, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, security: tls, servername: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false}
-  - {name: KR_speednode_0022, server: 210.111.176.108, port: 20082, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, network: ws, tls: true, client-fingerprint: random, servername: cfed.tgzdyz2.top, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, delay: 776, security: tls, sni: cfed.tgzdyz2.top, skip-cert-verify: false, tfo: false}
-  - {name: KR_speednode_0023, server: 146.56.141.168, port: 47590, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, servername: cfed.tgzdyz2.top, security: tls, sni: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false, delay: 1572}
-  - {name: KR_speednode_0024, server: 152.70.232.173, port: 28756, type: vless, Inc. - 1...: None, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, network: ws, tls: true, servername: mositr.freenods.sbs, ws-opts: {path: Twitterfreecodes, headers: {host: mositr.freenods.sbs}}, delay: 1212}
-  - {name: KR_speednode_0025, server: 121.158.147.183, port: 26516, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0026, server: 129.154.206.254, port: 59158, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0027, server: 210.111.176.108, port: 20082, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0028, server: 218.147.177.196, port: 10243, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0029, server: 146.56.130.130, port: 14850, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0030, server: 132.226.235.126, port: 59408, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KR_speednode_0031, server: 146.56.145.38, port: 50001, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: KZ_speednode_0032, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: SC_speednode_0033, server: 154.197.121.253, port: 443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SC_speednode_0034, server: 154.197.121.127, port: 443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SC_speednode_0035, server: 154.197.121.13, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SC_speednode_0036, server: 185.114.72.67, port: 443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SE_speednode_0037, server: 51.20.78.198, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0038, server: 47.236.114.166, port: 44120, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
-  - {name: SG_speednode_0039, server: 138.2.95.33, port: 17465, type: vless, Inc. -...: None, udp: true, uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904, network: ws, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: TG.CMLiussss.elementfx.com, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: TG.CMLiussss.elementfx.com}}, delay: 557}
-  - {name: SG_speednode_0040, server: 8.222.138.166, port: 21737, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
-  - {name: SG_speednode_0041, server: 47.236.104.98, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0042, server: 47.236.144.48, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0043, server: 8.219.194.170, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0044, server: 47.236.169.141, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0045, server: 47.236.117.48, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0046, server: 8.219.93.5, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0047, server: 47.236.167.231, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0048, server: 47.236.121.7, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0049, server: 47.236.83.239, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: SG_speednode_0050, server: 27.50.48.108, port: 443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: TW_speednode_0051, server: 118.163.179.158, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
-  - {name: TW_speednode_0052, server: 118.163.179.159, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
-  - {name: TW_speednode_0053, server: 118.163.179.160, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
-  - {name: TW_speednode_0054, server: 60.248.63.88, port: 12031, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: TW_speednode_0055, server: 118.163.128.81, port: 13688, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0056, server: 13.52.251.56, port: 8444, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.us.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
-  - {name: US_speednode_0057, server: 54.193.109.100, port: 80, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.us.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
-  - {name: US_speednode_0058, server: 193.122.197.111, port: 443, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.us.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
-  - {name: US_speednode_0059, server: 43.153.103.203, port: 443, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, network: ws, tls: true, client-fingerprint: random, servername: cfed.tgzdyz2.top, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, delay: 939, security: tls, skip-cert-verify: false, tfo: false}
-  - {name: US_speednode_0060, server: 104.18.33.205, port: 8443, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0061, server: 104.17.215.54, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0062, server: 104.18.46.118, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0063, server: 104.20.27.133, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0064, server: 104.20.27.224, port: 2096, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
-  - {name: US_speednode_0065, server: 162.159.58.157, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
+  - {name: CA_speednode_0001, server: 154.12.33.232, port: 48711, type: vmess, alterId: 0, cipher: auto, network: ws, uuid: 05fb2492-590e-48bd-b9d4-72d724dd1dbb, servername: "", tls: false, ws-opts: {path: "", headers: {Host: 154.12.33.232}}}
+  - {name: CH_speednode_0002, server: 51.103.248.85, port: 60068, type: ss, cipher: chacha20-ietf-poly1305, country: CH, password: hn6VD57AXa7LSMawDS9dvy}
+  - {name: CN_speednode_0003, server: 183.236.51.59, port: 51707, type: vmess, alterId: 64, cipher: auto, network: tcp, servername: "", tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, skip-cert-verify: true}
+  - {name: CN_speednode_0004, server: 112.29.94.23, port: 46011, type: trojan, udp: false, password: MyYoZhfX, skip-cert-verify: true, network: tcp, client-fingerprint: chrome}
+  - {name: CN_speednode_0005, server: 183.232.199.61, port: 15603, type: vmess, alterId: 0, cipher: auto, network: tcp, servername: "", tls: false, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad}
+  - {name: CN_speednode_0006, server: gd1-hk.fwcloud.cc, port: 43430, type: ss, cipher: chacha20-ietf-poly1305, password: bMxhj5PHRyXZbwvM, tfo: false}
+  - {name: CN_speednode_0007, server: 120.232.240.38, port: 8443, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tfo: false, tls: true, uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931}
+  - {name: CN_speednode_0008, server: 183.236.51.59, port: 51707, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: false, tfo: false, tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0009, server: xinyun-jp.07wi0kka34.download, port: 12558, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0010, server: gd1-hk.fwcloud.cc, port: 33878, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0011, server: hz1-hk.fwcloud.cc, port: 49309, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0012, server: xinyun-us.07wi0kka34.download, port: 12562, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0013, server: w2.forlive.live, port: 40212, type: trojan, password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1, sni: 2777.vxcvjkl.com, network: tcp}
+  - {name: CN_speednode_0014, server: xinyun-us.07wi0kka34.download, port: 12561, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0015, server: xinyun-us.07wi0kka34.download, port: 12563, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0016, server: 03.forlive.live, port: 22291, type: ss, cipher: aes-128-gcm, password: 14c7684e-c740-45fc-a9b3-1ccf2ac392fd}
+  - {name: CN_speednode_0017, server: xinyun-us.07wi0kka34.download, port: 12564, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0018, server: 03.forlive.live, port: 22233, type: ss, cipher: aes-128-gcm, password: 95e0f3e2-2b41-48d2-a0e6-500d36f310a1}
+  - {name: CN_speednode_0019, server: xinyun-tw.07wi0kka34.download, port: 12567, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0020, server: w2.forlive.live, port: 40214, type: trojan, password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1, sni: 2777.vxcvjkl.com, network: tcp}
+  - {name: CN_speednode_0021, server: hz1-jp.fwcloud.cc, port: 49748, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0022, server: 183.232.170.21, port: 30061, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0023, server: 04.forlive.live, port: 22233, type: ss, cipher: aes-128-gcm, password: ba9eac02-f784-4349-bd15-500186077160}
+  - {name: CN_speednode_0024, server: 04.forlive.live, port: 22268, type: ss, cipher: aes-128-gcm, password: 72fb9321-4818-4050-9048-5fa89827adb2}
+  - {name: CN_speednode_0025, server: hz1-jp.fwcloud.cc, port: 38200, type: ss, cipher: chacha20-ietf-poly1305, password: bMxhj5PHRyXZbwvM}
+  - {name: CN_speednode_0026, server: 04.forlive.live, port: 22302, type: ss, cipher: aes-128-gcm, password: cf448056-b7c2-439d-b708-aaf5ff321052}
+  - {name: CN_speednode_0027, server: hn1-jp.fwcloud.cc, port: 43388, type: ss, cipher: chacha20-ietf-poly1305, password: bMxhj5PHRyXZbwvM}
+  - {name: CN_speednode_0028, server: hn1-jp.fwcloud.cc, port: 42599, type: ss, cipher: chacha20-ietf-poly1305, password: bMxhj5PHRyXZbwvM}
+  - {name: CN_speednode_0029, server: 183.232.170.21, port: 30119, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0030, server: jsidcyd.kunkun.icu, port: 62825, type: ss, cipher: aes-256-gcm, password: 67246d6b-dcb4-4640-9b48-0387aac0044d}
+  - {name: CN_speednode_0031, server: 183.232.170.21, port: 30025, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0032, server: 183.232.170.21, port: 30059, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0033, server: 61254ed65353a37b.cdn.jiashule.com, port: 16934, type: ss, cipher: chacha20-ietf-poly1305, password: 55bfca34-47bd-4c81-b58d-22858a59dbaf}
+  - {name: CN_speednode_0034, server: gd2-hk.fwcloud.cc, port: 37687, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0035, server: 04.forlive.live, port: 22291, type: ss, cipher: aes-128-gcm, password: a061411e-f58b-4c95-8887-a9d3b84b3160}
+  - {name: CN_speednode_0036, server: d728add903a8d598.cdn.jiashule.com, port: 16223, type: ss, cipher: chacha20-ietf-poly1305, password: 55bfca34-47bd-4c81-b58d-22858a59dbaf}
+  - {name: CN_speednode_0037, server: 3474.ens3.buzz, port: 21796, type: ss, cipher: aes-128-gcm, password: c90297ef-1dda-46eb-b28c-ac9662d69d4c}
+  - {name: CN_speednode_0038, server: dc.lcloud.wiki, port: 11553, type: ss, cipher: aes-128-gcm, password: 33bb54a1-1078-4025-8fb4-8d4632311a8b}
+  - {name: CN_speednode_0039, server: dc.lcloud.wiki, port: 42133, type: ss, cipher: aes-128-gcm, password: 33bb54a1-1078-4025-8fb4-8d4632311a8b}
+  - {name: CN_speednode_0040, server: xinyun-hk.07wi0kka34.download, port: 12554, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0041, server: xinyun-hk.07wi0kka34.download, port: 12556, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0042, server: xinyun-hk.07wi0kka34.download, port: 12553, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0043, server: xinyun-hk.07wi0kka34.download, port: 12555, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0044, server: xinyun-hk.07wi0kka34.download, port: 12551, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0045, server: xinyun-hk.07wi0kka34.download, port: 12552, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0046, server: dc.lcloud.wiki, port: 20441, type: ss, cipher: aes-128-gcm, password: 33bb54a1-1078-4025-8fb4-8d4632311a8b}
+  - {name: CN_speednode_0047, server: gd1-hk.fwcloud.cc, port: 43430, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0048, server: 183.232.170.21, port: 30063, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0049, server: dc.lcloud.wiki, port: 15531, type: ss, cipher: aes-128-gcm, password: 33bb54a1-1078-4025-8fb4-8d4632311a8b}
+  - {name: CN_speednode_0050, server: hz1-us.fwcloud.cc, port: 24822, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0051, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 7a8b7330-0575-3983-b691-b718bbdf074b}
+  - {name: CN_speednode_0052, server: hk-lobalance.speedyweb.xyz, port: 21232, type: trojan, password: eb7e85c8-d699-4d84-9a69-d44a1b5e2de9, sni: hk-g.speedyweb.xyz, network: tcp}
+  - {name: CN_speednode_0053, server: hz1-us.fwcloud.cc, port: 39200, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0054, server: xinyun-tw.07wi0kka34.download, port: 12568, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0055, server: xinyun-tw.07wi0kka34.download, port: 12565, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0056, server: xinyun-tw.07wi0kka34.download, port: 12566, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0057, server: gd1-jp.fwcloud.cc, port: 24820, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0058, server: w2.forlive.live, port: 40219, type: trojan, password: 8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1, sni: 2777.vxcvjkl.com, network: tcp}
+  - {name: CN_speednode_0059, server: xinyun-jp.07wi0kka34.download, port: 12559, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0060, server: 183.232.170.21, port: 30056, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, servername: "", tls: false}
+  - {name: CN_speednode_0061, server: gd1-hk.fwcloud.cc, port: 26898, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0062, server: gd1-hk.fwcloud.cc, port: 41513, type: ss, cipher: chacha20-ietf-poly1305, password: peWQ2LOeVWb9qvOz}
+  - {name: CN_speednode_0063, server: xinyun-jp.07wi0kka34.download, port: 12560, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: CN_speednode_0064, server: xinyun-jp.07wi0kka34.download, port: 12557, type: ss, cipher: aes-128-gcm, password: ead72f06-8655-4a39-a8ce-b6e4702708f6}
+  - {name: JP_speednode_0065, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
+  - {name: JP_speednode_0066, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KR_speednode_0067, server: 146.56.145.38, port: 50001, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, tls: true, security: tls, servername: cfed.tgzdyz2.top, client-fingerprint: random, network: ws, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, skip-cert-verify: false, tfo: false, sni: cfed.tgzdyz2.top}
+  - {name: KR_speednode_0068, server: 210.111.176.108, port: 20082, type: vless, uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5, network: ws, tls: true, client-fingerprint: random, servername: cfed.tgzdyz2.top, ws-opts: {path: tg%40zdyz2, headers: {host: cfed.tgzdyz2.top}}, delay: 776, security: tls, sni: cfed.tgzdyz2.top, skip-cert-verify: false, tfo: false}
+  - {name: KR_speednode_0069, server: 3.34.95.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KZ_speednode_0070, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: SG_speednode_0071, server: 47.236.114.166, port: 44120, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
+  - {name: SG_speednode_0072, server: 138.2.95.33, port: 17465, type: vless, Inc. -...: None, udp: true, uuid: b7a392e2-4ef0-4496-90bc-1c37bb234904, network: ws, tls: true, skip-cert-verify: true, client-fingerprint: random, servername: TG.CMLiussss.elementfx.com, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: TG.CMLiussss.elementfx.com}}, delay: 557}
+  - {name: SG_speednode_0073, server: 8.222.138.166, port: 21737, type: vless, client-fingerprint: random, uuid: 407129f7-ae44-4aba-b6d7-92fd0026d1a8, tls: true, tfo: false, skip-cert-verify: true, servername: qifei.today.elementfx.com, network: ws, ws-opts: {path: /proxyIP=proxyip.sg.fxxk.dedyn.io, headers: {Host: qifei.today.elementfx.com}}, udp: true}
+  - {name: SG_speednode_0074, server: 103.172.116.94, port: 9024, type: ss, cipher: aes-256-cfb, country: SG, password: BejrQvtu9sqUeNuZ}
+  - {name: SG_speednode_0075, server: 103.172.116.94, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: SG_speednode_0076, server: 103.172.116.94, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: SG_speednode_0077, server: 103.172.116.94, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: SG_speednode_0078, server: 103.172.116.94, port: 9061, type: ss, cipher: aes-256-cfb, country: SG, password: 4R3hUfZ2FHhDmNcP}
+  - {name: US_speednode_0079, server: 162.159.58.157, port: 2053, type: vless, client-fingerprint: random, uuid: 678ac895-92c2-4f27-a9d4-f1a89c5f5365, tls: true, tfo: false, skip-cert-verify: true, servername: mositr.freenods.sbs, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mositr.freenods.sbs}}, udp: true}
+  - {name: US_speednode_0080, server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, country: US, password: shadowsocks, tfo: false}
+  - {name: US_speednode_0081, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, alterId: 0, cipher: auto, network: ws, servername: "", skip-cert-verify: false, tfo: false, tls: false, uuid: 2eec45db-dfcd-43d6-8514-b141aff651be, ws-opts: {headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}, path: /video/GQ2qE5Us9g}}
+  - {name: US_speednode_0084, server: cf.345673.xyz, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, servername: "", tls: false, ws-opts: {path: /, headers: {Host: fremont.xlb8.eu.org}}}
+  - {name: VN_speednode_0085, server: bs4.loadingip.com, port: 80, type: vmess, alterId: 0, cipher: auto, country: VN, h2-opts: {}, http-opts: {}, network: ws, servername: bs4.loadingip.com, skip-cert-verify: true, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, ws-opts: {headers: {HOST: bs4.loadingip.com}, path: /bs}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AU_speednode_0001
-  - AU_speednode_0002
-  - CA_speednode_0003
-  - CA_speednode_0004
-  - CA_speednode_0005
-  - CA_speednode_0006
-  - CA_speednode_0007
-  - ES_speednode_0008
-  - FI_speednode_0009
-  - FR_speednode_0010
-  - FR_speednode_0011
-  - FR_speednode_0012
-  - FR_speednode_0013
-  - GB_speednode_0014
-  - GB_speednode_0015
-  - HK_speednode_0016
-  - JP_speednode_0017
-  - KR_speednode_0018
-  - KR_speednode_0019
-  - KR_speednode_0020
-  - KR_speednode_0021
-  - KR_speednode_0022
-  - KR_speednode_0023
-  - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - KR_speednode_0027
-  - KR_speednode_0028
-  - KR_speednode_0029
-  - KR_speednode_0030
-  - KR_speednode_0031
-  - KZ_speednode_0032
-  - SC_speednode_0033
-  - SC_speednode_0034
-  - SC_speednode_0035
-  - SC_speednode_0036
-  - SE_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - SG_speednode_0040
-  - SG_speednode_0041
-  - SG_speednode_0042
-  - SG_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - SG_speednode_0046
-  - SG_speednode_0047
-  - SG_speednode_0048
-  - SG_speednode_0049
-  - SG_speednode_0050
-  - TW_speednode_0051
-  - TW_speednode_0052
-  - TW_speednode_0053
-  - TW_speednode_0054
-  - TW_speednode_0055
-  - US_speednode_0056
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
-  - US_speednode_0063
-  - US_speednode_0064
-  - US_speednode_0065
+  - CA_speednode_0001
+  - CH_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
+  - CN_speednode_0048
+  - CN_speednode_0049
+  - CN_speednode_0050
+  - CN_speednode_0051
+  - CN_speednode_0052
+  - CN_speednode_0053
+  - CN_speednode_0054
+  - CN_speednode_0055
+  - CN_speednode_0056
+  - CN_speednode_0057
+  - CN_speednode_0058
+  - CN_speednode_0059
+  - CN_speednode_0060
+  - CN_speednode_0061
+  - CN_speednode_0062
+  - CN_speednode_0063
+  - CN_speednode_0064
+  - JP_speednode_0065
+  - JP_speednode_0066
+  - KR_speednode_0067
+  - KR_speednode_0068
+  - KR_speednode_0069
+  - KZ_speednode_0070
+  - SG_speednode_0071
+  - SG_speednode_0072
+  - SG_speednode_0073
+  - SG_speednode_0074
+  - SG_speednode_0075
+  - SG_speednode_0076
+  - SG_speednode_0077
+  - SG_speednode_0078
+  - US_speednode_0079
+  - US_speednode_0080
+  - US_speednode_0081
+  - US_speednode_0084
+  - VN_speednode_0085
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AU_speednode_0001
-  - AU_speednode_0002
-  - CA_speednode_0003
-  - CA_speednode_0004
-  - CA_speednode_0005
-  - CA_speednode_0006
-  - CA_speednode_0007
-  - ES_speednode_0008
-  - FI_speednode_0009
-  - FR_speednode_0010
-  - FR_speednode_0011
-  - FR_speednode_0012
-  - FR_speednode_0013
-  - GB_speednode_0014
-  - GB_speednode_0015
-  - HK_speednode_0016
-  - JP_speednode_0017
-  - KR_speednode_0018
-  - KR_speednode_0019
-  - KR_speednode_0020
-  - KR_speednode_0021
-  - KR_speednode_0022
-  - KR_speednode_0023
-  - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - KR_speednode_0027
-  - KR_speednode_0028
-  - KR_speednode_0029
-  - KR_speednode_0030
-  - KR_speednode_0031
-  - KZ_speednode_0032
-  - SC_speednode_0033
-  - SC_speednode_0034
-  - SC_speednode_0035
-  - SC_speednode_0036
-  - SE_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - SG_speednode_0040
-  - SG_speednode_0041
-  - SG_speednode_0042
-  - SG_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - SG_speednode_0046
-  - SG_speednode_0047
-  - SG_speednode_0048
-  - SG_speednode_0049
-  - SG_speednode_0050
-  - TW_speednode_0051
-  - TW_speednode_0052
-  - TW_speednode_0053
-  - TW_speednode_0054
-  - TW_speednode_0055
-  - US_speednode_0056
-  - US_speednode_0057
-  - US_speednode_0058
-  - US_speednode_0059
-  - US_speednode_0060
-  - US_speednode_0061
-  - US_speednode_0062
-  - US_speednode_0063
-  - US_speednode_0064
-  - US_speednode_0065
+  - CA_speednode_0001
+  - CH_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
+  - CN_speednode_0048
+  - CN_speednode_0049
+  - CN_speednode_0050
+  - CN_speednode_0051
+  - CN_speednode_0052
+  - CN_speednode_0053
+  - CN_speednode_0054
+  - CN_speednode_0055
+  - CN_speednode_0056
+  - CN_speednode_0057
+  - CN_speednode_0058
+  - CN_speednode_0059
+  - CN_speednode_0060
+  - CN_speednode_0061
+  - CN_speednode_0062
+  - CN_speednode_0063
+  - CN_speednode_0064
+  - JP_speednode_0065
+  - JP_speednode_0066
+  - KR_speednode_0067
+  - KR_speednode_0068
+  - KR_speednode_0069
+  - KZ_speednode_0070
+  - SG_speednode_0071
+  - SG_speednode_0072
+  - SG_speednode_0073
+  - SG_speednode_0074
+  - SG_speednode_0075
+  - SG_speednode_0076
+  - SG_speednode_0077
+  - SG_speednode_0078
+  - US_speednode_0079
+  - US_speednode_0080
+  - US_speednode_0081
+  - US_speednode_0084
+  - VN_speednode_0085
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
