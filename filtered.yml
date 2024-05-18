@@ -4,6 +4,8 @@ mode: rule
 external-controller: 127.0.0.1:9090
 dns:
   enabled: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   nameserver:
   - https://doh.pub/dns-query
   - https://223.5.5.5/dns-query
@@ -16,71 +18,65 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+  - {name: CN_speednode_0002, server: hk4.gauss.life, port: 16101, type: ss, cipher: aes-128-gcm, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
   - {name: CN_speednode_0003, server: 120.232.242.117, port: 31778, type: vmess, alterId: 64, cipher: auto, network: tcp, servername: "", tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, country: 🏁 ZZ, h2-opts: {}, http-opts: {}, skip-cert-verify: true}
-  - {name: CN_speednode_0004, server: 120.232.240.38, port: 8443, type: vmess, alterId: 0, cipher: auto, network: "", skip-cert-verify: true, tls: true, uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931}
+  - {name: CN_speednode_0004, server: hk4.gauss.life, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
   - {name: CN_speednode_0005, server: 183.236.51.59, port: 54100, type: vmess, alterId: 64, cipher: auto, network: tcp, servername: "", tls: false, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: JP_speednode_0014, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c68b799:50307}}
-  - {name: NN_speednode_0023, server: data-hk-v1.usabooks.com.cn, port: 20206, type: vmess, alterId: 0, cipher: auto, network: ws, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, servername: "", tls: false, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}}
-  - {name: NN_speednode_0024, server: achk.cloudflarest.link, port: 2082, type: vmess, client-fingerprint: chrome, uuid: a3d900b4-dc3b-475d-a7b6-4be701eaf0c4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/lemonnw?ed=2048", headers: {Host: mugenus.gogolemon.top}}, udp: true}
-  - {name: NN_speednode_0025, server: achk.cloudflarest.link, port: 2052, type: vmess, client-fingerprint: chrome, uuid: a3d900b4-dc3b-475d-a7b6-4be701eaf0c4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: azcloudjp.gogolemon.top}}, udp: true}
+  - {name: CN_speednode_0006, server: jp5.gauss.life, port: 16412, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0007, server: hk6.gauss.life, port: 16323, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0008, server: jp6.gauss.life, port: 16423, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0009, server: jp4.gauss.life, port: 16401, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0010, server: hk6.gauss.life, port: 16123, type: ss, cipher: aes-128-gcm, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0012, server: hk5.gauss.life, port: 16112, type: ss, cipher: aes-128-gcm, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0014, server: jp4.gauss.life, port: 16501, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0015, server: jp5.gauss.life, port: 16512, type: ss, cipher: chacha20-ietf-poly1305, password: ab106898-96fb-46b3-9de1-cfdceeaab04b}
+  - {name: CN_speednode_0016, server: data-hk-v1.usabooks.com.cn, port: 20206, type: vmess, alterId: 0, cipher: auto, network: ws, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, servername: "", tls: false, ws-opts: {path: /debian, headers: {Host: data-hk-v1.usabooks.com.cn}}}
   - {name: SG_speednode_0032, server: 103.172.116.94, port: 9098, type: ss, password: aLpQtfEZe445QyHk, cipher: aes-256-cfb}
-  - {name: SG_speednode_0033, server: 103.172.116.94, port: 9032, type: ss, password: UWZQeLRWnkqgkseq, cipher: aes-256-cfb, alterId: -1, country: 🏁 ZZ, customName: ChatGPT 🏁 ZZ_142}
-  - {name: SG_speednode_0034, server: 103.172.116.94, port: 9093, type: ss, password: wfLC2y7rzZyCmuyt, cipher: aes-256-cfb, udp: true}
-  - {name: SG_speednode_0035, server: 103.172.116.94, port: 9040, type: ss, password: p9z5BVADH2YFs3MN, cipher: aes-256-cfb, alterId: -1, customName: 4FreeIran-1245}
-  - {name: SG_speednode_0036, server: 103.172.116.94, port: 9033, type: ss, password: UTJA57ypk2XKQpnm, cipher: aes-256-cfb, alterId: -1, customName: 4FreeIran-842}
-  - {name: SG_speednode_0037, server: 103.172.116.94, port: 9050, type: ss, password: FG5ddLsMPbV5CutE, cipher: aes-256-cfb}
-  - {name: SG_speednode_0038, server: 103.172.116.94, port: 9079, type: ss, password: TPqX8edgbAURcAMb, cipher: aes-256-cfb}
-  - {name: SG_speednode_0039, server: 103.172.116.94, port: 9026, type: ss, password: QWDDvVE9npNurQfA, cipher: aes-256-cfb, alterId: -1, country: 🏁 ZZ, customName: ChatGPT 🏁 ZZ_460}
-  - {name: SG_speednode_0040, server: 103.172.116.94, port: 9053, type: ss, password: SBM7R883jBmnqe6C, cipher: aes-256-cfb, alterId: -1, country: 🏁 ZZ, customName: 🏁 ZZ_724}
-  - {name: US_speednode_0244, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, delay: 865, country: 🇺🇸US, alterId: -1, customName: 🇺🇸US-156.146.38.163-0325}
-  - {name: US_speednode_0245, server: 156.146.38.163, port: 443, type: ssr, password: shadowsocks, cipher: aes-128-cfb, protocol: origin, obfs: plain, alterId: -1, customName: SSR-美国-自制NF-ChatGPT-TikTok-YouTubePrem-156.146.38.163:443}
-  - {name: US_speednode_0277, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.154.136.2}}}
+  - {name: US_speednode_0225, server: 156.146.38.163, port: 443, type: ssr, password: shadowsocks, cipher: aes-128-cfb, protocol: origin, obfs: plain, alterId: -1}
+  - {name: US_speednode_0227, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, delay: 865, country: 🇺🇸US, alterId: -1, customName: 🇺🇸US-156.146.38.163-0325}
+  - {name: US_speednode_0265, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.154.136.2}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - JP_speednode_0014
-  - NN_speednode_0023
-  - NN_speednode_0024
-  - NN_speednode_0025
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0012
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
   - SG_speednode_0032
-  - SG_speednode_0033
-  - SG_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - SG_speednode_0040
-  - US_speednode_0244
-  - US_speednode_0245
-  - US_speednode_0277
+  - US_speednode_0225
+  - US_speednode_0227
+  - US_speednode_0265
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
-  - JP_speednode_0014
-  - NN_speednode_0023
-  - NN_speednode_0024
-  - NN_speednode_0025
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0012
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
   - SG_speednode_0032
-  - SG_speednode_0033
-  - SG_speednode_0034
-  - SG_speednode_0035
-  - SG_speednode_0036
-  - SG_speednode_0037
-  - SG_speednode_0038
-  - SG_speednode_0039
-  - SG_speednode_0040
-  - US_speednode_0244
-  - US_speednode_0245
-  - US_speednode_0277
+  - US_speednode_0225
+  - US_speednode_0227
+  - US_speednode_0265
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
@@ -574,5 +570,9 @@ rules:
 - IP-CIDR,100.64.0.0/10,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT
 - IP-CIDR6,fe80::/10,DIRECT
+- IP-CIDR,2002::/16,DIRECT
+- IP-CIDR,2001:db8::/32,DIRECT
+- IP-CIDR,2001::/32,DIRECT
+- IP-CIDR,2001:20::/28,DIRECT
 - GEOIP,CN,DIRECT
 - MATCH,⭕ proxinode
