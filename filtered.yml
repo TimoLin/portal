@@ -18,71 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CA_speednode_0005, server: 158.51.121.36, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}, servername: 158.51.121.36, udp: true}
-  - {name: CN_speednode_0008, server: 183.232.199.61, port: 15600, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0009, server: 183.232.142.179, port: 15600, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0010, server: 183.232.199.61, port: 42001, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0011, server: 183.232.199.28, port: 15603, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0012, server: 183.232.199.28, port: 42001, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0013, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, network: tcp, skip-cert-verify: true}
-  - {name: CN_speednode_0014, server: 36.151.195.48, port: 4603, type: trojan, password: TNDSJfNv, network: tcp, skip-cert-verify: true}
-  - {name: CN_speednode_0015, server: 183.232.170.47, port: 15611, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0016, server: 183.232.199.61, port: 15601, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false, servername: None}
-  - {name: CN_speednode_0017, server: 183.232.199.28, port: 15605, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0018, server: 183.232.199.61, port: 45001, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false}
-  - {name: CN_speednode_0019, server: 183.232.142.179, port: 15601, type: vmess, alterId: 0, cipher: auto, network: tcp, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls: false, servername: None}
-  - {name: CN_speednode_0020, server: vip3.niuniupremium.xyz, port: 16928, type: vmess, alterId: 0, cipher: auto, network: ws, servername: 193.25.215.160, skip-cert-verify: true, uuid: 2ab54438-8af9-3711-bf1a-676fcc144586, ws-opts: {path: /v2ray, headers: {host: vip3.niuniupremium.xyz}}, tls: false, country: 🇨🇳CN, h2-opts: {}, http-opts: {}, customName: CN_speednode_0008}
-  - {name: JP_speednode_0052, server: 158.51.111.114, port: 32365, type: vmess, cipher: auto, uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16, alterId: 0, tls: false, skip-cert-verify: true, network: http}
-  - {name: SG_speednode_0106, server: 5.44.249.44, port: 3306, type: trojan, network: ws, password: b84d16a244460e09, skip-cert-verify: true, sni: n2.gladns.com, udp: true, ws-opts: {headers: {Host: TG.WangCai_1}, path: /gateway/connect}}
-  - {name: US_speednode_0135, server: 104.192.224.141, port: 62894, type: hysteria2, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: US_speednode_0136, server: 104.192.224.140, port: 62894, type: hysteria2, password: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: US_speednode_0137, server: 109.104.152.194, port: 58510, type: hysteria, skip-cert-verify: true, sni: bing.com, auth_str: dongtaiwang.com, up: 11, down: 55, alpn: [h3]}
+  - {name: CA_speednode_0004, server: 158.51.121.36, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, ws-opts: {path: /linkvws}, servername: 158.51.121.36, udp: true}
+  - {name: CN_speednode_0006, server: 36.151.195.48, port: 4603, type: trojan, password: TNDSJfNv, network: tcp, skip-cert-verify: true}
+  - {name: JP_speednode_0059, server: 158.51.111.114, port: 32365, type: vmess, cipher: auto, uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16, alterId: 0, tls: false, skip-cert-verify: true, network: http}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CA_speednode_0005
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - JP_speednode_0052
-  - SG_speednode_0106
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
+  - CA_speednode_0004
+  - CN_speednode_0006
+  - JP_speednode_0059
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CA_speednode_0005
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - JP_speednode_0052
-  - SG_speednode_0106
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
+  - CA_speednode_0004
+  - CN_speednode_0006
+  - JP_speednode_0059
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
