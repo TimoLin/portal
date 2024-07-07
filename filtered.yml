@@ -18,31 +18,27 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AT_speednode_0007, server: 95.164.9.196, port: 2053, type: trojan, udp: true, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, skip-cert-verify: true, client-fingerprint: chrome, sni: ftp.debian.org}
-  - {name: AT_speednode_0008, server: at1.trojanvpn.de, port: 2053, type: trojan, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, sni: ftp.debian.org, skip-cert-verify: true}
-  - {name: CN_speednode_0018, server: 183.240.235.164, port: 52908, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0019, server: 116.230.200.147, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0020, server: 47.109.134.216, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0021, server: 117.25.71.247, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0022, server: 47.123.4.164, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0023, server: kr1.mhw7e2.online, port: 20019, type: ss, alterId: -1, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0024, server: 36.251.43.232, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0025, server: 183.240.235.162, port: 40002, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0026, server: 119.109.11.144, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0027, server: 59.56.77.178, port: 15082, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: CN_speednode_0028, server: speedtest-rtc.xtspeeder002.xyz, port: 37041, type: ss, cipher: aes-256-ctr, password: JHe7ay97yuw8ue, plugin: obfs, plugin-opts: {mode: http, host: 607ab498e8.v4-dy.ixigua.com}}
-  - {name: CN_speednode_0029, server: 101.132.113.116, port: 25501, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0030, server: 171.37.10.20, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0031, server: 183.236.51.23, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CN_speednode_0033, server: 223.113.54.154, port: 1617, type: trojan, udp: false, password: GsKYmYOE, skip-cert-verify: true, client-fingerprint: chrome}
-  - {name: US_speednode_0246, server: hk.wish.ml, port: 2052, type: vmess, uuid: 071ef7de-1524-44ca-9c00-0b5885cd23a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg5.wish.ml}}}
+  - {name: AT_speednode_0005, server: 95.164.9.196, port: 2053, type: trojan, udp: true, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, skip-cert-verify: true, client-fingerprint: chrome, sni: ftp.debian.org}
+  - {name: AT_speednode_0006, server: at1.trojanvpn.de, port: 2053, type: trojan, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, sni: ftp.debian.org, skip-cert-verify: true}
+  - {name: CN_speednode_0016, server: 183.240.235.164, port: 52908, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0017, server: 47.123.4.164, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0018, server: kr1.mhw7e2.online, port: 20019, type: ss, alterId: -1, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: CN_speednode_0019, server: 36.251.43.232, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0020, server: 183.240.235.162, port: 40002, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0021, server: 59.56.77.178, port: 15082, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: CN_speednode_0022, server: speedtest-rtc.xtspeeder002.xyz, port: 37041, type: ss, cipher: aes-256-ctr, password: JHe7ay97yuw8ue, plugin: obfs, plugin-opts: {mode: http, host: 607ab498e8.v4-dy.ixigua.com}}
+  - {name: CN_speednode_0023, server: 171.37.10.20, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0024, server: 183.236.51.23, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: CN_speednode_0026, server: 223.113.54.154, port: 1617, type: trojan, udp: false, password: GsKYmYOE, skip-cert-verify: true, client-fingerprint: chrome}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AT_speednode_0007
-  - AT_speednode_0008
+  - AT_speednode_0005
+  - AT_speednode_0006
+  - CN_speednode_0016
+  - CN_speednode_0017
   - CN_speednode_0018
   - CN_speednode_0019
   - CN_speednode_0020
@@ -50,20 +46,14 @@ proxy-groups:
   - CN_speednode_0022
   - CN_speednode_0023
   - CN_speednode_0024
-  - CN_speednode_0025
   - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0033
-  - US_speednode_0246
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AT_speednode_0007
-  - AT_speednode_0008
+  - AT_speednode_0005
+  - AT_speednode_0006
+  - CN_speednode_0016
+  - CN_speednode_0017
   - CN_speednode_0018
   - CN_speednode_0019
   - CN_speednode_0020
@@ -71,15 +61,7 @@ proxy-groups:
   - CN_speednode_0022
   - CN_speednode_0023
   - CN_speednode_0024
-  - CN_speednode_0025
   - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0033
-  - US_speednode_0246
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
