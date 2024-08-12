@@ -18,38 +18,128 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0016, server: mmjp11.micloud.buzz, port: 46011, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmjp11.micloud.buzz}}}
-  - {name: CN_speednode_0017, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: FR_speednode_0079, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, udp: true, tls: true, servername: beyonddsz.cfd, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}}
-  - {name: FR_speednode_0080, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}}
-  - {name: KR_speednode_0101, server: 218.158.87.155, port: 11423, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0141, server: 47.236.80.110, port: 8443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
-  - {name: US_speednode_0189, server: na.ma, port: 443, type: vmess, uuid: 00759fb3-bf4d-4b31-ac07-e77353592813, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /.cachefiles/89d86e07-f6a8-4aa9-9ba0-fafd2dc17300/, headers: {Host: 849aec73-0517-us.vps-jdkz.gq}}}
-  - {name: US_speednode_0193, server: na.ma, port: 443, type: vmess, uuid: 00759fb3-bf4d-4b31-ac07-e77353592813, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /.cachefiles/89d86e07-f6a8-4aa9-9ba0-fafd2dc17300/, headers: {Host: ec46ed00-d233-de.vps-jdkz.gq}}}
+  - {name: CA_speednode_0008, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.dtku47.xyz}}}
+  - {name: CN_speednode_0010, server: free-relay.t01.themars.top, port: 49901, type: ss, cipher: chacha20-ietf-poly1305, password: 5af32157-bc14-4193-93b5-e585d76ee06f}
+  - {name: CN_speednode_0011, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0012, server: free-relay.t01.themars.top, port: 49902, type: ss, cipher: chacha20-ietf-poly1305, password: 5af32157-bc14-4193-93b5-e585d76ee06f}
+  - {name: FI_speednode_0046, server: 65.109.184.193, port: 2087, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: HK_speednode_0060, server: hk01.xfxnode.top, port: 443, type: vmess, uuid: 72544274-307f-406a-b497-5965c2b803cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hk01, headers: {Host: hk01.xfxnode.top}}}
+  - {name: HK_speednode_0061, server: 47.76.33.40, port: 2083, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: JP_speednode_0070, server: 103.201.130.227, port: 2096, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: JP_speednode_0071, server: 154.40.62.78, port: 8443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: JP_speednode_0072, server: 193.32.149.235, port: 47519, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0074, server: 222.97.95.239, port: 10443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0076, server: 59.7.198.12, port: 29015, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0077, server: 118.42.9.31, port: 29984, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0078, server: 121.164.145.102, port: 15151, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0079, server: 112.187.240.245, port: 33185, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0080, server: 121.148.19.178, port: 25006, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0081, server: 118.40.129.200, port: 27017, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0083, server: 175.199.54.84, port: 38520, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0084, server: 61.36.58.170, port: 30051, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0087, server: 59.3.3.161, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: KR_speednode_0088, server: 211.230.167.207, port: 32773, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0120, server: 47.237.84.173, port: 2087, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0121, server: 47.237.8.82, port: 8443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0125, server: 47.236.165.25, port: 2096, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0126, server: 47.236.180.24, port: 8443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0127, server: 47.237.0.31, port: 2053, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0128, server: 47.236.253.41, port: 2083, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0130, server: 47.236.167.231, port: 8443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0131, server: 47.236.130.95, port: 2053, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0132, server: 47.236.189.92, port: 2096, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0144, server: 154.7.179.27, port: 32958, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0165, server: 159.246.55.132, port: 443, type: trojan, password: auto, sni: vip.123789.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vip.123789.pp.ua}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0168, server: 185.218.7.217, port: 1443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0169, server: 154.17.21.13, port: 36166, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0170, server: 154.17.9.71, port: 882, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0171, server: 166.0.145.209, port: 30553, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0172, server: 154.9.238.155, port: 20404, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0173, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - FR_speednode_0079
-  - FR_speednode_0080
-  - KR_speednode_0101
-  - SG_speednode_0141
-  - US_speednode_0189
-  - US_speednode_0193
+  - CA_speednode_0008
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - FI_speednode_0046
+  - HK_speednode_0060
+  - HK_speednode_0061
+  - JP_speednode_0070
+  - JP_speednode_0071
+  - JP_speednode_0072
+  - KR_speednode_0074
+  - KR_speednode_0076
+  - KR_speednode_0077
+  - KR_speednode_0078
+  - KR_speednode_0079
+  - KR_speednode_0080
+  - KR_speednode_0081
+  - KR_speednode_0083
+  - KR_speednode_0084
+  - KR_speednode_0087
+  - KR_speednode_0088
+  - SG_speednode_0120
+  - SG_speednode_0121
+  - SG_speednode_0125
+  - SG_speednode_0126
+  - SG_speednode_0127
+  - SG_speednode_0128
+  - SG_speednode_0130
+  - SG_speednode_0131
+  - SG_speednode_0132
+  - US_speednode_0144
+  - US_speednode_0165
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - FR_speednode_0079
-  - FR_speednode_0080
-  - KR_speednode_0101
-  - SG_speednode_0141
-  - US_speednode_0189
-  - US_speednode_0193
+  - CA_speednode_0008
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - FI_speednode_0046
+  - HK_speednode_0060
+  - HK_speednode_0061
+  - JP_speednode_0070
+  - JP_speednode_0071
+  - JP_speednode_0072
+  - KR_speednode_0074
+  - KR_speednode_0076
+  - KR_speednode_0077
+  - KR_speednode_0078
+  - KR_speednode_0079
+  - KR_speednode_0080
+  - KR_speednode_0081
+  - KR_speednode_0083
+  - KR_speednode_0084
+  - KR_speednode_0087
+  - KR_speednode_0088
+  - SG_speednode_0120
+  - SG_speednode_0121
+  - SG_speednode_0125
+  - SG_speednode_0126
+  - SG_speednode_0127
+  - SG_speednode_0128
+  - SG_speednode_0130
+  - SG_speednode_0131
+  - SG_speednode_0132
+  - US_speednode_0144
+  - US_speednode_0165
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
