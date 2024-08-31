@@ -18,82 +18,58 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0017, server: bronze-can.steamcontent.top, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0018, server: bronze-can.steamcontent.top, port: 13115, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0019, server: bronze-can.steamcontent.top, port: 20032, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0020, server: bronze-can.steamcontent.top, port: 12406, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0021, server: 183.236.48.166, port: 45602, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0022, server: 183.236.48.166, port: 45602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0023, server: bronze-can.steamcontent.top, port: 12312, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0024, server: 183.236.48.166, port: 45602, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0025, server: 183.236.48.166, port: 54602, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0026, server: 120.232.153.40, port: 52442, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0027, server: bronze-can.steamcontent.top, port: 12301, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0028, server: 117.25.69.67, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0029, server: 120.24.189.187, port: 33210, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0030, server: 8.142.90.27, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0031, server: cdn-p1-sg.weibo-dns.com, port: 11510, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0032, server: bronze-can.steamcontent.top, port: 12727, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0033, server: bronze-can.steamcontent.top, port: 20043, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0034, server: cdn-p1-sg.weibo-dns.com, port: 11508, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0035, server: bronze-can.steamcontent.top, port: 20055, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0036, server: 124.72.196.189, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0037, server: 47.123.4.164, port: 7890, type: http, alterId: -1, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0038, server: 110.19.193.117, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0039, server: bronze-can.steamcontent.top, port: 12401, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0040, server: bronze-can.steamcontent.top, port: 12324, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0041, server: gzyd5-1.piaomiaoxu.net, port: 42100, type: ss, cipher: aes-256-gcm, password: 0dde3bf2-08a9-405e-b4b9-b1876e2521f3, alterId: -1}
-  - {name: CN_speednode_0042, server: bronze-can.steamcontent.top, port: 13135, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0043, server: cdn-p1-hk.weibo-dns.com, port: 11503, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0044, server: cdn-p1-jp.weibo-dns.com, port: 11506, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0045, server: gdcub.yunnode.win, port: 31738, type: ss, cipher: chacha20-ietf-poly1305, password: 23e07b3e-6eff-4c87-aa8a-c895fb3b7047}
-  - {name: CN_speednode_0046, server: 183.236.48.161, port: 41490, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0047, server: cdn-p1-hk.weibo-dns.com, port: 11501, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0048, server: 183.236.48.163, port: 54882, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0049, server: bronze-can.steamcontent.top, port: 12326, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0050, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 23e07b3e-6eff-4c87-aa8a-c895fb3b7047}
-  - {name: CN_speednode_0051, server: 223.113.54.185, port: 41115, type: trojan, password: pTuMwddQ, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0052, server: bronze-pek.steamcontent.top, port: 12628, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0053, server: bronze-pek.steamcontent.top, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0054, server: bronze-pek.steamcontent.top, port: 12635, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0055, server: 113.226.148.65, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0056, server: bronze-pek.steamcontent.top, port: 13144, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0057, server: cdn-p1-lm.youku-dns.com, port: 11519, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0058, server: bronze-pek.steamcontent.top, port: 12653, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0059, server: cdn-p1-lm.youku-dns.com, port: 11523, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0060, server: bronze-pvg.steamcontent.top, port: 50016, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0061, server: bronze-can.steamcontent.top, port: 20044, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0062, server: bronze-pvg.steamcontent.top, port: 13111, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0063, server: cdn-p1-us.youku-dns.com, port: 11512, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0064, server: cdn-p1-sg.weibo-dns.com, port: 11513, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0065, server: cdn-p1-lm.youku-dns.com, port: 11514, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0066, server: cdn-p1-lm.youku-dns.com, port: 11518, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0067, server: cdn-p1-sg.weibo-dns.com, port: 11527, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: CN_speednode_0068, server: bronze-pek.steamcontent.top, port: 13154, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {host: db52e6e51ac4.microsoft.com, mode: http}, udp: true}
-  - {name: CN_speednode_0069, server: cdn-p1-lm.youku-dns.com, port: 11515, type: ss, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true}
-  - {name: GB_speednode_0123, server: yg.flmweb.cc, port: 40090, type: vmess, network: ws, uuid: 4a289d53-0f15-4801-94af-89d0109c4532, tls: false, udp: true, alterId: 0, cipher: auto, ws-opts: {headers: {Host: yg.flmweb.cc}, path: /}}
-  - {name: HK_speednode_0134, server: 38.207.164.31, port: 32828, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: HK_speednode_0139, server: 89.185.26.20, port: 55509, type: vmess, alterId: 0, cipher: auto, network: ws, udp: true, uuid: e38d4f67-4ad5-418f-8bef-dfcbb889a45c, ws-opts: {path: /}}
-  - {name: KR_speednode_0140, server: 118.45.125.234, port: 16575, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: LU_speednode_0145, server: 82.117.226.218, port: 12033, type: trojan, alterId: -1, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, skip-cert-verify: true, sni: cdn.alibaba.com, udp: true}
-  - {name: US_speednode_0181, server: 38.207.187.156, port: 44017, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0182, server: 185.218.7.182, port: 53479, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0184, server: 154.17.20.7, port: 34967, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0185, server: 154.17.22.88, port: 30861, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0186, server: 154.21.93.124, port: 14280, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0190, server: 154.17.25.7, port: 50376, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0193, server: 2.59.151.85, port: 48333, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0196, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
-  - {name: US_speednode_0198, server: 198.62.62.37, port: 443, type: trojan, network: ws, password: tg-dns68, skip-cert-verify: true, udp: true, sni: vip.putata.eu.org, ws-opts: {headers: {Host: vip.putata.eu.org}, path: /}}
-  - {name: US_speednode_0202, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0204, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: false, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0207, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: true, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: /}}
-  - {name: US_speednode_0212, server: 45.87.103.80, port: 28619, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0218, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0220, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
-  - {name: US_speednode_0222, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "%2F"}}
-  - {name: US_speednode_0230, server: jp2.1vpn.sbs, port: 80, type: vmess, network: ws, uuid: f9c51a61-3196-4cf7-a8a0-5e5af3366314, tls: false, udp: true, alterId: 0, cipher: auto, ws-opts: {headers: {Host: jp2.1vpn.sbs}, path: /rgherjwaqw}}
-  - {name: US_speednode_0231, server: lol.ps, port: 2052, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, alpn: [h3, h2, http/1.1], network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: mysan2.jaquay22.workers.dev}}}
+  - {name: CN_speednode_0017, server: 183.236.48.166, port: 45602, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0018, server: 183.236.48.166, port: 45602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0019, server: 183.236.48.166, port: 45602, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0020, server: 183.236.48.166, port: 54602, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0021, server: 120.232.153.40, port: 52442, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0022, server: 117.25.69.67, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0023, server: 8.142.90.27, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0024, server: 47.123.4.164, port: 7890, type: http, alterId: -1, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0025, server: 110.19.193.117, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0026, server: 183.236.48.161, port: 41490, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0027, server: 183.236.48.163, port: 54882, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0028, server: 113.226.148.65, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0029, server: gdcub.yunnode.win, port: 31673, type: ss, cipher: chacha20-ietf-poly1305, password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0}
+  - {name: CN_speednode_0030, server: gdcub.yunnode.win, port: 31633, type: ss, cipher: chacha20-ietf-poly1305, password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0}
+  - {name: CN_speednode_0031, server: gdcub.yunnode.win, port: 15632, type: ss, cipher: chacha20-ietf-poly1305, password: 3e2fbc18-7751-4dea-b6ff-63c095bc1df8}
+  - {name: CN_speednode_0032, server: gdcub.yunnode.win, port: 35632, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0033, server: gdcub.yunnode.win, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: d3107eb5-d91d-4499-a902-f452ec806257}
+  - {name: CN_speednode_0034, server: gdcub.yunnode.win, port: 35635, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0035, server: xd-zhongri1.bestdong.xyz, port: 28074, type: ss, cipher: chacha20-ietf-poly1305, password: 271dfb2a-d962-433f-9a5f-803bc915c591}
+  - {name: CN_speednode_0036, server: 140.249.160.81, port: 35638, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0037, server: gdcub.yunnode.win, port: 15636, type: ss, cipher: chacha20-ietf-poly1305, password: 8f8b8e3c-62dc-4200-b1ce-a1d3de454288}
+  - {name: CN_speednode_0038, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: d3107eb5-d91d-4499-a902-f452ec806257}
+  - {name: CN_speednode_0039, server: gdcub.yunnode.win, port: 35637, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0040, server: gdcub.yunnode.win, port: 31738, type: ss, cipher: chacha20-ietf-poly1305, password: d3107eb5-d91d-4499-a902-f452ec806257}
+  - {name: CN_speednode_0041, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0042, server: 140.249.160.81, port: 15639, type: ss, cipher: chacha20-ietf-poly1305, password: afdb5334-5154-4069-afb1-4a2778844155}
+  - {name: CN_speednode_0043, server: gdcub.yunnode.win, port: 15733, type: ss, cipher: chacha20-ietf-poly1305, password: 6aea0096-480e-4be1-9b19-0d0b096c2344}
+  - {name: CN_speednode_0044, server: gdcub.yunnode.win, port: 15731, type: ss, cipher: chacha20-ietf-poly1305, password: 09d2e2e7-2a59-44ce-9bcc-ea46ed43f6d3}
+  - {name: CN_speednode_0045, server: gdcub.yunnode.win, port: 31248, type: ss, cipher: chacha20-ietf-poly1305, password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0}
+  - {name: CN_speednode_0046, server: gdcub.yunnode.win, port: 12642, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0047, server: gdcub.yunnode.win, port: 15735, type: ss, cipher: chacha20-ietf-poly1305, password: 3e2fbc18-7751-4dea-b6ff-63c095bc1df8}
+  - {name: CN_speednode_0048, server: xd-zg1.bestdong.xyz, port: 25021, type: ss, cipher: chacha20-ietf-poly1305, password: 271dfb2a-d962-433f-9a5f-803bc915c591}
+  - {name: CN_speednode_0049, server: gdcub.yunnode.win, port: 31642, type: ss, cipher: chacha20-ietf-poly1305, password: d3107eb5-d91d-4499-a902-f452ec806257}
+  - {name: CN_speednode_0050, server: gdcub.yunnode.win, port: 31651, type: ss, cipher: chacha20-ietf-poly1305, password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0}
+  - {name: CN_speednode_0051, server: gdcub.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: d3107eb5-d91d-4499-a902-f452ec806257}
+  - {name: CN_speednode_0052, server: xd-zg2.bestdong.xyz, port: 26011, type: ss, cipher: chacha20-ietf-poly1305, password: 271dfb2a-d962-433f-9a5f-803bc915c591}
+  - {name: CN_speednode_0053, server: xd-zhongri1.bestdong.xyz, port: 28916, type: ss, cipher: chacha20-ietf-poly1305, password: 271dfb2a-d962-433f-9a5f-803bc915c591}
+  - {name: CN_speednode_0054, server: xd-zg2.bestdong.xyz, port: 24039, type: ss, cipher: chacha20-ietf-poly1305, password: 271dfb2a-d962-433f-9a5f-803bc915c591}
+  - {name: CN_speednode_0055, server: 140.249.160.81, port: 31685, type: ss, cipher: chacha20-ietf-poly1305, password: 0ed609b3-4b7b-4f02-a5f0-94a346de49a0}
+  - {name: CN_speednode_0056, server: gdcub.yunnode.win, port: 35634, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: CN_speednode_0057, server: gdcub.yunnode.win, port: 35532, type: ss, cipher: chacha20-ietf-poly1305, password: a05feac6-42cd-441e-8d41-1c4577065a37}
+  - {name: HK_speednode_0127, server: 89.185.26.20, port: 55509, type: vmess, alterId: 0, cipher: auto, network: ws, udp: true, uuid: e38d4f67-4ad5-418f-8bef-dfcbb889a45c, ws-opts: {path: /}}
+  - {name: KR_speednode_0138, server: 118.45.125.234, port: 16575, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0181, server: 154.17.20.7, port: 34967, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0184, server: 154.17.25.7, port: 50376, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0189, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0194, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0196, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: false, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0199, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: true, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: /}}
+  - {name: US_speednode_0209, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0211, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
+  - {name: US_speednode_0213, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "%2F"}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -140,41 +116,17 @@ proxy-groups:
   - CN_speednode_0055
   - CN_speednode_0056
   - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - GB_speednode_0123
-  - HK_speednode_0134
-  - HK_speednode_0139
-  - KR_speednode_0140
-  - LU_speednode_0145
+  - HK_speednode_0127
+  - KR_speednode_0138
   - US_speednode_0181
-  - US_speednode_0182
   - US_speednode_0184
-  - US_speednode_0185
-  - US_speednode_0186
-  - US_speednode_0190
-  - US_speednode_0193
+  - US_speednode_0189
+  - US_speednode_0194
   - US_speednode_0196
-  - US_speednode_0198
-  - US_speednode_0202
-  - US_speednode_0204
-  - US_speednode_0207
-  - US_speednode_0212
-  - US_speednode_0218
-  - US_speednode_0220
-  - US_speednode_0222
-  - US_speednode_0230
-  - US_speednode_0231
+  - US_speednode_0199
+  - US_speednode_0209
+  - US_speednode_0211
+  - US_speednode_0213
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -219,41 +171,17 @@ proxy-groups:
   - CN_speednode_0055
   - CN_speednode_0056
   - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - GB_speednode_0123
-  - HK_speednode_0134
-  - HK_speednode_0139
-  - KR_speednode_0140
-  - LU_speednode_0145
+  - HK_speednode_0127
+  - KR_speednode_0138
   - US_speednode_0181
-  - US_speednode_0182
   - US_speednode_0184
-  - US_speednode_0185
-  - US_speednode_0186
-  - US_speednode_0190
-  - US_speednode_0193
+  - US_speednode_0189
+  - US_speednode_0194
   - US_speednode_0196
-  - US_speednode_0198
-  - US_speednode_0202
-  - US_speednode_0204
-  - US_speednode_0207
-  - US_speednode_0212
-  - US_speednode_0218
-  - US_speednode_0220
-  - US_speednode_0222
-  - US_speednode_0230
-  - US_speednode_0231
+  - US_speednode_0199
+  - US_speednode_0209
+  - US_speednode_0211
+  - US_speednode_0213
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
