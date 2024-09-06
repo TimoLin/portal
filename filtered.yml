@@ -18,302 +18,41 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0012, server: 183.236.48.163, port: 54882, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0013, server: 113.226.148.65, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
-  - {name: CN_speednode_0014, server: 120.232.153.40, port: 52442, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: US_speednode_0503, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0505, server: 23.157.40.5, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_speednode_0507, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
-  - {name: US_speednode_0509, server: 23.157.40.5, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_speednode_0510, server: 23.157.40.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0512, server: 23.157.40.5, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_speednode_0515, server: 23.157.40.5, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0516, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: true, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: /}}
-  - {name: US_speednode_0517, server: 23.157.40.5, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0518, server: 23.157.40.5, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0524, server: 23.157.40.5, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0528, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0530, server: 23.157.40.5, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0534, server: 23.157.40.5, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0535, server: 23.154.136.132, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_speednode_0536, server: 23.154.136.132, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_speednode_0537, server: 23.157.40.5, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0538, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
-  - {name: US_speednode_0539, server: 23.157.40.5, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0541, server: 23.157.40.5, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_speednode_0542, server: 23.154.136.132, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0543, server: 23.154.136.132, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0544, server: 23.154.136.132, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_speednode_0545, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: false, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
-  - {name: US_speednode_0546, server: 23.154.136.132, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_speednode_0547, server: 23.157.40.5, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0548, server: 23.157.40.5, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0549, server: 23.157.40.5, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_speednode_0550, server: 23.157.40.5, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0551, server: 23.154.136.132, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0552, server: 23.157.40.5, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_speednode_0553, server: 23.157.40.5, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_speednode_0554, server: 23.157.40.5, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0555, server: 23.157.40.5, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_speednode_0556, server: 23.154.136.132, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_speednode_0557, server: 23.157.40.5, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0558, server: 23.154.136.132, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0559, server: 23.154.136.132, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0560, server: 23.157.40.5, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_speednode_0561, server: 23.157.40.5, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_speednode_0562, server: 23.157.40.5, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0563, server: 23.157.40.5, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_speednode_0564, server: 23.157.40.5, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0565, server: 23.154.136.132, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0566, server: 23.154.136.132, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0567, server: 23.157.40.5, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0568, server: 23.157.40.5, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_speednode_0569, server: 23.157.40.5, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0570, server: 23.157.40.5, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_speednode_0571, server: 23.157.40.5, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_speednode_0572, server: 23.157.40.5, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_speednode_0573, server: 23.154.136.132, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0574, server: 23.157.40.5, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0575, server: 23.157.40.5, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_speednode_0577, server: 23.154.136.132, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0578, server: 23.154.136.132, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0579, server: 23.154.136.132, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_speednode_0580, server: 23.157.40.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_speednode_0581, server: 23.154.136.132, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0582, server: 23.157.40.95, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0583, server: 23.157.40.95, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0584, server: 23.154.136.132, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0585, server: 23.157.40.95, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0586, server: 23.154.136.132, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_speednode_0587, server: 23.157.40.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0588, server: 23.157.40.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0589, server: 23.157.40.95, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0590, server: 23.157.40.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_speednode_0591, server: 23.154.136.132, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0592, server: 23.157.40.95, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0593, server: 23.154.136.132, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0594, server: 23.157.40.95, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: US_speednode_0595, server: 23.157.40.95, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0596, server: 23.157.40.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_speednode_0597, server: 23.157.40.95, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_speednode_0598, server: 23.157.40.95, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_speednode_0599, server: 23.157.40.95, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_speednode_0600, server: 23.157.40.95, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0601, server: 23.157.40.95, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: US_speednode_0602, server: 23.157.40.95, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0603, server: 23.157.40.95, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: US_speednode_0604, server: 23.154.136.132, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_speednode_0605, server: 23.157.40.95, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0606, server: 23.157.40.95, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: US_speednode_0607, server: 23.157.40.95, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_speednode_0608, server: 23.157.40.95, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_speednode_0609, server: 23.157.40.95, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_speednode_0610, server: 23.157.40.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_speednode_0611, server: 23.154.136.132, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_speednode_0612, server: 23.157.40.95, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_speednode_0613, server: 23.157.40.95, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_speednode_0614, server: 23.157.40.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_speednode_0615, server: 23.157.40.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CN_speednode_0011, server: 183.236.48.163, port: 54882, type: vmess, alterId: 64, cipher: auto, network: tcp, skip-cert-verify: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: CN_speednode_0012, server: 113.226.148.65, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0013, server: 120.232.153.40, port: 52442, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
+  - {name: US_speednode_0470, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0473, server: 43.153.80.208, port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0478, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: true, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: /}}
+  - {name: US_speednode_0487, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
+  - {name: US_speednode_0492, server: 43.153.80.208, port: 443, type: trojan, client-fingerprint: chrome, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
+  - {name: US_speednode_0494, server: 43.153.80.208, port: 443, type: trojan, network: ws, password: CMLiu, skip-cert-verify: true, sni: aliorg.filegear-sg.me, udp: false, ws-opts: {headers: {Host: aliorg.filegear-sg.me}, path: "/?ed=2048"}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
-  - CN_speednode_0014
-  - US_speednode_0503
-  - US_speednode_0505
-  - US_speednode_0507
-  - US_speednode_0509
-  - US_speednode_0510
-  - US_speednode_0512
-  - US_speednode_0515
-  - US_speednode_0516
-  - US_speednode_0517
-  - US_speednode_0518
-  - US_speednode_0524
-  - US_speednode_0528
-  - US_speednode_0530
-  - US_speednode_0534
-  - US_speednode_0535
-  - US_speednode_0536
-  - US_speednode_0537
-  - US_speednode_0538
-  - US_speednode_0539
-  - US_speednode_0541
-  - US_speednode_0542
-  - US_speednode_0543
-  - US_speednode_0544
-  - US_speednode_0545
-  - US_speednode_0546
-  - US_speednode_0547
-  - US_speednode_0548
-  - US_speednode_0549
-  - US_speednode_0550
-  - US_speednode_0551
-  - US_speednode_0552
-  - US_speednode_0553
-  - US_speednode_0554
-  - US_speednode_0555
-  - US_speednode_0556
-  - US_speednode_0557
-  - US_speednode_0558
-  - US_speednode_0559
-  - US_speednode_0560
-  - US_speednode_0561
-  - US_speednode_0562
-  - US_speednode_0563
-  - US_speednode_0564
-  - US_speednode_0565
-  - US_speednode_0566
-  - US_speednode_0567
-  - US_speednode_0568
-  - US_speednode_0569
-  - US_speednode_0570
-  - US_speednode_0571
-  - US_speednode_0572
-  - US_speednode_0573
-  - US_speednode_0574
-  - US_speednode_0575
-  - US_speednode_0577
-  - US_speednode_0578
-  - US_speednode_0579
-  - US_speednode_0580
-  - US_speednode_0581
-  - US_speednode_0582
-  - US_speednode_0583
-  - US_speednode_0584
-  - US_speednode_0585
-  - US_speednode_0586
-  - US_speednode_0587
-  - US_speednode_0588
-  - US_speednode_0589
-  - US_speednode_0590
-  - US_speednode_0591
-  - US_speednode_0592
-  - US_speednode_0593
-  - US_speednode_0594
-  - US_speednode_0595
-  - US_speednode_0596
-  - US_speednode_0597
-  - US_speednode_0598
-  - US_speednode_0599
-  - US_speednode_0600
-  - US_speednode_0601
-  - US_speednode_0602
-  - US_speednode_0603
-  - US_speednode_0604
-  - US_speednode_0605
-  - US_speednode_0606
-  - US_speednode_0607
-  - US_speednode_0608
-  - US_speednode_0609
-  - US_speednode_0610
-  - US_speednode_0611
-  - US_speednode_0612
-  - US_speednode_0613
-  - US_speednode_0614
-  - US_speednode_0615
+  - US_speednode_0470
+  - US_speednode_0473
+  - US_speednode_0478
+  - US_speednode_0487
+  - US_speednode_0492
+  - US_speednode_0494
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
-  - CN_speednode_0014
-  - US_speednode_0503
-  - US_speednode_0505
-  - US_speednode_0507
-  - US_speednode_0509
-  - US_speednode_0510
-  - US_speednode_0512
-  - US_speednode_0515
-  - US_speednode_0516
-  - US_speednode_0517
-  - US_speednode_0518
-  - US_speednode_0524
-  - US_speednode_0528
-  - US_speednode_0530
-  - US_speednode_0534
-  - US_speednode_0535
-  - US_speednode_0536
-  - US_speednode_0537
-  - US_speednode_0538
-  - US_speednode_0539
-  - US_speednode_0541
-  - US_speednode_0542
-  - US_speednode_0543
-  - US_speednode_0544
-  - US_speednode_0545
-  - US_speednode_0546
-  - US_speednode_0547
-  - US_speednode_0548
-  - US_speednode_0549
-  - US_speednode_0550
-  - US_speednode_0551
-  - US_speednode_0552
-  - US_speednode_0553
-  - US_speednode_0554
-  - US_speednode_0555
-  - US_speednode_0556
-  - US_speednode_0557
-  - US_speednode_0558
-  - US_speednode_0559
-  - US_speednode_0560
-  - US_speednode_0561
-  - US_speednode_0562
-  - US_speednode_0563
-  - US_speednode_0564
-  - US_speednode_0565
-  - US_speednode_0566
-  - US_speednode_0567
-  - US_speednode_0568
-  - US_speednode_0569
-  - US_speednode_0570
-  - US_speednode_0571
-  - US_speednode_0572
-  - US_speednode_0573
-  - US_speednode_0574
-  - US_speednode_0575
-  - US_speednode_0577
-  - US_speednode_0578
-  - US_speednode_0579
-  - US_speednode_0580
-  - US_speednode_0581
-  - US_speednode_0582
-  - US_speednode_0583
-  - US_speednode_0584
-  - US_speednode_0585
-  - US_speednode_0586
-  - US_speednode_0587
-  - US_speednode_0588
-  - US_speednode_0589
-  - US_speednode_0590
-  - US_speednode_0591
-  - US_speednode_0592
-  - US_speednode_0593
-  - US_speednode_0594
-  - US_speednode_0595
-  - US_speednode_0596
-  - US_speednode_0597
-  - US_speednode_0598
-  - US_speednode_0599
-  - US_speednode_0600
-  - US_speednode_0601
-  - US_speednode_0602
-  - US_speednode_0603
-  - US_speednode_0604
-  - US_speednode_0605
-  - US_speednode_0606
-  - US_speednode_0607
-  - US_speednode_0608
-  - US_speednode_0609
-  - US_speednode_0610
-  - US_speednode_0611
-  - US_speednode_0612
-  - US_speednode_0613
-  - US_speednode_0614
-  - US_speednode_0615
+  - US_speednode_0470
+  - US_speednode_0473
+  - US_speednode_0478
+  - US_speednode_0487
+  - US_speednode_0492
+  - US_speednode_0494
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
