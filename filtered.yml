@@ -2,137 +2,126 @@ port: 7890
 mode: rule
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: CN_speednode_0019, server: hk5.mhw7e2.online, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0020, server: 14.215.169.69, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0021, server: jp2.mhw7e2.online, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0022, server: jp3.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0023, server: 14.215.169.69, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0024, server: tw5.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0025, server: tw4.mhw7e2.online, port: 20029, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CA_speednode_0018, server: 192.3.150.56, port: 8000, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: CA_speednode_0019, server: 107.174.245.18, port: 17868, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: CA_speednode_0020, server: 107.172.86.122, port: 20561, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: CN_speednode_0021, server: jp3.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0022, server: 14.215.169.69, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0023, server: tw5.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0024, server: 14.215.169.69, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0025, server: sg5.mhw7e2.online, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
   - {name: CN_speednode_0026, server: 14.215.169.69, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0027, server: tw5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0028, server: sg5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0029, server: tw4.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0030, server: jp2.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0031, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0032, server: tw5.mhw7e2.online, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0033, server: sg1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0034, server: 14.215.169.69, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0035, server: tw5.mhw7e2.online, port: 20029, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0036, server: hk5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0037, server: jp2.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0038, server: jp3.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0039, server: sg5.mhw7e2.online, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0040, server: 14.215.169.69, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0041, server: jp2.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0042, server: hk5.mhw7e2.online, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0043, server: jp2.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0044, server: hk5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0045, server: tw4.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0046, server: tw4.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0047, server: tw5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0048, server: sg5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0049, server: 14.215.169.69, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0050, server: 14.215.169.69, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0051, server: tw5.mhw7e2.online, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0052, server: tw2.mhw7e2.online, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0053, server: tw4.mhw7e2.online, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0054, server: tw4.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0055, server: tw5.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0056, server: 14.215.169.69, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0057, server: hk5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0058, server: sg5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0059, server: tw2.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0060, server: sg5.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0061, server: hk5.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0062, server: sg5.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0063, server: jp1.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0064, server: sg2.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0065, server: tw2.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0066, server: sg3.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0067, server: hk1.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0068, server: hk2.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0069, server: tw4.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0070, server: tw2.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0071, server: hk5.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0072, server: 14.215.169.69, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0073, server: tw4.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0074, server: tw4.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0075, server: tw5.mhw7e2.online, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0076, server: 14.215.169.69, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0077, server: tw5.mhw7e2.online, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0078, server: 14.215.169.69, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0079, server: tw2.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0080, server: tw5.mhw7e2.online, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0081, server: tw5.mhw7e2.online, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0082, server: sg4.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0083, server: tw4.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0084, server: sg3.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0085, server: yd-07.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0086, server: yd-07.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0087, server: yd-07.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0088, server: yd-07.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0089, server: yd-06.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0090, server: yd-06.paofunlink.com, port: 5984, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0091, server: yd-06.paofunlink.com, port: 5983, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0092, server: yd-05.paofunlink.com, port: 1172, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0093, server: yd-05.paofunlink.com, port: 1171, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0094, server: yd-05.paofunlink.com, port: 1170, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0095, server: yd-04.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0096, server: yd-04.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0097, server: yd-04.paofunlink.com, port: 5983, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0098, server: yd-04.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0099, server: yd-04.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0100, server: yd-04.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0101, server: yd-04.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0102, server: yd-04.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0103, server: yd-04.paofunlink.com, port: 5980, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0104, server: yd-05.paofunlink.com, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0105, server: yd-05.paofunlink.com, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0106, server: yd-03.paofunlink.com, port: 1178, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0107, server: yd-03.paofunlink.com, port: 1177, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0108, server: yd-03.paofunlink.com, port: 1198, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0109, server: yd-03.paofunlink.com, port: 1176, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0110, server: yd-03.paofunlink.com, port: 1197, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0111, server: yd-03.paofunlink.com, port: 1175, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0112, server: yd-03.paofunlink.com, port: 1196, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0113, server: yd-05.paofunlink.com, port: 1181, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0114, server: yd-02.paofunlink.com, port: 1174, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0115, server: yd-02.paofunlink.com, port: 1173, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0116, server: yd-05.paofunlink.com, port: 1180, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0117, server: yd-03.paofunlink.com, port: 1195, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0118, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0119, server: yd-02.paofunlink.com, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0120, server: yd-01.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0121, server: yd-01.paofunlink.com, port: 5980, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0122, server: yd-02.paofunlink.com, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0123, server: yd-02.paofunlink.com, port: 1192, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0124, server: yd-03.paofunlink.com, port: 1186, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0125, server: yd-03.paofunlink.com, port: 1185, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0126, server: yd-03.paofunlink.com, port: 1187, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0127, server: yd-02.paofunlink.com, port: 1184, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0128, server: yd-02.paofunlink.com, port: 1182, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: CN_speednode_0129, server: yd-02.paofunlink.com, port: 1183, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 0172337335.microsoft.com}}
-  - {name: SG_speednode_0362, server: 5.44.249.42, port: 3306, type: trojan, password: c992d4055f0a7383, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0363, server: 5.44.249.42, port: 3306, type: trojan, password: b84d16a244460e09, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0364, server: 5.44.249.42, port: 3306, type: trojan, password: f653ef08c54e21b3, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0365, server: 5.44.249.42, port: 3306, type: trojan, password: dc2d9db59868ba6b, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0366, server: 5.44.249.42, port: 3306, type: trojan, password: 4bacb8f1a089763b, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0367, server: 5.44.249.42, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0368, server: 5.44.249.42, port: 3306, type: trojan, password: 36fe28a331638747, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0369, server: 5.44.249.42, port: 3306, type: trojan, password: 3c4e10af98c30972, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0370, server: 5.44.249.42, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0371, server: 5.44.249.42, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0372, server: 5.44.249.42, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0373, server: 5.44.249.42, port: 3306, type: trojan, password: 26a663656e575c0b, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
-  - {name: SG_speednode_0374, server: 5.44.249.42, port: 3306, type: trojan, password: 182228812d1e0f23, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: CN_speednode_0027, server: sg5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0028, server: 14.215.169.69, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0029, server: 14.215.169.69, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0030, server: sg5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0031, server: 14.215.169.69, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0032, server: tw2.mhw7e2.online, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0033, server: 14.215.169.69, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0034, server: 14.215.169.69, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0035, server: sg5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0036, server: tw2.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0037, server: tw4.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0038, server: tw4.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0039, server: tw5.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0040, server: hk5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0041, server: tw2.mhw7e2.online, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0042, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0043, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0044, server: kr3.iepl.cooc.icu, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0045, server: z6.fragranceninja.com, port: 12943, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0046, server: z2.fragranceninja.com, port: 12945, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0047, server: z2.fragranceninja.com, port: 12938, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0048, server: z6.fragranceninja.com, port: 12974, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0049, server: 123.129.211.55, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0050, server: z2.fragranceninja.com, port: 12912, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0051, server: z6.fragranceninja.com, port: 12951, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0052, server: 43.241.50.78, port: 35102, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0053, server: 120.226.230.84, port: 35609, type: ss, cipher: chacha20-ietf-poly1305, password: 89a2f78a-eb8e-4a03-b828-0cbf228d5f2b}
+  - {name: CN_speednode_0054, server: z3.fragranceninja.com, port: 13001, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0055, server: z8.fragranceninja.com, port: 13006, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0056, server: z6.fragranceninja.com, port: 12928, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
+  - {name: CN_speednode_0057, server: z6.fragranceninja.com, port: 12920, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0061, server: 141.11.239.81, port: 23490, type: vmess, uuid: a0bd96c6-f5c1-4ce6-b1e8-41ab7a9e3fb7, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0062, server: 141.11.239.81, port: 23490, type: vmess, uuid: 5e4f8606-dbb4-41c7-bb6c-d1e14341c508, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0063, server: 141.11.239.81, port: 23490, type: vmess, uuid: f22db43c-5fc4-4898-8c96-01077a051afc, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0064, server: 141.11.239.81, port: 23490, type: vmess, uuid: 9e7f95e7-16c8-4560-bce7-637c470b5d10, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0065, server: 141.11.239.81, port: 23490, type: vmess, uuid: 0126ba7a-649e-4ecb-9af8-168b32bf3227, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0066, server: 141.11.239.81, port: 23490, type: vmess, uuid: 8fdbcb90-af7b-49ab-a7f7-ad0e9d8ef4e6, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0067, server: 141.11.239.81, port: 23490, type: vmess, uuid: e2be0343-02d5-433e-bbbe-6b7e5f4b4543, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0068, server: 141.11.239.81, port: 23490, type: vmess, uuid: 05328696-7b18-4c87-8d0b-4a119a6df646, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0069, server: 141.11.239.81, port: 23490, type: vmess, uuid: ff9a06db-ab59-405c-9c5d-6e904da7b870, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0070, server: 141.11.239.81, port: 23490, type: vmess, uuid: 2dbacf5c-cc13-475b-aa10-3352c3381ef4, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0071, server: 141.11.239.81, port: 23490, type: vmess, uuid: 7c5bb59a-9107-4db5-abba-9e08602f8dbb, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0072, server: 141.11.239.81, port: 23490, type: vmess, uuid: 901047d8-5e11-453e-8455-cb8a104c5788, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0073, server: 141.11.239.81, port: 23490, type: vmess, uuid: b21b4c22-7925-4d47-a358-d07f91fc13fb, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_speednode_0075, server: 141.11.239.81, port: 23490, type: vmess, uuid: 34ff63d2-60c6-4ad6-adaf-ea73f24cd7ed, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0164, server: 89.185.26.20, port: 25578, type: vmess, uuid: f22db43c-5fc4-4898-8c96-01077a051afc, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0167, server: 89.185.26.20, port: 25578, type: vmess, uuid: 05328696-7b18-4c87-8d0b-4a119a6df646, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0169, server: 89.185.26.20, port: 25578, type: vmess, uuid: 0126ba7a-649e-4ecb-9af8-168b32bf3227, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0171, server: 89.185.26.20, port: 25578, type: vmess, uuid: 8fdbcb90-af7b-49ab-a7f7-ad0e9d8ef4e6, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0173, server: 89.185.26.20, port: 25578, type: vmess, uuid: 2dbacf5c-cc13-475b-aa10-3352c3381ef4, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0175, server: 89.185.26.20, port: 25578, type: vmess, uuid: e2be0343-02d5-433e-bbbe-6b7e5f4b4543, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0176, server: 89.185.26.20, port: 25578, type: vmess, uuid: fa8acc22-4af6-49c7-8c27-284a1658fd67, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0177, server: 89.185.26.20, port: 25578, type: vmess, uuid: 9e7f95e7-16c8-4560-bce7-637c470b5d10, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0178, server: 89.185.26.20, port: 25578, type: vmess, uuid: ff9a06db-ab59-405c-9c5d-6e904da7b870, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0179, server: 89.185.26.20, port: 25578, type: vmess, uuid: a0bd96c6-f5c1-4ce6-b1e8-41ab7a9e3fb7, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0180, server: 89.185.26.20, port: 25578, type: vmess, uuid: 5e4f8606-dbb4-41c7-bb6c-d1e14341c508, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0182, server: 89.185.26.20, port: 25578, type: vmess, uuid: 901047d8-5e11-453e-8455-cb8a104c5788, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0183, server: 89.185.26.20, port: 25578, type: vmess, uuid: 7c5bb59a-9107-4db5-abba-9e08602f8dbb, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0184, server: 89.185.26.20, port: 25578, type: vmess, uuid: 34ff63d2-60c6-4ad6-adaf-ea73f24cd7ed, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0185, server: 89.185.26.20, port: 25578, type: vmess, uuid: b21b4c22-7925-4d47-a358-d07f91fc13fb, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: HK_speednode_0196, server: 34.150.57.3, port: 443, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: HK_speednode_0197, server: 46.3.104.73, port: 17899, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0213, server: 103.201.131.150, port: 587, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0214, server: 192.243.124.248, port: 11217, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0215, server: 150.66.24.104, port: 34237, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0216, server: 109.107.137.22, port: 44004, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0217, server: 45.159.48.42, port: 34237, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0218, server: 103.150.8.172, port: 4433, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: JP_speednode_0219, server: 45.159.48.192, port: 12212, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: KR_speednode_0291, server: 175.125.207.253, port: 18039, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: KR_speednode_0292, server: 117.123.31.2, port: 50000, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: KR_speednode_0293, server: 115.20.144.210, port: 12461, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: KR_speednode_0294, server: 211.107.201.14, port: 25001, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: SC_speednode_0335, server: 154.197.121.129, port: 2053, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: SG_speednode_0338, server: 5.44.249.42, port: 3306, type: trojan, password: f653ef08c54e21b3, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0339, server: 5.44.249.42, port: 3306, type: trojan, password: dc2d9db59868ba6b, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0340, server: 5.44.249.42, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0341, server: 5.44.249.42, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0342, server: 5.44.249.42, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0343, server: 5.44.249.42, port: 3306, type: trojan, password: 36fe28a331638747, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0344, server: 5.44.249.42, port: 3306, type: trojan, password: 3c4e10af98c30972, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0345, server: 5.44.249.42, port: 3306, type: trojan, password: 26a663656e575c0b, sni: TG.WangCai2, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: TG.WangCai_1}}, skip-cert-verify: true, udp: false}
+  - {name: SG_speednode_0352, server: 8.222.101.17, port: 443, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: TW_speednode_0355, server: 210.61.97.241, port: 81, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0452, server: cf.090227.xyz, port: 443, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0453, server: 65.75.194.43, port: 10511, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0454, server: 154.17.9.35, port: 882, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0455, server: 45.59.186.16, port: 14092, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0456, server: 65.75.192.38, port: 33043, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0457, server: 162.159.142.252, port: 2096, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0458, server: 172.64.154.218, port: 8443, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0459, server: 174.136.205.115, port: 24378, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0460, server: 65.75.193.154, port: 14491, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0461, server: 162.159.58.157, port: 2053, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0462, server: 162.159.138.178, port: 8443, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0463, server: 65.75.194.7, port: 12266, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0464, server: 45.87.103.122, port: 50006, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0465, server: 45.59.184.16, port: 38908, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0466, server: 45.59.185.71, port: 13649, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0467, server: 38.59.241.39, port: 10000, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0468, server: 23.95.61.191, port: 19678, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0469, server: 154.17.18.44, port: 18920, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
+  - {name: US_speednode_0470, server: 162.159.141.161, port: 2053, type: trojan, client-fingerprint: randomized, password: A98XMiF6NA, sni: dy.fxu.asia, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dy.fxu.asia}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0019
-  - CN_speednode_0020
+  - CA_speednode_0018
+  - CA_speednode_0019
+  - CA_speednode_0020
   - CN_speednode_0021
   - CN_speednode_0022
   - CN_speednode_0023
@@ -170,96 +159,84 @@ proxy-groups:
   - CN_speednode_0055
   - CN_speednode_0056
   - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - CN_speednode_0077
-  - CN_speednode_0078
-  - CN_speednode_0079
-  - CN_speednode_0080
-  - CN_speednode_0081
-  - CN_speednode_0082
-  - CN_speednode_0083
-  - CN_speednode_0084
-  - CN_speednode_0085
-  - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - CN_speednode_0098
-  - CN_speednode_0099
-  - CN_speednode_0100
-  - CN_speednode_0101
-  - CN_speednode_0102
-  - CN_speednode_0103
-  - CN_speednode_0104
-  - CN_speednode_0105
-  - CN_speednode_0106
-  - CN_speednode_0107
-  - CN_speednode_0108
-  - CN_speednode_0109
-  - CN_speednode_0110
-  - CN_speednode_0111
-  - CN_speednode_0112
-  - CN_speednode_0113
-  - CN_speednode_0114
-  - CN_speednode_0115
-  - CN_speednode_0116
-  - CN_speednode_0117
-  - CN_speednode_0118
-  - CN_speednode_0119
-  - CN_speednode_0120
-  - CN_speednode_0121
-  - CN_speednode_0122
-  - CN_speednode_0123
-  - CN_speednode_0124
-  - CN_speednode_0125
-  - CN_speednode_0126
-  - CN_speednode_0127
-  - CN_speednode_0128
-  - CN_speednode_0129
-  - SG_speednode_0362
-  - SG_speednode_0363
-  - SG_speednode_0364
-  - SG_speednode_0365
-  - SG_speednode_0366
-  - SG_speednode_0367
-  - SG_speednode_0368
-  - SG_speednode_0369
-  - SG_speednode_0370
-  - SG_speednode_0371
-  - SG_speednode_0372
-  - SG_speednode_0373
-  - SG_speednode_0374
+  - DE_speednode_0061
+  - DE_speednode_0062
+  - DE_speednode_0063
+  - DE_speednode_0064
+  - DE_speednode_0065
+  - DE_speednode_0066
+  - DE_speednode_0067
+  - DE_speednode_0068
+  - DE_speednode_0069
+  - DE_speednode_0070
+  - DE_speednode_0071
+  - DE_speednode_0072
+  - DE_speednode_0073
+  - DE_speednode_0075
+  - HK_speednode_0164
+  - HK_speednode_0167
+  - HK_speednode_0169
+  - HK_speednode_0171
+  - HK_speednode_0173
+  - HK_speednode_0175
+  - HK_speednode_0176
+  - HK_speednode_0177
+  - HK_speednode_0178
+  - HK_speednode_0179
+  - HK_speednode_0180
+  - HK_speednode_0182
+  - HK_speednode_0183
+  - HK_speednode_0184
+  - HK_speednode_0185
+  - HK_speednode_0196
+  - HK_speednode_0197
+  - JP_speednode_0213
+  - JP_speednode_0214
+  - JP_speednode_0215
+  - JP_speednode_0216
+  - JP_speednode_0217
+  - JP_speednode_0218
+  - JP_speednode_0219
+  - KR_speednode_0291
+  - KR_speednode_0292
+  - KR_speednode_0293
+  - KR_speednode_0294
+  - SC_speednode_0335
+  - SG_speednode_0338
+  - SG_speednode_0339
+  - SG_speednode_0340
+  - SG_speednode_0341
+  - SG_speednode_0342
+  - SG_speednode_0343
+  - SG_speednode_0344
+  - SG_speednode_0345
+  - SG_speednode_0352
+  - TW_speednode_0355
+  - US_speednode_0452
+  - US_speednode_0453
+  - US_speednode_0454
+  - US_speednode_0455
+  - US_speednode_0456
+  - US_speednode_0457
+  - US_speednode_0458
+  - US_speednode_0459
+  - US_speednode_0460
+  - US_speednode_0461
+  - US_speednode_0462
+  - US_speednode_0463
+  - US_speednode_0464
+  - US_speednode_0465
+  - US_speednode_0466
+  - US_speednode_0467
+  - US_speednode_0468
+  - US_speednode_0469
+  - US_speednode_0470
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0019
-  - CN_speednode_0020
+  - CA_speednode_0018
+  - CA_speednode_0019
+  - CA_speednode_0020
   - CN_speednode_0021
   - CN_speednode_0022
   - CN_speednode_0023
@@ -297,91 +274,78 @@ proxy-groups:
   - CN_speednode_0055
   - CN_speednode_0056
   - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - CN_speednode_0077
-  - CN_speednode_0078
-  - CN_speednode_0079
-  - CN_speednode_0080
-  - CN_speednode_0081
-  - CN_speednode_0082
-  - CN_speednode_0083
-  - CN_speednode_0084
-  - CN_speednode_0085
-  - CN_speednode_0086
-  - CN_speednode_0087
-  - CN_speednode_0088
-  - CN_speednode_0089
-  - CN_speednode_0090
-  - CN_speednode_0091
-  - CN_speednode_0092
-  - CN_speednode_0093
-  - CN_speednode_0094
-  - CN_speednode_0095
-  - CN_speednode_0096
-  - CN_speednode_0097
-  - CN_speednode_0098
-  - CN_speednode_0099
-  - CN_speednode_0100
-  - CN_speednode_0101
-  - CN_speednode_0102
-  - CN_speednode_0103
-  - CN_speednode_0104
-  - CN_speednode_0105
-  - CN_speednode_0106
-  - CN_speednode_0107
-  - CN_speednode_0108
-  - CN_speednode_0109
-  - CN_speednode_0110
-  - CN_speednode_0111
-  - CN_speednode_0112
-  - CN_speednode_0113
-  - CN_speednode_0114
-  - CN_speednode_0115
-  - CN_speednode_0116
-  - CN_speednode_0117
-  - CN_speednode_0118
-  - CN_speednode_0119
-  - CN_speednode_0120
-  - CN_speednode_0121
-  - CN_speednode_0122
-  - CN_speednode_0123
-  - CN_speednode_0124
-  - CN_speednode_0125
-  - CN_speednode_0126
-  - CN_speednode_0127
-  - CN_speednode_0128
-  - CN_speednode_0129
-  - SG_speednode_0362
-  - SG_speednode_0363
-  - SG_speednode_0364
-  - SG_speednode_0365
-  - SG_speednode_0366
-  - SG_speednode_0367
-  - SG_speednode_0368
-  - SG_speednode_0369
-  - SG_speednode_0370
-  - SG_speednode_0371
-  - SG_speednode_0372
-  - SG_speednode_0373
-  - SG_speednode_0374
+  - DE_speednode_0061
+  - DE_speednode_0062
+  - DE_speednode_0063
+  - DE_speednode_0064
+  - DE_speednode_0065
+  - DE_speednode_0066
+  - DE_speednode_0067
+  - DE_speednode_0068
+  - DE_speednode_0069
+  - DE_speednode_0070
+  - DE_speednode_0071
+  - DE_speednode_0072
+  - DE_speednode_0073
+  - DE_speednode_0075
+  - HK_speednode_0164
+  - HK_speednode_0167
+  - HK_speednode_0169
+  - HK_speednode_0171
+  - HK_speednode_0173
+  - HK_speednode_0175
+  - HK_speednode_0176
+  - HK_speednode_0177
+  - HK_speednode_0178
+  - HK_speednode_0179
+  - HK_speednode_0180
+  - HK_speednode_0182
+  - HK_speednode_0183
+  - HK_speednode_0184
+  - HK_speednode_0185
+  - HK_speednode_0196
+  - HK_speednode_0197
+  - JP_speednode_0213
+  - JP_speednode_0214
+  - JP_speednode_0215
+  - JP_speednode_0216
+  - JP_speednode_0217
+  - JP_speednode_0218
+  - JP_speednode_0219
+  - KR_speednode_0291
+  - KR_speednode_0292
+  - KR_speednode_0293
+  - KR_speednode_0294
+  - SC_speednode_0335
+  - SG_speednode_0338
+  - SG_speednode_0339
+  - SG_speednode_0340
+  - SG_speednode_0341
+  - SG_speednode_0342
+  - SG_speednode_0343
+  - SG_speednode_0344
+  - SG_speednode_0345
+  - SG_speednode_0352
+  - TW_speednode_0355
+  - US_speednode_0452
+  - US_speednode_0453
+  - US_speednode_0454
+  - US_speednode_0455
+  - US_speednode_0456
+  - US_speednode_0457
+  - US_speednode_0458
+  - US_speednode_0459
+  - US_speednode_0460
+  - US_speednode_0461
+  - US_speednode_0462
+  - US_speednode_0463
+  - US_speednode_0464
+  - US_speednode_0465
+  - US_speednode_0466
+  - US_speednode_0467
+  - US_speednode_0468
+  - US_speednode_0469
+  - US_speednode_0470
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
