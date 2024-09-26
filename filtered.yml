@@ -1,90 +1,77 @@
 port: 7890
+allow-lan: false
 mode: rule
 external-controller: 127.0.0.1:9090
+dns:
+  enabled: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://223.5.5.5/dns-query
+  - https://doh.360.cn/dns-query
+  - https://dns.alidns.com/dns-query
+  - 119.29.29.29
+  fallback:
+  - 8.8.8.8
+  - 8.8.4.4
+  - tls://1.0.0.1:853
+  - tls://dns.google:853
 proxies:
-  - {name: CA_speednode_0021, server: 15.235.48.70, port: 443, type: trojan, password: 95b, sni: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com}}, skip-cert-verify: true, udp: false}
-  - {name: CN_speednode_0024, server: z3.fragranceninja.com, port: 12939, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0025, server: 14.215.169.69, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0026, server: jp1.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0027, server: hk1.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0028, server: tw2.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0029, server: tw4.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, alterId: -1}
-  - {name: CN_speednode_0030, server: sg1.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0016, server: 123.135.77.197, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0017, server: 182.92.216.171, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0018, server: 119.146.223.57, port: 1087, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0019, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40220, type: ssr, alterId: -1, cipher: rc4-md5, client-fingerprint: chrome, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf, udp: true}
+  - {name: CN_speednode_0020, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40216, type: ssr, cipher: rc4-md5, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf}
+  - {name: CN_speednode_0021, server: tw4.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, alterId: -1}
+  - {name: CN_speednode_0022, server: sg5.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: CN_speednode_0023, server: hk1.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0024, server: jp2.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0025, server: 14.215.169.69, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0026, server: tw5.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: CN_speednode_0027, server: sg1.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0028, server: sg1.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: CN_speednode_0029, server: 14.215.169.69, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0030, server: hk1.mhw7e2.online, port: 20024, type: ss, udp: true, password: 70747514-fb14-4f31-8390-e1f0453eff6d, cipher: chacha20-ietf-poly1305}
   - {name: CN_speednode_0031, server: tw5.mhw7e2.online, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0032, server: z2.fragranceninja.com, port: 12975, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0033, server: hk5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0034, server: tw5.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0035, server: jp2.mhw7e2.online, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0036, server: tw4.mhw7e2.online, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0037, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40220, type: ssr, alterId: -1, cipher: rc4-md5, client-fingerprint: chrome, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf, udp: true}
-  - {name: CN_speednode_0038, server: tw5.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0039, server: z3.fragranceninja.com, port: 12970, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0040, server: z6.fragranceninja.com, port: 12940, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0041, server: 14.215.169.69, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0042, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40216, type: ssr, cipher: rc4-md5, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf}
-  - {name: CN_speednode_0043, server: 14.215.169.69, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0044, server: sg5.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0045, server: 14.215.169.69, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0046, server: z2.fragranceninja.com, port: 12969, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_speednode_0047, server: tw3.mhw7e2.online, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0048, server: sg1.mhw7e2.online, port: 20024, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0049, server: z3.fragranceninja.com, port: 12960, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0050, server: z6.fragranceninja.com, port: 12943, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_speednode_0051, server: z6.fragranceninja.com, port: 12928, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0052, server: tw5.mhw7e2.online, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0053, server: 14.215.169.69, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, alterId: -1}
-  - {name: CN_speednode_0054, server: iplc01.my1188.org, port: 3214, type: vmess, alterId: 0, cipher: auto, network: tcp, servername: hkt3-cdn.tencent.best, skip-cert-verify: true, tls: true, uuid: fe0346d9-a972-3d8a-bac7-310604fa108f}
-  - {name: CN_speednode_0055, server: sg5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0056, server: hk1.mhw7e2.online, port: 20024, type: ss, udp: true, password: 70747514-fb14-4f31-8390-e1f0453eff6d, cipher: chacha20-ietf-poly1305}
-  - {name: CN_speednode_0057, server: tw1.mhw7e2.online, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: CN_speednode_0058, server: z6.fragranceninja.com, port: 12946, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: z6.fragranceninja.com}}}
-  - {name: CN_speednode_0059, server: z2.fragranceninja.com, port: 12941, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_speednode_0060, server: z6.fragranceninja.com, port: 12946, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_speednode_0061, server: sg5.mhw7e2.online, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0062, server: z6.fragranceninja.com, port: 12903, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
-  - {name: CN_speednode_0063, server: tw5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0064, server: sg5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0065, server: jp2.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0066, server: yd1.qianggewangluo.buzz, port: 10813, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
-  - {name: CN_speednode_0067, server: z6.fragranceninja.com, port: 12950, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0068, server: z2.fragranceninja.com, port: 12936, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0069, server: z6.fragranceninja.com, port: 12928, type: vmess, network: tcp, tls: true, udp: true, skip-cert-verify: true, cipher: auto, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0}
-  - {name: CN_speednode_0070, server: hk5.mhw7e2.online, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: CN_speednode_0071, server: wduzpt.gxcvbmj.xyz, port: 22238, type: vmess, network: tcp, tls: false, udp: true, skip-cert-verify: true, cipher: auto, uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3, alterId: 0}
-  - {name: CN_speednode_0072, server: wduzpt.gxcvbmj.xyz, port: 22238, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: false, tls: false, udp: true, uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3}
-  - {name: CN_speednode_0073, server: z6.fragranceninja.com, port: 12950, type: vmess, network: tcp, tls: true, udp: true, skip-cert-verify: true, cipher: auto, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0}
-  - {name: CN_speednode_0074, server: z6.fragranceninja.com, port: 12951, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0075, server: z6.fragranceninja.com, port: 12950, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: true, udp: true, uuid: a32313ad-5e39-4f9a-9cad-512041790050}
-  - {name: CN_speednode_0076, server: z6.fragranceninja.com, port: 12946, type: vmess, network: ws, tls: true, udp: true, skip-cert-verify: true, ws-opts: {path: /, headers: {Host: z6.fragranceninja.com}}, cipher: auto, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0}
-  - {name: HK_speednode_0205, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org}}, skip-cert-verify: true, udp: false}
-  - {name: HK_speednode_0207, server: aliyun.2096.us.kg, port: 443, type: trojan, client-fingerprint: chrome, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org}}}
-  - {name: HK_speednode_0215, server: 183.178.22.246, port: 11417, type: trojan, password: 95b, sni: c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org}}, skip-cert-verify: true, udp: false}
-  - {name: HK_speednode_0216, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com}}, skip-cert-verify: true, udp: false}
-  - {name: NN_speednode_0285, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40201, type: ssr, alterId: -1, cipher: rc4-md5, client-fingerprint: chrome, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf, udp: true}
-  - {name: TW_speednode_0330, server: 60.249.35.39, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0331, server: 211.22.161.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0332, server: 211.22.161.134, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0333, server: 60.249.35.38, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0334, server: 60.249.28.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0335, server: 60.249.28.138, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0336, server: 60.249.28.136, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0337, server: 60.249.28.60, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0338, server: 60.249.35.37, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0339, server: 60.249.28.137, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0340, server: 60.249.35.3, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0341, server: 60.249.35.2, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: TW_speednode_0342, server: 60.249.35.59, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)b5a99e1:21612}}
-  - {name: US_speednode_0384, server: 43.153.103.203, port: 443, type: trojan, password: 95b, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}}, skip-cert-verify: true, udp: false}
-  - {name: US_speednode_0398, server: 65.75.194.43, port: 10511, type: trojan, password: 95b, sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com}}, skip-cert-verify: true, udp: false}
-  - {name: US_speednode_0418, server: 43.153.103.203, port: 443, type: trojan, network: ws, password: 95b, skip-cert-verify: true, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, udp: false, ws-opts: {headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}, path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560"}}
-  - {name: US_speednode_0442, server: 43.153.103.203, port: 443, type: trojan, client-fingerprint: chrome, password: 95b, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}}}
-  - {name: US_speednode_0443, server: 65.75.194.43, port: 10511, type: trojan, client-fingerprint: chrome, password: 95b, sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com}}}
+  - {name: CN_speednode_0032, server: sg5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0033, server: jp2.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0034, server: 14.215.169.69, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, alterId: -1}
+  - {name: CN_speednode_0035, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40201, type: ssr, alterId: -1, cipher: rc4-md5, client-fingerprint: chrome, obfs: plain, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, password: ENZ52K, protocol: auth_aes128_md5, protocol-param: 74592:o4fbeopsgcf, udp: true}
+  - {name: CN_speednode_0036, server: tw1.mhw7e2.online, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
+  - {name: CN_speednode_0037, server: tw4.mhw7e2.online, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0038, server: sg5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0039, server: tw5.mhw7e2.online, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0040, server: 121.199.164.40, port: 7890, type: http, client-fingerprint: chrome, skip-cert-verify: true, tls: false, udp: true}
+  - {name: CN_speednode_0041, server: hk5.mhw7e2.online, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: CN_speednode_0042, server: wduzpt.gxcvbmj.xyz, port: 22238, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: false, tls: false, udp: true, uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3}
+  - {name: CN_speednode_0043, server: wduzpt.gxcvbmj.xyz, port: 22238, type: vmess, network: tcp, tls: false, udp: true, skip-cert-verify: true, cipher: auto, uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3, alterId: 0}
+  - {name: CN_speednode_0044, server: z6.fragranceninja.com, port: 12928, type: vmess, network: tcp, tls: true, udp: true, skip-cert-verify: true, cipher: auto, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0}
+  - {name: HK_speednode_0209, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com}}, skip-cert-verify: true, udp: false}
+  - {name: HK_speednode_0222, server: aliyun.2096.us.kg, port: 443, type: trojan, password: 95b, sni: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org}}, skip-cert-verify: true, udp: false}
+  - {name: JP_speednode_0229, server: 43.207.207.206, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}}
+  - {name: JP_speednode_0230, server: 54.64.148.82, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}}
+  - {name: US_speednode_0397, server: 95.174.71.29, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}}
+  - {name: US_speednode_0405, server: 23.247.137.165, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}}
+  - {name: US_speednode_0454, server: 95.174.71.28, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)df1fab2:16569}}
+  - {name: US_speednode_0464, server: 43.153.103.203, port: 443, type: trojan, password: 95b, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0477, server: 43.153.103.203, port: 443, type: trojan, client-fingerprint: chrome, password: 95b, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}}}
+  - {name: US_speednode_0481, server: 65.75.194.43, port: 10511, type: trojan, password: 95b, sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com}}, skip-cert-verify: true, udp: false}
+  - {name: US_speednode_0488, server: 43.153.103.203, port: 443, type: trojan, network: ws, password: 95b, skip-cert-verify: true, sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org, udp: false, ws-opts: {headers: {Host: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org}, path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560"}}
+  - {name: US_speednode_0491, server: 65.75.194.43, port: 10511, type: trojan, client-fingerprint: chrome, password: 95b, sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/trojan-6qo.pages.dev/?ed=2560?ed=2560", headers: {Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CA_speednode_0021
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
   - CN_speednode_0024
   - CN_speednode_0025
   - CN_speednode_0026
@@ -106,65 +93,29 @@ proxy-groups:
   - CN_speednode_0042
   - CN_speednode_0043
   - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - CN_speednode_0051
-  - CN_speednode_0052
-  - CN_speednode_0053
-  - CN_speednode_0054
-  - CN_speednode_0055
-  - CN_speednode_0056
-  - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - HK_speednode_0205
-  - HK_speednode_0207
-  - HK_speednode_0215
-  - HK_speednode_0216
-  - NN_speednode_0285
-  - TW_speednode_0330
-  - TW_speednode_0331
-  - TW_speednode_0332
-  - TW_speednode_0333
-  - TW_speednode_0334
-  - TW_speednode_0335
-  - TW_speednode_0336
-  - TW_speednode_0337
-  - TW_speednode_0338
-  - TW_speednode_0339
-  - TW_speednode_0340
-  - TW_speednode_0341
-  - TW_speednode_0342
-  - US_speednode_0384
-  - US_speednode_0398
-  - US_speednode_0418
-  - US_speednode_0442
-  - US_speednode_0443
+  - HK_speednode_0209
+  - HK_speednode_0222
+  - JP_speednode_0229
+  - JP_speednode_0230
+  - US_speednode_0397
+  - US_speednode_0405
+  - US_speednode_0454
+  - US_speednode_0464
+  - US_speednode_0477
+  - US_speednode_0481
+  - US_speednode_0488
+  - US_speednode_0491
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CA_speednode_0021
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
   - CN_speednode_0024
   - CN_speednode_0025
   - CN_speednode_0026
@@ -186,61 +137,18 @@ proxy-groups:
   - CN_speednode_0042
   - CN_speednode_0043
   - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - CN_speednode_0051
-  - CN_speednode_0052
-  - CN_speednode_0053
-  - CN_speednode_0054
-  - CN_speednode_0055
-  - CN_speednode_0056
-  - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
-  - CN_speednode_0070
-  - CN_speednode_0071
-  - CN_speednode_0072
-  - CN_speednode_0073
-  - CN_speednode_0074
-  - CN_speednode_0075
-  - CN_speednode_0076
-  - HK_speednode_0205
-  - HK_speednode_0207
-  - HK_speednode_0215
-  - HK_speednode_0216
-  - NN_speednode_0285
-  - TW_speednode_0330
-  - TW_speednode_0331
-  - TW_speednode_0332
-  - TW_speednode_0333
-  - TW_speednode_0334
-  - TW_speednode_0335
-  - TW_speednode_0336
-  - TW_speednode_0337
-  - TW_speednode_0338
-  - TW_speednode_0339
-  - TW_speednode_0340
-  - TW_speednode_0341
-  - TW_speednode_0342
-  - US_speednode_0384
-  - US_speednode_0398
-  - US_speednode_0418
-  - US_speednode_0442
-  - US_speednode_0443
+  - HK_speednode_0209
+  - HK_speednode_0222
+  - JP_speednode_0229
+  - JP_speednode_0230
+  - US_speednode_0397
+  - US_speednode_0405
+  - US_speednode_0454
+  - US_speednode_0464
+  - US_speednode_0477
+  - US_speednode_0481
+  - US_speednode_0488
+  - US_speednode_0491
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
@@ -734,5 +642,9 @@ rules:
 - IP-CIDR,100.64.0.0/10,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT
 - IP-CIDR6,fe80::/10,DIRECT
+- IP-CIDR,2002::/16,DIRECT
+- IP-CIDR,2001:db8::/32,DIRECT
+- IP-CIDR,2001::/32,DIRECT
+- IP-CIDR,2001:20::/28,DIRECT
 - GEOIP,CN,DIRECT
 - MATCH,⭕ proxinode
