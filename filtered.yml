@@ -1,63 +1,31 @@
 port: 7890
+allow-lan: false
 mode: rule
 external-controller: 127.0.0.1:9090
+dns:
+  enabled: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://223.5.5.5/dns-query
+  - https://doh.360.cn/dns-query
+  - https://dns.alidns.com/dns-query
+  - 119.29.29.29
+  fallback:
+  - 8.8.8.8
+  - 8.8.4.4
+  - tls://1.0.0.1:853
+  - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: gdcub.yunnode.win, port: 31636, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
-  - {name: CN_speednode_0002, server: gdcub.yunnode.win, port: 31672, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
-  - {name: CN_speednode_0003, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, skip-cert-verify: true, sni: naiu-hk.05vr9nyqg5.download, udp: true}
-  - {name: CN_speednode_0004, server: gdcub.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
-  - {name: CN_speednode_0005, server: gdcub.yunnode.win, port: 35636, type: ss, cipher: chacha20-ietf-poly1305, password: 88bf2986-96c3-467c-87ef-e2e114d93d9d}
-  - {name: CN_speednode_0006, server: gdcub.yunnode.win, port: 35632, type: ss, cipher: chacha20-ietf-poly1305, password: 88bf2986-96c3-467c-87ef-e2e114d93d9d}
-  - {name: CN_speednode_0007, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
-  - {name: CN_speednode_0008, server: 183.238.202.173, port: 39041, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24}
-  - {name: CN_speednode_0009, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 88bf2986-96c3-467c-87ef-e2e114d93d9d}
-  - {name: CN_speednode_0010, server: gdcub.yunnode.win, port: 12642, type: ss, cipher: chacha20-ietf-poly1305, password: 88bf2986-96c3-467c-87ef-e2e114d93d9d}
-  - {name: CN_speednode_0011, server: 183.236.48.166, port: 33288, type: vmess, udp: true, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-verify: true}
-  - {name: CN_speednode_0012, server: 221.181.185.71, port: 20934, type: ss, cipher: aes-256-cfb, password: bbO8KazkNBUGb7HP, udp: true}
-  - {name: CN_speednode_0013, server: gdcub.yunnode.win, port: 31642, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
-  - {name: CN_speednode_0014, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 88bf2986-96c3-467c-87ef-e2e114d93d9d}
-  - {name: CN_speednode_0015, server: 120.237.79.157, port: 46665, type: vmess, alterId: 64, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3}
-  - {name: CN_speednode_0016, server: gdcub.yunnode.win, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: 7ddcf657-9c3a-4dbf-a7b8-255031a2ac74}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0001
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0001
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
@@ -551,5 +519,9 @@ rules:
 - IP-CIDR,100.64.0.0/10,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT
 - IP-CIDR6,fe80::/10,DIRECT
+- IP-CIDR,2002::/16,DIRECT
+- IP-CIDR,2001:db8::/32,DIRECT
+- IP-CIDR,2001::/32,DIRECT
+- IP-CIDR,2001:20::/28,DIRECT
 - GEOIP,CN,DIRECT
 - MATCH,⭕ proxinode
