@@ -18,320 +18,56 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_speednode_0003, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: FR_speednode_0019, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9MBrxdT5rZi2zFw2ABJCUB, udp: true}
-  - {name: GB_speednode_0022, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US_speednode_0070, server: 150.241.102.95, port: 59644, type: ss, cipher: chacha20-ietf-poly1305, password: rUODuKJMdVMTxlq3Q5iSDX}
-  - {name: US_speednode_0087, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US_speednode_0122, server: 104.19.21.63, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0123, server: 172.64.175.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0125, server: 104.19.38.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0128, server: 172.64.175.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0130, server: 172.64.99.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0131, server: 104.19.45.31, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0132, server: 104.18.57.111, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0133, server: 104.19.59.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0134, server: 104.19.32.216, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0135, server: 104.19.123.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0136, server: 104.19.57.4, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0137, server: 104.19.58.175, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0138, server: 104.19.45.47, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0139, server: 104.19.45.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0140, server: 104.19.45.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0141, server: 104.19.45.90, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0142, server: 104.19.46.103, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0143, server: 104.19.21.230, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0144, server: 104.19.45.17, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0145, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}}
-  - {name: US_speednode_0146, server: 104.19.45.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0147, server: 172.64.167.10, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0148, server: 172.64.167.5, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0149, server: 104.19.55.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0150, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0152, server: 104.19.45.13, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0153, server: 104.18.37.111, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}}
-  - {name: US_speednode_0154, server: 172.64.167.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0155, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0157, server: 172.64.167.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0158, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0159, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0160, server: 172.64.166.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0163, server: 172.64.167.44, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0164, server: 104.17.106.151, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0165, server: 172.64.166.32, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0166, server: 172.64.167.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0167, server: 172.64.166.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0168, server: 104.19.45.11, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0169, server: 172.64.166.20, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0170, server: 172.64.166.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0172, server: 172.64.166.9, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0173, server: 172.64.167.29, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0175, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0178, server: 172.64.166.28, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0181, server: 172.64.167.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0183, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0185, server: 172.64.194.76, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0187, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0190, server: 104.19.21.71, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0191, server: www.visa.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0192, server: 104.19.32.216, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0193, server: 104.19.45.42, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0194, server: 172.64.167.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0195, server: 104.19.45.35, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0197, server: 172.64.166.16, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0198, server: 104.19.45.17, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0199, server: 172.64.175.213, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0200, server: 172.64.166.2, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0202, server: 104.19.46.103, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0203, server: 172.64.175.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0205, server: 172.64.166.32, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0206, server: 104.19.21.63, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0207, server: 172.64.167.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0208, server: 104.19.45.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0209, server: 104.19.45.15, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0210, server: 104.19.59.89, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0211, server: 103.170.72.120, port: 27061, type: trojan, password: auto, sni: trojanfree-76s.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/%2F", headers: {Host: trojanfree-76s.pages.dev}}}
-  - {name: US_speednode_0212, server: 172.64.167.44, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0213, server: 172.64.167.10, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0214, server: 172.64.167.29, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0215, server: 172.64.166.12, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0217, server: 104.26.5.67, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0218, server: 172.64.166.28, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0219, server: fbi.gov, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0220, server: 172.64.167.25, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0221, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, udp: true}
-  - {name: US_speednode_0222, server: 104.26.5.66, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0223, server: 104.26.5.145, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0224, server: 162.159.140.66, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0225, server: 104.26.5.103, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0226, server: 104.26.5.123, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0227, server: 162.159.140.33, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0228, server: 104.26.5.113, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0229, server: 172.64.194.76, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0230, server: 162.159.140.45, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0231, server: skk.moe, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0232, server: 162.159.140.93, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0233, server: 162.159.140.19, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0234, server: 162.159.140.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0235, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0236, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0237, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0238, server: 162.159.140.56, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
-  - {name: US_speednode_0239, server: japan.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip20.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}, udp: true}
-  - {name: US_speednode_0241, server: 162.159.140.93, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip26.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip26.6929198.xyz}}, udp: true}
+  - {name: CN_speednode_0003, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: GB_speednode_0013, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_speednode_0063, server: 54.187.244.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0064, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_speednode_0072, server: 104.19.45.50, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0074, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0075, server: 104.19.45.42, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0076, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0077, server: 104.19.21.63, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0081, server: 172.64.175.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0082, server: 172.64.175.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0084, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0087, server: 172.64.167.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
+  - {name: US_speednode_0092, server: 104.19.47.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, servername: ip21.6016725.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0001
   - CN_speednode_0003
-  - FR_speednode_0019
-  - GB_speednode_0022
-  - US_speednode_0070
+  - GB_speednode_0013
+  - US_speednode_0063
+  - US_speednode_0064
+  - US_speednode_0072
+  - US_speednode_0074
+  - US_speednode_0075
+  - US_speednode_0076
+  - US_speednode_0077
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0084
   - US_speednode_0087
-  - US_speednode_0122
-  - US_speednode_0123
-  - US_speednode_0125
-  - US_speednode_0128
-  - US_speednode_0130
-  - US_speednode_0131
-  - US_speednode_0132
-  - US_speednode_0133
-  - US_speednode_0134
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
-  - US_speednode_0138
-  - US_speednode_0139
-  - US_speednode_0140
-  - US_speednode_0141
-  - US_speednode_0142
-  - US_speednode_0143
-  - US_speednode_0144
-  - US_speednode_0145
-  - US_speednode_0146
-  - US_speednode_0147
-  - US_speednode_0148
-  - US_speednode_0149
-  - US_speednode_0150
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0154
-  - US_speednode_0155
-  - US_speednode_0157
-  - US_speednode_0158
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - US_speednode_0172
-  - US_speednode_0173
-  - US_speednode_0175
-  - US_speednode_0178
-  - US_speednode_0181
-  - US_speednode_0183
-  - US_speednode_0185
-  - US_speednode_0187
-  - US_speednode_0190
-  - US_speednode_0191
-  - US_speednode_0192
-  - US_speednode_0193
-  - US_speednode_0194
-  - US_speednode_0195
-  - US_speednode_0197
-  - US_speednode_0198
-  - US_speednode_0199
-  - US_speednode_0200
-  - US_speednode_0202
-  - US_speednode_0203
-  - US_speednode_0205
-  - US_speednode_0206
-  - US_speednode_0207
-  - US_speednode_0208
-  - US_speednode_0209
-  - US_speednode_0210
-  - US_speednode_0211
-  - US_speednode_0212
-  - US_speednode_0213
-  - US_speednode_0214
-  - US_speednode_0215
-  - US_speednode_0217
-  - US_speednode_0218
-  - US_speednode_0219
-  - US_speednode_0220
-  - US_speednode_0221
-  - US_speednode_0222
-  - US_speednode_0223
-  - US_speednode_0224
-  - US_speednode_0225
-  - US_speednode_0226
-  - US_speednode_0227
-  - US_speednode_0228
-  - US_speednode_0229
-  - US_speednode_0230
-  - US_speednode_0231
-  - US_speednode_0232
-  - US_speednode_0233
-  - US_speednode_0234
-  - US_speednode_0235
-  - US_speednode_0236
-  - US_speednode_0237
-  - US_speednode_0238
-  - US_speednode_0239
-  - US_speednode_0241
+  - US_speednode_0092
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0001
   - CN_speednode_0003
-  - FR_speednode_0019
-  - GB_speednode_0022
-  - US_speednode_0070
+  - GB_speednode_0013
+  - US_speednode_0063
+  - US_speednode_0064
+  - US_speednode_0072
+  - US_speednode_0074
+  - US_speednode_0075
+  - US_speednode_0076
+  - US_speednode_0077
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0084
   - US_speednode_0087
-  - US_speednode_0122
-  - US_speednode_0123
-  - US_speednode_0125
-  - US_speednode_0128
-  - US_speednode_0130
-  - US_speednode_0131
-  - US_speednode_0132
-  - US_speednode_0133
-  - US_speednode_0134
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
-  - US_speednode_0138
-  - US_speednode_0139
-  - US_speednode_0140
-  - US_speednode_0141
-  - US_speednode_0142
-  - US_speednode_0143
-  - US_speednode_0144
-  - US_speednode_0145
-  - US_speednode_0146
-  - US_speednode_0147
-  - US_speednode_0148
-  - US_speednode_0149
-  - US_speednode_0150
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0154
-  - US_speednode_0155
-  - US_speednode_0157
-  - US_speednode_0158
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - US_speednode_0172
-  - US_speednode_0173
-  - US_speednode_0175
-  - US_speednode_0178
-  - US_speednode_0181
-  - US_speednode_0183
-  - US_speednode_0185
-  - US_speednode_0187
-  - US_speednode_0190
-  - US_speednode_0191
-  - US_speednode_0192
-  - US_speednode_0193
-  - US_speednode_0194
-  - US_speednode_0195
-  - US_speednode_0197
-  - US_speednode_0198
-  - US_speednode_0199
-  - US_speednode_0200
-  - US_speednode_0202
-  - US_speednode_0203
-  - US_speednode_0205
-  - US_speednode_0206
-  - US_speednode_0207
-  - US_speednode_0208
-  - US_speednode_0209
-  - US_speednode_0210
-  - US_speednode_0211
-  - US_speednode_0212
-  - US_speednode_0213
-  - US_speednode_0214
-  - US_speednode_0215
-  - US_speednode_0217
-  - US_speednode_0218
-  - US_speednode_0219
-  - US_speednode_0220
-  - US_speednode_0221
-  - US_speednode_0222
-  - US_speednode_0223
-  - US_speednode_0224
-  - US_speednode_0225
-  - US_speednode_0226
-  - US_speednode_0227
-  - US_speednode_0228
-  - US_speednode_0229
-  - US_speednode_0230
-  - US_speednode_0231
-  - US_speednode_0232
-  - US_speednode_0233
-  - US_speednode_0234
-  - US_speednode_0235
-  - US_speednode_0236
-  - US_speednode_0237
-  - US_speednode_0238
-  - US_speednode_0239
-  - US_speednode_0241
+  - US_speednode_0092
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
