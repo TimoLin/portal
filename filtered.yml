@@ -18,34 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CA_speednode_0002, type: ss, server: 149.22.95.183, port: 443, password: shadowsocks, cipher: aes-128-gcm}
-  - {name: CA_speednode_0003, type: ss, server: 149.22.95.183, port: 443, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: CA_speednode_0004, port: 443, server: 149.22.95.183, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: CA_speednode_0002, type: ss, server: 149.22.95.183, port: 443, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: CA_speednode_0003, port: 443, server: 149.22.95.183, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: CA_speednode_0004, type: ss, server: 149.22.95.183, port: 443, password: shadowsocks, cipher: aes-128-gcm}
   - {name: CA_speednode_0005, type: vmess, server: 23.162.200.227, port: 443, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}}
   - {name: CA_speednode_0006, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, tls: true, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
   - {name: CN_speednode_0007, port: 46602, server: 183.236.51.23, type: vmess, network: tcp, tls: false, udp: true, skip-cert-verify: true, cipher: auto, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64}
-  - {name: CN_speednode_0008, type: vmess, server: 183.236.51.23, port: 51704, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: tcp}
-  - {name: CN_speednode_0009, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: GB_speednode_0020, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: GB_speednode_0021, type: ss, server: 212.102.47.131, port: 443, password: shadowsocks, cipher: aes-128-gcm}
-  - {alterId: -1, cipher: aes-128-gcm, name: GB_speednode_0023, password: shadowsocks, port: 443, server: 212.102.47.131, type: ss}
-  - {name: US_speednode_0056, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US_speednode_0058, type: ss, server: 156.146.38.168, port: 443, password: shadowsocks, cipher: aes-128-gcm}
-  - {alterId: -1, cipher: aes-128-gcm, name: US_speednode_0061, password: shadowsocks, port: 443, server: 37.19.198.160, type: ss}
-  - {alterId: -1, cipher: aes-128-gcm, name: US_speednode_0063, password: shadowsocks, port: 443, server: 156.146.38.168, type: ss}
-  - {name: US_speednode_0065, type: ss, server: 37.19.198.160, port: 443, password: shadowsocks, cipher: aes-128-gcm}
-  - {name: US_speednode_0066, port: 443, server: 156.146.38.168, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
-  - {name: US_speednode_0068, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: US_speednode_0071, port: 443, server: 37.19.198.160, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
-  - {alterId: 0, cipher: auto, name: US_speednode_0085, network: ws, port: 8443, server: 104.21.238.203, servername: http1.9290254.xyz, tls: true, type: vmess, udp: true, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, ws-opts: {early-data-header-name: Sec-WebSocket-Protocol, headers: {Host: http1.9290254.xyz}, path: /github.com/Alvin9999, v2ray-http-upgrade: true, v2ray-http-upgrade-fast-open: true}}
-  - {name: US_speednode_0087, type: vmess, server: 104.21.238.201, port: 8443, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, udp: true, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: http1.9290254.xyz}, early-data-header-name: Sec-WebSocket-Protocol, v2ray-http-upgrade: true, v2ray-http-upgrade-fast-open: true}}
-  - {name: US_speednode_0090, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, udp: true}
-  - {name: US_speednode_0092, server: 104.18.37.111, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, skip-cert-verify: true}
-  - {name: US_speednode_0093, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, skip-cert-verify: true}
-  - {name: US_speednode_0095, type: trojan, network: ws, server: 104.18.37.111, port: 443, password: bpb-trojan, skip-cert-verify: true, udp: true, sni: mindrOOm-5cz.pAgEs.dEV, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
-  - {alterId: -1, name: US_speednode_0097, network: ws, password: bpb-trojan, port: 443, server: 104.18.37.111, skip-cert-verify: true, sni: mindrOOm-5cz.pAgEs.dEV, type: trojan, udp: true, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
-  - {name: US_speednode_0099, server: 104.18.37.111, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, udp: true}
-  - {alterId: -1, name: US_speednode_0104, network: ws, password: bpb-trojan, port: 443, server: 172.64.150.145, skip-cert-verify: true, sni: mindrOOm-5cz.pAgEs.dEV, type: trojan, udp: true, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
+  - {name: CN_speednode_0008, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_speednode_0009, type: vmess, server: 183.236.51.23, port: 51704, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, udp: true, tls: false, skip-cert-verify: true, network: tcp}
+  - {alterId: -1, cipher: aes-128-gcm, name: GB_speednode_0019, password: shadowsocks, port: 443, server: 212.102.47.131, type: ss}
+  - {name: GB_speednode_0020, type: ss, server: 212.102.47.131, port: 443, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: GB_speednode_0021, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_speednode_0050, type: ss, server: 156.146.38.168, port: 443, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: US_speednode_0051, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {alterId: -1, cipher: aes-128-gcm, name: US_speednode_0052, password: shadowsocks, port: 443, server: 37.19.198.160, type: ss}
+  - {alterId: -1, cipher: aes-128-gcm, name: US_speednode_0055, password: shadowsocks, port: 443, server: 156.146.38.168, type: ss}
+  - {name: US_speednode_0056, port: 443, server: 156.146.38.168, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: US_speednode_0058, type: ss, server: 37.19.198.160, port: 443, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: US_speednode_0059, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_speednode_0061, port: 443, server: 37.19.198.160, type: ss, udp: true, password: shadowsocks, cipher: aes-128-gcm}
+  - {name: US_speednode_0081, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, udp: true}
+  - {name: US_speednode_0082, server: 172.64.150.145, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, skip-cert-verify: true}
+  - {name: US_speednode_0084, server: 104.18.37.111, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, network: ws, ws-opts: {path: /trC8BM8bTsAF0AnLYL, headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, skip-cert-verify: true}
+  - {name: US_speednode_0086, type: trojan, network: ws, server: 104.18.37.111, port: 443, password: bpb-trojan, skip-cert-verify: true, udp: true, sni: mindrOOm-5cz.pAgEs.dEV, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
+  - {alterId: -1, name: US_speednode_0088, network: ws, password: bpb-trojan, port: 443, server: 104.18.37.111, skip-cert-verify: true, sni: mindrOOm-5cz.pAgEs.dEV, type: trojan, udp: true, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
+  - {name: US_speednode_0089, server: 104.18.37.111, port: 443, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}, udp: true}
+  - {alterId: -1, name: US_speednode_0094, network: ws, password: bpb-trojan, port: 443, server: 172.64.150.145, skip-cert-verify: true, sni: mindrOOm-5cz.pAgEs.dEV, type: trojan, udp: true, ws-opts: {headers: {Host: mindrOOm-5cz.pAgEs.dEV}, path: "/trC8BM8bTsAF0AnLYL?ed=2560"}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -59,26 +57,24 @@ proxy-groups:
   - CN_speednode_0007
   - CN_speednode_0008
   - CN_speednode_0009
+  - GB_speednode_0019
   - GB_speednode_0020
   - GB_speednode_0021
-  - GB_speednode_0023
+  - US_speednode_0050
+  - US_speednode_0051
+  - US_speednode_0052
+  - US_speednode_0055
   - US_speednode_0056
   - US_speednode_0058
+  - US_speednode_0059
   - US_speednode_0061
-  - US_speednode_0063
-  - US_speednode_0065
-  - US_speednode_0066
-  - US_speednode_0068
-  - US_speednode_0071
-  - US_speednode_0085
-  - US_speednode_0087
-  - US_speednode_0090
-  - US_speednode_0092
-  - US_speednode_0093
-  - US_speednode_0095
-  - US_speednode_0097
-  - US_speednode_0099
-  - US_speednode_0104
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0084
+  - US_speednode_0086
+  - US_speednode_0088
+  - US_speednode_0089
+  - US_speednode_0094
 - name: ♻️ automatic
   type: url-test
   proxies:
@@ -90,26 +86,24 @@ proxy-groups:
   - CN_speednode_0007
   - CN_speednode_0008
   - CN_speednode_0009
+  - GB_speednode_0019
   - GB_speednode_0020
   - GB_speednode_0021
-  - GB_speednode_0023
+  - US_speednode_0050
+  - US_speednode_0051
+  - US_speednode_0052
+  - US_speednode_0055
   - US_speednode_0056
   - US_speednode_0058
+  - US_speednode_0059
   - US_speednode_0061
-  - US_speednode_0063
-  - US_speednode_0065
-  - US_speednode_0066
-  - US_speednode_0068
-  - US_speednode_0071
-  - US_speednode_0085
-  - US_speednode_0087
-  - US_speednode_0090
-  - US_speednode_0092
-  - US_speednode_0093
-  - US_speednode_0095
-  - US_speednode_0097
-  - US_speednode_0099
-  - US_speednode_0104
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0084
+  - US_speednode_0086
+  - US_speednode_0088
+  - US_speednode_0089
+  - US_speednode_0094
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
