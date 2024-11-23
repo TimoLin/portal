@@ -18,14 +18,20 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+  - {name: CN_speednode_0005, server: 36.151.192.198, port: 36900, type: trojan, password: QwwHvrnN, sni: 36.151.192.198, skip-cert-verify: true}
+  - {name: US_speednode_0052, server: 104.21.92.73, port: 443, type: trojan, password: dns68, sni: trojan.putata.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: trojan.putata.us.kg}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0005
+  - US_speednode_0052
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0005
+  - US_speednode_0052
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
