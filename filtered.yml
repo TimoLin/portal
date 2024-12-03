@@ -18,41 +18,86 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0003, server: 36.151.192.242, port: 27381, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: CN_speednode_0004, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CN_speednode_0005, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CN_speednode_0006, server: lmgj.hongxingdl.vip, port: 39593, type: trojan, password: 1f962f36-f751-40c3-91b3-cb6d2360b450, sni: mmbiz10.redapricotcloud.com, skip-cert-verify: false}
-  - {name: CN_speednode_0007, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CR_speednode_0008, server: 190.93.245.80, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: FR_speednode_0015, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: GB_speednode_0016, server: 5.39.254.196, port: 15112, type: vmess, uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: JP_speednode_0020, server: root.mid.al, port: 80, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: kim.gov.kp}}}
+  - {name: CZ_speednode_0002, server: 195.85.23.232, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: FR_speednode_0004, server: 141.11.202.133, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: GB_speednode_0005, server: 185.193.29.193, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: GB_speednode_0006, server: 164.38.155.246, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: JP_speednode_0031, server: root.mid.al, port: 443, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.Arizona.edu, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: kim.gov.kp}}}
+  - {name: LT_speednode_0085, server: 89.116.250.94, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: LU_speednode_0086, server: 94.242.228.50, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: NL_speednode_0087, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: RU_speednode_0090, server: 45.8.211.242, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: RU_speednode_0091, server: 185.174.138.239, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: SG_speednode_0125, server: 92.243.74.60, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0127, server: 34.208.196.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_speednode_0178, server: 185.148.104.251, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0180, server: 198.41.204.23, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0182, server: 154.85.99.206, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0183, server: 198.41.202.175, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0184, server: 198.41.211.21, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0185, server: 198.41.197.94, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0186, server: 198.202.211.146, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0187, server: 45.194.53.231, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0188, server: 172.67.237.13, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0189, server: 172.67.246.161, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0190, server: 104.36.195.61, port: 443, type: trojan, password: bpb-trojan, sni: bpb.my79801.com, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: bpb.my79801.com}}}
+  - {name: US_speednode_0191, server: 151.101.2.133, port: 80, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: kim.gov.kp, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: kim.gov.kp}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CR_speednode_0008
-  - FR_speednode_0015
-  - GB_speednode_0016
-  - JP_speednode_0020
+  - CZ_speednode_0002
+  - FR_speednode_0004
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - JP_speednode_0031
+  - LT_speednode_0085
+  - LU_speednode_0086
+  - NL_speednode_0087
+  - RU_speednode_0090
+  - RU_speednode_0091
+  - SG_speednode_0125
+  - US_speednode_0127
+  - US_speednode_0178
+  - US_speednode_0180
+  - US_speednode_0182
+  - US_speednode_0183
+  - US_speednode_0184
+  - US_speednode_0185
+  - US_speednode_0186
+  - US_speednode_0187
+  - US_speednode_0188
+  - US_speednode_0189
+  - US_speednode_0190
+  - US_speednode_0191
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CR_speednode_0008
-  - FR_speednode_0015
-  - GB_speednode_0016
-  - JP_speednode_0020
+  - CZ_speednode_0002
+  - FR_speednode_0004
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - JP_speednode_0031
+  - LT_speednode_0085
+  - LU_speednode_0086
+  - NL_speednode_0087
+  - RU_speednode_0090
+  - RU_speednode_0091
+  - SG_speednode_0125
+  - US_speednode_0127
+  - US_speednode_0178
+  - US_speednode_0180
+  - US_speednode_0182
+  - US_speednode_0183
+  - US_speednode_0184
+  - US_speednode_0185
+  - US_speednode_0186
+  - US_speednode_0187
+  - US_speednode_0188
+  - US_speednode_0189
+  - US_speednode_0190
+  - US_speednode_0191
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
