@@ -18,86 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_speednode_0002, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_speednode_0003, server: 36.151.192.198, port: 31071, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: CN_speednode_0004, server: 36.151.192.203, port: 25241, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: CN_speednode_0005, server: 36.151.192.242, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true}
-  - {name: CN_speednode_0006, server: 219.135.227.209, port: 18003, type: ss, cipher: aes-256-gcm, password: JT3JJY2B9WYM3ZFF}
-  - {name: GB_speednode_0009, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: HK_speednode_0010, server: 218.190.230.207, port: 41288, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: hk12.bilibili.com, skip-cert-verify: true}
-  - {name: HK_speednode_0011, server: 0bce075b5465c22ad8c82382a5df74ad.v1.cac.node-is.green, port: 44991, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: us1.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: SG_speednode_0013, server: 54.169.221.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_speednode_0014, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: US_speednode_0016, server: 54.203.0.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_speednode_0020, server: 104.26.0.3, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}}
-  - {name: US_speednode_0021, server: 104.26.0.9, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}}
-  - {name: US_speednode_0027, server: 35.91.173.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_speednode_0039, server: 104.26.0.108, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m125.106778.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}, udp: true}
-  - {name: US_speednode_0041, server: 18.237.72.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_speednode_0042, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: US_speednode_0043, server: 104.26.0.221, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m125.106778.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}, udp: true}
-  - {name: US_speednode_0044, server: 104.26.0.33, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m125.106778.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}, udp: true}
-  - {name: US_speednode_0049, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: US_speednode_0050, server: 104.26.0.108, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}}
-  - {name: US_speednode_0051, server: 104.26.0.220, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m125.106778.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}, udp: true}
-  - {name: US_speednode_0052, server: 104.26.0.33, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m125.106778.xyz}}}
+  - {name: CN_speednode_0001, server: 183.236.48.158, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: IN_speednode_0003, server: loving-boa.treefrog761.one, port: 443, type: trojan, password: "3648425794742788096", sni: loving-boa.treefrog761.one, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0004, server: prime-gator.treefrog761.one, port: 443, type: trojan, password: "3648425794742788096", sni: prime-gator.treefrog761.one, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0023, server: 162.159.45.208, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m20.155857.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: US_speednode_0025, server: 162.159.45.238, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m20.155857.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: US_speednode_0027, server: 162.159.45.241, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m20.155857.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: US_speednode_0032, server: 162.159.45.219, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m20.155857.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: US_speednode_0033, server: 162.159.45.246, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: m20.155857.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - CN_speednode_0001
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - GB_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - SG_speednode_0013
-  - US_speednode_0014
-  - US_speednode_0016
-  - US_speednode_0020
-  - US_speednode_0021
+  - IN_speednode_0003
+  - IN_speednode_0004
+  - US_speednode_0023
+  - US_speednode_0025
   - US_speednode_0027
-  - US_speednode_0039
-  - US_speednode_0041
-  - US_speednode_0042
-  - US_speednode_0043
-  - US_speednode_0044
-  - US_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
-  - US_speednode_0052
+  - US_speednode_0032
+  - US_speednode_0033
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0001
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - GB_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - SG_speednode_0013
-  - US_speednode_0014
-  - US_speednode_0016
-  - US_speednode_0020
-  - US_speednode_0021
+  - IN_speednode_0003
+  - IN_speednode_0004
+  - US_speednode_0023
+  - US_speednode_0025
   - US_speednode_0027
-  - US_speednode_0039
-  - US_speednode_0041
-  - US_speednode_0042
-  - US_speednode_0043
-  - US_speednode_0044
-  - US_speednode_0049
-  - US_speednode_0050
-  - US_speednode_0051
-  - US_speednode_0052
+  - US_speednode_0032
+  - US_speednode_0033
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
