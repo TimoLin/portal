@@ -18,77 +18,29 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BE_speednode_0001, server: 192.71.249.71, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: BR_speednode_0002, server: vm.v2ray.com.br, port: 8080, type: vmess, uuid: 7bc1cddb-e8a0-4742-8a15-4221c481e01f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CH_speednode_0003, server: 138.124.60.136, port: 44915, type: ss, cipher: chacha20-ietf-poly1305, password: fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU=}
-  - {name: CN_speednode_0004, server: 223.113.54.145, port: 36442, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: DE_speednode_0006, server: 78.47.102.195, port: 44484, type: vmess, uuid: 8a2ce574-2b74-4f10-a28e-b6d852e3f725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: GB_speednode_0007, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: GB_speednode_0008, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: GT_speednode_0009, server: 170.80.111.5, port: 989, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: KZ_speednode_0012, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: LT_speednode_0013, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: NL_speednode_0014, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: NL_speednode_0015, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: PL_speednode_0016, server: 217.30.10.18, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: PL_speednode_0017, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
-  - {name: RU_speednode_0018, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: SG_speednode_0020, server: 109.120.138.94, port: 10851, type: ss, cipher: chacha20-ietf-poly1305, password: O4D8WTvkvIALxm+8sIH2rgpXizdNVcqjbcN0O1Rl9KQ=}
-  - {name: SK_speednode_0021, server: 196.245.151.50, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: US_speednode_0024, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: US_speednode_0025, server: 3.147.48.100, port: 36325, type: ss, cipher: chacha20-ietf-poly1305, password: 4p8Xip5R50r2guWgrffLUg}
-  - {name: US_speednode_0026, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
-  - {name: US_speednode_0028, server: 104.219.41.229, port: 443, type: trojan, password: Julius, sni: miami.juliusnet.com, skip-cert-verify: true}
+  - {name: CN_speednode_0002, server: 36.151.192.201, port: 34185, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
+  - {name: GB_speednode_0006, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: US_speednode_0026, server: 35.168.124.79, port: 443, type: trojan, password: "3648425794742788096", sni: humble-rodent.treefrog761.one, skip-cert-verify: true}
+  - {name: US_speednode_0043, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: US_speednode_0059, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 80, type: vmess, uuid: 74133cf5-3e95-4f79-8379-7977f94c493a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/74133cf5-3e95-4f79-8379-7977f94c493a-vm?ed=2048", headers: {Host: argo9.zjccc.nyc.mn}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BE_speednode_0001
-  - BR_speednode_0002
-  - CH_speednode_0003
-  - CN_speednode_0004
-  - DE_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - GT_speednode_0009
-  - KZ_speednode_0012
-  - LT_speednode_0013
-  - NL_speednode_0014
-  - NL_speednode_0015
-  - PL_speednode_0016
-  - PL_speednode_0017
-  - RU_speednode_0018
-  - SG_speednode_0020
-  - SK_speednode_0021
-  - US_speednode_0024
-  - US_speednode_0025
+  - CN_speednode_0002
+  - GB_speednode_0006
   - US_speednode_0026
-  - US_speednode_0028
+  - US_speednode_0043
+  - US_speednode_0059
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BE_speednode_0001
-  - BR_speednode_0002
-  - CH_speednode_0003
-  - CN_speednode_0004
-  - DE_speednode_0006
-  - GB_speednode_0007
-  - GB_speednode_0008
-  - GT_speednode_0009
-  - KZ_speednode_0012
-  - LT_speednode_0013
-  - NL_speednode_0014
-  - NL_speednode_0015
-  - PL_speednode_0016
-  - PL_speednode_0017
-  - RU_speednode_0018
-  - SG_speednode_0020
-  - SK_speednode_0021
-  - US_speednode_0024
-  - US_speednode_0025
+  - CN_speednode_0002
+  - GB_speednode_0006
   - US_speednode_0026
-  - US_speednode_0028
+  - US_speednode_0043
+  - US_speednode_0059
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
