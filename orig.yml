@@ -18,137 +18,209 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CR_speednode_0001, server: 190.93.246.128, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: DE_speednode_0002, server: 188.245.215.46, port: 19984, type: vless, uuid: 13e15bfe-73f7-4bfe-a386-136451137fc3, tls: false, skip-cert-verify: false, servername: Telewebion.com, network: http, http-opts: {method: GET, path: [/], headers: {Host: [Telewebion.com]}}}
-  - {name: DE_speednode_0003, server: 138.201.44.49, port: 4035, type: vmess, uuid: 9398b3da-690f-4648-abb7-9c4118449159, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: DE_speednode_0004, server: 212.224.93.93, port: 443, type: vless, uuid: 14ba4514-3846-45c0-aec6-444e5451b95c, tls: true, skip-cert-verify: false, servername: blog.codegethub.org, network: ws, ws-opts: {path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel, headers: {Host: blog.codegethub.org}}}
-  - {name: FR_speednode_0005, server: 51.158.244.38, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: GB_speednode_0006, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: HK_speednode_0007, server: 8.218.148.106, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: HK_speednode_0008, server: ftq.ink, port: 4000, type: http, tls: true}
-  - {name: IN_speednode_0009, server: 64.227.183.64, port: 55305, type: ss, cipher: chacha20-ietf-poly1305, password: 2S39h4RMyPdGcfcltg1rwD}
-  - {name: NL_speednode_0010, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: SG_speednode_0011, server: 8.222.132.145, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: SG_speednode_0012, server: 47.245.120.119, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: SG_speednode_0013, server: 8.222.135.109, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: SG_speednode_0014, server: 8.219.55.76, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: SG_speednode_0015, server: 8.219.79.144, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: SG_speednode_0016, server: 8.219.129.213, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: SG_speednode_0017, server: 8.222.239.199, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: SG_speednode_0018, server: 47.245.87.17, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: SG_speednode_0019, server: 8.222.247.175, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: SG_speednode_0020, server: 8.222.222.203, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: SG_speednode_0021, server: 47.245.126.194, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
-  - {name: US_speednode_0022, server: 104.24.139.27, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0023, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: US_speednode_0024, server: 184.170.241.194, port: 443, type: ssr, cipher: aes-128-cfb, password: shadowsocks, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: US_speednode_0025, server: 172.64.160.120, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0026, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: US_speednode_0027, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: US_speednode_0028, server: 104.24.186.216, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0029, server: 104.24.136.104, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0030, server: 104.24.49.64, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0031, server: 188.114.97.158, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0032, server: 104.18.38.147, port: 8443, type: vless, uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3, tls: true, skip-cert-verify: false, servername: server39.998877.best, network: ws, ws-opts: {path: "/drtgoiuy/fd?ed=2560", headers: {Host: server39.998877.best}}}
-  - {name: US_speednode_0033, server: 172.64.149.109, port: 8443, type: vless, uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3, tls: true, skip-cert-verify: false, servername: server39.998877.best, network: ws, ws-opts: {path: "/drtgoiuy/fd?ed=2560", headers: {Host: server39.998877.best}}}
-  - {name: US_speednode_0034, server: 104.24.49.64, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: /, headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0035, server: 104.16.59.58, port: 443, type: vless, uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: lhxt.xiaomi.win, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lhxt.xiaomi.win}}}
-  - {name: US_speednode_0036, server: 199.232.125.43, port: 443, type: vless, uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af, tls: true, skip-cert-verify: true, servername: ELI-V2-RAY.COM, network: ws, ws-opts: {path: /, headers: {Host: ELI-V2-RAY.COM}}}
-  - {name: US_speednode_0037, server: 38.75.136.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_speednode_0038, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_speednode_0039, server: 38.75.136.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_speednode_0040, server: AT3.fast.hosting-ip.com, port: 80, type: vless, uuid: ff45f39c-0055-48c5-962e-c2684e613e75, tls: false, skip-cert-verify: false, servername: kazemi211zerofun.coM, network: ws, ws-opts: {path: "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80", headers: {Host: kazemi211zerofun.coM}}}
-  - {name: US_speednode_0041, server: us6.998998.best, port: 8443, type: vless, uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3, tls: true, skip-cert-verify: false, servername: server39.998877.best, network: ws, ws-opts: {path: "/drtgoiuy/fd?ed=2560", headers: {Host: server39.998877.best}}}
+  - {name: AT_speednode_0001, server: 212.183.88.21, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: AT_speednode_0002, server: 212.183.88.100, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: AT_speednode_0003, server: 212.183.88.242, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: BR_speednode_0004, server: 185.133.35.98, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: CA_speednode_0005, server: 204.216.105.106, port: 8443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: CN_speednode_0006, server: 120.198.71.219, port: 44614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0007, server: 183.236.48.158, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: CN_speednode_0008, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0009, server: ccc.cm.xiaomi-api.xyz, port: 11242, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
+  - {name: CN_speednode_0010, server: x1.xiaomi-api.xyz, port: 11042, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
+  - {name: CN_speednode_0011, server: ccc.ct.xiaomi-api.xyz, port: 11142, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
+  - {name: DE_speednode_0012, server: 130.61.23.77, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: DE_speednode_0013, server: 193.122.58.158, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
+  - {name: FR_speednode_0014, server: 108.61.177.251, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: yournextcareerstep.online, skip-cert-verify: true}
+  - {name: FR_speednode_0015, server: yournextcareerstep.online, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, skip-cert-verify: true, udp: true}
+  - {name: FR_speednode_0016, server: yournextcareerstep.online, port: 443, type: trojan, password: 984e400bf5d541b7b0815913fe0c432a, skip-cert-verify: true, udp: true}
+  - {name: FR_speednode_0017, server: 129.151.225.228, port: 8443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: FR_speednode_0018, server: 129.151.254.48, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: FR_speednode_0019, server: 129.151.225.228, port: 2053, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: FR_speednode_0020, server: 141.145.217.226, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: GB_speednode_0021, server: 45.94.68.206, port: 35384, type: vmess, uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: GB_speednode_0022, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: GB_speednode_0023, server: 217.163.76.230, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: HK_speednode_0024, server: ftq.ink, port: 4000, type: http, tls: true}
+  - {name: IN_speednode_0025, server: 103.71.22.37, port: 8080, type: ss, cipher: aes-128-gcm, password: GpUH3Cx4i3nSwSa2/E20D7ahRnDPEPD0Rf23yClvgDU=}
+  - {name: IN_speednode_0026, server: 141.148.203.6, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: JP_speednode_0027, server: 4.189.216.218, port: 443, type: vless, uuid: 4c5f4cf8-b30a-4658-84bb-f0145dd123d4, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: high.work.lzg.me, network: ws, ws-opts: {path: /4c5f4cf8-b30a-4658-84bb-f0145dd123d4, headers: {Host: high.work.lzg.me}}}
+  - {name: JP_speednode_0028, server: 47.91.29.136, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
+  - {name: KR_speednode_0029, server: 121.174.111.147, port: 10936, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: KZ_speednode_0030, server: 194.76.18.10, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: LT_speednode_0031, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: NL_speednode_0032, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: NL_speednode_0033, server: 152.70.57.182, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: NL_speednode_0034, server: 152.70.49.115, port: 443, type: vless, uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8, tls: true, skip-cert-verify: false, servername: de.bolagskontaktstockholm.se, network: ws, ws-opts: {path: /ws, headers: {Host: de.bolagskontaktstockholm.se}}}
+  - {name: RU_speednode_0035, server: 195.58.49.86, port: 16712, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0036, server: 45.67.215.115, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: RU_speednode_0037, server: 45.67.215.99, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: RU_speednode_0038, server: 45.67.215.220, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: RU_speednode_0039, server: 185.65.149.44, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: SE_speednode_0040, server: 129.151.204.91, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: SE_speednode_0041, server: 129.151.198.3, port: 2053, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: SG_speednode_0042, server: 206.238.237.152, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: SG_speednode_0043, server: 194.124.34.105, port: 8583, type: ss, cipher: aes-256-gcm, password: 41809088A4xdFZ7sXBNhk}
+  - {name: TW_speednode_0044, server: 210.61.97.241, port: 81, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0045, server: 216.24.57.130, port: 8880, type: vless, uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa, tls: false, skip-cert-verify: false, servername: mohsenfitshr.wibibin259.workers.dev, network: ws, ws-opts: {path: "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560", headers: {Host: mohsenfitshr.wibibin259.workers.dev}}}
+  - {name: US_speednode_0046, server: 104.21.64.1, port: 2086, type: vless, uuid: 7320522d-56c1-4e35-9fa7-88a151d76828, tls: false, skip-cert-verify: false, servername: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev, network: ws, ws-opts: {path: "/DdAtLiofda1FCcda?ed=2560", headers: {Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev}}}
+  - {name: US_speednode_0047, server: 104.16.76.55, port: 80, type: vless, uuid: 5d8bc42a-d345-4bd3-a844-4b90afc44670, tls: false, skip-cert-verify: false, servername: patient-shadow-baf1-ppal03.hohel98085.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: patient-shadow-baf1-ppal03.hohel98085.workers.dev}}}
+  - {name: US_speednode_0048, server: 129.146.46.164, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0049, server: 129.153.223.37, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0050, server: 216.24.57.211, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0051, server: 104.17.214.235, port: 443, type: vless, uuid: fac5bd45-2183-40d0-981a-d22d2166fd4f, tls: true, skip-cert-verify: false, client-fingerprint: random, servername: dalinceshi.icu, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dalinceshi.icu}}}
+  - {name: US_speednode_0052, server: 216.221.213.149, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0053, server: 160.79.104.117, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0054, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0055, server: 216.24.57.23, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0056, server: 63.141.128.192, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0057, server: 63.141.128.11, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0058, server: 129.213.136.180, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0059, server: 160.79.105.200, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0060, server: 132.226.114.74, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0061, server: 152.70.155.147, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: US_speednode_0062, server: 38.99.82.225, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true}
+  - {name: US_speednode_0063, server: 38.110.1.46, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: US_speednode_0064, server: 129.159.84.71, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
+  - {name: ZA_speednode_0065, server: 160.123.255.169, port: 443, type: vless, uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898, tls: true, skip-cert-verify: false, servername: kb.lii2010.us.kg, alpn: [http/1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kb.lii2010.us.kg}}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CR_speednode_0001
-  - DE_speednode_0002
-  - DE_speednode_0003
-  - DE_speednode_0004
-  - FR_speednode_0005
-  - GB_speednode_0006
-  - HK_speednode_0007
-  - HK_speednode_0008
-  - IN_speednode_0009
-  - NL_speednode_0010
-  - SG_speednode_0011
-  - SG_speednode_0012
-  - SG_speednode_0013
-  - SG_speednode_0014
-  - SG_speednode_0015
-  - SG_speednode_0016
-  - SG_speednode_0017
-  - SG_speednode_0018
-  - SG_speednode_0019
-  - SG_speednode_0020
-  - SG_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
-  - US_speednode_0025
-  - US_speednode_0026
-  - US_speednode_0027
-  - US_speednode_0028
-  - US_speednode_0029
-  - US_speednode_0030
-  - US_speednode_0031
-  - US_speednode_0032
-  - US_speednode_0033
-  - US_speednode_0034
-  - US_speednode_0035
-  - US_speednode_0036
-  - US_speednode_0037
-  - US_speednode_0038
-  - US_speednode_0039
-  - US_speednode_0040
-  - US_speednode_0041
+  - AT_speednode_0001
+  - AT_speednode_0002
+  - AT_speednode_0003
+  - BR_speednode_0004
+  - CA_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - DE_speednode_0012
+  - DE_speednode_0013
+  - FR_speednode_0014
+  - FR_speednode_0015
+  - FR_speednode_0016
+  - FR_speednode_0017
+  - FR_speednode_0018
+  - FR_speednode_0019
+  - FR_speednode_0020
+  - GB_speednode_0021
+  - GB_speednode_0022
+  - GB_speednode_0023
+  - HK_speednode_0024
+  - IN_speednode_0025
+  - IN_speednode_0026
+  - JP_speednode_0027
+  - JP_speednode_0028
+  - KR_speednode_0029
+  - KZ_speednode_0030
+  - LT_speednode_0031
+  - NL_speednode_0032
+  - NL_speednode_0033
+  - NL_speednode_0034
+  - RU_speednode_0035
+  - RU_speednode_0036
+  - RU_speednode_0037
+  - RU_speednode_0038
+  - RU_speednode_0039
+  - SE_speednode_0040
+  - SE_speednode_0041
+  - SG_speednode_0042
+  - SG_speednode_0043
+  - TW_speednode_0044
+  - US_speednode_0045
+  - US_speednode_0046
+  - US_speednode_0047
+  - US_speednode_0048
+  - US_speednode_0049
+  - US_speednode_0050
+  - US_speednode_0051
+  - US_speednode_0052
+  - US_speednode_0053
+  - US_speednode_0054
+  - US_speednode_0055
+  - US_speednode_0056
+  - US_speednode_0057
+  - US_speednode_0058
+  - US_speednode_0059
+  - US_speednode_0060
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
+  - ZA_speednode_0065
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CR_speednode_0001
-  - DE_speednode_0002
-  - DE_speednode_0003
-  - DE_speednode_0004
-  - FR_speednode_0005
-  - GB_speednode_0006
-  - HK_speednode_0007
-  - HK_speednode_0008
-  - IN_speednode_0009
-  - NL_speednode_0010
-  - SG_speednode_0011
-  - SG_speednode_0012
-  - SG_speednode_0013
-  - SG_speednode_0014
-  - SG_speednode_0015
-  - SG_speednode_0016
-  - SG_speednode_0017
-  - SG_speednode_0018
-  - SG_speednode_0019
-  - SG_speednode_0020
-  - SG_speednode_0021
-  - US_speednode_0022
-  - US_speednode_0023
-  - US_speednode_0024
-  - US_speednode_0025
-  - US_speednode_0026
-  - US_speednode_0027
-  - US_speednode_0028
-  - US_speednode_0029
-  - US_speednode_0030
-  - US_speednode_0031
-  - US_speednode_0032
-  - US_speednode_0033
-  - US_speednode_0034
-  - US_speednode_0035
-  - US_speednode_0036
-  - US_speednode_0037
-  - US_speednode_0038
-  - US_speednode_0039
-  - US_speednode_0040
-  - US_speednode_0041
+  - AT_speednode_0001
+  - AT_speednode_0002
+  - AT_speednode_0003
+  - BR_speednode_0004
+  - CA_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - DE_speednode_0012
+  - DE_speednode_0013
+  - FR_speednode_0014
+  - FR_speednode_0015
+  - FR_speednode_0016
+  - FR_speednode_0017
+  - FR_speednode_0018
+  - FR_speednode_0019
+  - FR_speednode_0020
+  - GB_speednode_0021
+  - GB_speednode_0022
+  - GB_speednode_0023
+  - HK_speednode_0024
+  - IN_speednode_0025
+  - IN_speednode_0026
+  - JP_speednode_0027
+  - JP_speednode_0028
+  - KR_speednode_0029
+  - KZ_speednode_0030
+  - LT_speednode_0031
+  - NL_speednode_0032
+  - NL_speednode_0033
+  - NL_speednode_0034
+  - RU_speednode_0035
+  - RU_speednode_0036
+  - RU_speednode_0037
+  - RU_speednode_0038
+  - RU_speednode_0039
+  - SE_speednode_0040
+  - SE_speednode_0041
+  - SG_speednode_0042
+  - SG_speednode_0043
+  - TW_speednode_0044
+  - US_speednode_0045
+  - US_speednode_0046
+  - US_speednode_0047
+  - US_speednode_0048
+  - US_speednode_0049
+  - US_speednode_0050
+  - US_speednode_0051
+  - US_speednode_0052
+  - US_speednode_0053
+  - US_speednode_0054
+  - US_speednode_0055
+  - US_speednode_0056
+  - US_speednode_0057
+  - US_speednode_0058
+  - US_speednode_0059
+  - US_speednode_0060
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
+  - ZA_speednode_0065
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
