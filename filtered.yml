@@ -18,74 +18,83 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0006, server: 120.198.71.219, port: 44614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_speednode_0007, server: 183.236.48.158, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CN_speednode_0008, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_speednode_0009, server: ccc.cm.xiaomi-api.xyz, port: 11242, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
-  - {name: CN_speednode_0010, server: x1.xiaomi-api.xyz, port: 11042, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
-  - {name: CN_speednode_0011, server: ccc.ct.xiaomi-api.xyz, port: 11142, type: trojan, password: eb0c888c-0b55-4a0b-ba97-cfc6504e8213, skip-cert-verify: true}
-  - {name: FR_speednode_0014, server: 108.61.177.251, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: yournextcareerstep.online, skip-cert-verify: true}
-  - {name: FR_speednode_0015, server: yournextcareerstep.online, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, skip-cert-verify: true, udp: true}
-  - {name: FR_speednode_0016, server: yournextcareerstep.online, port: 443, type: trojan, password: 984e400bf5d541b7b0815913fe0c432a, skip-cert-verify: true, udp: true}
-  - {name: GB_speednode_0021, server: 45.94.68.206, port: 35384, type: vmess, uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: GB_speednode_0022, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: HK_speednode_0024, server: ftq.ink, port: 4000, type: http, tls: true}
-  - {name: IN_speednode_0025, server: 103.71.22.37, port: 8080, type: ss, cipher: aes-128-gcm, password: GpUH3Cx4i3nSwSa2/E20D7ahRnDPEPD0Rf23yClvgDU=}
-  - {name: LT_speednode_0031, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: NL_speednode_0032, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: RU_speednode_0035, server: 195.58.49.86, port: 16712, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: SG_speednode_0043, server: 194.124.34.105, port: 8583, type: ss, cipher: aes-256-gcm, password: 41809088A4xdFZ7sXBNhk}
-  - {name: US_speednode_0054, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0062, server: 38.99.82.225, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true}
-  - {name: US_speednode_0063, server: 38.110.1.46, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CN_speednode_0001, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: 120.198.71.219, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0003, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0004, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: CN_speednode_0005, server: 183.236.51.23, port: 40434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: GB_speednode_0009, server: 45.94.68.206, port: 35384, type: vmess, uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: GB_speednode_0010, server: 172.99.190.180, port: 443, type: trojan, password: 984e400bf5d541b7b0815913fe0c432a, sni: bangladeshipatri.com, skip-cert-verify: true}
+  - {name: GB_speednode_0011, server: 172.99.190.180, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: bangladeshipatri.com, skip-cert-verify: true}
+  - {name: HK_speednode_0012, server: ftq.ink, port: 4000, type: http, tls: true}
+  - {name: HK_speednode_0013, server: hk9.ftq.ink, port: 4000, type: http, tls: true}
+  - {name: NL_speednode_0014, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf}
+  - {name: RU_speednode_0015, server: 195.58.49.50, port: 5743, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0016, server: 194.87.69.52, port: 5743, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0017, server: 195.58.49.86, port: 5743, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0018, server: 195.58.49.42, port: 16712, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0019, server: 194.87.69.50, port: 5743, type: vmess, uuid: 3968cc63-8126-49d6-a7c2-14f119fa8182, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: RU_speednode_0020, server: 195.58.49.42, port: 16712, type: vmess, uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: SG_speednode_0021, server: connectwithemployers.online, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: false}
+  - {name: SG_speednode_0022, server: 139.59.119.143, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: connectwithemployers.online, skip-cert-verify: true}
+  - {name: US_speednode_0023, server: us.aik.mom, port: 8049, type: vmess, uuid: 15486dcc-f6e5-411b-acac-d1409375585a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wada12222, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: VN_speednode_0024, server: Cmc3.5gsieuvip.vn, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true, udp: true}
+  - {name: VN_speednode_0025, server: cmc3.5gsieuvip.vn, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true, udp: true}
+  - {name: VN_speednode_0026, server: 103.173.66.155, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - FR_speednode_0014
-  - FR_speednode_0015
-  - FR_speednode_0016
-  - GB_speednode_0021
-  - GB_speednode_0022
-  - HK_speednode_0024
-  - IN_speednode_0025
-  - LT_speednode_0031
-  - NL_speednode_0032
-  - RU_speednode_0035
-  - SG_speednode_0043
-  - US_speednode_0054
-  - US_speednode_0062
-  - US_speednode_0063
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - GB_speednode_0009
+  - GB_speednode_0010
+  - GB_speednode_0011
+  - HK_speednode_0012
+  - HK_speednode_0013
+  - NL_speednode_0014
+  - RU_speednode_0015
+  - RU_speednode_0016
+  - RU_speednode_0017
+  - RU_speednode_0018
+  - RU_speednode_0019
+  - RU_speednode_0020
+  - SG_speednode_0021
+  - SG_speednode_0022
+  - US_speednode_0023
+  - VN_speednode_0024
+  - VN_speednode_0025
+  - VN_speednode_0026
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - FR_speednode_0014
-  - FR_speednode_0015
-  - FR_speednode_0016
-  - GB_speednode_0021
-  - GB_speednode_0022
-  - HK_speednode_0024
-  - IN_speednode_0025
-  - LT_speednode_0031
-  - NL_speednode_0032
-  - RU_speednode_0035
-  - SG_speednode_0043
-  - US_speednode_0054
-  - US_speednode_0062
-  - US_speednode_0063
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - GB_speednode_0009
+  - GB_speednode_0010
+  - GB_speednode_0011
+  - HK_speednode_0012
+  - HK_speednode_0013
+  - NL_speednode_0014
+  - RU_speednode_0015
+  - RU_speednode_0016
+  - RU_speednode_0017
+  - RU_speednode_0018
+  - RU_speednode_0019
+  - RU_speednode_0020
+  - SG_speednode_0021
+  - SG_speednode_0022
+  - US_speednode_0023
+  - VN_speednode_0024
+  - VN_speednode_0025
+  - VN_speednode_0026
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
