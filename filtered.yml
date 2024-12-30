@@ -18,41 +18,113 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: s-g04.loveroise.com, port: 54030, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CN_speednode_0002, server: 183.236.48.163, port: 54882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CN_speednode_0003, server: j-p04.loveroise.com, port: 54102, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CN_speednode_0004, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: CN_speednode_0005, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN_speednode_0006, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: FR_speednode_0008, server: 147.45.68.132, port: 80, type: vmess, uuid: 28265dd5-342c-4d63-bdbb-a3259e2cf4d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: JP_speednode_0013, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)a7bbfde:185966", tls: false}}
-  - {name: RU_speednode_0016, server: 194.87.69.244, port: 6814, type: vmess, uuid: 8765b365-4d13-4b15-b5cb-74a8a18b2260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: CN_speednode_0002, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0003, server: s-g04.loveroise.com, port: 54030, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0004, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0005, server: 183.236.48.163, port: 54882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: CN_speednode_0006, server: xm.miloli.cc, port: 39226, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0007, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0008, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0009, server: 183.236.51.23, port: 40434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CN_speednode_0010, server: j-p04.loveroise.com, port: 54102, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0011, server: xm.miloli.cc, port: 45395, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0012, server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6}
+  - {name: CN_speednode_0013, server: xm.miloli.cc, port: 23752, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0014, server: xm.miloli.cc, port: 19242, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0015, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0016, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0017, server: xm.miloli.cc, port: 33075, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0018, server: k-r01.loveroise.com, port: 54008, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: CN_speednode_0019, server: xm.miloli.cc, port: 46222, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0020, server: xm.miloli.cc, port: 32948, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0021, server: xm.miloli.cc, port: 19105, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0022, server: xm.miloli.cc, port: 30800, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0023, server: xm.miloli.cc, port: 21312, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0024, server: xm.miloli.cc, port: 39020, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0025, server: xm.miloli.cc, port: 28907, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0026, server: xm.miloli.cc, port: 22832, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0027, server: xm.miloli.cc, port: 33396, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: CN_speednode_0028, server: xm.miloli.cc, port: 20828, type: ss, cipher: chacha20-ietf-poly1305, password: 2e5ee744-8dff-4a7f-b33c-20fa3a10d0c5}
+  - {name: DE_speednode_0029, server: 3.v2.a.www.speedtest.net.2.op.jahesh-tolid.website, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kbmwAPhErPtyfPrGFusEoF6u4zcqJK/DjOGBJLLab9I=}
+  - {name: FR_speednode_0031, server: 51.44.134.174, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0032, server: hk9.ftq.ink, port: 4000, type: http, tls: true}
+  - {name: HK_speednode_0033, server: ftq.ink, port: 4000, type: http, tls: true}
+  - {name: JP_speednode_0037, server: xj.cokecloud.top, port: 12187, type: trojan, password: 13e7f6f8-4ec2-4060-a1b2-e78eba835ab2, sni: xj.cokecloud.top, skip-cert-verify: false}
+  - {name: RU_speednode_0039, server: 194.87.69.244, port: 6814, type: vmess, uuid: 8765b365-4d13-4b15-b5cb-74a8a18b2260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
-  - FR_speednode_0008
-  - JP_speednode_0013
-  - RU_speednode_0016
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - DE_speednode_0029
+  - FR_speednode_0031
+  - HK_speednode_0032
+  - HK_speednode_0033
+  - JP_speednode_0037
+  - RU_speednode_0039
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
-  - FR_speednode_0008
-  - JP_speednode_0013
-  - RU_speednode_0016
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - DE_speednode_0029
+  - FR_speednode_0031
+  - HK_speednode_0032
+  - HK_speednode_0033
+  - JP_speednode_0037
+  - RU_speednode_0039
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
