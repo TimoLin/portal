@@ -18,43 +18,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: 36.150.215.222, port: 12524, type: trojan, password: vzhXXZVw, skip-cert-verify: true}
-  - {name: CN_speednode_0002, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: CN_speednode_0003, server: w72tapyb.slashdevslashnetslashtun.net, port: 16016, type: ss, cipher: aes-256-gcm, password: 6KYL3YM7UAOAE94Q}
-  - {name: CY_speednode_0005, server: yx1.changyouVPN.top, port: 8880, type: vmess, uuid: 85c7eba1-dfba-4f3e-9f7a-833fa729dc19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: yg.changyouVPN.top}}}
-  - {name: DE_speednode_0006, server: 3.127.116.35, port: 1935, type: trojan, password: Oe5CMj3tiO, sni: x2ger-amazon.devefun.net, skip-cert-verify: false}
-  - {name: ES_speednode_0010, server: 93.189.94.159, port: 1935, type: trojan, password: 9Bb6wjlTOA, sni: x14spain.devefun.net, skip-cert-verify: false}
-  - {name: FR_speednode_0012, server: 13.39.244.105, port: 1935, type: trojan, password: JFchk1TxFG, sni: x1fr-amazon.devefun.net, skip-cert-verify: false}
-  - {name: HK_speednode_0014, server: hk9.ftq.ink, port: 4000, type: http, tls: true}
-  - {name: JP_speednode_0018, server: 13.113.190.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_speednode_0019, server: 18.183.217.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_speednode_0021, server: 13.112.239.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_speednode_0022, server: 18.183.178.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0023, server: 203.234.238.147, port: 41951, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0024, server: 27.255.82.49, port: 61089, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0025, server: 221.150.109.88, port: 59686, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0026, server: 125.141.31.100, port: 17725, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0027, server: 13.124.147.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_speednode_0028, server: 54.180.9.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0029, server: 13.125.199.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_speednode_0030, server: 222.112.15.141, port: 38471, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0031, server: 221.150.109.21, port: 7855, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0032, server: 13.124.195.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0033, server: 27.255.82.135, port: 61891, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0034, server: 27.255.82.134, port: 46283, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: KR_speednode_0035, server: 210.217.18.69, port: 30956, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: RU_speednode_0037, server: 185.22.152.13, port: 16112, type: ss, cipher: aes-256-gcm, password: 4194ce5b1f36f660, udp: true}
-  - {name: RU_speednode_0038, server: 46.17.41.4, port: 16112, type: ss, cipher: aes-256-gcm, password: 6e67deffda597ac4, udp: true}
-  - {name: SG_speednode_0041, server: 54.169.119.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0042, server: 54.179.104.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0043, server: 13.250.30.129, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0044, server: 54.179.150.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0045, server: 54.179.76.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0046, server: 3.1.204.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: SG_speednode_0047, server: 18.142.51.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0048, server: 13.229.248.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG_speednode_0049, server: 13.229.99.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_speednode_0055, server: 151.101.2.216, port: 80, type: vmess, uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-ISVvpn.ir}}}
+  - {name: CN_speednode_0001, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA, udp: true}
+  - {name: CN_speednode_0002, server: 223.113.54.145, port: 36442, type: trojan, password: phXKwfrd, skip-cert-verify: true}
+  - {name: CN_speednode_0004, server: 42.192.52.227, port: 22889, type: socks5, username: zeaslity, password: lovemm.23}
+  - {name: GB_speednode_0009, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: GB_speednode_0010, server: 62.100.205.48, port: 989, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: KR_speednode_0022, server: 43.203.242.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KR_speednode_0023, server: 222.112.15.140, port: 4410, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: KR_speednode_0024, server: 27.255.82.23, port: 5412, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -62,81 +33,23 @@ proxy-groups:
   - ♻️ automatic
   - CN_speednode_0001
   - CN_speednode_0002
-  - CN_speednode_0003
-  - CY_speednode_0005
-  - DE_speednode_0006
-  - ES_speednode_0010
-  - FR_speednode_0012
-  - HK_speednode_0014
-  - JP_speednode_0018
-  - JP_speednode_0019
-  - JP_speednode_0021
-  - JP_speednode_0022
+  - CN_speednode_0004
+  - GB_speednode_0009
+  - GB_speednode_0010
+  - KR_speednode_0022
   - KR_speednode_0023
   - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - KR_speednode_0027
-  - KR_speednode_0028
-  - KR_speednode_0029
-  - KR_speednode_0030
-  - KR_speednode_0031
-  - KR_speednode_0032
-  - KR_speednode_0033
-  - KR_speednode_0034
-  - KR_speednode_0035
-  - RU_speednode_0037
-  - RU_speednode_0038
-  - SG_speednode_0041
-  - SG_speednode_0042
-  - SG_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - SG_speednode_0046
-  - SG_speednode_0047
-  - SG_speednode_0048
-  - SG_speednode_0049
-  - US_speednode_0055
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0001
   - CN_speednode_0002
-  - CN_speednode_0003
-  - CY_speednode_0005
-  - DE_speednode_0006
-  - ES_speednode_0010
-  - FR_speednode_0012
-  - HK_speednode_0014
-  - JP_speednode_0018
-  - JP_speednode_0019
-  - JP_speednode_0021
-  - JP_speednode_0022
+  - CN_speednode_0004
+  - GB_speednode_0009
+  - GB_speednode_0010
+  - KR_speednode_0022
   - KR_speednode_0023
   - KR_speednode_0024
-  - KR_speednode_0025
-  - KR_speednode_0026
-  - KR_speednode_0027
-  - KR_speednode_0028
-  - KR_speednode_0029
-  - KR_speednode_0030
-  - KR_speednode_0031
-  - KR_speednode_0032
-  - KR_speednode_0033
-  - KR_speednode_0034
-  - KR_speednode_0035
-  - RU_speednode_0037
-  - RU_speednode_0038
-  - SG_speednode_0041
-  - SG_speednode_0042
-  - SG_speednode_0043
-  - SG_speednode_0044
-  - SG_speednode_0045
-  - SG_speednode_0046
-  - SG_speednode_0047
-  - SG_speednode_0048
-  - SG_speednode_0049
-  - US_speednode_0055
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
