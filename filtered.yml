@@ -18,23 +18,164 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: CN_speednode_0002, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: HK_speednode_0006, server: 104.251.227.182, port: 443, type: trojan, password: 1e63e585ab2fef3adcc9ea75a62abc23, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0008, server: mdss-hk.04z3susick.download, port: 12003, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0009, server: 1.link-hub.blog, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: CN_speednode_0010, server: mdss-hk.04z3susick.download, port: 12005, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0011, server: mdss-sg.04z3susick.download, port: 12019, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0012, server: mdss-hk.04z3susick.download, port: 12007, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0013, server: mdss-hk.04z3susick.download, port: 12010, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0014, server: mdss-hk.04z3susick.download, port: 12004, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0015, server: mdss-sg.04z3susick.download, port: 12018, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0016, server: mdss-hk.04z3susick.download, port: 12001, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0017, server: 1.link-hub.blog, port: 40200, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: "92902:pFWGOQ", obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: CN_speednode_0018, server: mdss-sg.04z3susick.download, port: 12020, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0019, server: mdss-sg.04z3susick.download, port: 12021, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0020, server: mdss-hk.04z3susick.download, port: 12002, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0021, server: mdss-sg.04z3susick.download, port: 12022, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0022, server: mdss-tw.04z3susick.download, port: 12032, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0023, server: mdss-tw.04z3susick.download, port: 12031, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0024, server: mdss-tw.04z3susick.download, port: 12033, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0025, server: mdss-tw.04z3susick.download, port: 12029, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0026, server: mdss-jp.04z3susick.download, port: 12011, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0027, server: mdss-jp.04z3susick.download, port: 12012, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0028, server: mdss-jp.04z3susick.download, port: 12013, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0029, server: mdss-jp.04z3susick.download, port: 12015, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0030, server: mdss-jp.04z3susick.download, port: 12014, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0031, server: mdss-tw.04z3susick.download, port: 12034, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0032, server: mdss-hk.04z3susick.download, port: 12006, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0033, server: mdss-tw.04z3susick.download, port: 12030, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0034, server: mdss-other.04z3susick.download, port: 12047, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0035, server: mdss-hk.04z3susick.download, port: 12009, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0036, server: mdss-hk.04z3susick.download, port: 12008, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0037, server: mdss-sg.04z3susick.download, port: 12017, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0038, server: mdss-jp.04z3susick.download, port: 12016, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0039, server: mdss-other.04z3susick.download, port: 12048, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0040, server: mdss-other.04z3susick.download, port: 12039, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0041, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0042, server: mdss-other.04z3susick.download, port: 12040, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0043, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0044, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0045, server: mdss-other.04z3susick.download, port: 12038, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: CN_speednode_0046, server: 120.232.153.40, port: 54082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0047, server: mdss-other.04z3susick.download, port: 12037, type: ss, cipher: aes-128-gcm, password: 885f2012-ff8b-4835-9ce1-22b2382f6715, udp: true}
+  - {name: DE_speednode_0057, server: 185.121.134.12, port: 20327, type: vmess, uuid: 31d7b3e1-ea7f-40fb-80ce-05958c572ced, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
+  - {name: GB_speednode_0081, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: BZeJ20F15UnvGH0oSYd3C2, udp: true}
+  - {name: SG_speednode_0141, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: TW_speednode_0158, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: US_speednode_0203, server: 44.243.110.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_speednode_0207, server: 44.243.45.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_speednode_0234, server: 52.12.191.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_speednode_0266, server: 104.17.137.127, port: 443, type: vmess, uuid: 6dde1f95-16eb-4a76-b7c2-de8f282cf70b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /kr, headers: {Host: kr.niskakowski.ggff.net}}, udp: true}
+  - {name: US_speednode_0277, server: 104.31.16.9, port: 2053, type: vmess, uuid: ad3d0eb7-24a6-403b-9225-feeacb8219b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: qurantv.quranir.com, network: ws, ws-opts: {path: /, headers: {Host: qurantv.quranir.com}}, udp: true}
+  - {name: US_speednode_0278, server: 104.31.16.9, port: 2053, type: vmess, uuid: ad3d0eb7-24a6-403b-9225-feeacb8219b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qurantv.quranir.com}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0001
-  - CN_speednode_0002
-  - HK_speednode_0006
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
+  - DE_speednode_0057
+  - GB_speednode_0081
+  - SG_speednode_0141
+  - TW_speednode_0158
+  - US_speednode_0203
+  - US_speednode_0207
+  - US_speednode_0234
+  - US_speednode_0266
+  - US_speednode_0277
+  - US_speednode_0278
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0001
-  - CN_speednode_0002
-  - HK_speednode_0006
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0022
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
+  - DE_speednode_0057
+  - GB_speednode_0081
+  - SG_speednode_0141
+  - TW_speednode_0158
+  - US_speednode_0203
+  - US_speednode_0207
+  - US_speednode_0234
+  - US_speednode_0266
+  - US_speednode_0277
+  - US_speednode_0278
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
