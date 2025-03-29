@@ -18,17 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: TW_speednode_0055, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_speednode_0003, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com, udp: true}
+  - {name: CN_speednode_0006, server: 61.172.235.22, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: CN_speednode_0007, server: 183.240.255.75, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: CN_speednode_0008, server: 61.172.235.22, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: CN_speednode_0012, server: 183.240.255.75, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: CN_speednode_0013, server: 183.232.229.164, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: CN_speednode_0014, server: 183.232.229.164, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be, udp: true}
+  - {name: JP_speednode_0018, server: jp104-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - TW_speednode_0055
+  - CN_speednode_0003
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - JP_speednode_0018
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - TW_speednode_0055
+  - CN_speednode_0003
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - JP_speednode_0018
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
