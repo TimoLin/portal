@@ -18,62 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0006, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0007, server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 10465, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0008, server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27002, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0009, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0011, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 65d3c960-41fb-46d0-bd6c-b9bd5cc100a3, udp: true}
-  - {name: CN_speednode_0015, server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33506, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0017, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: CN_speednode_0019, server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43583, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0020, server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 44397, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0021, server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43498, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0042, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0044, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: CN_speednode_0047, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: CN_speednode_0048, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: GB_speednode_0050, server: powerful-grackle.shiner427.skin, port: 443, type: trojan, password: '74260700211203800', sni: powerful-grackle.shiner427.skin, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0051, server: powerful-grackle.shiner427.skin, port: 443, type: trojan, password: '74260700211203800', skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0015, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0026, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0028, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 65d3c960-41fb-46d0-bd6c-b9bd5cc100a3, udp: true}
+  - {name: CN_speednode_0029, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0031, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0032, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0011
   - CN_speednode_0015
-  - CN_speednode_0017
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0042
-  - CN_speednode_0044
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - GB_speednode_0050
-  - GB_speednode_0051
+  - CN_speednode_0026
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0031
+  - CN_speednode_0032
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0011
   - CN_speednode_0015
-  - CN_speednode_0017
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0042
-  - CN_speednode_0044
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - GB_speednode_0050
-  - GB_speednode_0051
+  - CN_speednode_0026
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0031
+  - CN_speednode_0032
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
