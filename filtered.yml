@@ -18,29 +18,152 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0005, server: 00a6fed2-suk9s0-t7qex7-1supq.cu.plebai.net, port: 5228, type: vmess, uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0008, server: www.ak-hk.top, port: 10200, type: trojan, password: b19c4375-d847-4c40-9824-4767c88b5f38, sni: www.ak-hk.top, skip-cert-verify: true, udp: true}
-  - {name: IN_speednode_0009, server: www.hk-jd.top, port: 10021, type: trojan, password: b19c4375-d847-4c40-9824-4767c88b5f38, sni: www.hk-jd.top, skip-cert-verify: true, udp: true}
-  - {name: JP_speednode_0010, server: jp104-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  - {name: TW_speednode_0073, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: CN_speednode_0001, server: hk2.qsm1.xyz, port: 33652, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0002, server: jp1.qsm1.xyz, port: 43681, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0003, server: jp1.qsm1.xyz, port: 43685, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0004, server: hk1.qsm1.xyz, port: 39781, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0005, server: hk1.qsm1.xyz, port: 33651, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0006, server: hk1.qsm1.xyz, port: 36795, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0007, server: hk1.qsm1.xyz, port: 36796, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0008, server: hk2.qsm1.xyz, port: 39785, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0009, server: hk1.qsm1.xyz, port: 39786, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0010, server: hk2.qsm1.xyz, port: 39782, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0011, server: hk2.qsm1.xyz, port: 33706, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0012, server: hongkong.cnix.asia, port: 55012, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0013, server: hk4.qsm1.xyz, port: 36794, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0014, server: hongkong.cnix.asia, port: 55001, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0015, server: hk3.qsm1.xyz, port: 39783, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0016, server: gdgzcm-hkbase.cnix.asia, port: 56008, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0017, server: jp1.qsm1.xyz, port: 43786, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0018, server: japan.cnix.asia, port: 12002, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0019, server: japan.cnix.asia, port: 12004, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0020, server: jscm-jp.cnix.asia, port: 16002, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0021, server: hk3.qsm1.xyz, port: 33653, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0023, server: 0d116b61-sudhc0-su9u31-b4pt.c.volczijie.com, port: 3681, type: vmess, uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0024, server: ac681bb7-sudhc0-su9u31-b4pt.d.volczijie.com, port: 4135, type: vmess, uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0025, server: japan.cnix.asia, port: 12001, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0026, server: jscm-jp.cnix.asia, port: 16001, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0027, server: gdcm-sg.cnix.asia, port: 25003, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0028, server: gdcm-sg.cnix.asia, port: 25005, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0029, server: singapore.cnix.asia, port: 25011, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0030, server: singapore.cnix.asia, port: 25007, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0031, server: singapore.cnix.asia, port: 25009, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0032, server: hk4.qsm1.xyz, port: 33654, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0033, server: hongkong.cnix.asia, port: 55005, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0034, server: 0d116b61-sudhc0-su9u31-b4pt.c.volczijie.com, port: 4137, type: vmess, uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0035, server: hk3.qsm1.xyz, port: 38793, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0036, server: jscm-hkmax.cnix.asia, port: 13002, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0037, server: jscm-hkmax.cnix.asia, port: 13008, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0038, server: jscm-hkmax.cnix.asia, port: 13007, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0039, server: jscm-hkmax.cnix.asia, port: 13003, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0040, server: ac681bb7-sudhc0-su9u31-b4pt.d.volczijie.com, port: 3684, type: vmess, uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0041, server: gdcm-sg.cnix.asia, port: 25004, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0042, server: jscm-hkmax.cnix.asia, port: 13005, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0043, server: jscm-usa.cnix.asia, port: 13011, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0044, server: jscm-hkmax.cnix.asia, port: 13004, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
+  - {name: CN_speednode_0045, server: oz.qsm1.xyz, port: 35619, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0046, server: oz.qsm1.xyz, port: 36617, type: ss, cipher: aes-128-gcm, password: 582e242b-752f-4ec9-a640-240ca98d5055, udp: true}
+  - {name: CN_speednode_0047, server: jscm-hkmax.cnix.asia, port: 13001, type: ss, cipher: aes-128-gcm, password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
   - CN_speednode_0005
-  - GB_speednode_0008
-  - IN_speednode_0009
-  - JP_speednode_0010
-  - TW_speednode_0073
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
   - CN_speednode_0005
-  - GB_speednode_0008
-  - IN_speednode_0009
-  - JP_speednode_0010
-  - TW_speednode_0073
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - CN_speednode_0019
+  - CN_speednode_0020
+  - CN_speednode_0021
+  - CN_speednode_0023
+  - CN_speednode_0024
+  - CN_speednode_0025
+  - CN_speednode_0026
+  - CN_speednode_0027
+  - CN_speednode_0028
+  - CN_speednode_0029
+  - CN_speednode_0030
+  - CN_speednode_0031
+  - CN_speednode_0032
+  - CN_speednode_0033
+  - CN_speednode_0034
+  - CN_speednode_0035
+  - CN_speednode_0036
+  - CN_speednode_0037
+  - CN_speednode_0038
+  - CN_speednode_0039
+  - CN_speednode_0040
+  - CN_speednode_0041
+  - CN_speednode_0042
+  - CN_speednode_0043
+  - CN_speednode_0044
+  - CN_speednode_0045
+  - CN_speednode_0046
+  - CN_speednode_0047
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
