@@ -18,98 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0042, server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27201, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0043, server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27102, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0044, server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27103, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0045, server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42881, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0046, server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43393, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0047, server: aafrtpfxr.myl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43383, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0048, server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27001, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0049, server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22271, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0050, server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22269, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0051, server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46668, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0052, server: aafrtpfxr.aul01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 34017, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0053, server: aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43394, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0054, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0055, server: aafrtpfxr.vnl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43396, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0056, server: aafrtpfxr.nll01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43591, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0057, server: aafrtpfxr.phl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27408, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0058, server: aafrtpfxr.pkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42883, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0059, server: aafrtpfxr.rul01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46925, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0060, server: aafrtpfxr.trl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43397, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0061, server: aafrtpfxr.usl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33505, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0062, server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33506, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0063, server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 34016, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0064, server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43583, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0065, server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43498, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0066, server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 44397, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0067, server: aafrtpfxr.ael01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43497, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0068, server: aafrtpfxr.arl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43590, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0069, server: aafrtpfxr.brl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43586, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0006, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83, udp: true}
+  - {name: CN_speednode_0026, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: JP_speednode_0040, server: jp104-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - CN_speednode_0051
-  - CN_speednode_0052
-  - CN_speednode_0053
-  - CN_speednode_0054
-  - CN_speednode_0055
-  - CN_speednode_0056
-  - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
+  - CN_speednode_0006
+  - CN_speednode_0026
+  - JP_speednode_0040
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - CN_speednode_0051
-  - CN_speednode_0052
-  - CN_speednode_0053
-  - CN_speednode_0054
-  - CN_speednode_0055
-  - CN_speednode_0056
-  - CN_speednode_0057
-  - CN_speednode_0058
-  - CN_speednode_0059
-  - CN_speednode_0060
-  - CN_speednode_0061
-  - CN_speednode_0062
-  - CN_speednode_0063
-  - CN_speednode_0064
-  - CN_speednode_0065
-  - CN_speednode_0066
-  - CN_speednode_0067
-  - CN_speednode_0068
-  - CN_speednode_0069
+  - CN_speednode_0006
+  - CN_speednode_0026
+  - JP_speednode_0040
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
