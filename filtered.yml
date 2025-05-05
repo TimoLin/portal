@@ -18,53 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BD_speednode_0001, server: hkre1-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: CN_speednode_0002, server: 120.232.153.40, port: 57852, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: CN_speednode_0003, server: link.karleynetwork.xyz, port: 23335, type: ss, cipher: chacha20-ietf-poly1305, password: 9fe1c37d-9edf-418a-b5f7-bad1dddacb2c, udp: true}
-  - {name: CN_speednode_0004, server: 120.232.153.40, port: 57852, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0005, server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net, port: 5229, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0004, server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net, port: 5229, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0005, server: 9930b282-sux8g0-t0hae4-1curq.cu.plebai.net, port: 5229, type: vmess, uuid: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_speednode_0006, server: 451a9050-sux8g0-t7enwo-1f1f1.cu.plebai.net, port: 5229, type: vmess, uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0007, server: 113.99.140.184, port: 39001, type: trojan, password: b6200af42ccadea353f5b5856dd20d70, sni: 113.99.140.184, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0008, server: 9930b282-sux8g0-t0hae4-1curq.cu.plebai.net, port: 5229, type: vmess, uuid: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_speednode_0013, server: jp104-cdn-route.couldflare-cdn.com, port: 443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  - {name: KR_speednode_0015, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: KR_speednode_0016, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: SG_speednode_0021, server: 27.50.49.224, port: 8443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tyep.esslh.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0048, server: 21da44f3-svqv40-t1bnjq-1krtb.sj.gotochinatown.net, port: 443, type: http, username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, tls: true, udp: true}
-  - {name: US_speednode_0050, server: f1fdb272-svqv40-t28b6o-ef48.sj.gotochinatown.net, port: 443, type: http, username: cb15123a-084c-11f0-8eab-f23c91cfbbc9, password: cb15123a-084c-11f0-8eab-f23c91cfbbc9, tls: true, udp: true}
+  - {name: KR_speednode_0012, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: KR_speednode_0013, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: SG_speednode_0015, server: 27.50.49.224, port: 8443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tyep.esslh.filegear-sg.me}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BD_speednode_0001
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - JP_speednode_0013
-  - KR_speednode_0015
-  - KR_speednode_0016
-  - SG_speednode_0021
-  - US_speednode_0048
-  - US_speednode_0050
+  - KR_speednode_0012
+  - KR_speednode_0013
+  - SG_speednode_0015
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BD_speednode_0001
+  - CN_speednode_0002
   - CN_speednode_0003
   - CN_speednode_0004
   - CN_speednode_0005
   - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - JP_speednode_0013
-  - KR_speednode_0015
-  - KR_speednode_0016
-  - SG_speednode_0021
-  - US_speednode_0048
-  - US_speednode_0050
+  - KR_speednode_0012
+  - KR_speednode_0013
+  - SG_speednode_0015
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
