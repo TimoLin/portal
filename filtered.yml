@@ -18,95 +18,35 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AT_speednode_0008, server: 212.183.88.58, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=212.183.88.58:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: AT_speednode_0009, server: 212.183.88.29, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=212.183.88.29:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: AT_speednode_0010, server: 212.183.88.29, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=212.183.88.29:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: CN_speednode_0015, server: 120.232.153.40, port: 40292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0016, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: CN_speednode_0017, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: CN_speednode_0018, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0019, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, udp: true}
-  - {name: GB_speednode_0077, server: 217.163.76.254, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=217.163.76.254:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0078, server: 217.163.76.254, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=217.163.76.254:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0079, server: 217.163.76.89, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=217.163.76.89:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0080, server: 217.163.76.227, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=217.163.76.227:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0081, server: 217.163.76.51, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=217.163.76.51:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0082, server: 217.163.76.89, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=217.163.76.89:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0083, server: 217.163.76.221, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=217.163.76.221:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: GB_speednode_0084, server: 217.163.76.227, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=217.163.76.227:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: KR_speednode_0088, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: KR_speednode_0090, server: 149.129.8.215, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=149.129.8.215:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: KZ_speednode_0091, server: 194.76.18.129, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=194.76.18.129:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: KZ_speednode_0092, server: 194.76.18.122, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=194.76.18.122:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: LV_speednode_0096, server: 45.128.151.67, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: d3TphPPfMkIxFmPJpA0j7RkPJHjeHqaJk2D7Co7VsFuUU2v1, udp: true}
-  - {name: RU_speednode_0103, server: 45.67.215.196, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=45.67.215.196:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: RU_speednode_0104, server: 45.67.215.234, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=45.67.215.234:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: SK_speednode_0107, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0215, server: 160.79.105.81, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "/proxyip=160.79.105.81:443", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: US_speednode_0223, server: 192.0.54.184, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=192.0.54.184:443&proxyIP=null", headers: {Host: icecream.955850.xyz}}, udp: true}
-  - {name: VN_speednode_0237, server: 103.151.57.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: CN_speednode_0004, server: 120.232.153.40, port: 40292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0005, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0006, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, udp: true}
+  - {name: CN_speednode_0007, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: KR_speednode_0012, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: LV_speednode_0015, server: 45.128.151.67, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: d3TphPPfMkIxFmPJpA0j7RkPJHjeHqaJk2D7Co7VsFuUU2v1, udp: true}
+  - {name: VN_speednode_0055, server: 103.151.57.123, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AT_speednode_0008
-  - AT_speednode_0009
-  - AT_speednode_0010
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - GB_speednode_0077
-  - GB_speednode_0078
-  - GB_speednode_0079
-  - GB_speednode_0080
-  - GB_speednode_0081
-  - GB_speednode_0082
-  - GB_speednode_0083
-  - GB_speednode_0084
-  - KR_speednode_0088
-  - KR_speednode_0090
-  - KZ_speednode_0091
-  - KZ_speednode_0092
-  - LV_speednode_0096
-  - RU_speednode_0103
-  - RU_speednode_0104
-  - SK_speednode_0107
-  - US_speednode_0215
-  - US_speednode_0223
-  - VN_speednode_0237
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - KR_speednode_0012
+  - LV_speednode_0015
+  - VN_speednode_0055
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AT_speednode_0008
-  - AT_speednode_0009
-  - AT_speednode_0010
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - GB_speednode_0077
-  - GB_speednode_0078
-  - GB_speednode_0079
-  - GB_speednode_0080
-  - GB_speednode_0081
-  - GB_speednode_0082
-  - GB_speednode_0083
-  - GB_speednode_0084
-  - KR_speednode_0088
-  - KR_speednode_0090
-  - KZ_speednode_0091
-  - KZ_speednode_0092
-  - LV_speednode_0096
-  - RU_speednode_0103
-  - RU_speednode_0104
-  - SK_speednode_0107
-  - US_speednode_0215
-  - US_speednode_0223
-  - VN_speednode_0237
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - KR_speednode_0012
+  - LV_speednode_0015
+  - VN_speednode_0055
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
