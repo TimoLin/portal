@@ -18,122 +18,77 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BR_speednode_0007, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: CN_speednode_0008, server: console.03.aliyun.aq.kunlunaqs.com, port: 45905, type: ss, cipher: aes-128-gcm, password: 777bc05be0dd624959fb, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0009, server: console.02.aliyun.aq.kunlunaqs.com, port: 45936, type: ss, cipher: aes-128-gcm, password: a643f6f3733c9962851d, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0010, server: console.01.aliyun.aq.kunlunaqs.com, port: 45904, type: ss, cipher: aes-128-gcm, password: 6113536135af69e572c6, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0011, server: console.01.aliyun.aq.kunlunaqs.com, port: 45900, type: ss, cipher: aes-128-gcm, password: 51f8c7454c93d0d83c29, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0012, server: console.03.aliyun.aq.kunlunaqs.com, port: 45579, type: ss, cipher: aes-128-gcm, password: 0722bd4137ff579e6917, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0013, server: console.03.aliyun.aq.kunlunaqs.com, port: 45917, type: ss, cipher: aes-128-gcm, password: f4cd0a554e9d0558c581, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0014, server: console.03.aliyun.aq.kunlunaqs.com, port: 45931, type: ss, cipher: aes-128-gcm, password: 3e79196cf9e970671245, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0015, server: console.02.aliyun.aq.kunlunaqs.com, port: 45581, type: ss, cipher: aes-128-gcm, password: 6014caa3a323920c7fd0, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0016, server: console.02.aliyun.aq.kunlunaqs.com, port: 45939, type: ss, cipher: aes-128-gcm, password: 97b53b570db0917935e0, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0017, server: console.02.aliyun.aq.kunlunaqs.com, port: 45912, type: ss, cipher: aes-128-gcm, password: 97998add7bf4fea885ef, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0018, server: console.02.aliyun.aq.kunlunaqs.com, port: 45913, type: ss, cipher: aes-128-gcm, password: c8960ca4a0add435fc34, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0019, server: console.02.aliyun.aq.kunlunaqs.com, port: 45911, type: ss, cipher: aes-128-gcm, password: 69dc0306f1bfb1af49a5, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0020, server: console.03.aliyun.aq.kunlunaqs.com, port: 45590, type: ss, cipher: chacha20-ietf-poly1305, password: b8dd96a81eac14b376c3, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0021, server: console.03.aliyun.aq.kunlunaqs.com, port: 45925, type: ss, cipher: aes-128-gcm, password: 1a402babc02465f45bea, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0022, server: console.02.aliyun.aq.kunlunaqs.com, port: 45921, type: ss, cipher: aes-128-gcm, password: d7577ca6729babe0790f, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0023, server: console.02.aliyun.aq.kunlunaqs.com, port: 45578, type: ss, cipher: chacha20-ietf-poly1305, password: 7243745919d6de49a5db, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0024, server: console.02.aliyun.aq.kunlunaqs.com, port: 45908, type: ss, cipher: aes-128-gcm, password: 97c3cf442df2d7099275, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0025, server: console.03.aliyun.aq.kunlunaqs.com, port: 45580, type: ss, cipher: chacha20-ietf-poly1305, password: e6db72e9415e60e35892, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0026, server: console.02.aliyun.aq.kunlunaqs.com, port: 45584, type: ss, cipher: chacha20-ietf-poly1305, password: 4605c34b957ab8e1001b, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0027, server: console.02.aliyun.aq.kunlunaqs.com, port: 45909, type: ss, cipher: aes-128-gcm, password: 9d29e58723af34cad8da, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0028, server: console.02.aliyun.aq.kunlunaqs.com, port: 45938, type: ss, cipher: aes-128-gcm, password: 3938bfae997974860251, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0029, server: console.03.aliyun.aq.kunlunaqs.com, port: 45928, type: ss, cipher: aes-128-gcm, password: bd62dac6636078647014, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0030, server: console.03.aliyun.aq.kunlunaqs.com, port: 45587, type: ss, cipher: chacha20-ietf-poly1305, password: 6180d9dc7075e7fe509b, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0031, server: console.03.aliyun.aq.kunlunaqs.com, port: 45927, type: ss, cipher: aes-128-gcm, password: 8141b20c775ce63fab96, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0032, server: console.03.aliyun.aq.kunlunaqs.com, port: 45930, type: ss, cipher: aes-128-gcm, password: 11575f448fb4021fc611, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0033, server: d855bbcd-sx15s0-t1l0zq-1qof8.cu.plebai.net, port: 15229, type: trojan, password: 042b75a6-d3e6-11ee-b308-f23c9164ca5d, sni: d855bbcd-sx15s0-t1l0zq-1qof8.cu.plebai.net, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0034, server: console.03.aliyun.aq.kunlunaqs.com, port: 45583, type: ss, cipher: chacha20-ietf-poly1305, password: 4f308f8c43ae78a779f5, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0035, server: 120.233.44.201, port: 21102, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: 120.233.44.201, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0036, server: console.03.aliyun.aq.kunlunaqs.com, port: 45589, type: ss, cipher: chacha20-ietf-poly1305, password: e3d6f327d91656f89f07, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0037, server: console.03.aliyun.aq.kunlunaqs.com, port: 45588, type: ss, cipher: chacha20-ietf-poly1305, password: 05ff48fd41178ed790ec, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: CN_speednode_0038, server: 36.151.251.62, port: 13542, type: trojan, password: RlzoEILU, sni: cdn.egvra.cn, skip-cert-verify: true, udp: true}
-  - {name: GB_speednode_0196, server: 62.100.205.48, port: 989, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB_speednode_0197, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: GB_speednode_0235, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
-  - {name: TW_speednode_0352, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true}, udp: true}
+  - {name: CN_speednode_0012, server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com, port: 17233, type: vmess, uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0013, server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com, port: 17233, type: vmess, uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0023, server: 141.11.203.191, port: 8443, type: trojan, password: Aimer, sni: epmw.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epmw.ambercc.filegear-sg.me}}, udp: true}
+  - {name: HK_speednode_0029, server: 43.247.134.85, port: 47010, type: vmess, uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: JP_speednode_0034, server: huzzah.meijireform.com, port: 28331, type: trojan, password: Aa4cexaO3FReREXgAlp9CjyTjpaRNan3YDx6DxaDYFS3On0SqgF08CZcBpYxy3awXeEIC, skip-cert-verify: false, udp: true}
+  - {name: JP_speednode_0035, server: huzzah.meijireform.com, port: 28331, type: trojan, password: Aa4cexaO3FReREXgAlp9CjyTjpaRNan3YDx6DxaDYFS3On0SqgF08CZcBpYxy3awXeEIC, sni: huzzah.meijireform.com, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0052, server: 95.211.27.188, port: 13456, type: vmess, uuid: 46924cd9-a244-4b9a-999c-f5e51dbe837f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [divarcdn.com]}}, udp: true}
+  - {name: NO_speednode_0054, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: SG_speednode_0063, server: luber.protocolbuffer.com, port: 18333, type: trojan, password: 4a3paxFKgSCxXBlaZn73Suc6AF3Dj3078l8FeDzDOXZOwyCDCICzeApyySAEgeTOSEZSZ, sni: luber.protocolbuffer.com, skip-cert-verify: false, udp: true}
+  - {name: TW_speednode_0068, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true}, udp: true}
+  - {name: US_speednode_0081, server: cutlery.homeofbrave.net, port: 28331, type: trojan, password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0082, server: cutlery.homeofbrave.net, port: 28331, type: trojan, password: e3qTaj4gOeDDzR8lzYXpyZDpga5a3SCwyE4CO6c738aZxwlaaAD0SYSYyXOlF9S3FRF0x, sni: cutlery.homeofbrave.net, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0100, server: closet.homeofbrave.net, port: 18332, type: trojan, password: BIRCauz5R2S8O3pZ56eg8yC43yla4T3D7znxCDFxSCODO9jA3NxAcaE3YYK3Sq8u9DxZg, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0104, server: handles.homeofbrave.net, port: 28332, type: trojan, password: CYjXlaFOAyEDZaTe0gZaCOCyy4RwSyKYDq9SSpDCxzF33eA3SS06O28aj65a3lY3znO88, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0105, server: 45.89.109.184, port: 10001, type: ss, cipher: aes-128-gcm, password: 0dc0a0ee-008c-4063-b2f6-b1fd2b8ef47b, udp: true}
+  - {name: US_speednode_0107, server: fireplace.wireshop.net, port: 28331, type: trojan, password: Ye8uA37l3C9FwpCwBCuZBy4SqlKTapDXEDnCZFRKSNlZCRSy0I3Yc8DxayzOeO3xaxjjg, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0108, server: 108.165.152.58, port: 2087, type: trojan, password: Aimer, sni: epmw.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epmw.ambercc.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0112, server: 192.3.127.231, port: 443, type: trojan, password: Aimer, sni: epmw.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epmw.ambercc.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0113, server: 192.210.207.89, port: 20080, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epme.ambercc.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0121, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0122, server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net, port: 443, type: http, username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d, password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BR_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - GB_speednode_0196
-  - GB_speednode_0197
-  - GB_speednode_0235
-  - TW_speednode_0352
+  - FR_speednode_0023
+  - HK_speednode_0029
+  - JP_speednode_0034
+  - JP_speednode_0035
+  - NL_speednode_0052
+  - NO_speednode_0054
+  - SG_speednode_0063
+  - TW_speednode_0068
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0100
+  - US_speednode_0104
+  - US_speednode_0105
+  - US_speednode_0107
+  - US_speednode_0108
+  - US_speednode_0112
+  - US_speednode_0113
+  - US_speednode_0121
+  - US_speednode_0122
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BR_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
   - CN_speednode_0012
   - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - GB_speednode_0196
-  - GB_speednode_0197
-  - GB_speednode_0235
-  - TW_speednode_0352
+  - FR_speednode_0023
+  - HK_speednode_0029
+  - JP_speednode_0034
+  - JP_speednode_0035
+  - NL_speednode_0052
+  - NO_speednode_0054
+  - SG_speednode_0063
+  - TW_speednode_0068
+  - US_speednode_0081
+  - US_speednode_0082
+  - US_speednode_0100
+  - US_speednode_0104
+  - US_speednode_0105
+  - US_speednode_0107
+  - US_speednode_0108
+  - US_speednode_0112
+  - US_speednode_0113
+  - US_speednode_0121
+  - US_speednode_0122
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
