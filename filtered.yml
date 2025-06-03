@@ -18,35 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0006, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0007, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0036, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epme.ambercc.filegear-sg.me}}, udp: true}
-  - {name: NN_speednode_0051, server: "::ffff:8e5d:fd31", port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}, udp: true}
-  - {name: RU_speednode_0064, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epme.ambercc.filegear-sg.me}}, udp: true}
-  - {name: SI_speednode_0067, server: 92.53.190.161, port: 2087, type: trojan, password: Aimer, sni: epme.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epme.ambercc.filegear-sg.me}}, udp: true}
-  - {name: TW_speednode_0068, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true}, udp: true}
+  - {name: CN_speednode_0006, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: NN_speednode_0045, server: "::ffff:8e5d:fd31", port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}, udp: true}
+  - {name: TW_speednode_0058, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - CN_speednode_0006
-  - CN_speednode_0007
-  - JP_speednode_0036
-  - NN_speednode_0051
-  - RU_speednode_0064
-  - SI_speednode_0067
-  - TW_speednode_0068
+  - NN_speednode_0045
+  - TW_speednode_0058
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0006
-  - CN_speednode_0007
-  - JP_speednode_0036
-  - NN_speednode_0051
-  - RU_speednode_0064
-  - SI_speednode_0067
-  - TW_speednode_0068
+  - NN_speednode_0045
+  - TW_speednode_0058
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
