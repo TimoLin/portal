@@ -18,74 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CA_speednode_0007, server: 104.129.128.58, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0009, server: 120.253.244.100, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0010, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0011, server: 120.253.244.100, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0012, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0013, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0014, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-b.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0015, server: 120.253.244.100, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0016, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: IT_speednode_0060, server: 185.47.172.230, port: 8200, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: MY_speednode_0073, server: 155.254.60.36, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NN_speednode_0087, server: "0000:0000:0000:0000:0000:ffff:8e5d:fd31", port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}, udp: true}
-  - {name: NN_speednode_0088, server: "::ffff:8e5d:fd31", port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [d1.awsstatic.com]}}, udp: true}
-  - {name: NN_speednode_0089, server: "0000:0000:0000:0000:0000:ffff:8e5d:fd31", port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: SC_speednode_0106, server: 156.226.175.105, port: 8443, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TR_speednode_0115, server: 103.215.218.174, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TW_speednode_0116, server: 103.137.62.194, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 937f6b6168b6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wt8v1.kvote.cn, path: /oqhygtklyhwi, tls: true, mux: true}, udp: true}
-  - {name: US_speednode_0141, server: new3.huvicloud.com, port: 443, type: vmess, uuid: a10476b9-1c07-4de3-9d84-c51d24be599f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: new3.huvicloud.com, network: ws, ws-opts: {path: /a10476b9-1c07-4de3-9d84-c51d24be599f, headers: {Host: new3.huvicloud.com}}, udp: true}
-  - {name: US_speednode_0145, server: 66.55.65.54, port: 8330, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VN_speednode_0146, server: 42.119.60.199, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CA_speednode_0002, server: 104.129.128.58, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: 4aaff985-sxfz40-t1jamc-1fvdh.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b, sni: 4aaff985-sxfz40-t1jamc-1fvdh.cm5.cnkuaishou.com, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0004, server: 120.232.153.40, port: 40550, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0005, server: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, port: 27231, type: trojan, password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, sni: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0006, server: 7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 659990ba-650f-11ea-a7af-f23c9164ca5d, sni: 7fd1be71-sxc9s0-tcselz-oua4.cm5.cnkuaishou.com, skip-cert-verify: false, udp: true}
+  - {name: ID_speednode_0036, server: 165.154.150.51, port: 8443, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: IT_speednode_0037, server: 185.47.172.230, port: 8200, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TR_speednode_0050, server: 103.215.218.174, port: 8300, type: http, username: tqqlqvxj@mayorlogistic.com, password: 25d55ad283aa400af464c76d713c07ad, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CA_speednode_0007
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - IT_speednode_0060
-  - MY_speednode_0073
-  - NN_speednode_0087
-  - NN_speednode_0088
-  - NN_speednode_0089
-  - SC_speednode_0106
-  - TR_speednode_0115
-  - TW_speednode_0116
-  - US_speednode_0141
-  - US_speednode_0145
-  - VN_speednode_0146
+  - CA_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - ID_speednode_0036
+  - IT_speednode_0037
+  - TR_speednode_0050
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CA_speednode_0007
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - IT_speednode_0060
-  - MY_speednode_0073
-  - NN_speednode_0087
-  - NN_speednode_0088
-  - NN_speednode_0089
-  - SC_speednode_0106
-  - TR_speednode_0115
-  - TW_speednode_0116
-  - US_speednode_0141
-  - US_speednode_0145
-  - VN_speednode_0146
+  - CA_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - ID_speednode_0036
+  - IT_speednode_0037
+  - TR_speednode_0050
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
