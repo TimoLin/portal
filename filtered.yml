@@ -18,182 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0042, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0043, server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0044, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0045, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0046, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0047, server: 120.236.197.70, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0048, server: 120.236.197.70, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: CN_speednode_0049, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
-  - {name: ES_speednode_0091, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: store.timimi.dpdns.org}}, udp: true}
-  - {name: IN_speednode_0132, server: 13.233.5.49, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0137, server: 183.103.211.16, port: 26782, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0138, server: 211.248.229.186, port: 14074, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0139, server: 119.195.155.85, port: 27094, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0140, server: 220.71.245.141, port: 31491, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0141, server: 121.172.5.248, port: 34689, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0142, server: 220.72.134.44, port: 31164, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0143, server: 121.154.79.130, port: 10126, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0144, server: 220.87.243.193, port: 24304, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0145, server: 121.172.5.248, port: 16913, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0146, server: 118.37.105.12, port: 28827, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0147, server: 220.87.243.193, port: 28568, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0148, server: 61.83.219.114, port: 14491, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0149, server: 220.87.229.22, port: 29340, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0150, server: 220.87.229.22, port: 37865, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0151, server: 183.100.144.36, port: 21789, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0152, server: 221.161.58.134, port: 29264, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0153, server: 218.148.212.190, port: 26120, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0154, server: 183.100.144.36, port: 10482, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0156, server: 59.5.53.119, port: 14982, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: KR_speednode_0157, server: 59.5.53.119, port: 18548, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0282, server: 8.219.77.72, port: 5027, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0289, server: 138.2.95.61, port: 1111, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0291, server: 152.69.220.136, port: 53076, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0292, server: 139.180.154.158, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0293, server: 128.199.237.143, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: SG_speednode_0294, server: 160.22.79.191, port: 443, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: TW_speednode_0305, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  - {name: US_speednode_0469, server: 104.21.75.120, port: 443, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inviNcIble.fafa20.ShOp, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560", headers: {Host: inviNcIble.fafa20.ShOp}}, udp: true}
-  - {name: US_speednode_0471, server: 172.67.140.61, port: 443, type: trojan, password: bpb-trojan, sni: adbt.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: adbt.ir}}, udp: true}
-  - {name: US_speednode_0480, server: 172.67.175.148, port: 443, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inviNcIble.fafa20.ShOp, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560", headers: {Host: inviNcIble.fafa20.ShOp}}, udp: true}
-  - {name: US_speednode_0481, server: 104.21.95.229, port: 2083, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: INvincIBLE.fafA20.Shop, skip-cert-verify: false, network: ws, ws-opts: {path: "/trYStgfIRQtOjkkxCQ/MTI5LjE1OS44NC43MQ==?ed=2560", headers: {Host: INvincIBLE.fafA20.Shop}}, udp: true}
-  - {name: US_speednode_0513, server: 172.67.180.227, port: 443, type: trojan, password: bpb-trojan, sni: mashdt.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: mashdt.pages.dev}}, udp: true}
-  - {name: US_speednode_0522, server: 104.26.13.31, port: 8443, type: trojan, password: trojan, sni: qianlang.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: qianlang.pages.dev}}, udp: true}
-  - {name: US_speednode_0525, server: 104.21.75.193, port: 443, type: trojan, password: bpb-trojan, sni: mashdt.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: mashdt.pages.dev}}, udp: true}
-  - {name: US_speednode_0531, server: 172.67.185.107, port: 443, type: trojan, password: 13e26f64-2e0c-4461-92cd-d83294cc18f0, sni: WwwDe.00890604.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /TDUxZUop9k44oPiit2OdWk0KwirdY, headers: {Host: WwwDe.00890604.XyZ}}, udp: true}
-  - {name: US_speednode_0532, server: 104.21.76.21, port: 443, type: trojan, password: 13e26f64-2e0c-4461-92cd-d83294cc18f0, sni: WwwDe.00890604.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /TDUxZUop9k44oPiit2OdWk0KwirdY, headers: {Host: WwwDe.00890604.XyZ}}, udp: true}
-  - {name: US_speednode_0533, server: 104.21.29.205, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /Hq0I4JMuzO0WLijID, headers: {Host: CVFgTrE4.222560.XyZ}}, udp: true}
-  - {name: US_speednode_0540, server: 172.67.172.71, port: 443, type: trojan, password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2, sni: 666666Y.999165.XYZ, skip-cert-verify: false, network: ws, ws-opts: {path: /mFvK3LJyIAe8ydvnmRKWDa8, headers: {Host: 666666Y.999165.XYZ}}, udp: true}
-  - {name: US_speednode_0542, server: 104.21.88.37, port: 443, type: trojan, password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2, sni: XXcdVFghYUIOp.999165.xyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /mFvK3LJyIAe8ydvnmRKWDa8, headers: {Host: XXcdVFghYUIOp.999165.xyZ}}, udp: true}
-  - {name: US_speednode_0544, server: 172.67.175.139, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: cvFbghYU.859886.XYZ, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: cvFbghYU.859886.XYZ}}, udp: true}
-  - {name: US_speednode_0547, server: 172.67.209.79, port: 443, type: trojan, password: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, sni: sssxcvfgty.999834.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /MwXI8nfdPkSDsYEGVHqPd73hl, headers: {Host: sssxcvfgty.999834.xyz}}, udp: true}
-  - {name: US_speednode_0548, server: 104.21.24.195, port: 443, type: trojan, password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2, sni: RFgTHYu7.999836.Xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /mFvK3LJyIAe8ydvnmRKWDa8, headers: {Host: RFgTHYu7.999836.Xyz}}, udp: true}
-  - {name: US_speednode_0549, server: 172.67.200.11, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: rRfGty6.890606.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: rRfGty6.890606.XYz}}, udp: true}
-  - {name: US_speednode_0551, server: 104.21.77.149, port: 443, type: trojan, password: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb, sni: sssxcvfgty.999834.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /MwXI8nfdPkSDsYEGVHqPd73hl, headers: {Host: sssxcvfgty.999834.xyz}}, udp: true}
-  - {name: US_speednode_0553, server: 172.67.149.202, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, skip-cert-verify: false, network: ws, ws-opts: {path: /Hq0I4JMuzO0WLijID, headers: {Host: CVFgTrE4.222560.XyZ}}, udp: true}
-  - {name: US_speednode_0557, server: 172.67.219.196, port: 443, type: trojan, password: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b, sni: CCcvfgt6.852224.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /CA5bMmr2JMum8sDKRwvFCJq, headers: {Host: CCcvfgt6.852224.dpdns.org}}, udp: true}
+  - {name: CN_speednode_0001, server: 120.232.153.40, port: 50152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: 120.233.128.68, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-a.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0004, server: 120.236.197.70, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: tk.hzlt.tkddns.xyz, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0005, server: 120.236.197.70, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0006, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}, udp: true}
+  - {name: CN_speednode_0007, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zxjp-a.tkong.cc}}, udp: true}
+  - {name: TW_speednode_0017, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - ES_speednode_0091
-  - IN_speednode_0132
-  - KR_speednode_0137
-  - KR_speednode_0138
-  - KR_speednode_0139
-  - KR_speednode_0140
-  - KR_speednode_0141
-  - KR_speednode_0142
-  - KR_speednode_0143
-  - KR_speednode_0144
-  - KR_speednode_0145
-  - KR_speednode_0146
-  - KR_speednode_0147
-  - KR_speednode_0148
-  - KR_speednode_0149
-  - KR_speednode_0150
-  - KR_speednode_0151
-  - KR_speednode_0152
-  - KR_speednode_0153
-  - KR_speednode_0154
-  - KR_speednode_0156
-  - KR_speednode_0157
-  - SG_speednode_0282
-  - SG_speednode_0289
-  - SG_speednode_0291
-  - SG_speednode_0292
-  - SG_speednode_0293
-  - SG_speednode_0294
-  - TW_speednode_0305
-  - US_speednode_0469
-  - US_speednode_0471
-  - US_speednode_0480
-  - US_speednode_0481
-  - US_speednode_0513
-  - US_speednode_0522
-  - US_speednode_0525
-  - US_speednode_0531
-  - US_speednode_0532
-  - US_speednode_0533
-  - US_speednode_0540
-  - US_speednode_0542
-  - US_speednode_0544
-  - US_speednode_0547
-  - US_speednode_0548
-  - US_speednode_0549
-  - US_speednode_0551
-  - US_speednode_0553
-  - US_speednode_0557
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - TW_speednode_0017
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - ES_speednode_0091
-  - IN_speednode_0132
-  - KR_speednode_0137
-  - KR_speednode_0138
-  - KR_speednode_0139
-  - KR_speednode_0140
-  - KR_speednode_0141
-  - KR_speednode_0142
-  - KR_speednode_0143
-  - KR_speednode_0144
-  - KR_speednode_0145
-  - KR_speednode_0146
-  - KR_speednode_0147
-  - KR_speednode_0148
-  - KR_speednode_0149
-  - KR_speednode_0150
-  - KR_speednode_0151
-  - KR_speednode_0152
-  - KR_speednode_0153
-  - KR_speednode_0154
-  - KR_speednode_0156
-  - KR_speednode_0157
-  - SG_speednode_0282
-  - SG_speednode_0289
-  - SG_speednode_0291
-  - SG_speednode_0292
-  - SG_speednode_0293
-  - SG_speednode_0294
-  - TW_speednode_0305
-  - US_speednode_0469
-  - US_speednode_0471
-  - US_speednode_0480
-  - US_speednode_0481
-  - US_speednode_0513
-  - US_speednode_0522
-  - US_speednode_0525
-  - US_speednode_0531
-  - US_speednode_0532
-  - US_speednode_0533
-  - US_speednode_0540
-  - US_speednode_0542
-  - US_speednode_0544
-  - US_speednode_0547
-  - US_speednode_0548
-  - US_speednode_0549
-  - US_speednode_0551
-  - US_speednode_0553
-  - US_speednode_0557
+  - CN_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - TW_speednode_0017
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
