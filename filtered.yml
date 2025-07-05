@@ -18,17 +18,17 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: ES_speednode_0049, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: ES_speednode_0048, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - ES_speednode_0049
+  - ES_speednode_0048
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - ES_speednode_0049
+  - ES_speednode_0048
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
