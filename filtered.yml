@@ -18,17 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: ES_speednode_0048, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: AM_speednode_0001, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: AM_speednode_0002, server: 188.164.159.234, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: ES_speednode_0024, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: KZ_speednode_0112, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: RU_speednode_0149, server: 46.254.93.243, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0197, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - ES_speednode_0048
+  - AM_speednode_0001
+  - AM_speednode_0002
+  - ES_speednode_0024
+  - KZ_speednode_0112
+  - RU_speednode_0149
+  - US_speednode_0197
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
