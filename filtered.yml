@@ -18,98 +18,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0005, server: hk.miaolianyunapp.com, port: 51106, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0006, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: RK9KSYZ2M1R31PY9, udp: true}
-  - {name: CN_speednode_0007, server: hk.miaolianyunapp.com, port: 51117, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0008, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16010, type: ss, cipher: aes-256-gcm, password: J1X0DNP20UK1WWBF, udp: true}
-  - {name: CN_speednode_0009, server: jp.miaolianyunapp.com, port: 51127, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0010, server: jp.miaolianyunapp.com, port: 51126, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0011, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: 8FJ5866690XI2SKE, udp: true}
-  - {name: CN_speednode_0012, server: hk.miaolianyunapp.com, port: 51105, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0013, server: qq.miaolianyunapp.com, port: 51179, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0014, server: jp.miaolianyunapp.com, port: 51128, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0015, server: jp.miaolianyunapp.com, port: 51123, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0016, server: 183.240.179.89, port: 31253, type: trojan, password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0017, server: jp.miaolianyunapp.com, port: 51131, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0018, server: jp.miaolianyunapp.com, port: 51130, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0019, server: 183.240.179.89, port: 31253, type: trojan, password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0020, server: hk.miaolianyunapp.com, port: 51101, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0021, server: jp.miaolianyunapp.com, port: 51124, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0022, server: jp.miaolianyunapp.com, port: 51132, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0023, server: hk.miaolianyunapp.com, port: 51109, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0024, server: qq.miaolianyunapp.com, port: 51170, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0025, server: qh62onjn.slashdevslashnetslashtun.net, port: 18015, type: ss, cipher: aes-256-gcm, password: 37RJ0FXQNPD9JL0A, udp: true}
-  - {name: CN_speednode_0026, server: jp.miaolianyunapp.com, port: 51129, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0027, server: 183.240.179.89, port: 32233, type: trojan, password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0028, server: hk.miaolianyunapp.com, port: 51113, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0029, server: hk.miaolianyunapp.com, port: 51107, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0030, server: hk.miaolianyunapp.com, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: 22da1a63-220a-4537-9d58-53489fed4d08, udp: true}
-  - {name: CN_speednode_0031, server: 183.240.179.89, port: 31263, type: trojan, password: fceba144-0aa0-11ee-bf3c-f23c9164ca5d, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0074, server: 43.226.17.54, port: 636, type: ss, cipher: aes-256-gcm, password: 08f0c77ed619, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: xwkr1v1.dsjsapi.net, path: /yjriebtdvghs, tls: true, mux: true}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - HK_speednode_0074
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - HK_speednode_0074
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
