@@ -18,29 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KZ_speednode_0063, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: MD_speednode_0075, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: US_speednode_0180, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: US_speednode_0184, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0186, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: ES_speednode_0040, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: RU_speednode_0104, server: 45.5921688.xyz, port: 18443, type: vmess, uuid: 71a7db14-1b6f-5aec-9e5d-9bd5f8beabab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 45.5921688.xyz, network: ws, ws-opts: {path: /, headers: {Host: 45.5921688.xyz}}, udp: true}
+  - {name: US_speednode_0206, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KZ_speednode_0063
-  - MD_speednode_0075
-  - US_speednode_0180
-  - US_speednode_0184
-  - US_speednode_0186
+  - ES_speednode_0040
+  - RU_speednode_0104
+  - US_speednode_0206
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KZ_speednode_0063
-  - MD_speednode_0075
-  - US_speednode_0180
-  - US_speednode_0184
-  - US_speednode_0186
+  - ES_speednode_0040
+  - RU_speednode_0104
+  - US_speednode_0206
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
