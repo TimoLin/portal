@@ -18,23 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: ES_speednode_0040, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0104, server: 45.5921688.xyz, port: 18443, type: vmess, uuid: 71a7db14-1b6f-5aec-9e5d-9bd5f8beabab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 45.5921688.xyz, network: ws, ws-opts: {path: /, headers: {Host: 45.5921688.xyz}}, udp: true}
-  - {name: US_speednode_0206, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: CN_speednode_0026, server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==, udp: true}
+  - {name: ES_speednode_0045, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}, udp: true}
+  - {name: GB_speednode_0076, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
+  - {name: GB_speednode_0077, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
+  - {name: JP_speednode_0085, server: 137.220.142.139, port: 636, type: ss, cipher: aes-256-gcm, password: 70a0b8103356, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /bezradrqccl, tls: true, mux: true}, udp: true}
+  - {name: RU_speednode_0144, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - ES_speednode_0040
-  - RU_speednode_0104
-  - US_speednode_0206
+  - CN_speednode_0026
+  - ES_speednode_0045
+  - GB_speednode_0076
+  - GB_speednode_0077
+  - JP_speednode_0085
+  - RU_speednode_0144
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - ES_speednode_0040
-  - RU_speednode_0104
-  - US_speednode_0206
+  - CN_speednode_0026
+  - ES_speednode_0045
+  - GB_speednode_0076
+  - GB_speednode_0077
+  - JP_speednode_0085
+  - RU_speednode_0144
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
