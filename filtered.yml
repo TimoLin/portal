@@ -18,26 +18,32 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: GB_speednode_0046, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: '74260628090146500', skip-cert-verify: false, udp: true}
-  - {name: GB_speednode_0064, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
-  - {name: IR_speednode_0069, server: Finland.PingMP.ir, port: 1515, type: vmess, uuid: 29ec3114-4beb-44c9-a83e-8a0b3009be04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}, udp: true}
-  - {name: RU_speednode_0110, server: www.llxllxl.click, port: 443, type: vmess, uuid: 246bbe21-1450-4610-b194-9b1e0dbc5da1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /246bbe21-1450-4610-b194-9b1e0dbc5da1, headers: {Host: www.llxllxl.click}}, udp: true}
+  - {name: GB_speednode_0092, server: stirring-parakeet.shiner427.skin, port: 443, type: trojan, password: '74260628090146500', skip-cert-verify: false, udp: true}
+  - {name: GB_speednode_0101, server: 185.189.58.195, port: 8080, type: vmess, uuid: 0d1da504-fd3d-5192-8a52-90c87bc5e5ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: GB_speednode_0113, server: 91.193.58.0, port: 443, type: trojan, password: trojan, sni: wahaha.yingyangkuaixian.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wahaha.yingyangkuaixian.dpdns.org}}, udp: true}
+  - {name: RU_speednode_0194, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: SG_speednode_0204, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: tyep.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tyep.esslh.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0321, server: 172.233.171.224, port: 16416, type: vmess, uuid: 8c1b9bea-cb51-43bb-a65c-0af31bbbf145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - GB_speednode_0046
-  - GB_speednode_0064
-  - IR_speednode_0069
-  - RU_speednode_0110
+  - GB_speednode_0092
+  - GB_speednode_0101
+  - GB_speednode_0113
+  - RU_speednode_0194
+  - SG_speednode_0204
+  - US_speednode_0321
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - GB_speednode_0046
-  - GB_speednode_0064
-  - IR_speednode_0069
-  - RU_speednode_0110
+  - GB_speednode_0092
+  - GB_speednode_0101
+  - GB_speednode_0113
+  - RU_speednode_0194
+  - SG_speednode_0204
+  - US_speednode_0321
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
