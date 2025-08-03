@@ -18,233 +18,98 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AM_speednode_0001, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: AM_speednode_0002, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: AM_speednode_0003, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: AM_speednode_0004, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: AM_speednode_0005, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: HK_speednode_0029, server: 154.211.8.240, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: HK_speednode_0030, server: 154.211.8.227, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: HK_speednode_0031, server: 154.211.8.12, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0035, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0036, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0037, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: KZ_speednode_0039, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0041, server: 154.197.64.189, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0042, server: 154.197.64.252, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0043, server: 154.197.64.62, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0044, server: 154.197.64.219, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0045, server: 154.83.2.88, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SC_speednode_0046, server: 154.197.64.196, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0049, server: 27.50.49.136, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0050, server: 27.50.49.47, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0051, server: 27.50.48.115, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0052, server: 27.50.49.251, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0053, server: 27.50.49.209, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0054, server: 27.50.49.177, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0055, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0056, server: 27.50.49.242, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0057, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0070, server: 144.34.231.211, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0071, server: 154.21.82.84, port: 54626, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0072, server: 154.17.12.30, port: 7000, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0073, server: 154.17.29.47, port: 37802, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0074, server: 154.17.29.55, port: 35307, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0075, server: 154.17.21.201, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0076, server: 154.17.228.151, port: 51839, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0077, server: 154.17.228.19, port: 24869, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0078, server: 23.106.159.63, port: 12110, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0079, server: 154.26.182.37, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0080, server: 38.60.92.89, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0081, server: 38.60.92.125, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0082, server: 108.165.152.241, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0083, server: 160.79.105.156, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0084, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0085, server: 23.106.155.178, port: 802, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0086, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0087, server: 108.165.152.92, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0088, server: 192.9.139.160, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0089, server: 198.62.62.192, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0090, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0091, server: 108.165.152.239, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0092, server: 192.200.160.15, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0093, server: 108.165.152.78, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0094, server: 192.0.54.7, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0095, server: 192.200.160.35, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0096, server: 154.219.5.56, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0097, server: 130.250.137.63, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0098, server: 161.145.150.29, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0099, server: 160.79.105.160, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0100, server: 199.34.228.71, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0101, server: 108.165.152.18, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0102, server: 135.84.64.77, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0103, server: 161.145.150.26, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0104, server: 108.165.152.202, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0105, server: 199.34.228.191, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0106, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0107, server: 66.81.247.230, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0108, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0109, server: 108.165.152.252, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0110, server: 156.225.72.246, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0111, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0112, server: 167.68.4.7, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0113, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0114, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0115, server: 192.3.155.203, port: 995, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: JP_speednode_0062, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: JP_speednode_0063, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: JP_speednode_0064, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: KZ_speednode_0069, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: KZ_speednode_0070, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: SC_speednode_0087, server: 154.83.2.88, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: SG_speednode_0090, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: SG_speednode_0091, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: SG_speednode_0092, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0154, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0155, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0156, server: 160.79.105.156, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0157, server: 198.62.62.192, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0158, server: 198.62.62.192, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0159, server: 192.200.160.15, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0160, server: 192.0.54.7, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0161, server: 161.145.150.29, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0162, server: 160.79.105.160, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0163, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0164, server: 130.250.137.63, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0165, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0166, server: 66.81.247.230, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0167, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0168, server: 192.200.160.35, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0169, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0170, server: 167.68.4.7, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0171, server: 161.145.150.26, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
+  - {name: US_speednode_0172, server: 135.84.64.77, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AM_speednode_0001
-  - AM_speednode_0002
-  - AM_speednode_0003
-  - AM_speednode_0004
-  - AM_speednode_0005
-  - HK_speednode_0029
-  - HK_speednode_0030
-  - HK_speednode_0031
-  - JP_speednode_0035
-  - JP_speednode_0036
-  - JP_speednode_0037
-  - KZ_speednode_0039
-  - SC_speednode_0041
-  - SC_speednode_0042
-  - SC_speednode_0043
-  - SC_speednode_0044
-  - SC_speednode_0045
-  - SC_speednode_0046
-  - SG_speednode_0049
-  - SG_speednode_0050
-  - SG_speednode_0051
-  - SG_speednode_0052
-  - SG_speednode_0053
-  - SG_speednode_0054
-  - SG_speednode_0055
-  - SG_speednode_0056
-  - SG_speednode_0057
-  - US_speednode_0070
-  - US_speednode_0071
-  - US_speednode_0072
-  - US_speednode_0073
-  - US_speednode_0074
-  - US_speednode_0075
-  - US_speednode_0076
-  - US_speednode_0077
-  - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
-  - US_speednode_0081
-  - US_speednode_0082
-  - US_speednode_0083
-  - US_speednode_0084
-  - US_speednode_0085
-  - US_speednode_0086
-  - US_speednode_0087
-  - US_speednode_0088
-  - US_speednode_0089
-  - US_speednode_0090
-  - US_speednode_0091
-  - US_speednode_0092
-  - US_speednode_0093
-  - US_speednode_0094
-  - US_speednode_0095
-  - US_speednode_0096
-  - US_speednode_0097
-  - US_speednode_0098
-  - US_speednode_0099
-  - US_speednode_0100
-  - US_speednode_0101
-  - US_speednode_0102
-  - US_speednode_0103
-  - US_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
-  - US_speednode_0110
-  - US_speednode_0111
-  - US_speednode_0112
-  - US_speednode_0113
-  - US_speednode_0114
-  - US_speednode_0115
+  - JP_speednode_0062
+  - JP_speednode_0063
+  - JP_speednode_0064
+  - KZ_speednode_0069
+  - KZ_speednode_0070
+  - SC_speednode_0087
+  - SG_speednode_0090
+  - SG_speednode_0091
+  - SG_speednode_0092
+  - US_speednode_0154
+  - US_speednode_0155
+  - US_speednode_0156
+  - US_speednode_0157
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AM_speednode_0001
-  - AM_speednode_0002
-  - AM_speednode_0003
-  - AM_speednode_0004
-  - AM_speednode_0005
-  - HK_speednode_0029
-  - HK_speednode_0030
-  - HK_speednode_0031
-  - JP_speednode_0035
-  - JP_speednode_0036
-  - JP_speednode_0037
-  - KZ_speednode_0039
-  - SC_speednode_0041
-  - SC_speednode_0042
-  - SC_speednode_0043
-  - SC_speednode_0044
-  - SC_speednode_0045
-  - SC_speednode_0046
-  - SG_speednode_0049
-  - SG_speednode_0050
-  - SG_speednode_0051
-  - SG_speednode_0052
-  - SG_speednode_0053
-  - SG_speednode_0054
-  - SG_speednode_0055
-  - SG_speednode_0056
-  - SG_speednode_0057
-  - US_speednode_0070
-  - US_speednode_0071
-  - US_speednode_0072
-  - US_speednode_0073
-  - US_speednode_0074
-  - US_speednode_0075
-  - US_speednode_0076
-  - US_speednode_0077
-  - US_speednode_0078
-  - US_speednode_0079
-  - US_speednode_0080
-  - US_speednode_0081
-  - US_speednode_0082
-  - US_speednode_0083
-  - US_speednode_0084
-  - US_speednode_0085
-  - US_speednode_0086
-  - US_speednode_0087
-  - US_speednode_0088
-  - US_speednode_0089
-  - US_speednode_0090
-  - US_speednode_0091
-  - US_speednode_0092
-  - US_speednode_0093
-  - US_speednode_0094
-  - US_speednode_0095
-  - US_speednode_0096
-  - US_speednode_0097
-  - US_speednode_0098
-  - US_speednode_0099
-  - US_speednode_0100
-  - US_speednode_0101
-  - US_speednode_0102
-  - US_speednode_0103
-  - US_speednode_0104
-  - US_speednode_0105
-  - US_speednode_0106
-  - US_speednode_0107
-  - US_speednode_0108
-  - US_speednode_0109
-  - US_speednode_0110
-  - US_speednode_0111
-  - US_speednode_0112
-  - US_speednode_0113
-  - US_speednode_0114
-  - US_speednode_0115
+  - JP_speednode_0062
+  - JP_speednode_0063
+  - JP_speednode_0064
+  - KZ_speednode_0069
+  - KZ_speednode_0070
+  - SC_speednode_0087
+  - SG_speednode_0090
+  - SG_speednode_0091
+  - SG_speednode_0092
+  - US_speednode_0154
+  - US_speednode_0155
+  - US_speednode_0156
+  - US_speednode_0157
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
