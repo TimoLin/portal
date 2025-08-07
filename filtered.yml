@@ -18,20 +18,17 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: NL_speednode_0094, server: 188.164.248.7, port: 8880, type: vmess, uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: TG.WangCai2.s4.cn-db.top, network: ws, ws-opts: {path: /dabai&Telegram🇨🇳@WangCai2, headers: {Host: TG.WangCai2.s4.cn-db.top}}, udp: true}
-  - {name: US_speednode_0137, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0123, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - NL_speednode_0094
-  - US_speednode_0137
+  - US_speednode_0123
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - NL_speednode_0094
-  - US_speednode_0137
+  - US_speednode_0123
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
