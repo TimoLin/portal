@@ -18,17 +18,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: US_speednode_0123, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - US_speednode_0123
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - US_speednode_0123
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
