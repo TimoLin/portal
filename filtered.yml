@@ -18,14 +18,36 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
+  - {name: CN_speednode_0017, server: 183.240.245.240, port: 44009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0018, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+    headers: {Host: [skyroom.online]}}, udp: true}
+  - {name: TW_speednode_0132, server: 103.106.230.186, port: 81, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: US_speednode_0163, server: 156.251.179.136, port: 636, type: ss, cipher: aes-256-gcm, password: 0b191076d18f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /ugiibpkbca, tls: true, mux: true}, udp: true}
+  - {name: US_speednode_0168, server: 156.251.179.181, port: 636, type: ss, cipher: aes-256-gcm, password: 23d03aa704c7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: cmihk3v1.dsjsapp.com, path: /grqhyifio, tls: true, mux: true}, udp: true}
+  - {name: US_speednode_0172, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0173, server: 156.251.179.139, port: 636, type: ss, cipher: aes-256-gcm, password: 0b191076d18f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /ugiibpkbca, tls: true, mux: true}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - TW_speednode_0132
+  - US_speednode_0163
+  - US_speednode_0168
+  - US_speednode_0172
+  - US_speednode_0173
 - name: ♻️ automatic
   type: url-test
   proxies:
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - TW_speednode_0132
+  - US_speednode_0163
+  - US_speednode_0168
+  - US_speednode_0172
+  - US_speednode_0173
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
