@@ -18,125 +18,29 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: FR_speednode_0051, server: 141.11.203.168, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0075, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0076, server: 103.116.7.189, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0077, server: 103.116.7.235, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: JP_speednode_0078, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: KZ_speednode_0086, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: RU_speednode_0180, server: 5.182.84.9, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0181, server: 77.232.140.114, port: 2053, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0182, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0183, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0184, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: RU_speednode_0185, server: 5.182.84.52, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0186, server: 5.182.84.229, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: RU_speednode_0187, server: 176.124.223.92, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0194, server: 92.243.75.49, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0195, server: 92.243.74.23, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0196, server: 92.243.74.3, port: 8443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0259, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: US_speednode_0297, server: 135.84.74.27, port: 8443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0298, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0299, server: 104.129.167.255, port: 8443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0300, server: 66.81.247.88, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0301, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0303, server: 155.46.213.38, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0304, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0305, server: 104.18.3.108, port: 8443, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: US_speednode_0306, server: 199.34.228.164, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0307, server: 192.200.160.35, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0308, server: 63.141.128.66, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0309, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0310, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0311, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0312, server: 198.62.62.61, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0313, server: 130.250.137.63, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0314, server: 66.81.247.230, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0315, server: 192.0.54.221, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
-  - {name: US_speednode_0316, server: 209.94.90.87, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epgc.aimercc.dpdns.org}}, udp: true}
+  - {name: KZ_speednode_0081, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: RU_speednode_0175, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0282, server: 104.18.3.108, port: 8443, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: US_speednode_0283, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0284, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - FR_speednode_0051
-  - JP_speednode_0075
-  - JP_speednode_0076
-  - JP_speednode_0077
-  - JP_speednode_0078
-  - KZ_speednode_0086
-  - RU_speednode_0180
-  - RU_speednode_0181
-  - RU_speednode_0182
-  - RU_speednode_0183
-  - RU_speednode_0184
-  - RU_speednode_0185
-  - RU_speednode_0186
-  - RU_speednode_0187
-  - SG_speednode_0194
-  - SG_speednode_0195
-  - SG_speednode_0196
-  - US_speednode_0259
-  - US_speednode_0297
-  - US_speednode_0298
-  - US_speednode_0299
-  - US_speednode_0300
-  - US_speednode_0301
-  - US_speednode_0303
-  - US_speednode_0304
-  - US_speednode_0305
-  - US_speednode_0306
-  - US_speednode_0307
-  - US_speednode_0308
-  - US_speednode_0309
-  - US_speednode_0310
-  - US_speednode_0311
-  - US_speednode_0312
-  - US_speednode_0313
-  - US_speednode_0314
-  - US_speednode_0315
-  - US_speednode_0316
+  - KZ_speednode_0081
+  - RU_speednode_0175
+  - US_speednode_0282
+  - US_speednode_0283
+  - US_speednode_0284
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - FR_speednode_0051
-  - JP_speednode_0075
-  - JP_speednode_0076
-  - JP_speednode_0077
-  - JP_speednode_0078
-  - KZ_speednode_0086
-  - RU_speednode_0180
-  - RU_speednode_0181
-  - RU_speednode_0182
-  - RU_speednode_0183
-  - RU_speednode_0184
-  - RU_speednode_0185
-  - RU_speednode_0186
-  - RU_speednode_0187
-  - SG_speednode_0194
-  - SG_speednode_0195
-  - SG_speednode_0196
-  - US_speednode_0259
-  - US_speednode_0297
-  - US_speednode_0298
-  - US_speednode_0299
-  - US_speednode_0300
-  - US_speednode_0301
-  - US_speednode_0303
-  - US_speednode_0304
-  - US_speednode_0305
-  - US_speednode_0306
-  - US_speednode_0307
-  - US_speednode_0308
-  - US_speednode_0309
-  - US_speednode_0310
-  - US_speednode_0311
-  - US_speednode_0312
-  - US_speednode_0313
-  - US_speednode_0314
-  - US_speednode_0315
-  - US_speednode_0316
+  - KZ_speednode_0081
+  - RU_speednode_0175
+  - US_speednode_0282
+  - US_speednode_0283
+  - US_speednode_0284
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
