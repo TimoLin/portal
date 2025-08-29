@@ -18,50 +18,29 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0005, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-  - {name: KZ_speednode_0035, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: LT_speednode_0040, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: RU_speednode_0065, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0074, server: 156.251.179.181, port: 636, type: ss, cipher: aes-256-gcm, password: 23d03aa704c7, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: cmihk3v1.dsjsapp.com, path: /grqhyifio, tls: true, mux: true}, udp: true}
-  - {name: US_speednode_0090, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0092, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: VN_speednode_0095, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0096, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0097, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0098, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0099, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: KZ_speednode_0010, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: LT_speednode_0013, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: RU_speednode_0027, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0036, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: US_speednode_0037, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0005
-  - KZ_speednode_0035
-  - LT_speednode_0040
-  - RU_speednode_0065
-  - US_speednode_0074
-  - US_speednode_0090
-  - US_speednode_0092
-  - VN_speednode_0095
-  - VN_speednode_0096
-  - VN_speednode_0097
-  - VN_speednode_0098
-  - VN_speednode_0099
+  - KZ_speednode_0010
+  - LT_speednode_0013
+  - RU_speednode_0027
+  - US_speednode_0036
+  - US_speednode_0037
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0005
-  - KZ_speednode_0035
-  - LT_speednode_0040
-  - RU_speednode_0065
-  - US_speednode_0074
-  - US_speednode_0090
-  - US_speednode_0092
-  - VN_speednode_0095
-  - VN_speednode_0096
-  - VN_speednode_0097
-  - VN_speednode_0098
-  - VN_speednode_0099
+  - KZ_speednode_0010
+  - LT_speednode_0013
+  - RU_speednode_0027
+  - US_speednode_0036
+  - US_speednode_0037
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
