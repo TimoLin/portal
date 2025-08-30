@@ -18,29 +18,17 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KZ_speednode_0010, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: LT_speednode_0013, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: RU_speednode_0027, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0036, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: US_speednode_0037, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: HK_speednode_0003, server: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com, port: 8443, type: http, username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d, password: <password>, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KZ_speednode_0010
-  - LT_speednode_0013
-  - RU_speednode_0027
-  - US_speednode_0036
-  - US_speednode_0037
+  - HK_speednode_0003
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KZ_speednode_0010
-  - LT_speednode_0013
-  - RU_speednode_0027
-  - US_speednode_0036
-  - US_speednode_0037
+  - HK_speednode_0003
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
