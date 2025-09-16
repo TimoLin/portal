@@ -18,41 +18,41 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: freed.themars.top, port: 31101, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
-  - {name: CN_speednode_0002, server: freed.themars.top, port: 31102, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
-  - {name: CN_speednode_0003, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: c2ff46e3-117f-4575-b8d2-38dd706e15bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: HK_speednode_0006, server: 43.247.135.17, port: 30397, type: vmess, uuid: 7364bf26-0eb6-40cc-b7e6-fb1a4b6bf69c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: JP_speednode_0009, server: gv9gq-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: bb63465f-65f8-3257-b6b3-93aea60c14b3, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: gv9gq-g05.jp01-nn-vm0.entry.fr0528.art, udp: true}
-  - {name: JP_speednode_0010, server: kk5wh-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, servername: kk5wh-g05.jp01-nn-vm0.entry.fr0528.art, udp: true}
-  - {name: NL_speednode_0011, server: 83.172.138.149, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: Yx2sF4XRHe7rS8Ng6elm7B, udp: true}
-  - {name: NL_speednode_0012, server: 5.255.103.217, port: 37757, type: trojan, password: XWnVX2ASHl, sni: moshali.arshiacomplus.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /moshaliplus, headers: {Host: moshali.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: SG_speednode_0022, server: de.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0003, server: 120.234.102.232, port: 46622, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: FR_speednode_0005, server: fr.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0008, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: RU_speednode_0012, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w, udp: true}
+  - {name: US_speednode_0017, server: 91.186.209.46, port: 5555, type: vmess, uuid: b778d9b4-e9ae-4df7-ce6e-59f25c2bbf4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: VN_speednode_0028, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0029, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0030, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - HK_speednode_0006
-  - JP_speednode_0009
-  - JP_speednode_0010
-  - NL_speednode_0011
-  - NL_speednode_0012
-  - SG_speednode_0022
+  - FR_speednode_0005
+  - HK_speednode_0008
+  - RU_speednode_0012
+  - US_speednode_0017
+  - VN_speednode_0028
+  - VN_speednode_0029
+  - VN_speednode_0030
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - HK_speednode_0006
-  - JP_speednode_0009
-  - JP_speednode_0010
-  - NL_speednode_0011
-  - NL_speednode_0012
-  - SG_speednode_0022
+  - FR_speednode_0005
+  - HK_speednode_0008
+  - RU_speednode_0012
+  - US_speednode_0017
+  - VN_speednode_0028
+  - VN_speednode_0029
+  - VN_speednode_0030
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
