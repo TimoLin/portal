@@ -18,44 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0014, server: gw.liangyuandianwan.com, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 102826c0-8ad3-4417-8843-6da0f5c80cfe, udp: true}
-  - {name: HK_speednode_0032, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: IR_speednode_0033, server: 95.81.106.102, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7Lt2sqUu9wsA4lAgPcXdjB, udp: true}
-  - {name: KR_speednode_0035, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: PY_speednode_0041, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: SG_speednode_0045, server: de.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
-  - {name: VN_speednode_0057, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0058, server: 103.186.155.101, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0059, server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0060, server: 103.186.155.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: BR_speednode_0001, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_speednode_0006, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: IN_speednode_0010, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: KR_speednode_0011, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: LT_speednode_0012, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: LT_speednode_0013, server: ltnl15.saint.ydns.eu, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: PY_speednode_0016, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: TW_speednode_0019, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0014
-  - HK_speednode_0032
-  - IR_speednode_0033
-  - KR_speednode_0035
-  - PY_speednode_0041
-  - SG_speednode_0045
-  - VN_speednode_0057
-  - VN_speednode_0058
-  - VN_speednode_0059
-  - VN_speednode_0060
+  - BR_speednode_0001
+  - CN_speednode_0006
+  - IN_speednode_0010
+  - KR_speednode_0011
+  - LT_speednode_0012
+  - LT_speednode_0013
+  - PY_speednode_0016
+  - TW_speednode_0019
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0014
-  - HK_speednode_0032
-  - IR_speednode_0033
-  - KR_speednode_0035
-  - PY_speednode_0041
-  - SG_speednode_0045
-  - VN_speednode_0057
-  - VN_speednode_0058
-  - VN_speednode_0059
-  - VN_speednode_0060
+  - BR_speednode_0001
+  - CN_speednode_0006
+  - IN_speednode_0010
+  - KR_speednode_0011
+  - LT_speednode_0012
+  - LT_speednode_0013
+  - PY_speednode_0016
+  - TW_speednode_0019
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
