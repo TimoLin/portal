@@ -18,38 +18,62 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: BR_speednode_0001, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: CN_speednode_0006, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: IN_speednode_0010, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: KR_speednode_0011, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: LT_speednode_0012, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: LT_speednode_0013, server: ltnl15.saint.ydns.eu, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: PY_speednode_0016, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: TW_speednode_0019, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_speednode_0002, server: autf.cokecloud.top, port: 18071, type: ss, cipher: chacha20-ietf-poly1305, password: 49dadd3c-f3cf-4868-bc6b-a61cb049ab1b, udp: true}
+  - {name: CN_speednode_0003, server: frg.cokecloud.top, port: 13646, type: vmess, uuid: 49dadd3c-f3cf-4868-bc6b-a61cb049ab1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0004, server: xcsgp.cokecloud.top, port: 29631, type: ss, cipher: chacha20-ietf-poly1305, password: 49dadd3c-f3cf-4868-bc6b-a61cb049ab1b, udp: true}
+  - {name: CN_speednode_0005, server: xckr.cokecloud.top, port: 33167, type: ss, cipher: chacha20-ietf-poly1305, password: 49dadd3c-f3cf-4868-bc6b-a61cb049ab1b, udp: true}
+  - {name: CN_speednode_0006, server: suningyunyou.judelvin.com, port: 13028, type: trojan, password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0, sni: 3t49hrhac.qqtoup81.top, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0007, server: xcsgp.cokecloud.top, port: 11277, type: ss, cipher: chacha20-ietf-poly1305, password: 49dadd3c-f3cf-4868-bc6b-a61cb049ab1b, udp: true}
+  - {name: CN_speednode_0008, server: suningyunyou.judelvin.com, port: 13033, type: trojan, password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0, sni: hg2983hrfx.qqtoup81.top, skip-cert-verify: false, udp: true}
+  - {name: DE_speednode_0009, server: 142.93.166.6, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: O3k5u79Rzc8fAcwLf2cQy3, udp: true}
+  - {name: HK_speednode_0014, server: 165.154.112.107, port: 12000, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9, sni: aliyun.com, skip-cert-verify: true, udp: true}
+  - {name: IN_speednode_0015, server: 159.65.155.229, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: bvr9u3aeRQwAafhjmvHtwH, udp: true}
+  - {name: JP_speednode_0019, server: 140.83.57.183, port: 22735, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true}
+  - {name: JP_speednode_0020, server: 160.16.104.143, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: www.linemo.jp, skip-cert-verify: true, udp: true}
+  - {name: KR_speednode_0021, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: NL_speednode_0022, server: 38.180.249.177, port: 8443, type: trojan, password: installshield, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0025, server: www.tiktok.com.jp4.viefast.net, port: 80, type: vmess, uuid: 9e76767d-4bfa-4f04-a800-42e2f63afed2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /viefast, headers: {Host: www.linemo.jp}}, udp: true}
+  - {name: US_speednode_0029, server: 154.29.155.249, port: 443, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - BR_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
   - CN_speednode_0006
-  - IN_speednode_0010
-  - KR_speednode_0011
-  - LT_speednode_0012
-  - LT_speednode_0013
-  - PY_speednode_0016
-  - TW_speednode_0019
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - DE_speednode_0009
+  - HK_speednode_0014
+  - IN_speednode_0015
+  - JP_speednode_0019
+  - JP_speednode_0020
+  - KR_speednode_0021
+  - NL_speednode_0022
+  - SG_speednode_0025
+  - US_speednode_0029
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - BR_speednode_0001
+  - CN_speednode_0002
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
   - CN_speednode_0006
-  - IN_speednode_0010
-  - KR_speednode_0011
-  - LT_speednode_0012
-  - LT_speednode_0013
-  - PY_speednode_0016
-  - TW_speednode_0019
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - DE_speednode_0009
+  - HK_speednode_0014
+  - IN_speednode_0015
+  - JP_speednode_0019
+  - JP_speednode_0020
+  - KR_speednode_0021
+  - NL_speednode_0022
+  - SG_speednode_0025
+  - US_speednode_0029
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
