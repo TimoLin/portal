@@ -18,21 +18,38 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KR_speednode_0030, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: TW_speednode_0052, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  udp: true}
+  - {name: AU_speednode_0002, server: 176.97.68.153, port: 8443, type: trojan, password: installshield, sni: 176.97.68.153, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0005, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0006, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: FR_speednode_0010, server: 23.162.152.30, port: 8443, type: trojan, password: installshield, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0016, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: KR_speednode_0024, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0032, server: 8.219.14.179, port: 22286, type: vmess, uuid: 8646218f-a600-4b73-8721-aa5d4567819e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: SG_speednode_0034, server: 8.219.14.179, port: 22525, type: vmess, uuid: cabe905a-28ea-4e7e-c34d-2fa38604001f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KR_speednode_0030
-  - TW_speednode_0052
+  - AU_speednode_0002
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - FR_speednode_0010
+  - HK_speednode_0016
+  - KR_speednode_0024
+  - SG_speednode_0032
+  - SG_speednode_0034
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KR_speednode_0030
-  - TW_speednode_0052
+  - AU_speednode_0002
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - FR_speednode_0010
+  - HK_speednode_0016
+  - KR_speednode_0024
+  - SG_speednode_0032
+  - SG_speednode_0034
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
