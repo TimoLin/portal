@@ -18,17 +18,65 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KR_speednode_0013, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: cn01.365cloud8754.com, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0004, server: cn01.efan8867801.xyz, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0005, server: cn01.365cloud8754.com, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0006, server: cn01.efan8867801.xyz, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0007, server: efan8998.efan-dns78655.com, port: 6001, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0008, server: efan8998.efan-dns78655.com, port: 6004, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0009, server: cn01.365cloud8754.com, port: 6018, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0010, server: cn01.efan8867801.xyz, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0011, server: cn01.365cloud8754.com, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0012, server: efan8998.efan-dns78655.com, port: 6015, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0013, server: efan8998.efan-dns78655.com, port: 6018, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0014, server: cn01.365cloud8754.com, port: 6041, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0015, server: efan8998.efan-dns78655.com, port: 6007, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0016, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0017, server: efan8998.efan-dns78655.com, port: 6021, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0018, server: cn01.efan8867801.xyz, port: 6007, type: vmess, uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: IN_speednode_0019, server: 123.58.203.92, port: 18872, type: vmess, uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KR_speednode_0013
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - IN_speednode_0019
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KR_speednode_0013
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - CN_speednode_0010
+  - CN_speednode_0011
+  - CN_speednode_0012
+  - CN_speednode_0013
+  - CN_speednode_0014
+  - CN_speednode_0015
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - IN_speednode_0019
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
