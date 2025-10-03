@@ -18,50 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AR_speednode_0002, server: 190.103.177.32, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 98jwE2gOlprn47IEKbKnLC, udp: true}
-  - {name: AZ_speednode_0004, server: 180.149.44.105, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 3pze4lyj8FFdDixOkf2K2oQ4rHX7Vq9xC9uKwBgvQYDNxLf8, udp: true}
+  - {name: CN_speednode_0005, server: mm.huawei-api.top, port: 19521, type: ss, cipher: chacha20-ietf-poly1305, password: c3ffd605-d9fb-42b7-98f2-a29fb999e5b6, udp: true}
   - {name: CN_speednode_0006, server: 106.75.134.1, port: 12000, type: trojan, password: 2fd0d127-266d-4d0b-b453-f94659a132fc, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0007, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
-  - {name: CN_speednode_0008, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
-  - {name: CZ_speednode_0009, server: 194.135.46.13, port: 1419, type: ss, cipher: chacha20-ietf-poly1305, password: EacZIMFwmMCR6dWqN5Ah0c, udp: true}
-  - {name: HK_speednode_0010, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: HK_speednode_0011, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
-  - {name: HK_speednode_0012, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: IR_speednode_0014, server: 95.81.85.102, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: oGOnNFGhv1SAL5rKSYCdVv, udp: true}
-  - {name: MY_speednode_0019, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0032, server: nop-55q.pages.dev, port: 2053, type: trojan, password: "T@_WvT8Ho@LW%w_,", sni: NOp-55q.pAgEs.dEv, skip-cert-verify: false, network: ws, ws-opts: {path: "/trGPZDfetEwuO25SAs?ed=2560", headers: {Host: NOp-55q.pAgEs.dEv}}, udp: true}
+  - {name: KR_speednode_0014, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AR_speednode_0002
-  - AZ_speednode_0004
+  - CN_speednode_0005
   - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CZ_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - HK_speednode_0012
-  - IR_speednode_0014
-  - MY_speednode_0019
-  - US_speednode_0032
+  - KR_speednode_0014
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AR_speednode_0002
-  - AZ_speednode_0004
+  - CN_speednode_0005
   - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CZ_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - HK_speednode_0012
-  - IR_speednode_0014
-  - MY_speednode_0019
-  - US_speednode_0032
+  - KR_speednode_0014
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
