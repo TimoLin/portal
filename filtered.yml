@@ -18,24 +18,95 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KR_speednode_0014, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: SG_speednode_0023, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
-  udp: true}
-  - {name: US_speednode_0037, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /yamtekodasayahhh, headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
+  - {name: CA_speednode_0012, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_speednode_0016, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0017, server: 36.156.102.88, port: 1572, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0018, server: 36.156.102.88, port: 6752, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: HK_speednode_0024, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: JP_speednode_0032, server: 60.83.190.248, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: JP_speednode_0034, server: 160.16.136.130, port: 4451, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0035, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: KR_speednode_0036, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: KR_speednode_0037, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: NL_speednode_0047, server: 38.180.249.152, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0050, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
+  - {name: US_speednode_0072, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
+  - {name: US_speednode_0074, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nodes.830901.xyz}}, udp: true}
+  - {name: VN_speednode_0075, server: 103.186.155.209, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0076, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0077, server: 103.186.155.60, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0078, server: 103.186.155.237, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0079, server: 103.186.154.194, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0080, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0081, server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0082, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0083, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0084, server: 103.186.155.12, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0085, server: 103.186.155.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0086, server: 103.186.155.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0087, server: 103.186.155.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KR_speednode_0014
-  - SG_speednode_0023
-  - US_speednode_0037
+  - CA_speednode_0012
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - HK_speednode_0024
+  - JP_speednode_0032
+  - JP_speednode_0034
+  - KR_speednode_0035
+  - KR_speednode_0036
+  - KR_speednode_0037
+  - NL_speednode_0047
+  - SG_speednode_0050
+  - US_speednode_0072
+  - US_speednode_0074
+  - VN_speednode_0075
+  - VN_speednode_0076
+  - VN_speednode_0077
+  - VN_speednode_0078
+  - VN_speednode_0079
+  - VN_speednode_0080
+  - VN_speednode_0081
+  - VN_speednode_0082
+  - VN_speednode_0083
+  - VN_speednode_0084
+  - VN_speednode_0085
+  - VN_speednode_0086
+  - VN_speednode_0087
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KR_speednode_0014
-  - SG_speednode_0023
-  - US_speednode_0037
+  - CA_speednode_0012
+  - CN_speednode_0016
+  - CN_speednode_0017
+  - CN_speednode_0018
+  - HK_speednode_0024
+  - JP_speednode_0032
+  - JP_speednode_0034
+  - KR_speednode_0035
+  - KR_speednode_0036
+  - KR_speednode_0037
+  - NL_speednode_0047
+  - SG_speednode_0050
+  - US_speednode_0072
+  - US_speednode_0074
+  - VN_speednode_0075
+  - VN_speednode_0076
+  - VN_speednode_0077
+  - VN_speednode_0078
+  - VN_speednode_0079
+  - VN_speednode_0080
+  - VN_speednode_0081
+  - VN_speednode_0082
+  - VN_speednode_0083
+  - VN_speednode_0084
+  - VN_speednode_0085
+  - VN_speednode_0086
+  - VN_speednode_0087
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
