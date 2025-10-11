@@ -18,99 +18,39 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0007, server: xctransfer1st.cokecloud.top, port: 44489, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0008, server: xctransfer1st.cokecloud.top, port: 33575, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0009, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0010, server: xctransfer1st.cokecloud.top, port: 45861, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0011, server: xctransfer1st.cokecloud.top, port: 45449, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0012, server: xcsgp.cokecloud.top, port: 25878, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0013, server: xdtw.cokecloud.top, port: 21073, type: ss, cipher: chacha20-ietf-poly1305, password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, udp: true}
-  - {name: CN_speednode_0014, server: idtf.cokecloud.top, port: 32725, type: ss, cipher: chacha20-ietf-poly1305, password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, udp: true}
-  - {name: CN_speednode_0015, server: xcsgp.cokecloud.top, port: 10420, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0016, server: xctransfer1st.cokecloud.top, port: 38630, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0017, server: cokecloudjp.cokecloud.top, port: 13215, type: ss, cipher: chacha20-ietf-poly1305, password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, udp: true}
-  - {name: CN_speednode_0018, server: cokecloudjp.cokecloud.top, port: 43291, type: ss, cipher: chacha20-ietf-poly1305, password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, udp: true}
-  - {name: CN_speednode_0019, server: xdtw.cokecloud.top, port: 13255, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0020, server: xdtw.cokecloud.top, port: 29299, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0021, server: cokecloudjp.cokecloud.top, port: 40793, type: ss, cipher: chacha20-ietf-poly1305, password: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, udp: true}
-  - {name: CN_speednode_0022, server: xctransfer1st.cokecloud.top, port: 21552, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0023, server: xctransfer1st.cokecloud.top, port: 12672, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0024, server: 36.156.102.84, port: 6752, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: CN_speednode_0025, server: xcuk.cokecloud.top, port: 21016, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: JP_speednode_0051, server: 160.16.117.182, port: 5328, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: JP_speednode_0052, server: 153.121.51.29, port: 5041, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0053, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: MY_speednode_0055, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: MY_speednode_0056, server: 38.54.98.110, port: 2052, type: vmess, uuid: 665d9b8f-153d-4907-adac-de12afd9c851, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ml0724.ysds168.shop, udp: true}
-  - {name: SG_speednode_0068, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
-  - {name: TW_speednode_0069, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
-  - {name: US_speednode_0080, server: 23.227.194.19, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0003, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0004, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: HK_speednode_0009, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: KR_speednode_0011, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0018, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
+  - {name: SG_speednode_0019, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)26af988:57468", tls: false}, udp: true}
+  - {name: SG_speednode_0020, server: 38.180.106.124, port: 8443, type: trojan, password: installshield, skip-cert-verify: true, udp: true}
   udp: true}
-  - {name: VN_speednode_0097, server: 103.186.154.175, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: ZA_speednode_0029, server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - JP_speednode_0051
-  - JP_speednode_0052
-  - KR_speednode_0053
-  - MY_speednode_0055
-  - MY_speednode_0056
-  - SG_speednode_0068
-  - TW_speednode_0069
-  - US_speednode_0080
-  - VN_speednode_0097
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - HK_speednode_0009
+  - KR_speednode_0011
+  - SG_speednode_0018
+  - SG_speednode_0019
+  - SG_speednode_0020
+  - ZA_speednode_0029
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - JP_speednode_0051
-  - JP_speednode_0052
-  - KR_speednode_0053
-  - MY_speednode_0055
-  - MY_speednode_0056
-  - SG_speednode_0068
-  - TW_speednode_0069
-  - US_speednode_0080
-  - VN_speednode_0097
+  - CN_speednode_0003
+  - CN_speednode_0004
+  - HK_speednode_0009
+  - KR_speednode_0011
+  - SG_speednode_0018
+  - SG_speednode_0019
+  - SG_speednode_0020
+  - ZA_speednode_0029
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
