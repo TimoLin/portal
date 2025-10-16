@@ -18,29 +18,35 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0002, server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com, port: 26004, type: trojan, password: e531d1bc-a56f-4e1a-a295-1442369a19c1, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0003, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0005, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SG_speednode_0008, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)26af988:57468", tls: false}, udp: true}
-  - {name: TW_speednode_0009, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: CN_speednode_0001, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0004, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: HK_speednode_0005, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
+  - {name: HK_speednode_0006, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: KR_speednode_0008, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0010, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)26af988:57468", tls: false}, udp: true}
+  - {name: TW_speednode_0011, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - KR_speednode_0005
-  - SG_speednode_0008
-  - TW_speednode_0009
+  - CN_speednode_0001
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - HK_speednode_0006
+  - KR_speednode_0008
+  - SG_speednode_0010
+  - TW_speednode_0011
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - KR_speednode_0005
-  - SG_speednode_0008
-  - TW_speednode_0009
+  - CN_speednode_0001
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - HK_speednode_0006
+  - KR_speednode_0008
+  - SG_speednode_0010
+  - TW_speednode_0011
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
