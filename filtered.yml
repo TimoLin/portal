@@ -19,34 +19,46 @@ dns:
   - tls://dns.google:853
 proxies:
   - {name: CN_speednode_0001, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0004, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: HK_speednode_0005, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, udp: true}
-  - {name: HK_speednode_0006, server: 47.242.90.210, port: 31212, type: vmess, uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: KR_speednode_0008, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SG_speednode_0010, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)26af988:57468", tls: false}, udp: true}
-  - {name: TW_speednode_0011, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: KR_speednode_0023, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_speednode_0040, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "4a81070:6193", tls: false}, udp: true}
+  - {name: SG_speednode_0041, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)26af988:57468", tls: false}, udp: true}
+  - {name: TW_speednode_0042, server: 36.234.111.35, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 0bfc669b-a127-4511-a5ac-61f9ed04777b, udp: true}
+  - {name: TW_speednode_0043, server: 36.234.107.120, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: TW_speednode_0044, server: 1.165.114.124, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
+  - {name: TW_speednode_0045, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
+  - {name: TW_speednode_0046, server: 114.46.121.31, port: 10072, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
+  - {name: US_speednode_0054, server: 172.67.192.215, port: 443, type: trojan, password: d0728e94-82c2-456b-b5d4-eeab540599df, sni: joss.krikkrik.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/AE5, headers: {Host: joss.krikkrik.xyz}}, udp: true}
+  - {name: VN_speednode_0055, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - CN_speednode_0001
-  - HK_speednode_0004
-  - HK_speednode_0005
-  - HK_speednode_0006
-  - KR_speednode_0008
-  - SG_speednode_0010
-  - TW_speednode_0011
+  - KR_speednode_0023
+  - SG_speednode_0040
+  - SG_speednode_0041
+  - TW_speednode_0042
+  - TW_speednode_0043
+  - TW_speednode_0044
+  - TW_speednode_0045
+  - TW_speednode_0046
+  - US_speednode_0054
+  - VN_speednode_0055
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0001
-  - HK_speednode_0004
-  - HK_speednode_0005
-  - HK_speednode_0006
-  - KR_speednode_0008
-  - SG_speednode_0010
-  - TW_speednode_0011
+  - KR_speednode_0023
+  - SG_speednode_0040
+  - SG_speednode_0041
+  - TW_speednode_0042
+  - TW_speednode_0043
+  - TW_speednode_0044
+  - TW_speednode_0045
+  - TW_speednode_0046
+  - US_speednode_0054
+  - VN_speednode_0055
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
