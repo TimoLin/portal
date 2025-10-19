@@ -18,38 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0002, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0016, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TW_speednode_0029, server: 114.46.81.116, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: add8049a-647b-43fc-8de1-97b9261c6be5, udp: true}
-  - {name: TW_speednode_0030, server: 125.231.82.112, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 9a9dc807-d040-4bec-9e00-c7ebe712717e, udp: true}
-  - {name: TW_speednode_0031, server: 114.46.77.45, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 9a9dc807-d040-4bec-9e00-c7ebe712717e, udp: true}
-  - {name: TW_speednode_0032, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 719adfec-6f6a-468b-a693-61c00002ab9f, udp: true}
-  - {name: TW_speednode_0033, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: add8049a-647b-43fc-8de1-97b9261c6be5, udp: true}
-  - {name: TW_speednode_0034, server: 118.170.222.232, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: a7d8b05e-d5ab-4ee2-89c3-983c8cbab06b, udp: true}
+  - {name: CN_speednode_0002, server: 2nosbobo.1010.jscpai.com, port: 16004, type: ss, cipher: aes-256-gcm, password: 455ecab1-a8ea-4b89-a2d8-fafc70130e2d, udp: true}
+  - {name: CN_speednode_0003, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
+  - {name: MA_speednode_0024, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - CN_speednode_0002
-  - KR_speednode_0016
-  - TW_speednode_0029
-  - TW_speednode_0030
-  - TW_speednode_0031
-  - TW_speednode_0032
-  - TW_speednode_0033
-  - TW_speednode_0034
+  - CN_speednode_0003
+  - MA_speednode_0024
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0002
-  - KR_speednode_0016
-  - TW_speednode_0029
-  - TW_speednode_0030
-  - TW_speednode_0031
-  - TW_speednode_0032
-  - TW_speednode_0033
-  - TW_speednode_0034
+  - CN_speednode_0003
+  - MA_speednode_0024
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
