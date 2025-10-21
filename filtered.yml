@@ -18,14 +18,9 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0002, server: 106.126.3.24, port: 1321, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: "21138:3veJGX", obfs-param: "", udp: true}
-  - {name: CN_speednode_0003, server: 36.151.194.31, port: 1435, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: "21138:3veJGX", obfs-param: "", udp: true}
-  - {name: CN_speednode_0004, server: hneyoxqhenuf.dnsfailover.org, port: 1397, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: "21138:3veJGX", obfs-param: "", udp: true}
-  - {name: CN_speednode_0005, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0006, server: 36.151.194.31, port: 1332, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: "21138:3veJGX", obfs-param: "", udp: true}
-  - {name: CN_speednode_0007, server: hneyoxqhenuf.dnsfailover.org, port: 1393, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: "21138:3veJGX", obfs-param: "", udp: true}
-  - {name: CN_speednode_0008, server: 36.156.102.115, port: 26876, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0009, server: 36.151.251.18, port: 811, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: 36.150.215.138, port: 4451, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: nat-hk-37465.strongpipe.cloud, port: 20443, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
+  - {name: KR_speednode_0012, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -33,23 +28,13 @@ proxy-groups:
   - ♻️ automatic
   - CN_speednode_0002
   - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
+  - KR_speednode_0012
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0002
   - CN_speednode_0003
-  - CN_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
+  - KR_speednode_0012
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
