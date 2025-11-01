@@ -18,10 +18,16 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: zfa01.333210.xyz, port: 40382, type: ss, cipher: 2022-blake3-aes-128-gcm, password: "ZTc1ZDIxMzg1OGE1ZjYyOQ==:MmRjYmJmY2QtOGJjZC00OA==", udp: true}
-  - {name: CN_speednode_0002, server: hxfz940e90d9.nfwzdm.com, port: 42765, type: trojan, password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0003, server: 36.156.102.74, port: 43567, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0006, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0001, server: cdn3.ttcdn.top, port: 13231, type: vmess, uuid: fd58cdde-471f-489f-bde8-b3025aba53f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0002, server: 36.156.102.74, port: 4861, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: CN_speednode_0003, server: n002.xunxunmimisbs.sbs, port: 23100, type: trojan, password: 7197668c-0332-466e-9553-41639c4bc95f, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0004, server: n002.xunxunmimisbs.sbs, port: 28100, type: trojan, password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0005, server: 117.172.176.24, port: 5041, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0006, server: n001.xunxunmimisbs.sbs, port: 23100, type: trojan, password: f128c8a8-d184-4f9d-8aa2-503266130126, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0007, server: 117.172.176.24, port: 5321, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: CN_speednode_0008, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
+  - {name: CN_speednode_0009, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: KR_speednode_0017, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
@@ -30,14 +36,26 @@ proxy-groups:
   - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - KR_speednode_0006
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - KR_speednode_0017
 - name: ♻️ automatic
   type: url-test
   proxies:
   - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
-  - KR_speednode_0006
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - CN_speednode_0007
+  - CN_speednode_0008
+  - CN_speednode_0009
+  - KR_speednode_0017
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
