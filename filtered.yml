@@ -18,32 +18,41 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CY_speednode_0001, server: 185.156.110.92, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn, udp: true}
-  - {name: HK_speednode_0004, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: KR_speednode_0005, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0006, server: 194.147.115.149, port: 443, type: trojan, password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/194.147.115.149=443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: PL_speednode_0007, server: 45.144.48.158, port: 8443, type: trojan, password: 49d416e1-4cec-41e1-bff6-3748c466f275, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443, headers: {Host: joss.dus.biz.id}}, udp: true}
-  - {name: RU_speednode_0009, server: 213.159.208.88, port: 2053, type: trojan, password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: BE_speednode_0001, server: 34.22.190.30, port: 443, type: trojan, password: 88701884-7690-4b79-ac5d-36d299e05e83, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/34.22.190.30=443, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: IL_speednode_0008, server: 94.131.114.50, port: 81, type: trojan, password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/94.131.114.50=81, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: MD_speednode_0013, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
+  - {name: NL_speednode_0015, server: 86.107.197.239, port: 443, type: trojan, password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/86.107.197.239=443, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: PL_speednode_0016, server: 45.144.48.55, port: 2053, type: trojan, password: 55d19115-ec40-407b-a674-74e6a948347a, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: RU_speednode_0018, server: 213.159.208.88, port: 2053, type: trojan, password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: SE_speednode_0020, server: 77.221.141.207, port: 443, type: trojan, password: edeff73d-065d-4b0a-b848-aad9d3380223, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/77.221.141.207=443, headers: {Host: joss.dus.biz.id}}, udp: true}
+  - {name: VN_speednode_0026, server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0027, server: 103.186.154.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CY_speednode_0001
-  - HK_speednode_0004
-  - KR_speednode_0005
-  - NL_speednode_0006
-  - PL_speednode_0007
-  - RU_speednode_0009
+  - BE_speednode_0001
+  - IL_speednode_0008
+  - MD_speednode_0013
+  - NL_speednode_0015
+  - PL_speednode_0016
+  - RU_speednode_0018
+  - SE_speednode_0020
+  - VN_speednode_0026
+  - VN_speednode_0027
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CY_speednode_0001
-  - HK_speednode_0004
-  - KR_speednode_0005
-  - NL_speednode_0006
-  - PL_speednode_0007
-  - RU_speednode_0009
+  - BE_speednode_0001
+  - IL_speednode_0008
+  - MD_speednode_0013
+  - NL_speednode_0015
+  - PL_speednode_0016
+  - RU_speednode_0018
+  - SE_speednode_0020
+  - VN_speednode_0026
+  - VN_speednode_0027
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
