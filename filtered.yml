@@ -18,29 +18,23 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: FR_speednode_0006, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
-  - {name: FR_speednode_0007, server: 13.36.161.224, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: MD_speednode_0013, server: 213.159.66.206, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu, udp: true}
-  - {name: RU_speednode_0016, server: 194.35.116.62, port: 11000, type: trojan, password: -4146XJHYAzJ4K8Ov6_LBQ, sni: f4e23c6c168f0e91.noproblemvpn.ru, skip-cert-verify: false, network: ws, ws-opts: {path: /tw, headers: {Host: f4e23c6c168f0e91.noproblemvpn.ru}}, udp: true}
-  - {name: US_speednode_0020, server: 51.45.34.73, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0003, server: 58.152.26.173, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: NL_speednode_0004, server: 89.110.116.141, port: 443, type: trojan, password: e812343b-61a1-46fd-b086-b1395d0eb7de, sni: joss.gpj.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/89.110.116.141=443, headers: {Host: joss.gpj.web.id}}, udp: true}
+  - {name: RU_speednode_0005, server: 95.182.120.208, port: 2053, type: trojan, password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8, sni: joss.gpj.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053, headers: {Host: joss.gpj.web.id}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - MD_speednode_0013
-  - RU_speednode_0016
-  - US_speednode_0020
+  - HK_speednode_0003
+  - NL_speednode_0004
+  - RU_speednode_0005
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - FR_speednode_0006
-  - FR_speednode_0007
-  - MD_speednode_0013
-  - RU_speednode_0016
-  - US_speednode_0020
+  - HK_speednode_0003
+  - NL_speednode_0004
+  - RU_speednode_0005
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
