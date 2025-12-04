@@ -18,35 +18,53 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0002, server: planb.mojcn.com, port: 16626, type: vmess, uuid: 77439561-dcef-4e45-803a-743cfa7d20c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com}}, udp: true}
-  - {name: CN_speednode_0003, server: m.cnmjcn.com, port: 16641, type: vmess, uuid: 77439561-dcef-4e45-803a-743cfa7d20c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com}}, udp: true}
-  - {name: HK_speednode_0008, server: 112.118.116.66, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0009, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: LU_speednode_0010, server: 107.189.3.96, port: 443, type: trojan, password: f42d1b0d-c398-43cb-be37-d739b1477a5d, sni: joss.gpj4.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/107.189.3.96=443, headers: {Host: joss.gpj4.web.id}}, udp: true}
-  - {name: PT_speednode_0017, server: 5.182.39.57, port: 443, type: trojan, password: 6c7d536e-1ecf-448d-83c1-3044dd89ceac, sni: joss.gpj4.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/5.182.39.57=443, headers: {Host: joss.gpj4.web.id}}, udp: true}
-  - {name: US_speednode_0023, server: 192.227.138.249, port: 8443, type: trojan, password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be, sni: joss.gpj4.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/192.227.138.249=8443, headers: {Host: joss.gpj4.web.id}}, udp: true}
+  - {name: FR_speednode_0001, server: 13.39.61.165, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: GB_speednode_0003, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US_speednode_0007, server: 38.14.99.179, port: 59807, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0008, server: 63.181.49.45, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0009, server: 63.181.49.45, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0010, server: 38.14.99.179, port: 59807, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 38.14.99.179, udp: true}
+  - {name: US_speednode_0011, server: 38.14.99.163, port: 59807, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 38.14.99.163, udp: true}
+  - {name: US_speednode_0012, server: 63.180.93.12, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: VN_speednode_0013, server: 103.186.155.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0014, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0015, server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0016, server: 103.186.155.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: VN_speednode_0017, server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - HK_speednode_0008
-  - HK_speednode_0009
-  - LU_speednode_0010
-  - PT_speednode_0017
-  - US_speednode_0023
+  - FR_speednode_0001
+  - GB_speednode_0003
+  - US_speednode_0007
+  - US_speednode_0008
+  - US_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
+  - US_speednode_0012
+  - VN_speednode_0013
+  - VN_speednode_0014
+  - VN_speednode_0015
+  - VN_speednode_0016
+  - VN_speednode_0017
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0002
-  - CN_speednode_0003
-  - HK_speednode_0008
-  - HK_speednode_0009
-  - LU_speednode_0010
-  - PT_speednode_0017
-  - US_speednode_0023
+  - FR_speednode_0001
+  - GB_speednode_0003
+  - US_speednode_0007
+  - US_speednode_0008
+  - US_speednode_0009
+  - US_speednode_0010
+  - US_speednode_0011
+  - US_speednode_0012
+  - VN_speednode_0013
+  - VN_speednode_0014
+  - VN_speednode_0015
+  - VN_speednode_0016
+  - VN_speednode_0017
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
