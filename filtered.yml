@@ -18,53 +18,41 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0003, server: xiaoliyu4624.v.jsqcdn.bid, port: 41320, type: vmess, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
-  - {name: DE_speednode_0005, server: 62.133.60.60, port: 7048, type: ss, cipher: chacha20-ietf-poly1305, password: eSy8mU16aotgDX4uxsQd4e, udp: true}
-  - {name: FR_speednode_0008, server: 15.236.214.251, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: FR_speednode_0009, server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com, port: 8443, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true, skip-cert-verify: true, udp: true}
-  - {name: FR_speednode_0010, server: fd7388fc-t5bb40-tdvaex-1ixuf.fr.cdnkuaishou.com, port: 8443, type: http, username: dcbaee4d-2204-11ed-b659-f23c91cfbbc9, password: dcbaee4d-2204-11ed-b659-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0011, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v8.hdacd.com, udp: true}
-  - {name: HK_speednode_0012, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_speednode_0015, server: 172.237.6.53, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: "(TG @WangCai2)b5a99e1:21612", tls: false}, udp: true}
-  - {name: KR_speednode_0016, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: KR_speednode_0017, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [152.70.92.69]}}, udp: true}
-  - {name: MD_speednode_0019, server: 103.231.73.211, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 8afc633eb63227e9, udp: true}
-  - {name: RU_speednode_0022, server: clr.ducks.tel, port: 17844, type: ss, cipher: chacha20-ietf-poly1305, password: 907560230, udp: true}
-  - {name: US_speednode_0024, server: 74.117.196.232, port: 37171, type: vmess, uuid: e3cb685e-7840-45cb-9d64-b2028d9b635e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: imafake.locker, network: ws, ws-opts: {path: /speedtest, headers: {Host: imafake.locker}}, udp: true}
+  - {name: GB_speednode_0002, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: 82.198.246.97, udp: true}
+  - {name: GB_speednode_0003, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: t.me%2Fripaojiedian, udp: true}
+  - {name: GB_speednode_0004, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: trojan.burgerip.co.uk, udp: true}
+  - {name: GB_speednode_0005, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: GB_speednode_0006, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: broadcastlv.chat.bilibili.com, udp: true}
+  - {name: HK_speednode_0009, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0010, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: HK_speednode_0011, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0114339c-488d-11ee-8792-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true}
+  - {name: HK_speednode_0012, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - CN_speednode_0003
-  - DE_speednode_0005
-  - FR_speednode_0008
-  - FR_speednode_0009
-  - FR_speednode_0010
+  - GB_speednode_0002
+  - GB_speednode_0003
+  - GB_speednode_0004
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - HK_speednode_0009
+  - HK_speednode_0010
   - HK_speednode_0011
   - HK_speednode_0012
-  - JP_speednode_0015
-  - KR_speednode_0016
-  - KR_speednode_0017
-  - MD_speednode_0019
-  - RU_speednode_0022
-  - US_speednode_0024
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - CN_speednode_0003
-  - DE_speednode_0005
-  - FR_speednode_0008
-  - FR_speednode_0009
-  - FR_speednode_0010
+  - GB_speednode_0002
+  - GB_speednode_0003
+  - GB_speednode_0004
+  - GB_speednode_0005
+  - GB_speednode_0006
+  - HK_speednode_0009
+  - HK_speednode_0010
   - HK_speednode_0011
   - HK_speednode_0012
-  - JP_speednode_0015
-  - KR_speednode_0016
-  - KR_speednode_0017
-  - MD_speednode_0019
-  - RU_speednode_0022
-  - US_speednode_0024
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
