@@ -18,29 +18,20 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: KR_speednode_0024, server: 121.169.46.116, port: 1090, type: socks5, udp: true}
-  - {name: SG_speednode_0035, server: 43.165.7.71, port: 19751, type: vmess, uuid: 6cfa6103-5d06-40cb-f452-b563db578288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: VN_speednode_0037, server: 103.186.154.192, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0038, server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: VN_speednode_0039, server: 103.186.155.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: HK_speednode_0003, server: 6b961a0a-sv4n40-t83wtx-2rrb.hk3.p5pv.com, port: 80, type: vmess, uuid: ba64cdc5-c79a-326d-8e63-6903be8183a1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, udp: true}
+  - {name: HK_speednode_0004, server: 58.152.110.82, port: 443, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - KR_speednode_0024
-  - SG_speednode_0035
-  - VN_speednode_0037
-  - VN_speednode_0038
-  - VN_speednode_0039
+  - HK_speednode_0003
+  - HK_speednode_0004
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - KR_speednode_0024
-  - SG_speednode_0035
-  - VN_speednode_0037
-  - VN_speednode_0038
-  - VN_speednode_0039
+  - HK_speednode_0003
+  - HK_speednode_0004
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
