@@ -18,20 +18,35 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: SG_speednode_0010, server: 213.35.126.34, port: 10808, type: socks5, udp: true}
-  - {name: TW_speednode_0011, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
+  - {name: GB_speednode_0003, server: 31.3.209.183, port: 28212, type: ss, cipher: chacha20-ietf-poly1305, password: Kmn7dHPw5wNfkqQMPcGWQA, udp: true}
+  - {name: HK_speednode_0004, server: 103.149.183.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: HK_speednode_0005, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: KR_speednode_0007, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: RO_speednode_0008, server: 86.106.84.195, port: 13262, type: ss, cipher: aes-128-gcm, password: kfuzkwdg4oynv495aywc, udp: true}
+  - {name: US_speednode_0011, server: 69.84.182.108, port: 8443, type: trojan, password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b, sni: cdn-node-oss-61.anycdn.de, skip-cert-verify: false, network: ws, ws-opts: {path: /profile/us1, headers: {Host: cdn-node-oss-61.anycdn.de}}, udp: true}
+  - {name: US_speednode_0012, server: 69.84.182.18, port: 8443, type: trojan, password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b, sni: cdn-node-oss-62.anycdn.de, skip-cert-verify: false, network: ws, ws-opts: {path: /profile/us2, headers: {Host: cdn-node-oss-62.anycdn.de}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - SG_speednode_0010
-  - TW_speednode_0011
+  - GB_speednode_0003
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - KR_speednode_0007
+  - RO_speednode_0008
+  - US_speednode_0011
+  - US_speednode_0012
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - SG_speednode_0010
-  - TW_speednode_0011
+  - GB_speednode_0003
+  - HK_speednode_0004
+  - HK_speednode_0005
+  - KR_speednode_0007
+  - RO_speednode_0008
+  - US_speednode_0011
+  - US_speednode_0012
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
