@@ -18,23 +18,35 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: IN_speednode_0006, server: 64.227.131.240, port: 1080, type: socks5, udp: true}
-  - {name: RU_speednode_0012, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: TH_speednode_0018, server: m.modzard.com, port: 8080, type: vmess, uuid: f2e17b4d-22fd-44a4-90db-40649717be8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.adslthailand.com]}}, udp: true}
+  - {name: CN_speednode_0004, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: t.me%252Fripaojiedian, udp: true}
+  - {name: CN_speednode_0005, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: t.me/ripaojiedian, udp: true}
+  - {name: CN_speednode_0006, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: n1744454498.lie5d.cyou, udp: true}
+  - {name: HK_speednode_0016, server: 58.152.110.104, port: 443, type: trojan, password: 44e660b0ee21cf3ac66aee2c08af85d2, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: NL_speednode_0021, server: 104.248.203.234, port: 1080, type: socks5, udp: true}
+  - {name: RU_speednode_0026, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0028, server: 167.172.239.171, port: 5555, type: socks5, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - IN_speednode_0006
-  - RU_speednode_0012
-  - TH_speednode_0018
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - HK_speednode_0016
+  - NL_speednode_0021
+  - RU_speednode_0026
+  - US_speednode_0028
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - IN_speednode_0006
-  - RU_speednode_0012
-  - TH_speednode_0018
+  - CN_speednode_0004
+  - CN_speednode_0005
+  - CN_speednode_0006
+  - HK_speednode_0016
+  - NL_speednode_0021
+  - RU_speednode_0026
+  - US_speednode_0028
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
