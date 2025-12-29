@@ -18,20 +18,26 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: HK_speednode_0002, server: 203.198.84.221, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0009, server: 64.94.95.118, port: 57142, type: trojan, password: kkzh2prsyr2ik47as615, skip-cert-verify: true, udp: true}
+  - {name: GB_speednode_0002, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fpvLevkhnWoYCMJPICKuUv, udp: true}
+  - {name: HK_speednode_0003, server: 8.210.184.105, port: 40374, type: vmess, uuid: 36b76373-7a4f-4669-9113-7d247bcf2704, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: KR_speednode_0005, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: NL_speednode_0006, server: 104.248.203.234, port: 1080, type: socks5, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - HK_speednode_0002
-  - US_speednode_0009
+  - GB_speednode_0002
+  - HK_speednode_0003
+  - KR_speednode_0005
+  - NL_speednode_0006
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - HK_speednode_0002
-  - US_speednode_0009
+  - GB_speednode_0002
+  - HK_speednode_0003
+  - KR_speednode_0005
+  - NL_speednode_0006
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
