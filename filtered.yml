@@ -18,26 +18,53 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: GB_speednode_0002, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fpvLevkhnWoYCMJPICKuUv, udp: true}
-  - {name: HK_speednode_0003, server: 8.210.184.105, port: 40374, type: vmess, uuid: 36b76373-7a4f-4669-9113-7d247bcf2704, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: KR_speednode_0005, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0006, server: 104.248.203.234, port: 1080, type: socks5, udp: true}
+  - {name: US_speednode_0042, server: 104.19.220.22, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0043, server: 104.17.167.134, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0044, server: 104.16.246.188, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0045, server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0056, server: 104.17.162.3, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0057, server: 172.64.229.82, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0058, server: freeyx.cloudflare88.eu.org, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0059, server: 172.64.229.33, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0061, server: 104.19.55.205, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0062, server: 172.64.229.2, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0063, server: 172.64.229.65, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0064, server: 172.64.229.6, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0066, server: 104.26.1.110, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - GB_speednode_0002
-  - HK_speednode_0003
-  - KR_speednode_0005
-  - NL_speednode_0006
+  - US_speednode_0042
+  - US_speednode_0043
+  - US_speednode_0044
+  - US_speednode_0045
+  - US_speednode_0056
+  - US_speednode_0057
+  - US_speednode_0058
+  - US_speednode_0059
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
+  - US_speednode_0066
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - GB_speednode_0002
-  - HK_speednode_0003
-  - KR_speednode_0005
-  - NL_speednode_0006
+  - US_speednode_0042
+  - US_speednode_0043
+  - US_speednode_0044
+  - US_speednode_0045
+  - US_speednode_0056
+  - US_speednode_0057
+  - US_speednode_0058
+  - US_speednode_0059
+  - US_speednode_0061
+  - US_speednode_0062
+  - US_speednode_0063
+  - US_speednode_0064
+  - US_speednode_0066
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
