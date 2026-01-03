@@ -18,17 +18,47 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: US_speednode_0018, server: 158.101.11.204, port: 15805, type: trojan, password: iwangjie, sni: nodes.830901.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nodes.830901.xyz}}, udp: true}
+  - {name: AE_speednode_0001, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: GB_speednode_0005, server: uk-1.fishchipsexpress.com, port: 443, type: trojan, password: R8ufkVqwRZAgtwjyrA, sni: uk-1.fishchipsexpress.com, skip-cert-verify: true, udp: true}
+  - {name: HK_speednode_0006, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, udp: true}
+  - {name: HK_speednode_0007, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8da5616c-8566-11ee-9a21-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: HK_speednode_0008, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, udp: true}
+  - {name: HK_speednode_0009, server: 63805c11-t6g1s0-t7v83h-1kcpe.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: HK_speednode_0010, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true}
+  - {name: HK_speednode_0011, server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net}}, udp: true}
+  - {name: US_speednode_0019, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0020, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
+  - {name: US_speednode_0021, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - US_speednode_0018
+  - AE_speednode_0001
+  - GB_speednode_0005
+  - HK_speednode_0006
+  - HK_speednode_0007
+  - HK_speednode_0008
+  - HK_speednode_0009
+  - HK_speednode_0010
+  - HK_speednode_0011
+  - US_speednode_0019
+  - US_speednode_0020
+  - US_speednode_0021
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - US_speednode_0018
+  - AE_speednode_0001
+  - GB_speednode_0005
+  - HK_speednode_0006
+  - HK_speednode_0007
+  - HK_speednode_0008
+  - HK_speednode_0009
+  - HK_speednode_0010
+  - HK_speednode_0011
+  - US_speednode_0019
+  - US_speednode_0020
+  - US_speednode_0021
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
