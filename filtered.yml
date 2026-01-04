@@ -18,47 +18,41 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AE_speednode_0001, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: GB_speednode_0005, server: uk-1.fishchipsexpress.com, port: 443, type: trojan, password: R8ufkVqwRZAgtwjyrA, sni: uk-1.fishchipsexpress.com, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0006, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, udp: true}
-  - {name: HK_speednode_0007, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8da5616c-8566-11ee-9a21-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: HK_speednode_0008, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, udp: true}
-  - {name: HK_speednode_0009, server: 63805c11-t6g1s0-t7v83h-1kcpe.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: HK_speednode_0010, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true}
-  - {name: HK_speednode_0011, server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net}}, udp: true}
-  - {name: US_speednode_0019, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0020, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
-  - {name: US_speednode_0021, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: AE_speednode_0001, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: DE_speednode_0003, server: 193.23.197.183, port: 443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: DE_speednode_0004, server: 178.250.187.3, port: 8443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: HK_speednode_0007, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: RU_speednode_0011, server: 45.135.235.238, port: 2096, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: RU_speednode_0013, server: 45.135.235.238, port: 2096, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0015, server: 64.181.227.82, port: 443, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0016, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: US_speednode_0017, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
   - AE_speednode_0001
-  - GB_speednode_0005
-  - HK_speednode_0006
+  - DE_speednode_0003
+  - DE_speednode_0004
   - HK_speednode_0007
-  - HK_speednode_0008
-  - HK_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
+  - RU_speednode_0011
+  - RU_speednode_0013
+  - US_speednode_0015
+  - US_speednode_0016
+  - US_speednode_0017
 - name: ♻️ automatic
   type: url-test
   proxies:
   - AE_speednode_0001
-  - GB_speednode_0005
-  - HK_speednode_0006
+  - DE_speednode_0003
+  - DE_speednode_0004
   - HK_speednode_0007
-  - HK_speednode_0008
-  - HK_speednode_0009
-  - HK_speednode_0010
-  - HK_speednode_0011
-  - US_speednode_0019
-  - US_speednode_0020
-  - US_speednode_0021
+  - RU_speednode_0011
+  - RU_speednode_0013
+  - US_speednode_0015
+  - US_speednode_0016
+  - US_speednode_0017
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
