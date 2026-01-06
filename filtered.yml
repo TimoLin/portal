@@ -18,41 +18,14 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: AE_speednode_0001, server: 94.140.0.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: DE_speednode_0003, server: 193.23.197.183, port: 443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: DE_speednode_0004, server: 178.250.187.3, port: 8443, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: HK_speednode_0007, server: 58.152.110.104, port: 443, type: trojan, password: 381f2e86233720eacda26d50e9aa26da, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: RU_speednode_0011, server: 45.135.235.238, port: 2096, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: RU_speednode_0013, server: 45.135.235.238, port: 2096, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0015, server: 64.181.227.82, port: 443, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0016, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
-  - {name: US_speednode_0017, server: 135.84.73.238, port: 2096, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
 proxy-groups:
 - name: ⭕ proxinode
   type: select
   proxies:
   - ♻️ automatic
-  - AE_speednode_0001
-  - DE_speednode_0003
-  - DE_speednode_0004
-  - HK_speednode_0007
-  - RU_speednode_0011
-  - RU_speednode_0013
-  - US_speednode_0015
-  - US_speednode_0016
-  - US_speednode_0017
 - name: ♻️ automatic
   type: url-test
   proxies:
-  - AE_speednode_0001
-  - DE_speednode_0003
-  - DE_speednode_0004
-  - HK_speednode_0007
-  - RU_speednode_0011
-  - RU_speednode_0013
-  - US_speednode_0015
-  - US_speednode_0016
-  - US_speednode_0017
   url: https://www.google.com/favicon.ico
   interval: 300
 rules:
